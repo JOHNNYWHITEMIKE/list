@@ -1,0 +1,21 @@
+---
+name: BrainSoup
+description: BrainSoup is a multi-agent and multi-LLM native client, enabling users to create a team of personalized AI agents that can learn, remember, react to events, use tools, leverage the local resources of the user's computer, and work together to solve tasks autonomously
+---
+
+# BrainSoup
+
+BrainSoup is a multi-agent and multi-LLM native client, enabling users to create a team of personalized AI agents that can learn, remember, react to events, use tools, leverage the local resources of the user's computer, and work together to solve tasks autonomously
+
+## How to Use
+
+Visit the official resource: [https://www.nurgo-software.com/products/brainsoup](https://www.nurgo-software.com/products/brainsoup)
+
+### Getting Started
+
+Please refer to the official documentation and repository for detailed setup and usage instructions.
+
+
+## Resources
+
+- Official Link: [https://www.nurgo-software.com/products/brainsoup](https://www.nurgo-software.com/products/brainsoup)
