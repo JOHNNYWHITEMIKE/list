@@ -1,7 +1,0 @@
-# Configuration for Llmtestforaccessibilitycheck_Chatgpt
-agent:
-  name: "Llmtestforaccessibilitycheck_Chatgpt"
-  description: "Checking multiple LLM tools to generate code for a webpage and then prompting the tools to fix the accessibility issues in the webpage"
-  github_url: "https://github.com/AutoBugHunter/LLMTestForAccessibilityCheck_chatgpt](https://github.com/AutoBugHunter/LLMTestForAccessibilityCheck_chatgpt"
-  
-# Add your configuration here

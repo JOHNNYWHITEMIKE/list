@@ -1,7 +1,0 @@
-# Configuration for Vanilla-Parcel-Boilerplate
-agent:
-  name: "Vanilla-Parcel-Boilerplate"
-  description: "Simple starter workflow for building vanilla js apps with Parcel"
-  github_url: "https://github.com/bradtraversy/vanilla-parcel-boilerplate](https://github.com/bradtraversy/vanilla-parcel-boilerplate"
-  
-# Add your configuration here

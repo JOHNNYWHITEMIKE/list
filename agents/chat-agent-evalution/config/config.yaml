@@ -1,7 +1,0 @@
-# Configuration for Chat-Agent-Evalution
-agent:
-  name: "Chat-Agent-Evalution"
-  description: "Evaluating the LLM Chat Agent on multiple evaluation benchmarks."
-  github_url: "https://github.com/khuzaimakt/Chat-Agent-Evalution](https://github.com/khuzaimakt/Chat-Agent-Evalution"
-  
-# Add your configuration here

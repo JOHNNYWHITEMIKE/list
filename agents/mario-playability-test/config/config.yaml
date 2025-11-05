@@ -1,7 +1,0 @@
-# Configuration for Mario-Playability-Test
-agent:
-  name: "Mario-Playability-Test"
-  description: "Run a simple agent through user-defined super-mario chunks and determine the playability proportion."
-  github_url: "https://github.com/zhihanyang2022/mario-playability-test](https://github.com/zhihanyang2022/mario-playability-test"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Llm.Guts
-agent:
-  name: "Llm.Guts"
-  description: "A tool to visualize the internal computational graph of distilgpt2 model."
-  github_url: "https://github.com/Mahdi-s/llm.guts](https://github.com/Mahdi-s/llm.guts"
-  
-# Add your configuration here

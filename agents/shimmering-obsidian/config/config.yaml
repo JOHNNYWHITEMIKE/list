@@ -1,7 +1,0 @@
-# Configuration for Shimmering-Obsidian
-agent:
-  name: "Shimmering-Obsidian"
-  description: "Alfred Workflow with dozens of features for controlling your Obsidian vault."
-  github_url: "https://github.com/chrisgrieser/shimmering-obsidian](https://github.com/chrisgrieser/shimmering-obsidian"
-  
-# Add your configuration here

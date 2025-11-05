@@ -1,7 +1,0 @@
-# Configuration for Gated 402 API
-agent:
-  name: "Gated 402 API"
-  description: "An API using a Stacks smart contract to control access, issuing a 200 status for access approval and a 402 with payment instructions for denial"
-  github_url: "https://github.com/aibtcdev/gated-402-api](https://github.com/aibtcdev/gated-402-api"
-  
-# Add your configuration here

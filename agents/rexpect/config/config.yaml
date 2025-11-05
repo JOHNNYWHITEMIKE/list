@@ -1,7 +1,0 @@
-# Configuration for Rexpect
-agent:
-  name: "Rexpect"
-  description: ".github/workflows/ci.yml"
-  github_url: "https://github.com/rust-cli/rexpect](https://github.com/rust-cli/rexpect"
-  
-# Add your configuration here

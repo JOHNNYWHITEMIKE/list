@@ -1,7 +1,0 @@
-# Configuration for Eng-Security-Review-Agent
-agent:
-  name: "Eng-Security-Review-Agent"
-  description: "AI agentic app that helps security teams respond to security questions and security reviews from engineering"
-  github_url: "https://github.com/lume-cory/eng-security-review-agent](https://github.com/lume-cory/eng-security-review-agent"
-  
-# Add your configuration here

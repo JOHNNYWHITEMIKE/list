@@ -1,7 +1,0 @@
-# Configuration for Vertex AI by Google
-agent:
-  name: "Vertex AI by Google"
-  description: "Vertex AI, enhanced by Gemini models, offers comprehensive generative AI solutions for rapid application development, data processing, custom model training with minimal ML expertise, and production deployment, aimed at accelerating innovation and reducing costs in enterprise environments"
-  github_url: ""
-  
-# Add your configuration here

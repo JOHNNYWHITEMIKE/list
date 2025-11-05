@@ -1,7 +1,0 @@
-# Configuration for Aiq-Poa
-agent:
-  name: "Aiq-Poa"
-  description: "Policy Optimisation Agents module fort the AIQ Test"
-  github_url: "https://github.com/xvado00/AIQ-POA](https://github.com/xvado00/AIQ-POA"
-  
-# Add your configuration here

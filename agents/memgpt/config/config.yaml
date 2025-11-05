@@ -1,7 +1,0 @@
-# Configuration for MemGPT
-agent:
-  name: "MemGPT"
-  description: "MemGPT introduces a customizable AI chatbot framework with self-editing memory and access to unlimited data, promoting perpetual, context-rich conversations"
-  github_url: ""
-  
-# Add your configuration here

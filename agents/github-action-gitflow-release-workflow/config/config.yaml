@@ -1,7 +1,0 @@
-# Configuration for Github-Action-Gitflow-Release-Workflow
-agent:
-  name: "Github-Action-Gitflow-Release-Workflow"
-  description: "Example workflows for automated releases in a GitFlow-style project using GitHub actions."
-  github_url: "https://github.com/thomaseizinger/github-action-gitflow-release-workflow](https://github.com/thomaseizinger/github-action-gitflow-release-workflow"
-  
-# Add your configuration here

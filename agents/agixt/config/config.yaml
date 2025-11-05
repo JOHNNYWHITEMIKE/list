@@ -1,7 +1,0 @@
-# Configuration for AGiXT
-agent:
-  name: "AGiXT"
-  description: "AGiXT is an advanced AI Automation Platform designed to enhance AI instruction management and task execution across various providers, incorporating features like adaptive memory, smart instruct, and a versatile plugin system to push the boundaries of AI technology towards achieving Artificial General Intelligence (AGI)"
-  github_url: "https://github.com/Josh-XT/AGiXT](https://github.com/Josh-XT/AGiXT"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Purpaas-Llm
-agent:
-  name: "Purpaas-Llm"
-  description: "PurPaaS is an innovative open-source security testing platform that implements purple teaming (combined red and blue team approaches) to …"
-  github_url: "https://github.com/dwain-barnes/PurPaaS-LLM](https://github.com/dwain-barnes/PurPaaS-LLM"
-  
-# Add your configuration here

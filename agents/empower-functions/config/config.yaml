@@ -1,7 +1,0 @@
-# Configuration for Empower-Functions
-agent:
-  name: "Empower-Functions"
-  description: "GPT-4 level function calling models for real-world tool using use cases"
-  github_url: "https://github.com/empower-ai/empower-functions](https://github.com/empower-ai/empower-functions"
-  
-# Add your configuration here

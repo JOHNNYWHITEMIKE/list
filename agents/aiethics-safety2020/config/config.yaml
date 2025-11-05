@@ -1,7 +1,0 @@
-# Configuration for Aiethics-Safety2020
-agent:
-  name: "Aiethics-Safety2020"
-  description: "This collection of policies, reports, and articles on Ethics and Safety in Artificial Intelligence is the result of a desire to learn the…"
-  github_url: "https://github.com/tonyteolis/aiethics-safety2020](https://github.com/tonyteolis/aiethics-safety2020"
-  
-# Add your configuration here

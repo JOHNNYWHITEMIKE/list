@@ -1,7 +1,0 @@
-# Configuration for Examples-Ai-Bedrock-Agent-National-Parks
-agent:
-  name: "Examples-Ai-Bedrock-Agent-National-Parks"
-  description: "This repository demonstrates how to build and deploy an AI agent using Amazon Bedrock and AWS Lambda, with infrastructure managed by AWS …"
-  github_url: "https://github.com/cebert/examples-ai-bedrock-agent-national-parks](https://github.com/cebert/examples-ai-bedrock-agent-national-parks"
-  
-# Add your configuration here

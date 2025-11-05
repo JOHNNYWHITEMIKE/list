@@ -1,7 +1,0 @@
-# Configuration for Dinersim
-agent:
-  name: "Dinersim"
-  description: "DinerSim - A Restaurant Simulation Benchmark for LLM-Based Multi-Agent Cooperation"
-  github_url: "https://github.com/numbmelon/DinerSim](https://github.com/numbmelon/DinerSim"
-  
-# Add your configuration here

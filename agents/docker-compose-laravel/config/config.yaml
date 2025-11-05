@@ -1,7 +1,0 @@
-# Configuration for Docker-Compose-Laravel
-agent:
-  name: "Docker-Compose-Laravel"
-  description: "A docker-compose workflow for local Laravel development"
-  github_url: "https://github.com/aschmelyun/docker-compose-laravel](https://github.com/aschmelyun/docker-compose-laravel"
-  
-# Add your configuration here

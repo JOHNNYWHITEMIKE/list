@@ -1,7 +1,0 @@
-# Configuration for Advanced-Gpts
-agent:
-  name: "Advanced-Gpts"
-  description: "Custom GPT Showcase, featuring advanced workflows and operational logic."
-  github_url: "https://github.com/nerority/Advanced-GPTs](https://github.com/nerority/Advanced-GPTs"
-  
-# Add your configuration here

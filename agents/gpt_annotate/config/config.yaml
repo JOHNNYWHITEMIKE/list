@@ -1,7 +1,0 @@
-# Configuration for Gpt_Annotate
-agent:
-  name: "Gpt_Annotate"
-  description: "Introducing gpt_annotate - an easy-to-use python package designed to streamline automated text annotation using LLMs for different tasks and"
-  github_url: "https://github.com/npangakis/gpt_annotate](https://github.com/npangakis/gpt_annotate"
-  
-# Add your configuration here

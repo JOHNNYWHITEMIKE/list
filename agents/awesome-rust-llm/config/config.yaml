@@ -1,7 +1,0 @@
-# Configuration for Awesome-Rust-Llm
-agent:
-  name: "Awesome-Rust-Llm"
-  description: "🦀 A curated list of Rust tools, libraries, and frameworks for working with LLMs, GPT, AI"
-  github_url: "https://github.com/jondot/awesome-rust-llm](https://github.com/jondot/awesome-rust-llm"
-  
-# Add your configuration here

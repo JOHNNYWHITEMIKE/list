@@ -1,7 +1,0 @@
-# Configuration for Papers
-agent:
-  name: "Papers"
-  description: "Topics in philosophy, ethics, technology, & culture."
-  github_url: "https://github.com/w3b3r00t/Papers](https://github.com/w3b3r00t/Papers"
-  
-# Add your configuration here

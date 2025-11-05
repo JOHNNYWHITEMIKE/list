@@ -1,7 +1,0 @@
-# Configuration for OpenAGI
-agent:
-  name: "OpenAGI"
-  description: "OpenAGI by AGI Research is an open-source platform integrating Large Language Models (LLMs) with domain-specific expert models for complex task-solving, fostering a paradigm where LLMs operate various external models, accompanied by a Reinforcement Learning from Task Feedback (RLTF) mechanism for self-improvement"
-  github_url: "https://github.com/agiresearch/OpenAGI](https://github.com/agiresearch/OpenAGI"
-  
-# Add your configuration here

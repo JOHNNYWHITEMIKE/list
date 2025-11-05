@@ -1,7 +1,0 @@
-# Configuration for Prompt-Enhancer
-agent:
-  name: "Prompt-Enhancer"
-  description: "Prompt Engineering at Your Fingertips!"
-  github_url: "https://github.com/lim-hyo-jeong/Prompt-Enhancer](https://github.com/lim-hyo-jeong/Prompt-Enhancer"
-  
-# Add your configuration here

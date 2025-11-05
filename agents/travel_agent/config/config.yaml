@@ -1,7 +1,0 @@
-# Configuration for Travel_Agent
-agent:
-  name: "Travel_Agent"
-  description: "This repo is for testing crew_ai and trying a travel agent usecase"
-  github_url: "https://github.com/gowthaml15/travel_agent](https://github.com/gowthaml15/travel_agent"
-  
-# Add your configuration here

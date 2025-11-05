@@ -1,7 +1,0 @@
-# Configuration for Gpt4-Programming-Assistant
-agent:
-  name: "Gpt4-Programming-Assistant"
-  description: "Streamlit web app utilizing OpenAI (GPT-4) and LangChain LLM tools. Application includes an SQLite DB for login/authentication and messag…"
-  github_url: "https://github.com/petermartens98/GPT4-Programming-Assistant](https://github.com/petermartens98/GPT4-Programming-Assistant"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Airportagentsimulation-Security
-agent:
-  name: "Airportagentsimulation-Security"
-  description: "No description available"
-  github_url: "https://github.com/Jogrohe/AirportAgentSimulation-Security](https://github.com/Jogrohe/AirportAgentSimulation-Security"
-  
-# Add your configuration here

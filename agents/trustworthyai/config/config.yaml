@@ -1,7 +1,0 @@
-# Configuration for Trustworthyai
-agent:
-  name: "Trustworthyai"
-  description: "Trustworthy AI - From Theory to Practice book. Explore the intersection of ethics and technology with 'Trustworthy AI - From Theory to Prac…"
-  github_url: "https://github.com/ocatak/trustworthyai](https://github.com/ocatak/trustworthyai"
-  
-# Add your configuration here

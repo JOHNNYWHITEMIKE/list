@@ -1,7 +1,0 @@
-# Configuration for Twilio
-agent:
-  name: "Twilio"
-  description: "Twilio is a cloud communications platform that enables developers to programmatically make phone calls, send and receive text messages, and integrate other communication features into their applications using its web APIs"
-  github_url: ""
-  
-# Add your configuration here

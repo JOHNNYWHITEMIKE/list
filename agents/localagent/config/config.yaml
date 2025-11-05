@@ -1,7 +1,0 @@
-# Configuration for Localagent
-agent:
-  name: "Localagent"
-  description: "opengpt is a open implementation of GPT agents."
-  github_url: "https://github.com/PrAsAnNaRePo/LocalAgent](https://github.com/PrAsAnNaRePo/LocalAgent"
-  
-# Add your configuration here

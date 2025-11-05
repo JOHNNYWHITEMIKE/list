@@ -1,7 +1,0 @@
-# Configuration for Prompt-Engineering-Guide
-agent:
-  name: "Prompt-Engineering-Guide"
-  description: "🐙 Guides, papers, lecture, notebooks and resources for prompt engineering"
-  github_url: "https://github.com/dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide"
-  
-# Add your configuration here

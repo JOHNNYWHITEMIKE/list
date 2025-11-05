@@ -1,7 +1,0 @@
-# Configuration for Agent-Evaluation
-agent:
-  name: "Agent-Evaluation"
-  description: "A generative AI-powered framework for testing virtual agents."
-  github_url: "https://github.com/awslabs/agent-evaluation](https://github.com/awslabs/agent-evaluation"
-  
-# Add your configuration here

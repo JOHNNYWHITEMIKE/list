@@ -1,7 +1,0 @@
-# Configuration for Go-Chain-Gang
-agent:
-  name: "Go-Chain-Gang"
-  description: "A pure Go LLM/AI "agent" orchestration library. Build, connect and deploy autonomous agents that collectively solve goals."
-  github_url: "https://github.com/kmesiab/go-chain-gang](https://github.com/kmesiab/go-chain-gang"
-  
-# Add your configuration here

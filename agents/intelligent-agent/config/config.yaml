@@ -1,7 +1,0 @@
-# Configuration for Intelligent-Agent
-agent:
-  name: "Intelligent-Agent"
-  description: "This repository contains an AI agent that can pass a human intelligence test."
-  github_url: "https://github.com/roterdam/Intelligent-Agent](https://github.com/roterdam/Intelligent-Agent"
-  
-# Add your configuration here

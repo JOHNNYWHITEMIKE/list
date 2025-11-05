@@ -1,7 +1,0 @@
-# Configuration for Comfyuimini
-agent:
-  name: "Comfyuimini"
-  description: "A mobile-friendly WebUI to run ComfyUI workflows."
-  github_url: "https://github.com/ImDarkTom/ComfyUIMini](https://github.com/ImDarkTom/ComfyUIMini"
-  
-# Add your configuration here

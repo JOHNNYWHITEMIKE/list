@@ -1,7 +1,0 @@
-# Configuration for Airflow-Cookbook
-agent:
-  name: "Airflow-Cookbook"
-  description: "Airflow workflow management platform chef cookbook."
-  github_url: "https://github.com/bahchis/airflow-cookbook](https://github.com/bahchis/airflow-cookbook"
-  
-# Add your configuration here

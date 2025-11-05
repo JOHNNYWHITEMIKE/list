@@ -1,7 +1,0 @@
-# Configuration for Freeze-Omni
-agent:
-  name: "Freeze-Omni"
-  description: "✨✨Freeze-Omni - A Smart and Low Latency Speech-to-speech Dialogue Model with Frozen LLM"
-  github_url: "https://github.com/VITA-MLLM/Freeze-Omni](https://github.com/VITA-MLLM/Freeze-Omni"
-  
-# Add your configuration here

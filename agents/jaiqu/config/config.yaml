@@ -1,7 +1,0 @@
-# Configuration for Jaiqu
-agent:
-  name: "Jaiqu"
-  description: "Jaiqu is an AI-powered tool for automatically transforming any JSON schema using GPT-4, featuring schema validation, fuzzy term matching, and repeatable jq query generation"
-  github_url: "https://github.com/AgentOps-AI/Jaiqu](https://github.com/AgentOps-AI/Jaiqu"
-  
-# Add your configuration here

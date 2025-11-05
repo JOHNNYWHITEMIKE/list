@@ -1,7 +1,0 @@
-# Configuration for Ceo-Agentic-Ai-Framework
-agent:
-  name: "Ceo-Agentic-Ai-Framework"
-  description: "An ultra-lightweight Agentic AI framework based on the ReAct paradigm, supporting mainstream LLMs and is stronger than Swarm."
-  github_url: "https://github.com/vortezwohl/CEO-Agentic-AI-Framework](https://github.com/vortezwohl/CEO-Agentic-AI-Framework"
-  
-# Add your configuration here

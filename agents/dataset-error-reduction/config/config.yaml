@@ -1,7 +1,0 @@
-# Configuration for Dataset-Error-Reduction
-agent:
-  name: "Dataset-Error-Reduction"
-  description: "Reducing Error in NLP Datasets using LLMs"
-  github_url: "https://github.com/jayantaadhikary/dataset-error-reduction](https://github.com/jayantaadhikary/dataset-error-reduction"
-  
-# Add your configuration here

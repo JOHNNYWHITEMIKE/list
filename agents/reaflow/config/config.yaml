@@ -1,7 +1,0 @@
-# Configuration for Reaflow
-agent:
-  name: "Reaflow"
-  description: "🎯 React library for building workflow editors, flow charts and diagrams. Maintained by @goodcodeus."
-  github_url: "https://github.com/reaviz/reaflow](https://github.com/reaviz/reaflow"
-  
-# Add your configuration here

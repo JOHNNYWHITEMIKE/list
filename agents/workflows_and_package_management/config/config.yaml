@@ -1,7 +1,0 @@
-# Configuration for Workflows_And_Package_Management
-agent:
-  name: "Workflows_And_Package_Management"
-  description: "Reproducibility and package management  - workflow languages (CWL, Snakemake, Conda)."
-  github_url: "https://github.com/eanbit-rt/Workflows_and_package_management](https://github.com/eanbit-rt/Workflows_and_package_management"
-  
-# Add your configuration here

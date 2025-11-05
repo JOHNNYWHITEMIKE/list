@@ -1,7 +1,0 @@
-# Configuration for Ollama
-agent:
-  name: "Ollama"
-  description: "Ollama is a tool for running large language models locally, offering easy setup for macOS, Windows, Linux, and Docker, along with a library of models and quickstart guides for customization and integration"
-  github_url: "https://github.com/ollama/ollama](https://github.com/ollama/ollama"
-  
-# Add your configuration here

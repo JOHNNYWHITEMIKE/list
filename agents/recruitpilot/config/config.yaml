@@ -1,7 +1,0 @@
-# Configuration for Recruitpilot
-agent:
-  name: "Recruitpilot"
-  description: "A set of AI tools to automate resume scoring and generate interview questions."
-  github_url: "https://github.com/jaredkirby/RecruitPilot](https://github.com/jaredkirby/RecruitPilot"
-  
-# Add your configuration here

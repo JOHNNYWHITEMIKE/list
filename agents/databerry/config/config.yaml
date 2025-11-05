@@ -1,7 +1,0 @@
-# Configuration for databerry
-agent:
-  name: "databerry"
-  description: "Chaindesk is a no-code platform for building custom LLM Agents, enabling users to quickly set up a semantic search system over personal data without technical knowledge"
-  github_url: "https://github.com/gmpetrov/databerry/](https://github.com/gmpetrov/databerry/"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Agentacc-Batch-Test
-agent:
-  name: "Agentacc-Batch-Test"
-  description: "A application to test the AI agent accuracy, powered by Streamlit"
-  github_url: "https://github.com/Hehua-Fan/AgentAcc-Batch-Test](https://github.com/Hehua-Fan/AgentAcc-Batch-Test"
-  
-# Add your configuration here

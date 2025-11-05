@@ -1,7 +1,0 @@
-# Configuration for Guidance
-agent:
-  name: "Guidance"
-  description: "The text describes 'guidance,' a programming paradigm that enhances control and efficiency in model generation by allowing for constraints like regex and CFGs, integrating stateful control, and offering a simplified interface for complex generation scenarios"
-  github_url: "https://github.com/guidance-ai/guidance](https://github.com/guidance-ai/guidance"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Core
-agent:
-  name: "Core"
-  description: "Prompt engineering, automated."
-  github_url: "https://github.com/zenbase-ai/core](https://github.com/zenbase-ai/core"
-  
-# Add your configuration here

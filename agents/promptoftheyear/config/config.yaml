@@ -1,7 +1,0 @@
-# Configuration for Promptoftheyear
-agent:
-  name: "Promptoftheyear"
-  description: "In the evolving world of Large Language Models (LLMs), crafting effective prompts has become an essential skill. That's why I've created …"
-  github_url: "https://github.com/successfulstudy/promptoftheyear](https://github.com/successfulstudy/promptoftheyear"
-  
-# Add your configuration here

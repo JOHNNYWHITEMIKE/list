@@ -1,7 +1,0 @@
-# Configuration for Ai-Agent-Ecosystem
-agent:
-  name: "Ai-Agent-Ecosystem"
-  description: "A powerful, scalable ecosystem for managing and monitoring AI agents. This system provides a framework for deploying, managing, and monit…"
-  github_url: "https://github.com/ai-in-pm/AI-Agent-Ecosystem](https://github.com/ai-in-pm/AI-Agent-Ecosystem"
-  
-# Add your configuration here

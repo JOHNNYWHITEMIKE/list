@@ -1,7 +1,0 @@
-# Configuration for Git-Octopus
-agent:
-  name: "Git-Octopus"
-  description: "The continuous merge workflow"
-  github_url: "https://github.com/lesfurets/git-octopus](https://github.com/lesfurets/git-octopus"
-  
-# Add your configuration here

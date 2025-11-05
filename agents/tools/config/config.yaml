@@ -1,7 +1,0 @@
-# Configuration for Tools
-agent:
-  name: "Tools"
-  description: "Monorepository of LLM based t AI ools provided by BuildOwn.AI"
-  github_url: "https://github.com/buildownai/tools](https://github.com/buildownai/tools"
-  
-# Add your configuration here

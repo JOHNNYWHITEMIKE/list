@@ -1,7 +1,0 @@
-# Configuration for Azkaban
-agent:
-  name: "Azkaban"
-  description: "Azkaban workflow manager."
-  github_url: "https://github.com/azkaban/azkaban](https://github.com/azkaban/azkaban"
-  
-# Add your configuration here

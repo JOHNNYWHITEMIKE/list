@@ -1,7 +1,0 @@
-# Configuration for Aigc_Prompt_Engineering
-agent:
-  name: "Aigc_Prompt_Engineering"
-  description: "aigc prompt engineering"
-  github_url: "https://github.com/cystanford/aigc_prompt_engineering](https://github.com/cystanford/aigc_prompt_engineering"
-  
-# Add your configuration here

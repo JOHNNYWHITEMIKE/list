@@ -1,7 +1,0 @@
-# Configuration for Functionary
-agent:
-  name: "Functionary"
-  description: "Chat language model that can use tools and interpret the results"
-  github_url: "https://github.com/MeetKai/functionary](https://github.com/MeetKai/functionary"
-  
-# Add your configuration here

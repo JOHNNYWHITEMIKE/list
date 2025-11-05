@@ -1,7 +1,0 @@
-# Configuration for Potpie
-agent:
-  name: "Potpie"
-  description: "Prompt-To-Agent  - Create custom engineering agents for your codebase"
-  github_url: "https://github.com/potpie-ai/potpie](https://github.com/potpie-ai/potpie"
-  
-# Add your configuration here

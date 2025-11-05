@@ -1,7 +1,0 @@
-# Configuration for User_Guide
-agent:
-  name: "User_Guide"
-  description: "The CWL v1.0 - v1.2 user guide"
-  github_url: "https://github.com/common-workflow-language/user_guide](https://github.com/common-workflow-language/user_guide"
-  
-# Add your configuration here

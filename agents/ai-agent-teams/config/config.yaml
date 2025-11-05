@@ -1,7 +1,0 @@
-# Configuration for Ai-Agent-Teams
-agent:
-  name: "Ai-Agent-Teams"
-  description: "A playground for testing deiffent AI Agent Teams with AutoGen, CrewAI, and Langchain"
-  github_url: "https://github.com/AdamHHart/AI-Agent-Teams](https://github.com/AdamHHart/AI-Agent-Teams"
-  
-# Add your configuration here

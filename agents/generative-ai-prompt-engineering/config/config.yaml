@@ -1,7 +1,0 @@
-# Configuration for Generative-Ai-Prompt-Engineering
-agent:
-  name: "Generative-Ai-Prompt-Engineering"
-  description: "Sample code that helps us explore the world of generative AI through prompt engineering. It provides the resources for experimenting with…"
-  github_url: "https://github.com/build-on-aws/generative-ai-prompt-engineering](https://github.com/build-on-aws/generative-ai-prompt-engineering"
-  
-# Add your configuration here

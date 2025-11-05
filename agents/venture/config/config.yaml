@@ -1,7 +1,0 @@
-# Configuration for Venture
-agent:
-  name: "Venture"
-  description: "Venture allows you to create and manage complex, async workflows in your Laravel apps."
-  github_url: "https://github.com/ksassnowski/venture](https://github.com/ksassnowski/venture"
-  
-# Add your configuration here

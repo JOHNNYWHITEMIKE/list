@@ -1,7 +1,0 @@
-# Configuration for Aimultiagents
-agent:
-  name: "Aimultiagents"
-  description: "This is a repository for testing ai algorithms using game simulation. It is used for python 2.7"
-  github_url: "https://github.com/hesamjafarian/AiMultiAgents](https://github.com/hesamjafarian/AiMultiAgents"
-  
-# Add your configuration here

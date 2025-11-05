@@ -1,7 +1,0 @@
-# Configuration for Finetuning_Llms
-agent:
-  name: "Finetuning_Llms"
-  description: "Finetuning Falcon7b/Falcon7b-Instruct on a test dataset using QLora"
-  github_url: "https://github.com/Pratik-Behera/finetuning_llms](https://github.com/Pratik-Behera/finetuning_llms"
-  
-# Add your configuration here

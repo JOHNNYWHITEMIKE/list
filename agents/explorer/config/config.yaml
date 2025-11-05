@@ -1,7 +1,0 @@
-# Configuration for Explorer
-agent:
-  name: "Explorer"
-  description: "A better way of testing, inspecting, and analyzing AI Agent traces."
-  github_url: "https://github.com/invariantlabs-ai/explorer](https://github.com/invariantlabs-ai/explorer"
-  
-# Add your configuration here

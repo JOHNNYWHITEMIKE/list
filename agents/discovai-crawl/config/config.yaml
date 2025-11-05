@@ -1,7 +1,0 @@
-# Configuration for Discovai-Crawl
-agent:
-  name: "Discovai-Crawl"
-  description: "🕷️ DiscovAI Crawl API(🚧 Work in Progress 🚧) - A powerful web scraping solution for AI tools and vector databases. Extract clean HTML, gene…"
-  github_url: "https://github.com/DiscovAI/DiscovAI-crawl](https://github.com/DiscovAI/DiscovAI-crawl"
-  
-# Add your configuration here

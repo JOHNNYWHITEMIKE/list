@@ -1,7 +1,0 @@
-# Configuration for Ragelo
-agent:
-  name: "Ragelo"
-  description: "RAGElo is a set of tools that helps you selecting the best RAG-based LLM agents by using an Elo ranker"
-  github_url: "https://github.com/zetaalphavector/RAGElo](https://github.com/zetaalphavector/RAGElo"
-  
-# Add your configuration here

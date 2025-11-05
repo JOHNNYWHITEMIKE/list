@@ -1,7 +1,0 @@
-# Configuration for Agentgpt-Llm-Tools
-agent:
-  name: "Agentgpt-Llm-Tools"
-  description: "AgentGPT allows you to configure and deploy Autonomous AI agents. Name your own custom AI and have it embark on any goal imaginable"
-  github_url: "https://github.com/GautamSharda/AgentGPT-LLM-Tools](https://github.com/GautamSharda/AgentGPT-LLM-Tools"
-  
-# Add your configuration here

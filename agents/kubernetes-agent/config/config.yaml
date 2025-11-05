@@ -1,7 +1,0 @@
-# Configuration for Kubernetes-Agent
-agent:
-  name: "Kubernetes-Agent"
-  description: "An AI agent that masterfully answers questions about your deployed kubernetes cluster"
-  github_url: "https://github.com/riyaadhbukhsh/kubernetes-agent](https://github.com/riyaadhbukhsh/kubernetes-agent"
-  
-# Add your configuration here

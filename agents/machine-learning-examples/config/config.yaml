@@ -1,7 +1,0 @@
-# Configuration for Machine-Learning-Examples
-agent:
-  name: "Machine-Learning-Examples"
-  description: "This repository contains various examples of machine learning workflows."
-  github_url: "https://github.com/aaronkub/machine-learning-examples](https://github.com/aaronkub/machine-learning-examples"
-  
-# Add your configuration here

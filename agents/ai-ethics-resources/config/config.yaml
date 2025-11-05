@@ -1,7 +1,0 @@
-# Configuration for Ai-Ethics-Resources
-agent:
-  name: "Ai-Ethics-Resources"
-  description: "Resources on tech and AI ethics."
-  github_url: "https://github.com/gigikenneth/ai-ethics-resources](https://github.com/gigikenneth/ai-ethics-resources"
-  
-# Add your configuration here

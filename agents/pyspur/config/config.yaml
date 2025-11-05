@@ -1,7 +1,0 @@
-# Configuration for Pyspur
-agent:
-  name: "Pyspur"
-  description: "Graph-Based Editor for LLM Workflows"
-  github_url: "https://github.com/PySpur-Dev/pyspur](https://github.com/PySpur-Dev/pyspur"
-  
-# Add your configuration here

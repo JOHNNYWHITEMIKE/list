@@ -1,7 +1,0 @@
-# Configuration for Kubernetesqueryagent
-agent:
-  name: "Kubernetesqueryagent"
-  description: "An AI agent that interacts with a Kubernetes cluster to answer queries about its deployed applications."
-  github_url: "https://github.com/soni-ratnesh/KubernetesQueryAgent](https://github.com/soni-ratnesh/KubernetesQueryAgent"
-  
-# Add your configuration here

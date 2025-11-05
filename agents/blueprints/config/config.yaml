@@ -1,7 +1,0 @@
-# Configuration for Blueprints
-agent:
-  name: "Blueprints"
-  description: "Blueprints is an open-source tool that integrates with your text editor to help you generate code with an LLM based on patterns you alrea…"
-  github_url: "https://github.com/sublayerapp/blueprints](https://github.com/sublayerapp/blueprints"
-  
-# Add your configuration here

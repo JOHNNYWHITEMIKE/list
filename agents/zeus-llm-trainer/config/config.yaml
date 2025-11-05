@@ -1,7 +1,0 @@
-# Configuration for Zeus-Llm-Trainer
-agent:
-  name: "Zeus-Llm-Trainer"
-  description: "Zeus LLM Trainer is a rewrite of Stanford Alpaca aiming to be the trainer for all Large Language Models"
-  github_url: "https://github.com/official-elinas/zeus-llm-trainer](https://github.com/official-elinas/zeus-llm-trainer"
-  
-# Add your configuration here

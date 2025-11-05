@@ -1,7 +1,0 @@
-# Configuration for Onchain-Ai-Starter
-agent:
-  name: "Onchain-Ai-Starter"
-  description: "Build and deploy onchain AI agents with zero hassle"
-  github_url: "https://github.com/Not-Sarthak/onchain-ai-starter](https://github.com/Not-Sarthak/onchain-ai-starter"
-  
-# Add your configuration here

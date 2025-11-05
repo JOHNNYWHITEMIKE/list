@@ -1,7 +1,0 @@
-# Configuration for Tiny-Agent
-agent:
-  name: "Tiny-Agent"
-  description: "Tiny-Agent is a lightweight yet extensible AI agent framework that simplifies the creation and deployment of intelligent agents."
-  github_url: "https://github.com/bombap/tiny-agent](https://github.com/bombap/tiny-agent"
-  
-# Add your configuration here

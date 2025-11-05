@@ -1,7 +1,0 @@
-# Configuration for Bioinformatics
-agent:
-  name: "Bioinformatics"
-  description: "Bioinformatics analysis scripts, workflows, general code examples"
-  github_url: "https://github.com/stevekm/Bioinformatics](https://github.com/stevekm/Bioinformatics"
-  
-# Add your configuration here

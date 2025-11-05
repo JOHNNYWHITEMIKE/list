@@ -1,7 +1,0 @@
-# Configuration for Nemotron-O1-Llm-Agent-Dataflow-Analysis
-agent:
-  name: "Nemotron-O1-Llm-Agent-Dataflow-Analysis"
-  description: ""Code and resources for Nemotron-o1, an LLM-based agentic framework for automated data flow analysis. Features source/sink extraction, da…"
-  github_url: "https://github.com/yuvrajpant56/Nemotron-o1-LLM-Agent-Dataflow-Analysis](https://github.com/yuvrajpant56/Nemotron-o1-LLM-Agent-Dataflow-Analysis"
-  
-# Add your configuration here

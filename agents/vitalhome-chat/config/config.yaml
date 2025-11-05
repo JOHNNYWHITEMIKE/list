@@ -1,7 +1,0 @@
-# Configuration for Vitalhome-Chat
-agent:
-  name: "Vitalhome-Chat"
-  description: "Ontology for Chat Agents deployed on Chat.ai"
-  github_url: "https://github.com/vital-ai/vitalhome-chat](https://github.com/vital-ai/vitalhome-chat"
-  
-# Add your configuration here

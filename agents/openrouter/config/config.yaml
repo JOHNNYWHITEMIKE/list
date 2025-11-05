@@ -1,7 +1,0 @@
-# Configuration for OpenRouter
-agent:
-  name: "OpenRouter"
-  description: "OpenRouter.ai is a platform that provides access to a wide range of large language models, including open-source and proprietary options like ChatGPT, Gemini, and Perplexity, allowing users to find the best models and pricing for their prompts and use cases"
-  github_url: ""
-  
-# Add your configuration here

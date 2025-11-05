@@ -1,7 +1,0 @@
-# Configuration for vimGPT
-agent:
-  name: "vimGPT"
-  description: "vimGPT is a project that integrates GPT-4V's vision capabilities with the Vimium extension to enable web browsing and interaction through keyboard navigation and voice commands, offering innovative solutions and improvements for accessibility and efficiency"
-  github_url: "https://github.com/ishan0102/vimGPT](https://github.com/ishan0102/vimGPT"
-  
-# Add your configuration here

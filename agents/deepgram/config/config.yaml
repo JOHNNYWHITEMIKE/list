@@ -1,7 +1,0 @@
-# Configuration for Deepgram
-agent:
-  name: "Deepgram"
-  description: "Conversational AI tools designed for creating voice bots and agents, featuring realistic, low-latency voice technology"
-  github_url: ""
-  
-# Add your configuration here

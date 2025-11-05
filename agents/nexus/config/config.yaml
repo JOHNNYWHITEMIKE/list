@@ -1,7 +1,0 @@
-# Configuration for Nexus
-agent:
-  name: "Nexus"
-  description: "AI Agent Nexus is an open-source platform for developing, testing, and hosting AI Agents, built with Streamlit and Gradio. It offers a us…"
-  github_url: "https://github.com/cxbxmxcx/Nexus](https://github.com/cxbxmxcx/Nexus"
-  
-# Add your configuration here

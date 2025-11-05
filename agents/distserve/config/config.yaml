@@ -1,7 +1,0 @@
-# Configuration for Distserve
-agent:
-  name: "Distserve"
-  description: "Disaggregated serving system for Large Language Models (LLMs)."
-  github_url: "https://github.com/LLMServe/DistServe](https://github.com/LLMServe/DistServe"
-  
-# Add your configuration here

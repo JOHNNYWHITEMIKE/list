@@ -1,7 +1,0 @@
-# Configuration for Theagentcompany
-agent:
-  name: "Theagentcompany"
-  description: "An agent benchmark with tasks in a simulated software company."
-  github_url: "https://github.com/TheAgentCompany/TheAgentCompany](https://github.com/TheAgentCompany/TheAgentCompany"
-  
-# Add your configuration here

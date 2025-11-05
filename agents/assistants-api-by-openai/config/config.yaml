@@ -1,7 +1,0 @@
-# Configuration for Assistants API by OpenAI
-agent:
-  name: "Assistants API by OpenAI"
-  description: "The Assistants API facilitates the development of AI agents, offering tools such as Code Interpretation and Function calling for embedding advanced, intelligent functionalities within applications"
-  github_url: ""
-  
-# Add your configuration here

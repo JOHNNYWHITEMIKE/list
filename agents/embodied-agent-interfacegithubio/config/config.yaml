@@ -1,7 +1,0 @@
-# Configuration for Embodied-Agent-Interface.Github.Io
-agent:
-  name: "Embodied-Agent-Interface.Github.Io"
-  description: "This is the project website for the paper "Embodied Agent Interface - Benchmarking LLMs for Embodied Decision Making"."
-  github_url: "https://github.com/embodied-agent-interface/embodied-agent-interface.github.io](https://github.com/embodied-agent-interface/embodied-agent-interface.github.io"
-  
-# Add your configuration here

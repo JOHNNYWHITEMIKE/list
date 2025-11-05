@@ -1,7 +1,0 @@
-# Configuration for Rlerewolf
-agent:
-  name: "Rlerewolf"
-  description: "A framework for playing Werewolf & developing and testing AI agents for Werewolf."
-  github_url: "https://github.com/GeorgeVelikov/RLereWolf](https://github.com/GeorgeVelikov/RLereWolf"
-  
-# Add your configuration here

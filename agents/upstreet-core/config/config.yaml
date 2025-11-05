@@ -1,7 +1,0 @@
-# Configuration for Upstreet-Core
-agent:
-  name: "Upstreet-Core"
-  description: "Build and deploy AI Agents, fast."
-  github_url: "https://github.com/UpstreetAI/upstreet-core](https://github.com/UpstreetAI/upstreet-core"
-  
-# Add your configuration here

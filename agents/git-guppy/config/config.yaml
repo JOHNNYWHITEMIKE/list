@@ -1,7 +1,0 @@
-# Configuration for Git-Guppy
-agent:
-  name: "Git-Guppy"
-  description: "Simple git-hook integration for your gulp workflows."
-  github_url: "https://github.com/therealklanni/git-guppy](https://github.com/therealklanni/git-guppy"
-  
-# Add your configuration here

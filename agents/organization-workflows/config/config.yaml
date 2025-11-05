@@ -1,7 +1,0 @@
-# Configuration for Organization-Workflows
-agent:
-  name: "Organization-Workflows"
-  description: "Need to centrally manage and run Actions workflows across multiple repositories? This app does it for you."
-  github_url: "https://github.com/SvanBoxel/organization-workflows](https://github.com/SvanBoxel/organization-workflows"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Konfig
-agent:
-  name: "Konfig"
-  description: "Shared repository of application models and components, and CI suite for GitOps workflows"
-  github_url: "https://github.com/KusionStack/konfig](https://github.com/KusionStack/konfig"
-  
-# Add your configuration here

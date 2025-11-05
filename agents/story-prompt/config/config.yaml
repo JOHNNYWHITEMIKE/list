@@ -1,7 +1,0 @@
-# Configuration for Story-Prompt
-agent:
-  name: "Story-Prompt"
-  description: "Challenge project for engineering candidates"
-  github_url: "https://github.com/CommonPaper/story-prompt](https://github.com/CommonPaper/story-prompt"
-  
-# Add your configuration here

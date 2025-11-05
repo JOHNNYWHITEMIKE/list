@@ -1,7 +1,0 @@
-# Configuration for Llm-Security-101
-agent:
-  name: "Llm-Security-101"
-  description: "Delving into the Realm of LLM Security - An Exploration of Offensive and Defensive Tools, Unveiling Their Present Capabilities."
-  github_url: "https://github.com/Seezo-io/llm-security-101](https://github.com/Seezo-io/llm-security-101"
-  
-# Add your configuration here

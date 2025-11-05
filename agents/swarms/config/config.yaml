@@ -1,7 +1,0 @@
-# Configuration for Swarms
-agent:
-  name: "Swarms"
-  description: "Swarms orchestrates multi-agent collaboration for production-grade applications, solving issues like short memory and high costs, with customizable tools for specific needs, currently used by RBC, John Deere, and AI startups"
-  github_url: "https://github.com/kyegomez/swarms/](https://github.com/kyegomez/swarms/"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Whitebox-Code-Gpt
-agent:
-  name: "Whitebox-Code-Gpt"
-  description: "Repository of instructions for Programming-specific GPT models"
-  github_url: "https://github.com/Decron/Whitebox-Code-GPT](https://github.com/Decron/Whitebox-Code-GPT"
-  
-# Add your configuration here

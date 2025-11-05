@@ -1,7 +1,0 @@
-# Configuration for Sandbox
-agent:
-  name: "Sandbox"
-  description: "A simulation where AI makes daily high-level decisions for a virtual world, balancing ethics, sustainability, and impact."
-  github_url: "https://github.com/abozaralizadeh/SandBox](https://github.com/abozaralizadeh/SandBox"
-  
-# Add your configuration here

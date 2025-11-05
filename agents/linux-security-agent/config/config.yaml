@@ -1,7 +1,0 @@
-# Configuration for Linux-Security-Agent
-agent:
-  name: "Linux-Security-Agent"
-  description: "Micro AI security agent"
-  github_url: "https://github.com/microaisecurity/linux-security-agent](https://github.com/microaisecurity/linux-security-agent"
-  
-# Add your configuration here

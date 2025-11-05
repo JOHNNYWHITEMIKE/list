@@ -1,7 +1,0 @@
-# Configuration for Self Operating Computer by Otherside
-agent:
-  name: "Self Operating Computer by Otherside"
-  description: "SOC is a framework enabling multimodal models to operate a computer using human-like inputs and outputs, with compatibility for various models such as GPT-4v, Gemini Pro Vision, and LLaVA, offering future support for additional models and featuring various modes including voice and optical character recognition"
-  github_url: "https://github.com/OthersideAI/self-operating-computer](https://github.com/OthersideAI/self-operating-computer"
-  
-# Add your configuration here

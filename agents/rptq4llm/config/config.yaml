@@ -1,7 +1,0 @@
-# Configuration for Rptq4Llm
-agent:
-  name: "Rptq4Llm"
-  description: "Reorder-based post-training quantization for large language model"
-  github_url: "https://github.com/hahnyuan/RPTQ4LLM](https://github.com/hahnyuan/RPTQ4LLM"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Nipype
-agent:
-  name: "Nipype"
-  description: "Workflows and interfaces for neuroimaging packages"
-  github_url: "https://github.com/nipy/nipype](https://github.com/nipy/nipype"
-  
-# Add your configuration here

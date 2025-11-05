@@ -1,7 +1,0 @@
-# Configuration for Captain
-agent:
-  name: "Captain"
-  description: "Captain - Convert your Git workflow to Docker 🐳 containers"
-  github_url: "https://github.com/harbur/captain](https://github.com/harbur/captain"
-  
-# Add your configuration here

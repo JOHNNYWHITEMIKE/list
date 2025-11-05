@@ -1,7 +1,0 @@
-# Configuration for Data-Engineering
-agent:
-  name: "Data-Engineering"
-  description: "Construct a modern data stack and orchestration the workflows to create high quality data for analytics and ML applications."
-  github_url: "https://github.com/GokuMohandas/data-engineering](https://github.com/GokuMohandas/data-engineering"
-  
-# Add your configuration here

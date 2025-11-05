@@ -1,7 +1,0 @@
-# Configuration for uAgents by Fetch AI
-agent:
-  name: "uAgents by Fetch AI"
-  description: "uAgents is a Python library by Fetch AI for creating autonomous AI agents with features like easy creation, blockchain network connectivity, and cryptographic security"
-  github_url: "https://github.com/fetchai/uAgents](https://github.com/fetchai/uAgents"
-  
-# Add your configuration here

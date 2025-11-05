@@ -1,7 +1,0 @@
-# Configuration for Agentlab
-agent:
-  name: "Agentlab"
-  description: "AgentLab - An open-source framework for developing, testing, and benchmarking web agents on diverse tasks, designed for scalability and re…"
-  github_url: "https://github.com/ServiceNow/AgentLab](https://github.com/ServiceNow/AgentLab"
-  
-# Add your configuration here

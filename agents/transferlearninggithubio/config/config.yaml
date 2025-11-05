@@ -1,7 +1,0 @@
-# Configuration for Transferlearning.Github.Io
-agent:
-  name: "Transferlearning.Github.Io"
-  description: "This GitHub blog explores the transfer & sharing of knowledge in data & AI. Dive into - Real-world applications of data & AI Communicating…"
-  github_url: "https://github.com/anthonymalumbe/transferlearning.github.io](https://github.com/anthonymalumbe/transferlearning.github.io"
-  
-# Add your configuration here

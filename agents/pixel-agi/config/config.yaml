@@ -1,7 +1,0 @@
-# Configuration for Pixel-Agi
-agent:
-  name: "Pixel-Agi"
-  description: "A gradio app to talk with LLMs and make them interact with pixel-art/images + micro dataset. Focus = data."
-  github_url: "https://github.com/oliveirabruno01/pixel-agi](https://github.com/oliveirabruno01/pixel-agi"
-  
-# Add your configuration here

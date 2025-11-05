@@ -1,7 +1,0 @@
-# Configuration for Ai_Tools
-agent:
-  name: "Ai_Tools"
-  description: "Testing AI tools and building agents."
-  github_url: "https://github.com/chineseflava/AI_tools](https://github.com/chineseflava/AI_tools"
-  
-# Add your configuration here

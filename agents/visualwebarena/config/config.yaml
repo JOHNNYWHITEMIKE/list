@@ -1,7 +1,0 @@
-# Configuration for Visualwebarena
-agent:
-  name: "Visualwebarena"
-  description: "VisualWebArena is a benchmark for multimodal agents."
-  github_url: "https://github.com/web-arena-x/visualwebarena](https://github.com/web-arena-x/visualwebarena"
-  
-# Add your configuration here

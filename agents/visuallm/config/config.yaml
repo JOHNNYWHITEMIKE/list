@@ -1,7 +1,0 @@
-# Configuration for Visuallm
-agent:
-  name: "Visuallm"
-  description: "Visualization tool for various generation tasks on Language Models."
-  github_url: "https://github.com/gortibaldik/visuallm](https://github.com/gortibaldik/visuallm"
-  
-# Add your configuration here

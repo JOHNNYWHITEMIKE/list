@@ -1,7 +1,0 @@
-# Configuration for DevOpsGPT
-agent:
-  name: "DevOpsGPT"
-  description: "DevOpsGPT is an AI-driven software development automation solution that combines large language models with DevOps tools to convert natural language requirements into working software, enhancing development efficiency, shortening cycles, and reducing communication costs"
-  github_url: "https://github.com/kuafuai/DevOpsGPT](https://github.com/kuafuai/DevOpsGPT"
-  
-# Add your configuration here

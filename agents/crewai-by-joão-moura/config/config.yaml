@@ -1,7 +1,0 @@
-# Configuration for crewAI+ by João Moura
-agent:
-  name: "crewAI+ by João Moura"
-  description: "CrewAI+ is in beta, offering seamless API integration, business support, and early access for design partners; apply now to shape future features"
-  github_url: ""
-  
-# Add your configuration here

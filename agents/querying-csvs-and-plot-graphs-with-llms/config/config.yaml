@@ -1,7 +1,0 @@
-# Configuration for Querying-Csvs-And-Plot-Graphs-With-Llms
-agent:
-  name: "Querying-Csvs-And-Plot-Graphs-With-Llms"
-  description: "Leveraging Large Language Models (LLMs) to query CSV files and plot graphs transforms data analysis. This allows to interact with dataset…"
-  github_url: "https://github.com/SomyanshAvasthi/Querying-CSVs-and-Plot-Graphs-with-LLMs](https://github.com/SomyanshAvasthi/Querying-CSVs-and-Plot-Graphs-with-LLMs"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Rust-Build
-agent:
-  name: "Rust-Build"
-  description: "Installation tools and workflows for deploying/building Rust fork esp-rs/rust with Xtensa and RISC-V support"
-  github_url: "https://github.com/esp-rs/rust-build](https://github.com/esp-rs/rust-build"
-  
-# Add your configuration here

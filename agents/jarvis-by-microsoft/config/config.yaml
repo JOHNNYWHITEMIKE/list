@@ -1,7 +1,0 @@
-# Configuration for JARVIS by Microsoft
-agent:
-  name: "JARVIS by Microsoft"
-  description: "JARVIS aims to advance artificial general intelligence (AGI) through cutting-edge research and facilitate broader community engagement"
-  github_url: "https://github.com/microsoft/JARVIS](https://github.com/microsoft/JARVIS"
-  
-# Add your configuration here

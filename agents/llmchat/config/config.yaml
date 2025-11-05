@@ -1,7 +1,0 @@
-# Configuration for Llmchat
-agent:
-  name: "Llmchat"
-  description: "A full-stack Webui implementation of Large Language model, such as ChatGPT or LLaMA."
-  github_url: "https://github.com/c0sogi/LLMChat](https://github.com/c0sogi/LLMChat"
-  
-# Add your configuration here

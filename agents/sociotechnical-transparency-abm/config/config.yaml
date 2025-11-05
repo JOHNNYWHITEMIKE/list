@@ -1,7 +1,0 @@
-# Configuration for Sociotechnical-Transparency-Abm
-agent:
-  name: "Sociotechnical-Transparency-Abm"
-  description: "This repository contains the core logic for the code used in - Gausen, A., Guo, C. & Luk, W. An approach to sociotechnical transparency of…"
-  github_url: "https://github.com/azgausen/sociotechnical-transparency-abm](https://github.com/azgausen/sociotechnical-transparency-abm"
-  
-# Add your configuration here

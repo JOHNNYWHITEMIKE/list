@@ -1,7 +1,0 @@
-# Configuration for FuzzTypes
-agent:
-  name: "FuzzTypes"
-  description: "FuzzTypes is a Pydantic extension library providing autocorrecting annotation types, enhancing Pydantic's data conversions for AI agents by enabling powerful normalization capabilities like named entity linking to ensure structured data consists of 'smart things' instead of 'dumb strings'"
-  github_url: "https://github.com/genomoncology/FuzzTypes](https://github.com/genomoncology/FuzzTypes"
-  
-# Add your configuration here

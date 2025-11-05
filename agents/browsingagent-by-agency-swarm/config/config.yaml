@@ -1,7 +1,0 @@
-# Configuration for BrowsingAgent by Agency Swarm
-agent:
-  name: "BrowsingAgent by Agency Swarm"
-  description: "BrowsingAgent, an AI web navigation tool, has been integrated into the Agency Swarm framework to enable human-like browsing capabilities for automated AI operations"
-  github_url: "https://github.com/VRSEN/agency-swarm/tree/main/agency_swarm/agents/BrowsingAgent](https://github.com/VRSEN/agency-swarm/tree/main/agency_swarm/agents/BrowsingAgent"
-  
-# Add your configuration here

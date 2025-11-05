@@ -1,7 +1,0 @@
-# Configuration for IBM Bee
-agent:
-  name: "IBM Bee"
-  description: "The framework for building scalable agentic applications."
-  github_url: "https://github.com/i-am-bee/bee-agent-framework](https://github.com/i-am-bee/bee-agent-framework"
-  
-# Add your configuration here

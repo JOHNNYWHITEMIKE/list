@@ -1,7 +1,0 @@
-# Configuration for Purplellama
-agent:
-  name: "Purplellama"
-  description: "Set of tools to assess and improve LLM security."
-  github_url: "https://github.com/meta-llama/PurpleLlama](https://github.com/meta-llama/PurpleLlama"
-  
-# Add your configuration here

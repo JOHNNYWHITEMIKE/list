@@ -1,7 +1,0 @@
-# Configuration for Lilm
-agent:
-  name: "Lilm"
-  description: "Large language model fine-tuned to mimic LIHKG users' behavior"
-  github_url: "https://github.com/alphrc/lilm](https://github.com/alphrc/lilm"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Api-For-Open-Llm
-agent:
-  name: "Api-For-Open-Llm"
-  description: "Openai style api for open large language models, using LLMs just as chatgpt! Support for LLaMA, LLaMA-2, BLOOM, Falcon, Baichuan, Qwen, X…"
-  github_url: "https://github.com/xusenlinzy/api-for-open-llm](https://github.com/xusenlinzy/api-for-open-llm"
-  
-# Add your configuration here

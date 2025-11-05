@@ -1,7 +1,0 @@
-# Configuration for Wordpressify
-agent:
-  name: "Wordpressify"
-  description: "🎈 Automate your WordPress development workflow."
-  github_url: "https://github.com/luangjokaj/wordpressify](https://github.com/luangjokaj/wordpressify"
-  
-# Add your configuration here

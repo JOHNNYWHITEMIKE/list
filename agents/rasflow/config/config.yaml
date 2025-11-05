@@ -1,7 +1,0 @@
-# Configuration for Rasflow
-agent:
-  name: "Rasflow"
-  description: "RNA-Seq analysis workflow"
-  github_url: "https://github.com/zhxiaokang/RASflow](https://github.com/zhxiaokang/RASflow"
-  
-# Add your configuration here

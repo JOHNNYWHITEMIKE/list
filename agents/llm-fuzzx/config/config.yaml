@@ -1,7 +1,0 @@
-# Configuration for Llm-Fuzzx
-agent:
-  name: "Llm-Fuzzx"
-  description: "LLM-FuzzX is a user-friendly fuzz testing tool for Large Language Models (e.g., GPT, Claude, LLaMA), featuring advanced task-aware mutati…"
-  github_url: "https://github.com/Windy3f3f3f3f/LLM-FuzzX](https://github.com/Windy3f3f3f3f/LLM-FuzzX"
-  
-# Add your configuration here

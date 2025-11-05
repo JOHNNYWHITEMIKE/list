@@ -1,7 +1,0 @@
-# Configuration for Howtofinetunellama3.1
-agent:
-  name: "Howtofinetunellama3.1"
-  description: "Quick tutorial showing how to fine-tune Llama3.1 with nothing but free tools and text data. All code included in ipynb. For a step by ste…"
-  github_url: "https://github.com/Rs-py/HowToFineTuneLlama3.1](https://github.com/Rs-py/HowToFineTuneLlama3.1"
-  
-# Add your configuration here

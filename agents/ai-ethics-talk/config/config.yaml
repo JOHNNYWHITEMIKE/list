@@ -1,7 +1,0 @@
-# Configuration for Ai-Ethics-Talk
-agent:
-  name: "Ai-Ethics-Talk"
-  description: "In September 2021, I gave a talk at my local university on the topic of whether AI and the Law speak the same language."
-  github_url: "https://github.com/nat-foo/ai-ethics-talk](https://github.com/nat-foo/ai-ethics-talk"
-  
-# Add your configuration here

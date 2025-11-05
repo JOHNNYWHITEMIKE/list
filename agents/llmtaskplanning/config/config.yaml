@@ -1,7 +1,0 @@
-# Configuration for Llmtaskplanning
-agent:
-  name: "Llmtaskplanning"
-  description: "LoTa-Bench - Benchmarking Language-oriented Task Planners for Embodied Agents (ICLR 2024)"
-  github_url: "https://github.com/lbaa2022/LLMTaskPlanning](https://github.com/lbaa2022/LLMTaskPlanning"
-  
-# Add your configuration here

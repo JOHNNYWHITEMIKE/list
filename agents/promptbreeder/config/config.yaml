@@ -1,7 +1,0 @@
-# Configuration for Promptbreeder
-agent:
-  name: "Promptbreeder"
-  description: "Google Deepmind's PromptBreeder for automated prompt engineering implemented in langchain expression language."
-  github_url: "https://github.com/vaughanlove/PromptBreeder](https://github.com/vaughanlove/PromptBreeder"
-  
-# Add your configuration here

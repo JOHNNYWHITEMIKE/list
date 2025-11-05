@@ -1,7 +1,0 @@
-# Configuration for Alphacodium
-agent:
-  name: "Alphacodium"
-  description: "Official implementation for the paper - "Code Generation with AlphaCodium - From Prompt Engineering to Flow Engineering"""
-  github_url: "https://github.com/Codium-ai/AlphaCodium](https://github.com/Codium-ai/AlphaCodium"
-  
-# Add your configuration here

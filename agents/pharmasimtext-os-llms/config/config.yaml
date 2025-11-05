@@ -1,7 +1,0 @@
-# Configuration for Pharmasimtext-Os-Llms
-agent:
-  name: "Pharmasimtext-Os-Llms"
-  description: "This is a repository including the benchmark and agents included in an under review submission to JEDM 2025."
-  github_url: "https://github.com/epfl-ml4ed/PharmaSimText-OS-LLMs](https://github.com/epfl-ml4ed/PharmaSimText-OS-LLMs"
-  
-# Add your configuration here

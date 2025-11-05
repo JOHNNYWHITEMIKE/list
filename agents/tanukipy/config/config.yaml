@@ -1,7 +1,0 @@
-# Configuration for Tanuki.Py
-agent:
-  name: "Tanuki.Py"
-  description: "Prompt engineering for developers"
-  github_url: "https://github.com/Tanuki/tanuki.py](https://github.com/Tanuki/tanuki.py"
-  
-# Add your configuration here

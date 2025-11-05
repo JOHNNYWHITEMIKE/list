@@ -1,7 +1,0 @@
-# Configuration for Agentbench
-agent:
-  name: "Agentbench"
-  description: "A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR'24)"
-  github_url: "https://github.com/THUDM/AgentBench](https://github.com/THUDM/AgentBench"
-  
-# Add your configuration here

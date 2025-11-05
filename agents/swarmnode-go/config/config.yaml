@@ -1,7 +1,0 @@
-# Configuration for Swarmnode-Go
-agent:
-  name: "Swarmnode-Go"
-  description: "Deploy and orchestrate serverless AI agents in the cloud."
-  github_url: "https://github.com/swarmnode-ai/swarmnode-go](https://github.com/swarmnode-ai/swarmnode-go"
-  
-# Add your configuration here

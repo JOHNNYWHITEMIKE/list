@@ -1,7 +1,0 @@
-# Configuration for Dataset_For_Llm
-agent:
-  name: "Dataset_For_Llm"
-  description: "backup for some data set to test llm models"
-  github_url: "https://github.com/Dragon-hxl/dataset_for_llm](https://github.com/Dragon-hxl/dataset_for_llm"
-  
-# Add your configuration here

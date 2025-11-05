@@ -1,7 +1,0 @@
-# Configuration for Maestro
-agent:
-  name: "Maestro"
-  description: "Maestro - Netflix’s Workflow Orchestrator"
-  github_url: "https://github.com/Netflix/maestro](https://github.com/Netflix/maestro"
-  
-# Add your configuration here

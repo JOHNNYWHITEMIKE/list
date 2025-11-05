@@ -1,7 +1,0 @@
-# Configuration for Browserbase
-agent:
-  name: "Browserbase"
-  description: "Browserbase offers a managed headless web browser API with robust features like session recording, logging, and debugging, ensuring secure connections to isolated web browsers for efficient issue resolution"
-  github_url: ""
-  
-# Add your configuration here

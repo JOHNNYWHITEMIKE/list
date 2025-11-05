@@ -1,7 +1,0 @@
-# Configuration for Claudesync
-agent:
-  name: "Claudesync"
-  description: "ClaudeSync is a Python tool that automates the synchronization of local files with Claude.ai Projects"
-  github_url: "https://github.com/jahwag/ClaudeSync](https://github.com/jahwag/ClaudeSync"
-  
-# Add your configuration here

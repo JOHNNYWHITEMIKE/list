@@ -1,7 +1,0 @@
-# Configuration for LlamaIndex Tools
-agent:
-  name: "LlamaIndex Tools"
-  description: "LlamaIndex offers a variety of tools for building data agents, with top downloads including IonicShoppingToolSpec, OpenAPIToolSpec, WikipediaToolSpec, GmailToolSpec, and GoogleCalendarToolSpec, enabling seamless integration with user-defined functions, query engines, and third-party services"
-  github_url: "https://github.com/run-llama/llama_index](https://github.com/run-llama/llama_index"
-  
-# Add your configuration here

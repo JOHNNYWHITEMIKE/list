@@ -1,7 +1,0 @@
-# Configuration for Ds-Workflows-R
-agent:
-  name: "Ds-Workflows-R"
-  description: "posit::conf(2024) workshop - Data Science Workflows with Posit Tools — R Focus"
-  github_url: "https://github.com/posit-conf-2024/ds-workflows-r](https://github.com/posit-conf-2024/ds-workflows-r"
-  
-# Add your configuration here

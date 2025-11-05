@@ -1,7 +1,0 @@
-# Configuration for Aws-Ai-Templates
-agent:
-  name: "Aws-Ai-Templates"
-  description: "A collection of AWS Templates for deploying Agentic Software"
-  github_url: "https://github.com/jacobweiss2305/aws-ai-templates](https://github.com/jacobweiss2305/aws-ai-templates"
-  
-# Add your configuration here

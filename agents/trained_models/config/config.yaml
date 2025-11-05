@@ -1,7 +1,0 @@
-# Configuration for Trained_Models
-agent:
-  name: "Trained_Models"
-  description: "fine-tuning llms."
-  github_url: "https://github.com/XY2323819551/trained_models](https://github.com/XY2323819551/trained_models"
-  
-# Add your configuration here

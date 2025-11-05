@@ -1,7 +1,0 @@
-# Configuration for Splaa
-agent:
-  name: "Splaa"
-  description: "SPLAA is an AI assistant framework that utilizes voice recognition, text-to-speech, and tool-calling capabilities to provide a conversati…"
-  github_url: "https://github.com/cp3249/splaa](https://github.com/cp3249/splaa"
-  
-# Add your configuration here

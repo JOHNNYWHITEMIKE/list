@@ -1,7 +1,0 @@
-# Configuration for Youtrack-Workflows
-agent:
-  name: "Youtrack-Workflows"
-  description: "YouTrack Custom Workflow Repository"
-  github_url: "https://github.com/JetBrains/youtrack-workflows](https://github.com/JetBrains/youtrack-workflows"
-  
-# Add your configuration here

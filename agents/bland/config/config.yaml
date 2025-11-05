@@ -1,7 +1,0 @@
-# Configuration for Bland
-agent:
-  name: "Bland"
-  description: "Bland AI offers a platform for building and scaling AI-powered phone agents, featuring easy integration, live data context, custom voices, and dedicated infrastructure. Tech stack includes LLM: Claude Instant (Anthropic), Transcription: Whisper (OpenAI), TTS: ElevenLabs"
-  github_url: ""
-  
-# Add your configuration here

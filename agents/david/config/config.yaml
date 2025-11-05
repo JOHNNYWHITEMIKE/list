@@ -1,7 +1,0 @@
-# Configuration for David
-agent:
-  name: "David"
-  description: "Management System for AI Agents - Development, Authentication, Validation, Integration, and Deployment"
-  github_url: "https://github.com/Unka-Malloc/DAVID](https://github.com/Unka-Malloc/DAVID"
-  
-# Add your configuration here

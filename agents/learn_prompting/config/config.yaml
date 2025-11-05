@@ -1,7 +1,0 @@
-# Configuration for Learn_Prompting
-agent:
-  name: "Learn_Prompting"
-  description: "Prompt Engineering, Generative AI, and LLM Guide by Learn Prompting | Join our discord for the largest Prompt Engineering learning community"
-  github_url: "https://github.com/trigaten/Learn_Prompting](https://github.com/trigaten/Learn_Prompting"
-  
-# Add your configuration here

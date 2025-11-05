@@ -1,7 +1,0 @@
-# Configuration for Attendone
-agent:
-  name: "Attendone"
-  description: "ai generted agent test 1"
-  github_url: "https://github.com/mariamkhaled99/attendone](https://github.com/mariamkhaled99/attendone"
-  
-# Add your configuration here

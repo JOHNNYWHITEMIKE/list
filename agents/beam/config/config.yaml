@@ -1,7 +1,0 @@
-# Configuration for Beam
-agent:
-  name: "Beam"
-  description: "Beam AI offers a platform for Agentic Process Automation, using AI agents to automate workflows, enhancing productivity for businesses of all sizes with features like pre-trained agents, seamless integrations, and industry-specific solutions"
-  github_url: ""
-  
-# Add your configuration here

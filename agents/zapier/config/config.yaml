@@ -1,7 +1,0 @@
-# Configuration for Zapier
-agent:
-  name: "Zapier"
-  description: "The SDK for you to build an integration on Zapier"
-  github_url: "https://github.com/zapier/zapier-platform](https://github.com/zapier/zapier-platform"
-  
-# Add your configuration here

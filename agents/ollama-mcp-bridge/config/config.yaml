@@ -1,7 +1,0 @@
-# Configuration for Ollama-Mcp-Bridge
-agent:
-  name: "Ollama-Mcp-Bridge"
-  description: "Bridge between Ollama and MCP servers, enabling local LLMs to use Model Context Protocol tools"
-  github_url: "https://github.com/patruff/ollama-mcp-bridge](https://github.com/patruff/ollama-mcp-bridge"
-  
-# Add your configuration here

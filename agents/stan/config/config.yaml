@@ -1,7 +1,0 @@
-# Configuration for Stan
-agent:
-  name: "Stan"
-  description: "Develop and deploy a Large Language Model (LLM) based tool for generating human like responses to natural language inputs for network not…"
-  github_url: "https://github.com/kaifcoder/Stan](https://github.com/kaifcoder/Stan"
-  
-# Add your configuration here

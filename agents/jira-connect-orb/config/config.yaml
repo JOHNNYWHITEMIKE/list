@@ -1,7 +1,0 @@
-# Configuration for Jira-Connect-Orb
-agent:
-  name: "Jira-Connect-Orb"
-  description: "Display the status of CircleCI workflows and deployments in Jira!"
-  github_url: "https://github.com/CircleCI-Public/jira-connect-orb](https://github.com/CircleCI-Public/jira-connect-orb"
-  
-# Add your configuration here

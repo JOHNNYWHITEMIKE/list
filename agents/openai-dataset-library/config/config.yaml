@@ -1,7 +1,0 @@
-# Configuration for OpenAI Dataset Library
-agent:
-  name: "OpenAI Dataset Library"
-  description: "A comprehensive collection of datasets used for training AI models."
-  github_url: ""
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Gptstore-Prompts
-agent:
-  name: "Gptstore-Prompts"
-  description: "Here are the Top 100 prompts on GPTStore, which we can use to learn and improve prompt engineering."
-  github_url: "https://github.com/1003715231/gptstore-prompts](https://github.com/1003715231/gptstore-prompts"
-  
-# Add your configuration here

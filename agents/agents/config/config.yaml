@@ -1,7 +1,0 @@
-# Configuration for Agents
-agent:
-  name: "Agents"
-  description: "A collection of AI agents to test AI capabilities, and to be used as tutorials and demonstrations"
-  github_url: "https://github.com/culurciello/agents](https://github.com/culurciello/agents"
-  
-# Add your configuration here

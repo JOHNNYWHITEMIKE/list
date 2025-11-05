@@ -1,7 +1,0 @@
-# Configuration for Ethics-Professional
-agent:
-  name: "Ethics-Professional"
-  description: "This is the ai based model that runs the chat based interface on both our companies website, our companies internal use, and native to th…"
-  github_url: "https://github.com/Ethics-Professionals-Game-Corporation/Ethics-Professional](https://github.com/Ethics-Professionals-Game-Corporation/Ethics-Professional"
-  
-# Add your configuration here

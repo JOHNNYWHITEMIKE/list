@@ -1,7 +1,0 @@
-# Configuration for Ai-Ethics-Projects
-agent:
-  name: "Ai-Ethics-Projects"
-  description: "CSE 583 - Ethics in AI final project"
-  github_url: "https://github.com/mckenziephagen/AI-Ethics-Projects](https://github.com/mckenziephagen/AI-Ethics-Projects"
-  
-# Add your configuration here

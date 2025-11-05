@@ -1,7 +1,0 @@
-# Configuration for Vault-Config-Operator
-agent:
-  name: "Vault-Config-Operator"
-  description: "An operator to support Haschicorp Vault configuration workflows from within Kubernetes"
-  github_url: "https://github.com/redhat-cop/vault-config-operator](https://github.com/redhat-cop/vault-config-operator"
-  
-# Add your configuration here

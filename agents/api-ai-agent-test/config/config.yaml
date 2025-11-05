@@ -1,7 +1,0 @@
-# Configuration for Api-Ai-Agent-Test
-agent:
-  name: "Api-Ai-Agent-Test"
-  description: "This is where all my commits for two pickle files will live to serve as an example of submodule usage for api-ai-versioning tool."
-  github_url: "https://github.com/texascloud/api-ai-agent-test](https://github.com/texascloud/api-ai-agent-test"
-  
-# Add your configuration here

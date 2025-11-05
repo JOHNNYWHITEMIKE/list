@@ -1,7 +1,0 @@
-# Configuration for Llm_Evaluation_For_Gene_Set_Interpretation
-agent:
-  name: "Llm_Evaluation_For_Gene_Set_Interpretation"
-  description: "Code space for 'Evaluation of large language models for discovery of gene set function'"
-  github_url: "https://github.com/idekerlab/llm_evaluation_for_gene_set_interpretation](https://github.com/idekerlab/llm_evaluation_for_gene_set_interpretation"
-  
-# Add your configuration here

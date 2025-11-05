@@ -1,7 +1,0 @@
-# Configuration for Mammoth
-agent:
-  name: "Mammoth"
-  description: "Code and data for "MAmmoTH - Building Math Generalist Models through Hybrid Instruction Tuning" (ICLR 2024)"
-  github_url: "https://github.com/TIGER-AI-Lab/MAmmoTH](https://github.com/TIGER-AI-Lab/MAmmoTH"
-  
-# Add your configuration here

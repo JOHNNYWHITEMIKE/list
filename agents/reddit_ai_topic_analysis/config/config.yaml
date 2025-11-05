@@ -1,7 +1,0 @@
-# Configuration for Reddit_Ai_Topic_Analysis
-agent:
-  name: "Reddit_Ai_Topic_Analysis"
-  description: "Unveiling Trends in AI Ethics - Exploring the Ethical Dimensions of AI, Prepared for SICSS 2023 - Tor Vergata"
-  github_url: "https://github.com/leah-rtd/Reddit_AI_Topic_Analysis](https://github.com/leah-rtd/Reddit_AI_Topic_Analysis"
-  
-# Add your configuration here

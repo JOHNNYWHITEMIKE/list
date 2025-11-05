@@ -1,7 +1,0 @@
-# Configuration for Examples
-agent:
-  name: "Examples"
-  description: "Examples of Concourse workflows"
-  github_url: "https://github.com/concourse/examples](https://github.com/concourse/examples"
-  
-# Add your configuration here

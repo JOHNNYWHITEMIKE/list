@@ -1,7 +1,0 @@
-# Configuration for Chatgpt-Prompt-Engineering-For-Developers
-agent:
-  name: "Chatgpt-Prompt-Engineering-For-Developers"
-  description: "In ChatGPT Prompt Engineering for Developers, you will learn how to use a large language model (LLM) to quickly build new and powerful ap…"
-  github_url: "https://github.com/Ryota-Kawamura/ChatGPT-Prompt-Engineering-for-Developers](https://github.com/Ryota-Kawamura/ChatGPT-Prompt-Engineering-for-Developers"
-  
-# Add your configuration here

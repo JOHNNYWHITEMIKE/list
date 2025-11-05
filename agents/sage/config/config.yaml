@@ -1,7 +1,0 @@
-# Configuration for Sage
-agent:
-  name: "Sage"
-  description: "WordPress starter theme with Laravel Blade components and templates, Tailwind CSS, and a modern development workflow"
-  github_url: "https://github.com/roots/sage](https://github.com/roots/sage"
-  
-# Add your configuration here

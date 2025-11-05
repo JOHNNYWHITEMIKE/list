@@ -1,7 +1,0 @@
-# Configuration for Multiagentworkflow
-agent:
-  name: "Multiagentworkflow"
-  description: "Testing multiagent AI flows for CRUD, search, and document construction from databases"
-  github_url: "https://github.com/drewbloom/multiAgentWorkflow](https://github.com/drewbloom/multiAgentWorkflow"
-  
-# Add your configuration here

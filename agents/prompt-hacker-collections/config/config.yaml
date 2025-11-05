@@ -1,7 +1,0 @@
-# Configuration for Prompt-Hacker-Collections
-agent:
-  name: "Prompt-Hacker-Collections"
-  description: "prompt attack-defense, prompt Injection, reverse engineering notes and examples | 提示词对抗、破解例子与笔记"
-  github_url: "https://github.com/yunwei37/prompt-hacker-collections](https://github.com/yunwei37/prompt-hacker-collections"
-  
-# Add your configuration here

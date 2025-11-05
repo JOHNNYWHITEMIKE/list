@@ -1,7 +1,0 @@
-# Configuration for Dataset-Creator-Server
-agent:
-  name: "Dataset-Creator-Server"
-  description: "Nodejs Express Server for Expedited Dataset Creation for Fine Tuning LLMs"
-  github_url: "https://github.com/michaelcalvinwood/dataset-creator-server](https://github.com/michaelcalvinwood/dataset-creator-server"
-  
-# Add your configuration here

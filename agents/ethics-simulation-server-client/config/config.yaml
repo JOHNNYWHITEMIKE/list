@@ -1,7 +1,0 @@
-# Configuration for Ethics-Simulation-Server-Client
-agent:
-  name: "Ethics-Simulation-Server-Client"
-  description: "Project Assets for academic project simulating an AI ethics problem using object oriented programming, and json servers"
-  github_url: "https://github.com/mlund2k/Ethics-Simulation-Server-Client](https://github.com/mlund2k/Ethics-Simulation-Server-Client"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Pr-Harmony
-agent:
-  name: "Pr-Harmony"
-  description: "Extra pull request workflows for Stash"
-  github_url: "https://github.com/monitorjbl/pr-harmony](https://github.com/monitorjbl/pr-harmony"
-  
-# Add your configuration here

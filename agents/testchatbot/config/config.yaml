@@ -1,7 +1,0 @@
-# Configuration for Testchatbot
-agent:
-  name: "Testchatbot"
-  description: "Database to be deployed for agent in api.ai"
-  github_url: "https://github.com/samanway1996/testchatbot](https://github.com/samanway1996/testchatbot"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Sammo
-agent:
-  name: "Sammo"
-  description: "A library for prompt engineering and optimization (SAMMO = Structure-aware Multi-Objective Metaprompt Optimization)"
-  github_url: "https://github.com/microsoft/sammo](https://github.com/microsoft/sammo"
-  
-# Add your configuration here

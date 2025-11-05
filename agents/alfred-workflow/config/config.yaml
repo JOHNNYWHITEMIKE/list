@@ -1,7 +1,0 @@
-# Configuration for Alfred-Workflow
-agent:
-  name: "Alfred-Workflow"
-  description: "PHP helper library for Alfred Workflows"
-  github_url: "https://github.com/joetannenbaum/alfred-workflow](https://github.com/joetannenbaum/alfred-workflow"
-  
-# Add your configuration here

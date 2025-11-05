@@ -1,7 +1,0 @@
-# Configuration for Flowbench
-agent:
-  name: "Flowbench"
-  description: ""
-  github_url: "https://github.com/Justherozen/FlowBench](https://github.com/Justherozen/FlowBench"
-  
-# Add your configuration here

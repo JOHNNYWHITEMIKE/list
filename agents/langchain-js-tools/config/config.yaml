@@ -1,7 +1,0 @@
-# Configuration for LangChain JS Tools
-agent:
-  name: "LangChain JS Tools"
-  description: "Langchain features VectorDBQAChain, which integrates LLMs and vector databases into agent tools for enhanced question-answering capabilities by leveraging data ingested into vector stores"
-  github_url: "https://github.com/langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs"
-  
-# Add your configuration here

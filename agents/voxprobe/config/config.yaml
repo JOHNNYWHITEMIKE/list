@@ -1,7 +1,0 @@
-# Configuration for Voxprobe
-agent:
-  name: "Voxprobe"
-  description: "A python package for automated testing and evaluation for voice ai agents"
-  github_url: "https://github.com/voxos-ai/voxprobe](https://github.com/voxos-ai/voxprobe"
-  
-# Add your configuration here

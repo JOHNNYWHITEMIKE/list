@@ -1,7 +1,0 @@
-# Configuration for Llm-Claude-3
-agent:
-  name: "Llm-Claude-3"
-  description: "LLM plugin for interacting with the Claude 3 family of models"
-  github_url: "https://github.com/simonw/llm-claude-3](https://github.com/simonw/llm-claude-3"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Languagemodels
-agent:
-  name: "Languagemodels"
-  description: "Explore large language models in 512MB of RAM"
-  github_url: "https://github.com/jncraton/languagemodels](https://github.com/jncraton/languagemodels"
-  
-# Add your configuration here

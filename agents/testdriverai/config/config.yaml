@@ -1,7 +1,0 @@
-# Configuration for Testdriverai
-agent:
-  name: "Testdriverai"
-  description: "Next generation autonomous AI agent for end-to-end testing of web & desktop"
-  github_url: "https://github.com/testdriverai/testdriverai](https://github.com/testdriverai/testdriverai"
-  
-# Add your configuration here

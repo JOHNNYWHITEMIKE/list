@@ -1,7 +1,0 @@
-# Configuration for Marvin
-agent:
-  name: "Marvin"
-  description: "Marvin is an open-source AI toolkit designed for developers focused on enhancing AI agent capabilities, offering tools for natural language interfaces, image and audio generation, and entity extraction, scalable and easy to integrate into existing projects"
-  github_url: "https://github.com/PrefectHQ/marvin/](https://github.com/PrefectHQ/marvin/"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Xpertagent
-agent:
-  name: "Xpertagent"
-  description: "XpertAgent is an open-source platform for building and deploying AI applications. It combines intelligent workflow orchestration, knowled…"
-  github_url: "https://github.com/rookie-littleblack/XpertAgent](https://github.com/rookie-littleblack/XpertAgent"
-  
-# Add your configuration here

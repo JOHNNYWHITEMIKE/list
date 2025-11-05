@@ -1,7 +1,0 @@
-# Configuration for Funflow
-agent:
-  name: "Funflow"
-  description: "Functional workflows"
-  github_url: "https://github.com/tweag/funflow](https://github.com/tweag/funflow"
-  
-# Add your configuration here

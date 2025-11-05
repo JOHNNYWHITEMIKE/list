@@ -1,7 +1,0 @@
-# Configuration for Mlx-Vlm
-agent:
-  name: "Mlx-Vlm"
-  description: "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX."
-  github_url: "https://github.com/Blaizzy/mlx-vlm](https://github.com/Blaizzy/mlx-vlm"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Swarmnode-Dotnet
-agent:
-  name: "Swarmnode-Dotnet"
-  description: "Deploy and orchestrate serverless AI agents in the cloud."
-  github_url: "https://github.com/swarmnode-ai/swarmnode-dotnet](https://github.com/swarmnode-ai/swarmnode-dotnet"
-  
-# Add your configuration here

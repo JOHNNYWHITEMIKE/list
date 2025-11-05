@@ -1,7 +1,0 @@
-# Configuration for Llm-Eval-Survey
-agent:
-  name: "Llm-Eval-Survey"
-  description: "The official GitHub page for the survey paper "A Survey on Evaluation of Large Language Models"."
-  github_url: "https://github.com/MLGroupJLU/LLM-eval-survey](https://github.com/MLGroupJLU/LLM-eval-survey"
-  
-# Add your configuration here

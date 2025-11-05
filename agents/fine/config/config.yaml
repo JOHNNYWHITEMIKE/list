@@ -1,7 +1,0 @@
-# Configuration for Fine
-agent:
-  name: "Fine"
-  description: "Fine.dev offers AI-powered agents designed to automate software development tasks, seamlessly integrating into engineering teams to manage tedious tasks, technical debt, code reviews, and migrations, while customizing to project needs and learning from team feedback for improved efficiency"
-  github_url: ""
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Llm-Prompt-Engineering-Simplified-Book
-agent:
-  name: "Llm-Prompt-Engineering-Simplified-Book"
-  description: "LLM Prompting Engineering Simplified Book"
-  github_url: "https://github.com/AkmmusAI/LLM-Prompt-Engineering-Simplified-Book](https://github.com/AkmmusAI/LLM-Prompt-Engineering-Simplified-Book"
-  
-# Add your configuration here

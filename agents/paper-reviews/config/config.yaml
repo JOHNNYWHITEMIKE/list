@@ -1,7 +1,0 @@
-# Configuration for Paper-Reviews
-agent:
-  name: "Paper-Reviews"
-  description: "Reviews of papers related to robot learning, computer vision, audio , NLP and AI Ethics"
-  github_url: "https://github.com/rayruchira/Paper-Reviews](https://github.com/rayruchira/Paper-Reviews"
-  
-# Add your configuration here

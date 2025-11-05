@@ -1,7 +1,0 @@
-# Configuration for Oozie-Examples
-agent:
-  name: "Oozie-Examples"
-  description: "sample oozie workflows"
-  github_url: "https://github.com/dbist/oozie-examples](https://github.com/dbist/oozie-examples"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Intellichunk
-agent:
-  name: "Intellichunk"
-  description: "Go Based Lightweight RAG / LLM Tool with CLI + API"
-  github_url: "https://github.com/cckalen/intellichunk](https://github.com/cckalen/intellichunk"
-  
-# Add your configuration here

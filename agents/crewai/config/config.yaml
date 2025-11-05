@@ -1,7 +1,0 @@
-# Configuration for Crewai
-agent:
-  name: "Crewai"
-  description: "Sandbox testing crewai AI Agents"
-  github_url: "https://github.com/SkatAI/crewai](https://github.com/SkatAI/crewai"
-  
-# Add your configuration here

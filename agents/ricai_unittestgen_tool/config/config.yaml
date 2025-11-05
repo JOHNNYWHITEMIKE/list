@@ -1,7 +1,0 @@
-# Configuration for Ricai_Unittestgen_Tool
-agent:
-  name: "Ricai_Unittestgen_Tool"
-  description: "(lablab.ai Autonomous Agents 2023 hackathon) RicAI unit test generation tool"
-  github_url: "https://github.com/AutoDevTestAgent/ricai_unittestgen_tool](https://github.com/AutoDevTestAgent/ricai_unittestgen_tool"
-  
-# Add your configuration here

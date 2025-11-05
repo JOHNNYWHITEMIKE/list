@@ -1,7 +1,0 @@
-# Configuration for Latitude-Llm
-agent:
-  name: "Latitude-Llm"
-  description: "Latitude is the open-source prompt engineering platform to build, evaluate, and refine your prompts with AI"
-  github_url: "https://github.com/latitude-dev/latitude-llm](https://github.com/latitude-dev/latitude-llm"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Pyzeebe
-agent:
-  name: "Pyzeebe"
-  description: "Python client for Zeebe workflow engine"
-  github_url: "https://github.com/camunda-community-hub/pyzeebe](https://github.com/camunda-community-hub/pyzeebe"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Blockoli
-agent:
-  name: "Blockoli"
-  description: "Blockoli is a high-performance tool for code indexing, embedding generation and semantic search tool for use with LLMs."
-  github_url: "https://github.com/getAsterisk/blockoli](https://github.com/getAsterisk/blockoli"
-  
-# Add your configuration here

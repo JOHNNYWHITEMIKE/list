@@ -1,7 +1,0 @@
-# Configuration for Qlora-Llm
-agent:
-  name: "Qlora-Llm"
-  description: "A simple custom QLoRA implementation for fine-tuning a language model (LLM) with basic tools such as PyTorch and Bitsandbytes, completely…"
-  github_url: "https://github.com/michaelnny/QLoRA-LLM](https://github.com/michaelnny/QLoRA-LLM"
-  
-# Add your configuration here

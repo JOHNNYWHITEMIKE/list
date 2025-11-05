@@ -1,7 +1,0 @@
-# Configuration for Llmroofline
-agent:
-  name: "Llmroofline"
-  description: "Compare different hardware platforms via the Roofline Model for LLM inference tasks."
-  github_url: "https://github.com/feifeibear/LLMRoofline](https://github.com/feifeibear/LLMRoofline"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for T2T-Polish
-agent:
-  name: "T2T-Polish"
-  description: "Evaluation and polishing workflows for T2T genome assemblies"
-  github_url: "https://github.com/arangrhie/T2T-Polish](https://github.com/arangrhie/T2T-Polish"
-  
-# Add your configuration here

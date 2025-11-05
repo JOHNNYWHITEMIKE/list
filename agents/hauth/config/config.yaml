@@ -1,7 +1,0 @@
-# Configuration for Hauth
-agent:
-  name: "Hauth"
-  description: "hAUTH is a security middleware solution that provides human oversight for AI agents."
-  github_url: "https://github.com/vaniiiii/hAUTH](https://github.com/vaniiiii/hAUTH"
-  
-# Add your configuration here

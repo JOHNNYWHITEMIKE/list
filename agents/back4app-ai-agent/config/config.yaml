@@ -1,7 +1,0 @@
-# Configuration for Back4App-Ai-Agent
-agent:
-  name: "Back4App-Ai-Agent"
-  description: "Learn how to use Back4app Agent to build and deploy full-stack web applications."
-  github_url: "https://github.com/duplxey/back4app-ai-agent](https://github.com/duplxey/back4app-ai-agent"
-  
-# Add your configuration here

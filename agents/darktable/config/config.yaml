@@ -1,7 +1,0 @@
-# Configuration for Darktable
-agent:
-  name: "Darktable"
-  description: "darktable is an open source photography workflow application and raw developer"
-  github_url: "https://github.com/darktable-org/darktable](https://github.com/darktable-org/darktable"
-  
-# Add your configuration here

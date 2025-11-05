@@ -1,7 +1,0 @@
-# Configuration for Goodai-Ltm-Benchmark
-agent:
-  name: "Goodai-Ltm-Benchmark"
-  description: "A library for benchmarking the Long Term Memory and Continual learning capabilities of LLM based agents. With all the tests and code you …"
-  github_url: "https://github.com/GoodAI/goodai-ltm-benchmark](https://github.com/GoodAI/goodai-ltm-benchmark"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Serverless-Workflows
-agent:
-  name: "Serverless-Workflows"
-  description: "A selected set of serverless workflows"
-  github_url: "https://github.com/rhdhorchestrator/serverless-workflows](https://github.com/rhdhorchestrator/serverless-workflows"
-  
-# Add your configuration here

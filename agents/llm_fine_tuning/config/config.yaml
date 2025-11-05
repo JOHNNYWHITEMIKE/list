@@ -1,7 +1,0 @@
-# Configuration for Llm_Fine_Tuning
-agent:
-  name: "Llm_Fine_Tuning"
-  description: "Fine-tuning essentially involves taking a pre-trained LLM, already equipped with a vast understanding of language, and further training i…"
-  github_url: "https://github.com/khaouitiabdelhakim/llm_fine_tuning](https://github.com/khaouitiabdelhakim/llm_fine_tuning"
-  
-# Add your configuration here

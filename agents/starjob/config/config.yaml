@@ -1,7 +1,0 @@
-# Configuration for Starjob
-agent:
-  name: "Starjob"
-  description: "JSSP dataset for LLMs"
-  github_url: "https://github.com/starjob42/Starjob](https://github.com/starjob42/Starjob"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Deploy-Pages
-agent:
-  name: "Deploy-Pages"
-  description: "GitHub Action to publish artifacts to GitHub Pages for deployments"
-  github_url: "https://github.com/actions/deploy-pages](https://github.com/actions/deploy-pages"
-  
-# Add your configuration here

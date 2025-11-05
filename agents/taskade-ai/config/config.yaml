@@ -1,7 +1,0 @@
-# Configuration for Taskade AI
-agent:
-  name: "Taskade AI"
-  description: "Taskade AI is an AI-powered productivity suite offering tools like task and project management, notes, docs, mind maps, and AI chat to enhance team productivity and automate over 700 tasks"
-  github_url: ""
-  
-# Add your configuration here

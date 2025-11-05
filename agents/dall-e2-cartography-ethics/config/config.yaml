@@ -1,7 +1,0 @@
-# Configuration for Dall-E2-Cartography-Ethics
-agent:
-  name: "Dall-E2-Cartography-Ethics"
-  description: "An AI-generated map detector to distinguish AI-generated maps and human-designed maps."
-  github_url: "https://github.com/GISense/DALL-E2-Cartography-Ethics](https://github.com/GISense/DALL-E2-Cartography-Ethics"
-  
-# Add your configuration here

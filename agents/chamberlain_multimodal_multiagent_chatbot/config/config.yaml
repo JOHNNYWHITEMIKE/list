@@ -1,7 +1,0 @@
-# Configuration for Chamberlain_Multimodal_Multiagent_Chatbot
-agent:
-  name: "Chamberlain_Multimodal_Multiagent_Chatbot"
-  description: "An AI-driven Multimodal multi-agent chatbot for home deployment to manage the user's daily chores and tasks. Used OpenAI and Langchain an…"
-  github_url: "https://github.com/nickShengY/chamberlain_multimodal_multiagent_chatbot](https://github.com/nickShengY/chamberlain_multimodal_multiagent_chatbot"
-  
-# Add your configuration here

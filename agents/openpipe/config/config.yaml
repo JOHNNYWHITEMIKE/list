@@ -1,7 +1,0 @@
-# Configuration for OpenPipe
-agent:
-  name: "OpenPipe"
-  description: "Optimize AI agents with language models that are faster and 14x more cost-effective than OpenAI's solutions"
-  github_url: ""
-  
-# Add your configuration here

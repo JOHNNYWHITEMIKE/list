@@ -1,7 +1,0 @@
-# Configuration for Workflows-Samples
-agent:
-  name: "Workflows-Samples"
-  description: "This repository contains samples for Cloud Workflows."
-  github_url: "https://github.com/GoogleCloudPlatform/workflows-samples](https://github.com/GoogleCloudPlatform/workflows-samples"
-  
-# Add your configuration here

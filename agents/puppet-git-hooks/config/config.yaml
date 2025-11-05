@@ -1,7 +1,0 @@
-# Configuration for Puppet-Git-Hooks
-agent:
-  name: "Puppet-Git-Hooks"
-  description: "Various and sundry git hooks for puppet workflows"
-  github_url: "https://github.com/adrienthebo/puppet-git-hooks](https://github.com/adrienthebo/puppet-git-hooks"
-  
-# Add your configuration here

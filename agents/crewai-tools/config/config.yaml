@@ -1,7 +1,0 @@
-# Configuration for crewAI Tools
-agent:
-  name: "crewAI Tools"
-  description: "crewAI Tools is a library that provides a framework for developing sophisticated tools to enhance crewAI agents, with methods for subclassing BaseTool, utilizing the tool decorator, and guidelines for contributing to the ecosystem"
-  github_url: "https://github.com/joaomdmoura/crewai-tools](https://github.com/joaomdmoura/crewai-tools"
-  
-# Add your configuration here

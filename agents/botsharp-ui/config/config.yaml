@@ -1,7 +1,0 @@
-# Configuration for Botsharp-Ui
-agent:
-  name: "Botsharp-Ui"
-  description: "Build, test and manage your AI Agents in the central place."
-  github_url: "https://github.com/SciSharp/BotSharp-UI](https://github.com/SciSharp/BotSharp-UI"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Sam
-agent:
-  name: "Sam"
-  description: "Autonomous Agent or Large Action Model Implementation in Java. Selenium and AI integration, AI based validations for tests. UI Validation…"
-  github_url: "https://github.com/vishalmysore/sam](https://github.com/vishalmysore/sam"
-  
-# Add your configuration here

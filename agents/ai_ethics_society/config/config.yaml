@@ -1,7 +1,0 @@
-# Configuration for Ai_Ethics_Society
-agent:
-  name: "Ai_Ethics_Society"
-  description: "OMSCS_Subject"
-  github_url: "https://github.com/yedeka/AI_Ethics_Society](https://github.com/yedeka/AI_Ethics_Society"
-  
-# Add your configuration here

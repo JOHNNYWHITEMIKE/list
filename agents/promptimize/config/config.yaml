@@ -1,7 +1,0 @@
-# Configuration for Promptimize
-agent:
-  name: "Promptimize"
-  description: "Promptimize is a prompt engineering evaluation and testing toolkit."
-  github_url: "https://github.com/preset-io/promptimize](https://github.com/preset-io/promptimize"
-  
-# Add your configuration here

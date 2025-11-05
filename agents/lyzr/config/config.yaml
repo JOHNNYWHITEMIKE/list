@@ -1,7 +1,0 @@
-# Configuration for Lyzr
-agent:
-  name: "Lyzr"
-  description: "Lyzr provides an enterprise-grade AI agent framework for easy configuration, deployment, and management of AI agents, supporting integration with multiple LLMs and databases, and offers ISO-compliant safety, white-glove onboarding, and 24/7 enterprise support"
-  github_url: ""
-  
-# Add your configuration here

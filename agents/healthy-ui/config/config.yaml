@@ -1,7 +1,0 @@
-# Configuration for Healthy-Ui
-agent:
-  name: "Healthy-Ui"
-  description: "McGill AI Ethics Lab Research - work includes identifying & dispelling negative effects of recommender systems"
-  github_url: "https://github.com/stanley-utf8/healthy-ui](https://github.com/stanley-utf8/healthy-ui"
-  
-# Add your configuration here

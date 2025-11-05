@@ -1,7 +1,0 @@
-# Configuration for Structgenius
-agent:
-  name: "Structgenius"
-  description: "Download boilerplate file structure of any tree diagram you give"
-  github_url: "https://github.com/jaadbarg/StructGenius](https://github.com/jaadbarg/StructGenius"
-  
-# Add your configuration here

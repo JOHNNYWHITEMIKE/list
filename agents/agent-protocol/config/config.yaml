@@ -1,7 +1,0 @@
-# Configuration for Agent Protocol
-agent:
-  name: "Agent Protocol"
-  description: "The Agent Protocol establishes a unified API standard for seamless interaction and integration across diverse AI agents, promoting ecosystem growth and simplification of agent development and benchmarking"
-  github_url: ""
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for LiteLLM
-agent:
-  name: "LiteLLM"
-  description: "LiteLLM has added support for the OpenAI Assistants API, enabling seamless integration of stateful operations and automatic RAG pipelines into existing chatbots"
-  github_url: "https://github.com/BerriAI/litellm](https://github.com/BerriAI/litellm"
-  
-# Add your configuration here

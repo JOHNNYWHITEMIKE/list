@@ -1,7 +1,0 @@
-# Configuration for Textcloak
-agent:
-  name: "Textcloak"
-  description: "A tool for concealing writing style using LLM"
-  github_url: "https://github.com/umutcamliyurt/TextCloak](https://github.com/umutcamliyurt/TextCloak"
-  
-# Add your configuration here

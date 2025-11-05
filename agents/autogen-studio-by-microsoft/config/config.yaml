@@ -1,7 +1,0 @@
-# Configuration for AutoGen Studio by Microsoft
-agent:
-  name: "AutoGen Studio by Microsoft"
-  description: "AutoGen Studio 2.0 is Microsoft's advanced AI development tool, offering a user-friendly interface, powerful Python API, and comprehensive features for creating and controlling AI agents and workflows"
-  github_url: "https://github.com/microsoft/autogen](https://github.com/microsoft/autogen"
-  
-# Add your configuration here

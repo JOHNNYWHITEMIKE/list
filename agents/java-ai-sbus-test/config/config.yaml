@@ -1,7 +1,0 @@
-# Configuration for Java-Ai-Sbus-Test
-agent:
-  name: "Java-Ai-Sbus-Test"
-  description: "Codeless Agent test with Azure ServiceBus"
-  github_url: "https://github.com/abhikt48/java-ai-sbus-test](https://github.com/abhikt48/java-ai-sbus-test"
-  
-# Add your configuration here

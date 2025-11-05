@@ -1,7 +1,0 @@
-# Configuration for Aomni
-agent:
-  name: "Aomni"
-  description: "This AI agent streamlines the process of researching prospective customers, potentially saving business development representatives hundreds of hours per year"
-  github_url: ""
-  
-# Add your configuration here

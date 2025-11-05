@@ -1,7 +1,0 @@
-# Configuration for Elm
-agent:
-  name: "Elm"
-  description: "ELM is a collection of utilities to apply Large Language Models (LLMs) to energy research."
-  github_url: "https://github.com/NREL/elm](https://github.com/NREL/elm"
-  
-# Add your configuration here

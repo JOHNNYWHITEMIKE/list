@@ -1,7 +1,0 @@
-# Configuration for Texera
-agent:
-  name: "Texera"
-  description: "Collaborative Machine-Learning-Centric Data Analytics Using Workflows"
-  github_url: "https://github.com/Texera/texera](https://github.com/Texera/texera"
-  
-# Add your configuration here

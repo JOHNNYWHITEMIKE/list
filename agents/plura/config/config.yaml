@@ -1,7 +1,0 @@
-# Configuration for Plura
-agent:
-  name: "Plura"
-  description: "Plura is a powerful tool for creating, managing, and deploying AI agents. Built with TypeScript, it helps you develop intelligent agents …"
-  github_url: "https://github.com/plura-ai/plura](https://github.com/plura-ai/plura"
-  
-# Add your configuration here

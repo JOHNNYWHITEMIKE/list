@@ -1,7 +1,0 @@
-# Configuration for Codel
-agent:
-  name: "Codel"
-  description: "Autonomous AI agent, inspired by Devin, designed for complex task execution with features like a secure sandboxed Docker environment, integrated browser for real-time web information, text editor, and PostgreSQL database for history tracking, highlighting its relevance to agentic AI through its ability to autonomously navigate and perform actions across terminal, browser, and editor interfaces"
-  github_url: "https://github.com/semanser/codel](https://github.com/semanser/codel"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Llm-S-Finetunning
-agent:
-  name: "Llm-S-Finetunning"
-  description: "This library offers tools to easily fine-tune large language models (LLMs) on custom datasets. It enhances pre-trained models for specifi…"
-  github_url: "https://github.com/Warishayat/LLM-s-Finetunning](https://github.com/Warishayat/LLM-s-Finetunning"
-  
-# Add your configuration here

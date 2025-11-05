@@ -1,7 +1,0 @@
-# Configuration for Agent-Ops
-agent:
-  name: "Agent-Ops"
-  description: "Developing an ai framework to deploy agents in production"
-  github_url: "https://github.com/rbisoi/agent-ops](https://github.com/rbisoi/agent-ops"
-  
-# Add your configuration here

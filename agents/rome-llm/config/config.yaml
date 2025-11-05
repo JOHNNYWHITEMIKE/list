@@ -1,7 +1,0 @@
-# Configuration for Rome-Llm
-agent:
-  name: "Rome-Llm"
-  description: "Tools for Recurrent Optimization via Machine Editing and related benchmarks"
-  github_url: "https://github.com/ajn313/ROME-LLM](https://github.com/ajn313/ROME-LLM"
-  
-# Add your configuration here

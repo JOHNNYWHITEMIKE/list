@@ -1,7 +1,0 @@
-# Configuration for N8N-Workflows
-agent:
-  name: "N8N-Workflows"
-  description: "My workflows for n8n automation"
-  github_url: "https://github.com/reorx/n8n-workflows](https://github.com/reorx/n8n-workflows"
-  
-# Add your configuration here

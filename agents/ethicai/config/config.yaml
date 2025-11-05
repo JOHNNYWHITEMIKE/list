@@ -1,7 +1,0 @@
-# Configuration for Ethicai
-agent:
-  name: "Ethicai"
-  description: "EthicAI is an interactive educational platform designed to make learning Artificial Intelligence (AI) ethics fun and easily accessible fo…"
-  github_url: "https://github.com/kwon514/EthicAI](https://github.com/kwon514/EthicAI"
-  
-# Add your configuration here

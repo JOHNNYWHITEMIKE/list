@@ -1,7 +1,0 @@
-# Configuration for Pytexas-Ethics-In-Ai---Shap
-agent:
-  name: "Pytexas-Ethics-In-Ai---Shap"
-  description: "Shapley Values Jupyter Notebook"
-  github_url: "https://github.com/LioGabriella/PyTexas-Ethics-in-AI---SHAP](https://github.com/LioGabriella/PyTexas-Ethics-in-AI---SHAP"
-  
-# Add your configuration here

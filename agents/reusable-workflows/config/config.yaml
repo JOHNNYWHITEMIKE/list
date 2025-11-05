@@ -1,7 +1,0 @@
-# Configuration for Reusable-Workflows
-agent:
-  name: "Reusable-Workflows"
-  description: "Reusable workflows for developing actions"
-  github_url: "https://github.com/actions/reusable-workflows](https://github.com/actions/reusable-workflows"
-  
-# Add your configuration here

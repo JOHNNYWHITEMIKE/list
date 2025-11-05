@@ -1,7 +1,0 @@
-# Configuration for Atomate2
-agent:
-  name: "Atomate2"
-  description: "atomate2 is a library of computational materials science workflows"
-  github_url: "https://github.com/materialsproject/atomate2](https://github.com/materialsproject/atomate2"
-  
-# Add your configuration here

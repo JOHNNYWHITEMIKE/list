@@ -1,7 +1,0 @@
-# Configuration for Kubernetes-Query-Agent
-agent:
-  name: "Kubernetes-Query-Agent"
-  description: "A demonstration of an AI agent that answers simple queries about apps deployed on a Kubernetes cluster."
-  github_url: "https://github.com/parteeksingh24/kubernetes-query-agent](https://github.com/parteeksingh24/kubernetes-query-agent"
-  
-# Add your configuration here

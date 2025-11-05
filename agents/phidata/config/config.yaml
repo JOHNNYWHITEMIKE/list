@@ -1,7 +1,0 @@
-# Configuration for Phidata
-agent:
-  name: "Phidata"
-  description: "Build multi-modal Agents with memory, knowledge, tools and reasoning. Chat with them using a beautiful Agent UI."
-  github_url: "https://github.com/phidatahq/phidata](https://github.com/phidatahq/phidata"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Reverse_Turing_Test
-agent:
-  name: "Reverse_Turing_Test"
-  description: "Can you outsmart the LLM-based AI agents?"
-  github_url: "https://github.com/nicomanzonelli/reverse_turing_test](https://github.com/nicomanzonelli/reverse_turing_test"
-  
-# Add your configuration here

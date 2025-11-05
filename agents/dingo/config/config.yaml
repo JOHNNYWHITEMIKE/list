@@ -1,7 +1,0 @@
-# Configuration for Dingo
-agent:
-  name: "Dingo"
-  description: "Dingo - A Comprehensive Data Quality Evaluation Tool"
-  github_url: "https://github.com/DataEval/dingo](https://github.com/DataEval/dingo"
-  
-# Add your configuration here

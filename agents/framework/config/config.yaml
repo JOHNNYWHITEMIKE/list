@@ -1,7 +1,0 @@
-# Configuration for Framework
-agent:
-  name: "Framework"
-  description: "Self-sustaining Python AI agent creating, deploying, and optimizing autonomous projects."
-  github_url: "https://github.com/isalineai/framework](https://github.com/isalineai/framework"
-  
-# Add your configuration here

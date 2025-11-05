@@ -1,7 +1,0 @@
-# Configuration for ChatGPT-code-preview
-agent:
-  name: "ChatGPT-code-preview"
-  description: "Artifacts-like chrome extension for ChatGPT, inspired by Claude 3.5 Sonnet, which requires CSP unblocker for JS to function"
-  github_url: "https://github.com/ykyritsis/ChatGPT-code-preview](https://github.com/ykyritsis/ChatGPT-code-preview"
-  
-# Add your configuration here

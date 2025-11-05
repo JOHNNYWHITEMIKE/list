@@ -1,7 +1,0 @@
-# Configuration for Obsidian-Flashcards-Llm
-agent:
-  name: "Obsidian-Flashcards-Llm"
-  description: "Use Large Language Models (such as ChatGPT) to automatically generate flashcards from obsidian notes"
-  github_url: "https://github.com/crybot/obsidian-flashcards-llm](https://github.com/crybot/obsidian-flashcards-llm"
-  
-# Add your configuration here

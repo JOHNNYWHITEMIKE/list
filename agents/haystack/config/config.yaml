@@ -1,7 +1,0 @@
-# Configuration for Haystack
-agent:
-  name: "Haystack"
-  description: "Haystack is an end-to-end LLM framework facilitating the construction of applications powered by LLMs, Transformer models, vector search, and more, offering flexibility, transparency, and extensibility, with features including retrieval-augmented generation, document search, question answering, and semantic search, along with a diverse user base including companies like Airbus, Apple, and Netflix"
-  github_url: "https://github.com/deepset-ai/haystack](https://github.com/deepset-ai/haystack"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Modelready
-agent:
-  name: "Modelready"
-  description: "Collection of tools for creating and running llama.cpp compatible LLMs"
-  github_url: "https://github.com/suparious/ModelReady](https://github.com/suparious/ModelReady"
-  
-# Add your configuration here

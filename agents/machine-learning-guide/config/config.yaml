@@ -1,7 +1,0 @@
-# Configuration for Machine-Learning-Guide
-agent:
-  name: "Machine-Learning-Guide"
-  description: "Machine learning Guide. Learn all about Machine Learning Tools, Libraries, Frameworks, Large Language Models (LLMs), and Training Models."
-  github_url: "https://github.com/mikeroyal/Machine-Learning-Guide](https://github.com/mikeroyal/Machine-Learning-Guide"
-  
-# Add your configuration here

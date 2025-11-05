@@ -1,7 +1,0 @@
-# Configuration for Rayder
-agent:
-  name: "Rayder"
-  description: "A lightweight tool for orchestrating and organizing your bug hunting recon / pentesting command-line workflows"
-  github_url: "https://github.com/devanshbatham/rayder](https://github.com/devanshbatham/rayder"
-  
-# Add your configuration here

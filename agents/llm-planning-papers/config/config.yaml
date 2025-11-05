@@ -1,7 +1,0 @@
-# Configuration for Llm-Planning-Papers
-agent:
-  name: "Llm-Planning-Papers"
-  description: "Must-read Papers on Large Language Model (LLM) Planning."
-  github_url: "https://github.com/AGI-Edgerunners/LLM-Planning-Papers](https://github.com/AGI-Edgerunners/LLM-Planning-Papers"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Baseai
-agent:
-  name: "Baseai"
-  description: "BaseAI — The Web AI Framework. The easiest way to build serverless autonomous AI agents with memory. Start building local-first, agentic …"
-  github_url: "https://github.com/LangbaseInc/BaseAI](https://github.com/LangbaseInc/BaseAI"
-  
-# Add your configuration here

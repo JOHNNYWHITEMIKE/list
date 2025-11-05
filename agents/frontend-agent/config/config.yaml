@@ -1,7 +1,0 @@
-# Configuration for Frontend-Agent
-agent:
-  name: "Frontend-Agent"
-  description: "Open-Source AI-Powered QA Tool for Automated UI Testing and Navigation."
-  github_url: "https://github.com/qodex-ai/frontend-agent](https://github.com/qodex-ai/frontend-agent"
-  
-# Add your configuration here

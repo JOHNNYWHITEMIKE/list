@@ -1,7 +1,0 @@
-# Configuration for Sg-Data-Analyst
-agent:
-  name: "Sg-Data-Analyst"
-  description: "LLMs as Data Analysts over Singapore Datasets 🤖"
-  github_url: "https://github.com/ivankqw/sg-data-analyst](https://github.com/ivankqw/sg-data-analyst"
-  
-# Add your configuration here

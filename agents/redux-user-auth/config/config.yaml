@@ -1,7 +1,0 @@
-# Configuration for Redux-User-Auth
-agent:
-  name: "Redux-User-Auth"
-  description: "User Authentication workflow made with the MERN stack"
-  github_url: "https://github.com/Chinwike1/redux-user-auth](https://github.com/Chinwike1/redux-user-auth"
-  
-# Add your configuration here

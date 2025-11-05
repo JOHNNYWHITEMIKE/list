@@ -1,7 +1,0 @@
-# Configuration for Speechllm
-agent:
-  name: "Speechllm"
-  description: "This repository contains the training, inference, evaluation code for SpeechLLM models and details about the model releases on huggingface."
-  github_url: "https://github.com/skit-ai/SpeechLLM](https://github.com/skit-ai/SpeechLLM"
-  
-# Add your configuration here

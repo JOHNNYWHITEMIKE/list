@@ -1,7 +1,0 @@
-# Configuration for Testai-Agent
-agent:
-  name: "Testai-Agent"
-  description: "write a test ai agent to write automated tests on PR requests"
-  github_url: "https://github.com/khanzzirfan/TestAI-Agent](https://github.com/khanzzirfan/TestAI-Agent"
-  
-# Add your configuration here

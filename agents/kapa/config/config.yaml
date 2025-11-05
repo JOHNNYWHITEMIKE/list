@@ -1,7 +1,0 @@
-# Configuration for Kapa
-agent:
-  name: "Kapa"
-  description: "Kapa.ai is an AI-powered chatbot service for developers that automates answering technical questions by learning from technical resources, thus helping identify gaps in documentation, with features including data security, PII anonymization, and continuous updating from a range of knowledge sources"
-  github_url: ""
-  
-# Add your configuration here

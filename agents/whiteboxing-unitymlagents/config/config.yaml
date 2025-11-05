@@ -1,7 +1,0 @@
-# Configuration for Whiteboxing-Unitymlagents
-agent:
-  name: "Whiteboxing-Unitymlagents"
-  description: "Experimental testbed where I test various Machine Learning & AI concepts using Unity ML Agents."
-  github_url: "https://github.com/ActiveNick/Whiteboxing-UnityMLAgents](https://github.com/ActiveNick/Whiteboxing-UnityMLAgents"
-  
-# Add your configuration here

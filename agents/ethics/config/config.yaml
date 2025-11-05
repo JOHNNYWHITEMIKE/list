@@ -1,7 +1,0 @@
-# Configuration for Ethics
-agent:
-  name: "Ethics"
-  description: "The repository contains a number of interesting resources on ethics in general, ethics of AI and the ethical concerns of AI in medecine."
-  github_url: "https://github.com/zulrich91/Ethics](https://github.com/zulrich91/Ethics"
-  
-# Add your configuration here

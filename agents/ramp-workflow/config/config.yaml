@@ -1,7 +1,0 @@
-# Configuration for Ramp-Workflow
-agent:
-  name: "Ramp-Workflow"
-  description: "Toolkit for building predictive workflows on top of pydata (pandas, scikit-learn, pytorch, keras, etc.)."
-  github_url: "https://github.com/paris-saclay-cds/ramp-workflow](https://github.com/paris-saclay-cds/ramp-workflow"
-  
-# Add your configuration here

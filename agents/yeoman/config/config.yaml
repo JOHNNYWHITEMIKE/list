@@ -1,7 +1,0 @@
-# Configuration for Yeoman
-agent:
-  name: "Yeoman"
-  description: "Yeoman - a set of tools for automating development workflow"
-  github_url: "https://github.com/yeoman/yeoman](https://github.com/yeoman/yeoman"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Awesome-Gpt-Prompt-Engineering
-agent:
-  name: "Awesome-Gpt-Prompt-Engineering"
-  description: "A curated list of awesome resources, tools, and other shiny things for LLM prompt engineering."
-  github_url: "https://github.com/snwfdhmp/awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering"
-  
-# Add your configuration here

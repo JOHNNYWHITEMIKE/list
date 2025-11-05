@@ -1,7 +1,0 @@
-# Configuration for Toolcommander
-agent:
-  name: "Toolcommander"
-  description: "Official implementation of "From Allies to Adversaries - Manipulating LLM Tool Scheduling through Adversarial Injection"."
-  github_url: "https://github.com/NicerWang/ToolCommander](https://github.com/NicerWang/ToolCommander"
-  
-# Add your configuration here

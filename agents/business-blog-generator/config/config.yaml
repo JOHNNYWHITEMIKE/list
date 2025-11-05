@@ -1,7 +1,0 @@
-# Configuration for Business-Blog-Generator
-agent:
-  name: "Business-Blog-Generator"
-  description: "Developed a simple web app that helps you write business articles on your topic of interest where I deployed a AI agent using crewAI that…"
-  github_url: "https://github.com/MuhammadSalmanAhmad/business-blog-generator](https://github.com/MuhammadSalmanAhmad/business-blog-generator"
-  
-# Add your configuration here

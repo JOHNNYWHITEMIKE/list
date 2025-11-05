@@ -1,7 +1,0 @@
-# Configuration for Ai-Agents-Tool-Dev
-agent:
-  name: "Ai-Agents-Tool-Dev"
-  description: "Multi-agent AI development system for automated tool creation and testing"
-  github_url: "https://github.com/aydinfer/ai-agents-tool-dev](https://github.com/aydinfer/ai-agents-tool-dev"
-  
-# Add your configuration here

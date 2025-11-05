@@ -1,7 +1,0 @@
-# Configuration for ChatGPT
-agent:
-  name: "ChatGPT"
-  description: "ChatGPT is an AI language model designed to understand and generate human-like text, facilitating conversation and assisting with various tasks"
-  github_url: ""
-  
-# Add your configuration here

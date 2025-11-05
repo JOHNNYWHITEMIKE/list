@@ -1,7 +1,0 @@
-# Configuration for Enact
-agent:
-  name: "Enact"
-  description: "Enact is a Python framework for building generative software that integrates machine learning models or APIs, offering features like tracking and replaying executions, asynchronous flows, and higher-order generative processes"
-  github_url: "https://github.com/agentic-ai/enact](https://github.com/agentic-ai/enact"
-  
-# Add your configuration here

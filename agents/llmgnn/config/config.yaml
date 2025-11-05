@@ -1,7 +1,0 @@
-# Configuration for Llmgnn
-agent:
-  name: "Llmgnn"
-  description: "Label-free Node Classification on Graphs with Large Language Models (LLMS)"
-  github_url: "https://github.com/CurryTang/LLMGNN](https://github.com/CurryTang/LLMGNN"
-  
-# Add your configuration here

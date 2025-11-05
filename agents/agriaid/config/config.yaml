@@ -1,7 +1,0 @@
-# Configuration for Agriaid
-agent:
-  name: "Agriaid"
-  description: "AgriAid is an AI-powered tool for farmers & agricultural agents in Bangladesh, offering plant disease forecasting & identification. Using…"
-  github_url: "https://github.com/shamspias/AgriAid](https://github.com/shamspias/AgriAid"
-  
-# Add your configuration here

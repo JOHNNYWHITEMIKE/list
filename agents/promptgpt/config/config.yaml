@@ -1,7 +1,0 @@
-# Configuration for Promptgpt
-agent:
-  name: "Promptgpt"
-  description: "PromptGPT is an opensource framework that enables users to automatically generate high-quality prompts with zero installations, coding ne…"
-  github_url: "https://github.com/howard9192/Promptgpt](https://github.com/howard9192/Promptgpt"
-  
-# Add your configuration here

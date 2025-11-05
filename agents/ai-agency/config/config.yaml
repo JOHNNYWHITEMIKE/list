@@ -1,7 +1,0 @@
-# Configuration for Ai-Agency
-agent:
-  name: "Ai-Agency"
-  description: "Testing Bed for AI Agents and Orchestration"
-  github_url: "https://github.com/Garcluca/AI-Agency](https://github.com/Garcluca/AI-Agency"
-  
-# Add your configuration here

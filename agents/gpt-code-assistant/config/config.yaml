@@ -1,7 +1,0 @@
-# Configuration for Gpt-Code-Assistant
-agent:
-  name: "Gpt-Code-Assistant"
-  description: "gpt-code-assistant is an open-source coding assistant leveraging language models to search, retrieve, explore and understand any codebase."
-  github_url: "https://github.com/narenmanoharan/gpt-code-assistant](https://github.com/narenmanoharan/gpt-code-assistant"
-  
-# Add your configuration here

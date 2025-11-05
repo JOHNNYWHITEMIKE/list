@@ -1,7 +1,0 @@
-# Configuration for Composio
-agent:
-  name: "Composio"
-  description: "Composio enables quick integration of 90+ tools for developers and agents, offering managed authentication, easy testing, and up-to-date APIs to simplify development and enhance functionality"
-  github_url: ""
-  
-# Add your configuration here

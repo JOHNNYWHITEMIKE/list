@@ -1,7 +1,0 @@
-# Configuration for Llm-Warden
-agent:
-  name: "Llm-Warden"
-  description: "A simple jailbreak detection tool for safeguarding LLMs."
-  github_url: "https://github.com/jackhhao/llm-warden](https://github.com/jackhhao/llm-warden"
-  
-# Add your configuration here

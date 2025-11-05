@@ -1,7 +1,0 @@
-# Configuration for Generative-Ai-With-Llms
-agent:
-  name: "Generative-Ai-With-Llms"
-  description: "In Generative AI with Large Language Models (LLMs), you’ll learn the fundamentals of how generative AI works, and how to deploy it in rea…"
-  github_url: "https://github.com/Ryota-Kawamura/Generative-AI-with-LLMs](https://github.com/Ryota-Kawamura/Generative-AI-with-LLMs"
-  
-# Add your configuration here

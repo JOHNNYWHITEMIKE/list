@@ -1,7 +1,0 @@
-# Configuration for B4-Agent-Test-06
-agent:
-  name: "B4-Agent-Test-06"
-  description: "b4-agent-test-06: cloudflare ai tool test"
-  github_url: "https://github.com/b4ke/b4-agent-test-06](https://github.com/b4ke/b4-agent-test-06"
-  
-# Add your configuration here

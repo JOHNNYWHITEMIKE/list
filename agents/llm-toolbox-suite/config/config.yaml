@@ -1,7 +1,0 @@
-# Configuration for Llm-Toolbox-Suite
-agent:
-  name: "Llm-Toolbox-Suite"
-  description: "LLM Toolbox Suite, a powerful and versatile set of tools designed to harness the capabilities of large language models for various produc…"
-  github_url: "https://github.com/SaurabhBadole/llm-toolbox-suite](https://github.com/SaurabhBadole/llm-toolbox-suite"
-  
-# Add your configuration here

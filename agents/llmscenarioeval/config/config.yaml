@@ -1,7 +1,0 @@
-# Configuration for Llmscenarioeval
-agent:
-  name: "Llmscenarioeval"
-  description: "Scenario-based Evaluation dataset for LLM (beta)"
-  github_url: "https://github.com/Turing-Project/LLMScenarioEval](https://github.com/Turing-Project/LLMScenarioEval"
-  
-# Add your configuration here

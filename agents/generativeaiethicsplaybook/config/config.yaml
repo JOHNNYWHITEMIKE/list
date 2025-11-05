@@ -1,7 +1,0 @@
-# Configuration for Generativeaiethicsplaybook
-agent:
-  name: "Generativeaiethicsplaybook"
-  description: "This is the color-coded pdf version of the Generative AI Ethics Playbook"
-  github_url: "https://github.com/jesmith14/GenerativeAIEthicsPlaybook](https://github.com/jesmith14/GenerativeAIEthicsPlaybook"
-  
-# Add your configuration here

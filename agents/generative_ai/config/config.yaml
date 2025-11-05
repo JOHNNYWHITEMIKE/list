@@ -1,7 +1,0 @@
-# Configuration for Generative_Ai
-agent:
-  name: "Generative_Ai"
-  description: "Kaggle Notebooks, Utility Scripts using Generative AI tools to check new models, fine tune models, test with various prompts, create Retr…"
-  github_url: "https://github.com/gabrielpreda/generative_ai](https://github.com/gabrielpreda/generative_ai"
-  
-# Add your configuration here

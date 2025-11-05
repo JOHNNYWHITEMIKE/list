@@ -1,7 +1,0 @@
-# Configuration for Argo-Workflows-Demo
-agent:
-  name: "Argo-Workflows-Demo"
-  description: "argo workflows"
-  github_url: "https://github.com/vfarcic/argo-workflows-demo](https://github.com/vfarcic/argo-workflows-demo"
-  
-# Add your configuration here

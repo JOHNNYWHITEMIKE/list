@@ -1,7 +1,0 @@
-# Configuration for Llm-Theory-Of-Mind
-agent:
-  name: "Llm-Theory-Of-Mind"
-  description: "Testing Theory of Mind (ToM) in language models with epistemic logic"
-  github_url: "https://github.com/sileod/llm-theory-of-mind](https://github.com/sileod/llm-theory-of-mind"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Card_Games_For_Mcts-Ann_Ai
-agent:
-  name: "Card_Games_For_Mcts-Ann_Ai"
-  description: "A simpified version of card game like bridge, made for testing MCTS+ANN Agents."
-  github_url: "https://github.com/symbol-zy/Card_Games_for_MCTS-ANN_AI](https://github.com/symbol-zy/Card_Games_for_MCTS-ANN_AI"
-  
-# Add your configuration here

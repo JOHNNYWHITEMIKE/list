@@ -1,7 +1,0 @@
-# Configuration for Vivliostyle-Cli
-agent:
-  name: "Vivliostyle-Cli"
-  description: "⚒ Supercharge command-line publication workflow."
-  github_url: "https://github.com/vivliostyle/vivliostyle-cli](https://github.com/vivliostyle/vivliostyle-cli"
-  
-# Add your configuration here

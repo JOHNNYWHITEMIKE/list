@@ -1,7 +1,0 @@
-# Configuration for Acm
-agent:
-  name: "Acm"
-  description: "A dead-simple AI-powered CLI tool for effortlessly crafting meaningful Git commit messages"
-  github_url: "https://github.com/dnanhkhoa/acm](https://github.com/dnanhkhoa/acm"
-  
-# Add your configuration here

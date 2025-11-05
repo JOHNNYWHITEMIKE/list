@@ -1,7 +1,0 @@
-# Configuration for Ai-Safety-Ethics
-agent:
-  name: "Ai-Safety-Ethics"
-  description: "A systematic review of papers related to AI safety"
-  github_url: "https://github.com/gyevnarb/ai-safety-ethics](https://github.com/gyevnarb/ai-safety-ethics"
-  
-# Add your configuration here

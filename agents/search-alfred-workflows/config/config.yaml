@@ -1,7 +1,0 @@
-# Configuration for Search-Alfred-Workflows
-agent:
-  name: "Search-Alfred-Workflows"
-  description: "Search Alfred Workflows"
-  github_url: "https://github.com/Acidham/search-alfred-workflows](https://github.com/Acidham/search-alfred-workflows"
-  
-# Add your configuration here

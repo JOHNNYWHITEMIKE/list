@@ -1,7 +1,0 @@
-# Configuration for Autogenbook
-agent:
-  name: "Autogenbook"
-  description: "🤖 📒 AutoGenBook is a Python-based tool that automatically generates books using LLMs. It creates chapters, sections, and subsections recu…"
-  github_url: "https://github.com/hooked-on-mas/AutoGenBook](https://github.com/hooked-on-mas/AutoGenBook"
-  
-# Add your configuration here

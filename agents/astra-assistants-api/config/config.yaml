@@ -1,7 +1,0 @@
-# Configuration for Astra Assistants API
-agent:
-  name: "Astra Assistants API"
-  description: "The `astra-assistants-api` provides a backend implementation of the OpenAI Assistants API with support for various features like persistent threads, files, assistants, streaming, function calling, and more, utilizing AstraDB powered by Apache Cassandra and jvector, and is compatible with existing OpenAI apps by changing a single line of code"
-  github_url: "https://github.com/datastax/astra-assistants-api](https://github.com/datastax/astra-assistants-api"
-  
-# Add your configuration here

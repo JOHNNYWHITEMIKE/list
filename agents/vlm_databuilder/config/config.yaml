@@ -1,7 +1,0 @@
-# Configuration for Vlm_Databuilder
-agent:
-  name: "Vlm_Databuilder"
-  description: "This SDK generates datasets for training Video LLMs from youtube videos."
-  github_url: "https://github.com/tensorsense/vlm_databuilder](https://github.com/tensorsense/vlm_databuilder"
-  
-# Add your configuration here

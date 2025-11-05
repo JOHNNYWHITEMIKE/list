@@ -1,7 +1,0 @@
-# Configuration for Aws-Swf-Flow-Library
-agent:
-  name: "Aws-Swf-Flow-Library"
-  description: "AWS Simple Workflow Flow framework library"
-  github_url: "https://github.com/aws/aws-swf-flow-library](https://github.com/aws/aws-swf-flow-library"
-  
-# Add your configuration here

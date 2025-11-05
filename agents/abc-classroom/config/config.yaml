@@ -1,7 +1,0 @@
-# Configuration for Abc-Classroom
-agent:
-  name: "Abc-Classroom"
-  description: "Tools to automate github classroom and autograding workflows"
-  github_url: "https://github.com/earthlab/abc-classroom](https://github.com/earthlab/abc-classroom"
-  
-# Add your configuration here

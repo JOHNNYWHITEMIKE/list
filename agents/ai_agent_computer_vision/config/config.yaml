@@ -1,7 +1,0 @@
-# Configuration for Ai_Agent_Computer_Vision
-agent:
-  name: "Ai_Agent_Computer_Vision"
-  description: "AI Agent designed to solve Raven's Progressive Matrices IQ Test"
-  github_url: "https://github.com/SamTaubman/AI_Agent_Computer_Vision](https://github.com/SamTaubman/AI_Agent_Computer_Vision"
-  
-# Add your configuration here

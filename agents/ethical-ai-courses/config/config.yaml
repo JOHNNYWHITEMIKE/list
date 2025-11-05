@@ -1,7 +1,0 @@
-# Configuration for Ethical-Ai-Courses
-agent:
-  name: "Ethical-Ai-Courses"
-  description: "A list of courses on Ethics in AI for self-learning."
-  github_url: "https://github.com/snehilsanyal/ethical-ai-courses](https://github.com/snehilsanyal/ethical-ai-courses"
-  
-# Add your configuration here

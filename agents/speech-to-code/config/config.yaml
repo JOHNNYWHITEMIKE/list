@@ -1,7 +1,0 @@
-# Configuration for Speech-To-Code
-agent:
-  name: "Speech-To-Code"
-  description: "llm assisted development tools"
-  github_url: "https://github.com/dharllc/speech-to-code](https://github.com/dharllc/speech-to-code"
-  
-# Add your configuration here

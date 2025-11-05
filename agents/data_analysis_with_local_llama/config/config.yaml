@@ -1,7 +1,0 @@
-# Configuration for Data_Analysis_With_Local_Llama
-agent:
-  name: "Data_Analysis_With_Local_Llama"
-  description: "Deploy an AI agent with via autogen and llama_index for making data analysis with your files"
-  github_url: "https://github.com/ErdenizUnvan/data_analysis_with_local_llama](https://github.com/ErdenizUnvan/data_analysis_with_local_llama"
-  
-# Add your configuration here

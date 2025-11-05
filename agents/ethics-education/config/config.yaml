@@ -1,7 +1,0 @@
-# Configuration for Ethics-Education
-agent:
-  name: "Ethics-Education"
-  description: "AI Ethics educational material 🤗"
-  github_url: "https://github.com/huggingface/ethics-education](https://github.com/huggingface/ethics-education"
-  
-# Add your configuration here

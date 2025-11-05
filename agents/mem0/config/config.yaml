@@ -1,7 +1,0 @@
-# Configuration for mem0
-agent:
-  name: "mem0"
-  description: "Mem0 is an intelligent memory layer for Large Language Models that enhances personalized AI experiences by retaining and utilizing contextual information across various applications."
-  github_url: "https://github.com/mem0ai/mem0](https://github.com/mem0ai/mem0"
-  
-# Add your configuration here

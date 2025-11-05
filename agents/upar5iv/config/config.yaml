@@ -1,7 +1,0 @@
-# Configuration for Upar5Iv
-agent:
-  name: "Upar5Iv"
-  description: "Convert ar5iv html dataset into LLM friendly format such .md and .json"
-  github_url: "https://github.com/veya2ztn/upar5iv](https://github.com/veya2ztn/upar5iv"
-  
-# Add your configuration here

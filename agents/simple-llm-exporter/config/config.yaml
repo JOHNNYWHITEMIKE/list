@@ -1,7 +1,0 @@
-# Configuration for Simple-Llm-Exporter
-agent:
-  name: "Simple-Llm-Exporter"
-  description: "a tool to export entire scripts to a text file with a file tree and description, for exporting to llm's"
-  github_url: "https://github.com/realityinspector/simple-llm-exporter](https://github.com/realityinspector/simple-llm-exporter"
-  
-# Add your configuration here

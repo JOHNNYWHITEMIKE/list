@@ -1,7 +1,0 @@
-# Configuration for Llm-Semantic-Duplicates
-agent:
-  name: "Llm-Semantic-Duplicates"
-  description: "about Semantic duplicates in datasets of llm"
-  github_url: "https://github.com/happyduck-313/llm-Semantic-duplicates](https://github.com/happyduck-313/llm-Semantic-duplicates"
-  
-# Add your configuration here

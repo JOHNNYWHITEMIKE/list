@@ -1,7 +1,0 @@
-# Configuration for Ai-Agent-Security
-agent:
-  name: "Ai-Agent-Security"
-  description: "This repository contains source code for the demos and attacks we present in our paper Security of AI Agents."
-  github_url: "https://github.com/SecurityLab-UCD/ai-agent-security](https://github.com/SecurityLab-UCD/ai-agent-security"
-  
-# Add your configuration here

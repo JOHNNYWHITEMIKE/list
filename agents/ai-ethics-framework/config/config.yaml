@@ -1,7 +1,0 @@
-# Configuration for Ai-Ethics-Framework
-agent:
-  name: "Ai-Ethics-Framework"
-  description: "Ethical questions, risks and issues to think about to help create responsible AI products and services"
-  github_url: "https://github.com/benbyford/ai-ethics-framework](https://github.com/benbyford/ai-ethics-framework"
-  
-# Add your configuration here

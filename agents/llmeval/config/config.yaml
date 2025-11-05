@@ -1,7 +1,0 @@
-# Configuration for Llmeval
-agent:
-  name: "Llmeval"
-  description: "Simple script to evaluate GPT 3.5 turbo on hugging face commonsense_qa dataset"
-  github_url: "https://github.com/cdolea331/LLMEval](https://github.com/cdolea331/LLMEval"
-  
-# Add your configuration here

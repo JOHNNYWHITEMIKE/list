@@ -1,7 +1,0 @@
-# Configuration for Moa-Groq-Langchain-Securityspecialist
-agent:
-  name: "Moa-Groq-Langchain-Securityspecialist"
-  description: "Mixture-of-Agents using Groq This Streamlit"
-  github_url: "https://github.com/TheJ-Erk400/moa-groq-langchain-securityspecialist](https://github.com/TheJ-Erk400/moa-groq-langchain-securityspecialist"
-  
-# Add your configuration here

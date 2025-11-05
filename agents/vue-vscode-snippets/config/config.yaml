@@ -1,7 +1,0 @@
-# Configuration for Vue-Vscode-Snippets
-agent:
-  name: "Vue-Vscode-Snippets"
-  description: "These snippets were built to supercharge my workflow in the most seamless manner possible."
-  github_url: "https://github.com/sdras/vue-vscode-snippets](https://github.com/sdras/vue-vscode-snippets"
-  
-# Add your configuration here

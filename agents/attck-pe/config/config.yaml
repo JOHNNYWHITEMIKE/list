@@ -1,7 +1,0 @@
-# Configuration for Attck-Pe
-agent:
-  name: "Attck-Pe"
-  description: "Levaraging the power of the ATT&CK Database to enrich an AI agent to deployed as a browser thread for Adversary Emulation from a container"
-  github_url: "https://github.com/cmndcntrlcyber/attck-pe](https://github.com/cmndcntrlcyber/attck-pe"
-  
-# Add your configuration here

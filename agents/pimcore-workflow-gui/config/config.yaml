@@ -1,7 +1,0 @@
-# Configuration for Pimcore-Workflow-Gui
-agent:
-  name: "Pimcore-Workflow-Gui"
-  description: "Adds a nice GUI to Pimcore Workflows"
-  github_url: "https://github.com/YouweGit/pimcore-workflow-gui](https://github.com/YouweGit/pimcore-workflow-gui"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Gazelle
-agent:
-  name: "Gazelle"
-  description: "Joint speech-language model - respond directly to audio!"
-  github_url: "https://github.com/tincans-ai/gazelle](https://github.com/tincans-ai/gazelle"
-  
-# Add your configuration here
