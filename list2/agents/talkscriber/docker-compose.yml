@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  talkscriber:
+    build: .
+    container_name: talkscriber
+    environment:
+      - AGENT_NAME=talkscriber
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

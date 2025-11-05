@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  deepgram:
+    build: .
+    container_name: deepgram
+    environment:
+      - AGENT_NAME=deepgram
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

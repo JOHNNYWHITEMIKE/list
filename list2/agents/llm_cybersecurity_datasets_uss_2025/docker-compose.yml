@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm_cybersecurity_datasets_uss_2025:
+    build: .
+    container_name: llm_cybersecurity_datasets_uss_2025
+    environment:
+      - AGENT_NAME=llm_cybersecurity_datasets_uss_2025
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

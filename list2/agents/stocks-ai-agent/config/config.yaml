@@ -1,0 +1,6 @@
+# Configuration for stocks-ai-agent
+agent:
+  name: stocks-ai-agent
+  version: 1.0.0
+  
+# Add your configuration here

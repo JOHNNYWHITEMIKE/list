@@ -1,0 +1,6 @@
+# Configuration for awesome-ai-sdks
+agent:
+  name: awesome-ai-sdks
+  version: 1.0.0
+  
+# Add your configuration here

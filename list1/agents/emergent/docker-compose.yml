@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  emergent:
+    build: .
+    container_name: emergent
+    environment:
+      - AGENT_NAME=emergent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

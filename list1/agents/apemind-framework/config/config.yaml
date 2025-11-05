@@ -1,0 +1,6 @@
+# Configuration for apemind-framework
+agent:
+  name: apemind-framework
+  version: 1.0.0
+  
+# Add your configuration here

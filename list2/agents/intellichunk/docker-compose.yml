@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  intellichunk:
+    build: .
+    container_name: intellichunk
+    environment:
+      - AGENT_NAME=intellichunk
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

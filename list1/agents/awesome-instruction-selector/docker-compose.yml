@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-instruction-selector:
+    build: .
+    container_name: awesome-instruction-selector
+    environment:
+      - AGENT_NAME=awesome-instruction-selector
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

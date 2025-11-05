@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  instructions-tuning-across-various-llms-with-alpaca-dataset:
+    build: .
+    container_name: instructions-tuning-across-various-llms-with-alpaca-dataset
+    environment:
+      - AGENT_NAME=instructions-tuning-across-various-llms-with-alpaca-dataset
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

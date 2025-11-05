@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ivycheck:
+    build: .
+    container_name: ivycheck
+    environment:
+      - AGENT_NAME=ivycheck
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

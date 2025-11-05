@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  airmageddon:
+    build: .
+    container_name: airmageddon
+    environment:
+      - AGENT_NAME=airmageddon
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

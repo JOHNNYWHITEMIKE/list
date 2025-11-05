@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  axflow:
+    build: .
+    container_name: axflow
+    environment:
+      - AGENT_NAME=axflow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

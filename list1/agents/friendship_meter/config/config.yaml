@@ -1,0 +1,6 @@
+# Configuration for friendship_meter
+agent:
+  name: friendship_meter
+  version: 1.0.0
+  
+# Add your configuration here

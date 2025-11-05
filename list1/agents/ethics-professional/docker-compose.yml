@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ethics-professional:
+    build: .
+    container_name: ethics-professional
+    environment:
+      - AGENT_NAME=ethics-professional
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

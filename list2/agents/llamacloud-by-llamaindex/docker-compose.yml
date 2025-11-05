@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llamacloud-by-llamaindex:
+    build: .
+    container_name: llamacloud-by-llamaindex
+    environment:
+      - AGENT_NAME=llamacloud-by-llamaindex
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

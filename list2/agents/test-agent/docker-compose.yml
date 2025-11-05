@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  test-agent:
+    build: .
+    container_name: test-agent
+    environment:
+      - AGENT_NAME=test-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

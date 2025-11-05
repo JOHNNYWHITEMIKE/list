@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cadea:
+    build: .
+    container_name: cadea
+    environment:
+      - AGENT_NAME=cadea
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

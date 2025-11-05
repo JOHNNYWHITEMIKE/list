@@ -1,0 +1,6 @@
+# Configuration for aws-swf-flow-library
+agent:
+  name: aws-swf-flow-library
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-ai-tools:
+    build: .
+    container_name: awesome-ai-tools
+    environment:
+      - AGENT_NAME=awesome-ai-tools
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

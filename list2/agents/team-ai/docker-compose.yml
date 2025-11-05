@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  team-ai:
+    build: .
+    container_name: team-ai
+    environment:
+      - AGENT_NAME=team-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

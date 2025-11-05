@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fuzztypes:
+    build: .
+    container_name: fuzztypes
+    environment:
+      - AGENT_NAME=fuzztypes
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

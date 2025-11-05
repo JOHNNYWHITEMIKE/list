@@ -1,0 +1,6 @@
+# Configuration for healthy-ui
+agent:
+  name: healthy-ui
+  version: 1.0.0
+  
+# Add your configuration here

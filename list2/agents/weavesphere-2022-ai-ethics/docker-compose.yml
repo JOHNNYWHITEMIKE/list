@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  weavesphere-2022-ai-ethics:
+    build: .
+    container_name: weavesphere-2022-ai-ethics
+    environment:
+      - AGENT_NAME=weavesphere-2022-ai-ethics
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gpt-engineer:
+    build: .
+    container_name: gpt-engineer
+    environment:
+      - AGENT_NAME=gpt-engineer
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  openai-swarm:
+    build: .
+    container_name: openai-swarm
+    environment:
+      - AGENT_NAME=openai-swarm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

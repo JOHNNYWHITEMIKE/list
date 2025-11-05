@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fireshell:
+    build: .
+    container_name: fireshell
+    environment:
+      - AGENT_NAME=fireshell
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

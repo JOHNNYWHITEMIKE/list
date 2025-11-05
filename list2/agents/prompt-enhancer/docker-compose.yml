@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  prompt-enhancer:
+    build: .
+    container_name: prompt-enhancer
+    environment:
+      - AGENT_NAME=prompt-enhancer
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

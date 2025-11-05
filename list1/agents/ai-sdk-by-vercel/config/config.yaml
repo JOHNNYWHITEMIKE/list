@@ -1,0 +1,6 @@
+# Configuration for ai-sdk-by-vercel
+agent:
+  name: ai-sdk-by-vercel
+  version: 1.0.0
+  
+# Add your configuration here

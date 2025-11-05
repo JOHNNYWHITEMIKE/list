@@ -1,0 +1,6 @@
+# Configuration for awesomellmapps
+agent:
+  name: awesomellmapps
+  version: 1.0.0
+  
+# Add your configuration here

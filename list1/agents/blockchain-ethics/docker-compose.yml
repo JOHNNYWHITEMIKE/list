@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  blockchain-ethics:
+    build: .
+    container_name: blockchain-ethics
+    environment:
+      - AGENT_NAME=blockchain-ethics
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for llm-dataset-converter-examples
+agent:
+  name: llm-dataset-converter-examples
+  version: 1.0.0
+  
+# Add your configuration here

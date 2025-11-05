@@ -1,0 +1,6 @@
+# Configuration for appworld-leaderboard
+agent:
+  name: appworld-leaderboard
+  version: 1.0.0
+  
+# Add your configuration here

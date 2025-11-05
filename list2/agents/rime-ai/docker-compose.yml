@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rime-ai:
+    build: .
+    container_name: rime-ai
+    environment:
+      - AGENT_NAME=rime-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

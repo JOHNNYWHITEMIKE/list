@@ -1,0 +1,6 @@
+# Configuration for redbaez-agent-builder-complete
+agent:
+  name: redbaez-agent-builder-complete
+  version: 1.0.0
+  
+# Add your configuration here

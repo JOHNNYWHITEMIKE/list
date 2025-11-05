@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  internintelligence_ai_ethics_and_bias_evaluation:
+    build: .
+    container_name: internintelligence_ai_ethics_and_bias_evaluation
+    environment:
+      - AGENT_NAME=internintelligence_ai_ethics_and_bias_evaluation
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

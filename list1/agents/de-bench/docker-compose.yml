@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  de-bench:
+    build: .
+    container_name: de-bench
+    environment:
+      - AGENT_NAME=de-bench
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

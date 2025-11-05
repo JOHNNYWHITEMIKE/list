@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cognitive-security-ai-powered-threat-agent-evaluation-for-impact-on-assets:
+    build: .
+    container_name: cognitive-security-ai-powered-threat-agent-evaluation-for-impact-on-assets
+    environment:
+      - AGENT_NAME=cognitive-security-ai-powered-threat-agent-evaluation-for-impact-on-assets
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

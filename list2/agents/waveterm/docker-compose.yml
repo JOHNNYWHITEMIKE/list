@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  waveterm:
+    build: .
+    container_name: waveterm
+    environment:
+      - AGENT_NAME=waveterm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

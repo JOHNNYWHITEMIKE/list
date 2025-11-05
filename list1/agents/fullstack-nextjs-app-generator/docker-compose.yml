@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fullstack-nextjs-app-generator:
+    build: .
+    container_name: fullstack-nextjs-app-generator
+    environment:
+      - AGENT_NAME=fullstack-nextjs-app-generator
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

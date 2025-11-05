@@ -1,0 +1,6 @@
+# Configuration for ethics-fairness-and-explanation-in-ai
+agent:
+  name: ethics-fairness-and-explanation-in-ai
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for ci-gha-workflow
+agent:
+  name: ci-gha-workflow
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  auto_web-gpt:
+    build: .
+    container_name: auto_web-gpt
+    environment:
+      - AGENT_NAME=auto_web-gpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

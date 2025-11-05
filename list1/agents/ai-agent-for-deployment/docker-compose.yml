@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-agent-for-deployment:
+    build: .
+    container_name: ai-agent-for-deployment
+    environment:
+      - AGENT_NAME=ai-agent-for-deployment
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

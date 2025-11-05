@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llmdataforge:
+    build: .
+    container_name: llmdataforge
+    environment:
+      - AGENT_NAME=llmdataforge
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for togetherai
+agent:
+  name: togetherai
+  version: 1.0.0
+  
+# Add your configuration here

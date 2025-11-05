@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  attention-viewer:
+    build: .
+    container_name: attention-viewer
+    environment:
+      - AGENT_NAME=attention-viewer
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

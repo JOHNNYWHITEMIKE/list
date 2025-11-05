@@ -1,0 +1,6 @@
+# Configuration for isaac_perceptor
+agent:
+  name: isaac_perceptor
+  version: 1.0.0
+  
+# Add your configuration here

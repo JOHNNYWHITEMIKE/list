@@ -1,0 +1,6 @@
+# Configuration for data-engineering
+agent:
+  name: data-engineering
+  version: 1.0.0
+  
+# Add your configuration here

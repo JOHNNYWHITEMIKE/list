@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fireai:
+    build: .
+    container_name: fireai
+    environment:
+      - AGENT_NAME=fireai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

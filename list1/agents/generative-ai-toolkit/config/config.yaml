@@ -1,0 +1,6 @@
+# Configuration for generative-ai-toolkit
+agent:
+  name: generative-ai-toolkit
+  version: 1.0.0
+  
+# Add your configuration here

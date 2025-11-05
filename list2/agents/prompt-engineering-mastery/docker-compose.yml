@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  prompt-engineering-mastery:
+    build: .
+    container_name: prompt-engineering-mastery
+    environment:
+      - AGENT_NAME=prompt-engineering-mastery
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

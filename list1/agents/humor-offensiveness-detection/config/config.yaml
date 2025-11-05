@@ -1,0 +1,6 @@
+# Configuration for humor-offensiveness-detection
+agent:
+  name: humor-offensiveness-detection
+  version: 1.0.0
+  
+# Add your configuration here

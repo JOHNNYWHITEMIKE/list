@@ -1,0 +1,6 @@
+# Configuration for brainsoup-custom-tools
+agent:
+  name: brainsoup-custom-tools
+  version: 1.0.0
+  
+# Add your configuration here

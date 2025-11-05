@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llmroofline:
+    build: .
+    container_name: llmroofline
+    environment:
+      - AGENT_NAME=llmroofline
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

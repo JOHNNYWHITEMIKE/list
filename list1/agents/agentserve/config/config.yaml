@@ -1,0 +1,6 @@
+# Configuration for agentserve
+agent:
+  name: agentserve
+  version: 1.0.0
+  
+# Add your configuration here

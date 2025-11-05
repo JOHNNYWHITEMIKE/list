@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai4all:
+    build: .
+    container_name: ai4all
+    environment:
+      - AGENT_NAME=ai4all
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

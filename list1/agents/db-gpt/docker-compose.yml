@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  db-gpt:
+    build: .
+    container_name: db-gpt
+    environment:
+      - AGENT_NAME=db-gpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

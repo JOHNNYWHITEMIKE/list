@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  prompt2ui-by-sullyo:
+    build: .
+    container_name: prompt2ui-by-sullyo
+    environment:
+      - AGENT_NAME=prompt2ui-by-sullyo
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

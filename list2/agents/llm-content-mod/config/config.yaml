@@ -1,0 +1,6 @@
+# Configuration for llm-content-mod
+agent:
+  name: llm-content-mod
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tago:
+    build: .
+    container_name: tago
+    environment:
+      - AGENT_NAME=tago
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

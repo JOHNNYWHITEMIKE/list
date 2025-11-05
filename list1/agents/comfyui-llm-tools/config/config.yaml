@@ -1,0 +1,6 @@
+# Configuration for comfyui-llm-tools
+agent:
+  name: comfyui-llm-tools
+  version: 1.0.0
+  
+# Add your configuration here

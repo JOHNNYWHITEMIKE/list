@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-in-medicine:
+    build: .
+    container_name: ai-in-medicine
+    environment:
+      - AGENT_NAME=ai-in-medicine
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  finetuned-qlora-llama7b-mental-health:
+    build: .
+    container_name: finetuned-qlora-llama7b-mental-health
+    environment:
+      - AGENT_NAME=finetuned-qlora-llama7b-mental-health
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

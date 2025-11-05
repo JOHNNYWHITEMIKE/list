@@ -1,0 +1,6 @@
+# Configuration for biasbounty1_humaneintelligence
+agent:
+  name: biasbounty1_humaneintelligence
+  version: 1.0.0
+  
+# Add your configuration here

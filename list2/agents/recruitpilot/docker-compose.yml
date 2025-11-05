@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  recruitpilot:
+    build: .
+    container_name: recruitpilot
+    environment:
+      - AGENT_NAME=recruitpilot
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

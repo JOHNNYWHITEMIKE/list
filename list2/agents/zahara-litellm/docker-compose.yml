@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  zahara-litellm:
+    build: .
+    container_name: zahara-litellm
+    environment:
+      - AGENT_NAME=zahara-litellm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

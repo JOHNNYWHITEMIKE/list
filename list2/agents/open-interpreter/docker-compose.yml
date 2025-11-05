@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  open-interpreter:
+    build: .
+    container_name: open-interpreter
+    environment:
+      - AGENT_NAME=open-interpreter
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

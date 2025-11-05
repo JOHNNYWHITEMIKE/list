@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  atomate2:
+    build: .
+    container_name: atomate2
+    environment:
+      - AGENT_NAME=atomate2
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

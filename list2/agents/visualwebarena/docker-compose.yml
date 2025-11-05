@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  visualwebarena:
+    build: .
+    container_name: visualwebarena
+    environment:
+      - AGENT_NAME=visualwebarena
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

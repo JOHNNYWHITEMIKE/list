@@ -1,0 +1,6 @@
+# Configuration for ai-agent-security
+agent:
+  name: ai-agent-security
+  version: 1.0.0
+  
+# Add your configuration here

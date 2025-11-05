@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tarsier-by-reworkd:
+    build: .
+    container_name: tarsier-by-reworkd
+    environment:
+      - AGENT_NAME=tarsier-by-reworkd
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

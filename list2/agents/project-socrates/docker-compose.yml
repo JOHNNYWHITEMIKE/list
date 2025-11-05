@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  project-socrates:
+    build: .
+    container_name: project-socrates
+    environment:
+      - AGENT_NAME=project-socrates
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

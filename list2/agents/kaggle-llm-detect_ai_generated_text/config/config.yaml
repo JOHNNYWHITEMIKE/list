@@ -1,0 +1,6 @@
+# Configuration for kaggle-llm-detect_ai_generated_text
+agent:
+  name: kaggle-llm-detect_ai_generated_text
+  version: 1.0.0
+  
+# Add your configuration here

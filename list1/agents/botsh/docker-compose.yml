@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  botsh:
+    build: .
+    container_name: botsh
+    environment:
+      - AGENT_NAME=botsh
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

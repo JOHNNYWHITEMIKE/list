@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  adfa2:
+    build: .
+    container_name: adfa2
+    environment:
+      - AGENT_NAME=adfa2
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

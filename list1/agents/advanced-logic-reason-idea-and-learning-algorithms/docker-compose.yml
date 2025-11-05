@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  advanced-logic-reason-idea-and-learning-algorithms:
+    build: .
+    container_name: advanced-logic-reason-idea-and-learning-algorithms
+    environment:
+      - AGENT_NAME=advanced-logic-reason-idea-and-learning-algorithms
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

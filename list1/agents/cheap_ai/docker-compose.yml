@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cheap_ai:
+    build: .
+    container_name: cheap_ai
+    environment:
+      - AGENT_NAME=cheap_ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

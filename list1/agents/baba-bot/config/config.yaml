@@ -1,0 +1,6 @@
+# Configuration for baba-bot
+agent:
+  name: baba-bot
+  version: 1.0.0
+  
+# Add your configuration here

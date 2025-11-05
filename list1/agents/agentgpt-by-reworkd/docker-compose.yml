@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentgpt-by-reworkd:
+    build: .
+    container_name: agentgpt-by-reworkd
+    environment:
+      - AGENT_NAME=agentgpt-by-reworkd
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

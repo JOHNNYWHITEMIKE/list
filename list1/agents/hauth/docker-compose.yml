@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  hauth:
+    build: .
+    container_name: hauth
+    environment:
+      - AGENT_NAME=hauth
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

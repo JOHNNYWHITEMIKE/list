@@ -1,0 +1,6 @@
+# Configuration for philosophical_ai_chatbot
+agent:
+  name: philosophical_ai_chatbot
+  version: 1.0.0
+  
+# Add your configuration here

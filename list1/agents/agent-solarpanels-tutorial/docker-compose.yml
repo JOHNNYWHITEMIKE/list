@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agent-solarpanels-tutorial:
+    build: .
+    container_name: agent-solarpanels-tutorial
+    environment:
+      - AGENT_NAME=agent-solarpanels-tutorial
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

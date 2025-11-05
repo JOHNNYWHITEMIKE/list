@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pyspur:
+    build: .
+    container_name: pyspur
+    environment:
+      - AGENT_NAME=pyspur
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

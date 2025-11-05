@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm4mol:
+    build: .
+    container_name: llm4mol
+    environment:
+      - AGENT_NAME=llm4mol
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

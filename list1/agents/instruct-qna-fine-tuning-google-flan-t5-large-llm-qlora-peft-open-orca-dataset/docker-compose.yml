@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  instruct-qna-fine-tuning-google-flan-t5-large-llm-qlora-peft-open-orca-dataset:
+    build: .
+    container_name: instruct-qna-fine-tuning-google-flan-t5-large-llm-qlora-peft-open-orca-dataset
+    environment:
+      - AGENT_NAME=instruct-qna-fine-tuning-google-flan-t5-large-llm-qlora-peft-open-orca-dataset
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

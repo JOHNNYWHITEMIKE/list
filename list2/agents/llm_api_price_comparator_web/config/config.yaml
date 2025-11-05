@@ -1,0 +1,6 @@
+# Configuration for llm_api_price_comparator_web
+agent:
+  name: llm_api_price_comparator_web
+  version: 1.0.0
+  
+# Add your configuration here

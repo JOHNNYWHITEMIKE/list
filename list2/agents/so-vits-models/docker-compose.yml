@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  so-vits-models:
+    build: .
+    container_name: so-vits-models
+    environment:
+      - AGENT_NAME=so-vits-models
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

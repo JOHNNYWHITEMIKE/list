@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  argo-python-dsl:
+    build: .
+    container_name: argo-python-dsl
+    environment:
+      - AGENT_NAME=argo-python-dsl
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

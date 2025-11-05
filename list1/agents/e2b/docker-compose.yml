@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  e2b:
+    build: .
+    container_name: e2b
+    environment:
+      - AGENT_NAME=e2b
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

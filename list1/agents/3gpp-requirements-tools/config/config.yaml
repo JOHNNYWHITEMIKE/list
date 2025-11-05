@@ -1,0 +1,6 @@
+# Configuration for 3gpp-requirements-tools
+agent:
+  name: 3gpp-requirements-tools
+  version: 1.0.0
+  
+# Add your configuration here

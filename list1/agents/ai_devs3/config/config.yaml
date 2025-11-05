@@ -1,0 +1,6 @@
+# Configuration for ai_devs3
+agent:
+  name: ai_devs3
+  version: 1.0.0
+  
+# Add your configuration here

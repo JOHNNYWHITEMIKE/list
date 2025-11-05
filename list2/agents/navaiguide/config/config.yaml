@@ -1,0 +1,6 @@
+# Configuration for navaiguide
+agent:
+  name: navaiguide
+  version: 1.0.0
+  
+# Add your configuration here

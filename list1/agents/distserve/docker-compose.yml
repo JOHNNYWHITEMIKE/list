@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  distserve:
+    build: .
+    container_name: distserve
+    environment:
+      - AGENT_NAME=distserve
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

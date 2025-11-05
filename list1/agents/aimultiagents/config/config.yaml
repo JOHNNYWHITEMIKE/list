@@ -1,0 +1,6 @@
+# Configuration for aimultiagents
+agent:
+  name: aimultiagents
+  version: 1.0.0
+  
+# Add your configuration here

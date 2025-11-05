@@ -1,0 +1,6 @@
+# Configuration for get-things-done-with-prompt-engineering-and-langchain
+agent:
+  name: get-things-done-with-prompt-engineering-and-langchain
+  version: 1.0.0
+  
+# Add your configuration here

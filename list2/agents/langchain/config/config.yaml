@@ -1,0 +1,6 @@
+# Configuration for langchain
+agent:
+  name: langchain
+  version: 1.0.0
+  
+# Add your configuration here

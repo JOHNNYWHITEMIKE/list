@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-toolbox:
+    build: .
+    container_name: ai-toolbox
+    environment:
+      - AGENT_NAME=ai-toolbox
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

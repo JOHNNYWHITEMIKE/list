@@ -1,0 +1,6 @@
+# Configuration for stock-analysis-with-llm
+agent:
+  name: stock-analysis-with-llm
+  version: 1.0.0
+  
+# Add your configuration here

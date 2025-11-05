@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  risks-of-narrow-ai:
+    build: .
+    container_name: risks-of-narrow-ai
+    environment:
+      - AGENT_NAME=risks-of-narrow-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

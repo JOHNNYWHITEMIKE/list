@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vitalhome-chat:
+    build: .
+    container_name: vitalhome-chat
+    environment:
+      - AGENT_NAME=vitalhome-chat
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

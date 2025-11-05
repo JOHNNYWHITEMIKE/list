@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-prompt-engineering-zh-cn:
+    build: .
+    container_name: awesome-prompt-engineering-zh-cn
+    environment:
+      - AGENT_NAME=awesome-prompt-engineering-zh-cn
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

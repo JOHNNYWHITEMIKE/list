@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  snakeai:
+    build: .
+    container_name: snakeai
+    environment:
+      - AGENT_NAME=snakeai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

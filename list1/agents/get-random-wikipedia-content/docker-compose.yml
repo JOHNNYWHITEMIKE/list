@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  get-random-wikipedia-content:
+    build: .
+    container_name: get-random-wikipedia-content
+    environment:
+      - AGENT_NAME=get-random-wikipedia-content
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

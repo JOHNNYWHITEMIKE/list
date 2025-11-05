@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  weblinx:
+    build: .
+    container_name: weblinx
+    environment:
+      - AGENT_NAME=weblinx
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

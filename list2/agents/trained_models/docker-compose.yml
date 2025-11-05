@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  trained_models:
+    build: .
+    container_name: trained_models
+    environment:
+      - AGENT_NAME=trained_models
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

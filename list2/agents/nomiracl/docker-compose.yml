@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nomiracl:
+    build: .
+    container_name: nomiracl
+    environment:
+      - AGENT_NAME=nomiracl
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

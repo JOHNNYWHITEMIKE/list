@@ -1,0 +1,6 @@
+# Configuration for software-dev-prompt-library
+agent:
+  name: software-dev-prompt-library
+  version: 1.0.0
+  
+# Add your configuration here

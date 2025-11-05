@@ -1,0 +1,6 @@
+# Configuration for finetuned-qlora-llama7b-mental-health
+agent:
+  name: finetuned-qlora-llama7b-mental-health
+  version: 1.0.0
+  
+# Add your configuration here

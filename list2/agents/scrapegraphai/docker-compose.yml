@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  scrapegraphai:
+    build: .
+    container_name: scrapegraphai
+    environment:
+      - AGENT_NAME=scrapegraphai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

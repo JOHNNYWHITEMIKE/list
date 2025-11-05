@@ -1,0 +1,6 @@
+# Configuration for fireai
+agent:
+  name: fireai
+  version: 1.0.0
+  
+# Add your configuration here

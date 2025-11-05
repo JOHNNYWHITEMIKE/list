@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  multi-pdfs_chatapp_ai-agent:
+    build: .
+    container_name: multi-pdfs_chatapp_ai-agent
+    environment:
+      - AGENT_NAME=multi-pdfs_chatapp_ai-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

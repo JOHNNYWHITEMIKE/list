@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mendable:
+    build: .
+    container_name: mendable
+    environment:
+      - AGENT_NAME=mendable
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

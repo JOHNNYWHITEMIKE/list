@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  crewai:
+    build: .
+    container_name: crewai
+    environment:
+      - AGENT_NAME=crewai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

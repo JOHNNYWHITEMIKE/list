@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bktask:
+    build: .
+    container_name: bktask
+    environment:
+      - AGENT_NAME=bktask
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  txtai:
+    build: .
+    container_name: txtai
+    environment:
+      - AGENT_NAME=txtai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

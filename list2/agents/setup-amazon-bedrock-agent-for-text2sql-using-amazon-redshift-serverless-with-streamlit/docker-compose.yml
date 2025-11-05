@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  setup-amazon-bedrock-agent-for-text2sql-using-amazon-redshift-serverless-with-streamlit:
+    build: .
+    container_name: setup-amazon-bedrock-agent-for-text2sql-using-amazon-redshift-serverless-with-streamlit
+    environment:
+      - AGENT_NAME=setup-amazon-bedrock-agent-for-text2sql-using-amazon-redshift-serverless-with-streamlit
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

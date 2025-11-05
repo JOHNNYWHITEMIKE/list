@@ -1,0 +1,6 @@
+# Configuration for ethiquest-ai-dilemma-game
+agent:
+  name: ethiquest-ai-dilemma-game
+  version: 1.0.0
+  
+# Add your configuration here

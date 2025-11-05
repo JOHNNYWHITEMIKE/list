@@ -1,0 +1,6 @@
+# Configuration for llm-security-101
+agent:
+  name: llm-security-101
+  version: 1.0.0
+  
+# Add your configuration here

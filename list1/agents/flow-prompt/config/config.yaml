@@ -1,0 +1,6 @@
+# Configuration for flow-prompt
+agent:
+  name: flow-prompt
+  version: 1.0.0
+  
+# Add your configuration here

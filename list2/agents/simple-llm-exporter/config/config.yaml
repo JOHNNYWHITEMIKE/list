@@ -1,0 +1,6 @@
+# Configuration for simple-llm-exporter
+agent:
+  name: simple-llm-exporter
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rasflow:
+    build: .
+    container_name: rasflow
+    environment:
+      - AGENT_NAME=rasflow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

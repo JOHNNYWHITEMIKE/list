@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vanilla-parcel-boilerplate:
+    build: .
+    container_name: vanilla-parcel-boilerplate
+    environment:
+      - AGENT_NAME=vanilla-parcel-boilerplate
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

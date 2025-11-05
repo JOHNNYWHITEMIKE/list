@@ -1,0 +1,6 @@
+# Configuration for debugai
+agent:
+  name: debugai
+  version: 1.0.0
+  
+# Add your configuration here

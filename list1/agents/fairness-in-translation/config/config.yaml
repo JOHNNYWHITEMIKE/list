@@ -1,0 +1,6 @@
+# Configuration for fairness-in-translation
+agent:
+  name: fairness-in-translation
+  version: 1.0.0
+  
+# Add your configuration here

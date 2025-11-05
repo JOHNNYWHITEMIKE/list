@@ -1,0 +1,6 @@
+# Configuration for maestro
+agent:
+  name: maestro
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tactic:
+    build: .
+    container_name: tactic
+    environment:
+      - AGENT_NAME=tactic
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

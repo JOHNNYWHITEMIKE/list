@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  anygpt:
+    build: .
+    container_name: anygpt
+    environment:
+      - AGENT_NAME=anygpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  yzv103e-intrtoai-dataeng-ethics:
+    build: .
+    container_name: yzv103e-intrtoai-dataeng-ethics
+    environment:
+      - AGENT_NAME=yzv103e-intrtoai-dataeng-ethics
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

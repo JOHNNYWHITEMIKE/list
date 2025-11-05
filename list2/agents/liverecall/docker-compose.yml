@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  liverecall:
+    build: .
+    container_name: liverecall
+    environment:
+      - AGENT_NAME=liverecall
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

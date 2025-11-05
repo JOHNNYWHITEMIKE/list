@@ -1,0 +1,6 @@
+# Configuration for airline-api
+agent:
+  name: airline-api
+  version: 1.0.0
+  
+# Add your configuration here

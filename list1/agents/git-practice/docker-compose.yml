@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  git-practice:
+    build: .
+    container_name: git-practice
+    environment:
+      - AGENT_NAME=git-practice
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

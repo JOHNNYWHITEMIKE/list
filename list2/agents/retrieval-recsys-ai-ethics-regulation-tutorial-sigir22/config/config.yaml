@@ -1,0 +1,6 @@
+# Configuration for retrieval-recsys-ai-ethics-regulation-tutorial-sigir22
+agent:
+  name: retrieval-recsys-ai-ethics-regulation-tutorial-sigir22
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-agent-benchmark-list:
+    build: .
+    container_name: llm-agent-benchmark-list
+    environment:
+      - AGENT_NAME=llm-agent-benchmark-list
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

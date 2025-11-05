@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  aios:
+    build: .
+    container_name: aios
+    environment:
+      - AGENT_NAME=aios
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

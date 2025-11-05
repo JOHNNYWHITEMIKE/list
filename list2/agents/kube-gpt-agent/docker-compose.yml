@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  kube-gpt-agent:
+    build: .
+    container_name: kube-gpt-agent
+    environment:
+      - AGENT_NAME=kube-gpt-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

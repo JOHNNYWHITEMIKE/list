@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  publish-packages:
+    build: .
+    container_name: publish-packages
+    environment:
+      - AGENT_NAME=publish-packages
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

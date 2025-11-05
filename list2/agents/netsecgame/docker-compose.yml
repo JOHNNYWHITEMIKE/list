@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  netsecgame:
+    build: .
+    container_name: netsecgame
+    environment:
+      - AGENT_NAME=netsecgame
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

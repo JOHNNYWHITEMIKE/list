@@ -1,0 +1,6 @@
+# Configuration for langsmith-by-langchain
+agent:
+  name: langsmith-by-langchain
+  version: 1.0.0
+  
+# Add your configuration here

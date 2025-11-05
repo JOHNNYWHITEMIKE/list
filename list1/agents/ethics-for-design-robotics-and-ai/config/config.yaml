@@ -1,0 +1,6 @@
+# Configuration for ethics-for-design-robotics-and-ai
+agent:
+  name: ethics-for-design-robotics-and-ai
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for lobe-chat
+agent:
+  name: lobe-chat
+  version: 1.0.0
+  
+# Add your configuration here

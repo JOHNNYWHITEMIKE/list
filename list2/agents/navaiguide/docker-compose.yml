@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  navaiguide:
+    build: .
+    container_name: navaiguide
+    environment:
+      - AGENT_NAME=navaiguide
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

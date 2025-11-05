@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  baba-bot:
+    build: .
+    container_name: baba-bot
+    environment:
+      - AGENT_NAME=baba-bot
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

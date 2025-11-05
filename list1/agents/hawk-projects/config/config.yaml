@@ -1,0 +1,6 @@
+# Configuration for hawk-projects
+agent:
+  name: hawk-projects
+  version: 1.0.0
+  
+# Add your configuration here

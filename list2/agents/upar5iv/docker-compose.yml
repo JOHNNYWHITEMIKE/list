@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  upar5iv:
+    build: .
+    container_name: upar5iv
+    environment:
+      - AGENT_NAME=upar5iv
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

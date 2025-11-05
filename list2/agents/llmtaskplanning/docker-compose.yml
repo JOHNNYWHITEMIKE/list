@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llmtaskplanning:
+    build: .
+    container_name: llmtaskplanning
+    environment:
+      - AGENT_NAME=llmtaskplanning
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

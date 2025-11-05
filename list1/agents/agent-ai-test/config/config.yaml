@@ -1,0 +1,6 @@
+# Configuration for agent-ai-test
+agent:
+  name: agent-ai-test
+  version: 1.0.0
+  
+# Add your configuration here

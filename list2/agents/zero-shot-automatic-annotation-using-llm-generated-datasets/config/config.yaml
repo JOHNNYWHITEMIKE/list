@@ -1,0 +1,6 @@
+# Configuration for zero-shot-automatic-annotation-using-llm-generated-datasets
+agent:
+  name: zero-shot-automatic-annotation-using-llm-generated-datasets
+  version: 1.0.0
+  
+# Add your configuration here

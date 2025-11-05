@@ -1,0 +1,6 @@
+# Configuration for agentbench
+agent:
+  name: agentbench
+  version: 1.0.0
+  
+# Add your configuration here

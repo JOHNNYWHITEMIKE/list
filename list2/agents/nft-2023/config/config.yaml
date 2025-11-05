@@ -1,0 +1,6 @@
+# Configuration for nft-2023
+agent:
+  name: nft-2023
+  version: 1.0.0
+  
+# Add your configuration here

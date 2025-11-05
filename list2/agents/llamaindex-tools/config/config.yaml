@@ -1,0 +1,6 @@
+# Configuration for llamaindex-tools
+agent:
+  name: llamaindex-tools
+  version: 1.0.0
+  
+# Add your configuration here

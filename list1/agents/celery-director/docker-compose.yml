@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  celery-director:
+    build: .
+    container_name: celery-director
+    environment:
+      - AGENT_NAME=celery-director
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

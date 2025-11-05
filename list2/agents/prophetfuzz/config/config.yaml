@@ -1,0 +1,6 @@
+# Configuration for prophetfuzz
+agent:
+  name: prophetfuzz
+  version: 1.0.0
+  
+# Add your configuration here

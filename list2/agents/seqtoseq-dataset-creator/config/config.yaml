@@ -1,0 +1,6 @@
+# Configuration for seqtoseq-dataset-creator
+agent:
+  name: seqtoseq-dataset-creator
+  version: 1.0.0
+  
+# Add your configuration here

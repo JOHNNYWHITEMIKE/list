@@ -1,0 +1,6 @@
+# Configuration for sphnx
+agent:
+  name: sphnx
+  version: 1.0.0
+  
+# Add your configuration here

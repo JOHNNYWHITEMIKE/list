@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mergekit:
+    build: .
+    container_name: mergekit
+    environment:
+      - AGENT_NAME=mergekit
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

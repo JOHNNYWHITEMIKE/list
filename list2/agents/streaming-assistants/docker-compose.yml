@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  streaming-assistants:
+    build: .
+    container_name: streaming-assistants
+    environment:
+      - AGENT_NAME=streaming-assistants
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

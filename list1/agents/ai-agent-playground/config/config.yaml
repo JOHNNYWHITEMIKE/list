@@ -1,0 +1,6 @@
+# Configuration for ai-agent-playground
+agent:
+  name: ai-agent-playground
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bdr-agent-by-relevance:
+    build: .
+    container_name: bdr-agent-by-relevance
+    environment:
+      - AGENT_NAME=bdr-agent-by-relevance
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

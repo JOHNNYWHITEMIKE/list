@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  conversation-data:
+    build: .
+    container_name: conversation-data
+    environment:
+      - AGENT_NAME=conversation-data
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

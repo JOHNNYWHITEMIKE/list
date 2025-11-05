@@ -1,0 +1,6 @@
+# Configuration for github-actions
+agent:
+  name: github-actions
+  version: 1.0.0
+  
+# Add your configuration here

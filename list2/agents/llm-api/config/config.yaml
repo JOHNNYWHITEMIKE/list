@@ -1,0 +1,6 @@
+# Configuration for llm-api
+agent:
+  name: llm-api
+  version: 1.0.0
+  
+# Add your configuration here

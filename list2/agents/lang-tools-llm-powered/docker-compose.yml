@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lang-tools-llm-powered:
+    build: .
+    container_name: lang-tools-llm-powered
+    environment:
+      - AGENT_NAME=lang-tools-llm-powered
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

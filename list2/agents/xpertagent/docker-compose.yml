@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  xpertagent:
+    build: .
+    container_name: xpertagent
+    environment:
+      - AGENT_NAME=xpertagent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

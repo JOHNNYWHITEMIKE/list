@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  hawk-projects:
+    build: .
+    container_name: hawk-projects
+    environment:
+      - AGENT_NAME=hawk-projects
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

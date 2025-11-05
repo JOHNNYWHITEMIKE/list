@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  multiagents-infinite-backroom:
+    build: .
+    container_name: multiagents-infinite-backroom
+    environment:
+      - AGENT_NAME=multiagents-infinite-backroom
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

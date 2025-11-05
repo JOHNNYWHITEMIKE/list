@@ -1,0 +1,6 @@
+# Configuration for tinyllm
+agent:
+  name: tinyllm
+  version: 1.0.0
+  
+# Add your configuration here

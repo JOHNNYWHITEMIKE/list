@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  git-smart:
+    build: .
+    container_name: git-smart
+    environment:
+      - AGENT_NAME=git-smart
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

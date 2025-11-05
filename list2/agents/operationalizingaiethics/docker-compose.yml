@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  operationalizingaiethics:
+    build: .
+    container_name: operationalizingaiethics
+    environment:
+      - AGENT_NAME=operationalizingaiethics
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

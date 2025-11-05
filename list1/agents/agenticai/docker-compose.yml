@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agenticai:
+    build: .
+    container_name: agenticai
+    environment:
+      - AGENT_NAME=agenticai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

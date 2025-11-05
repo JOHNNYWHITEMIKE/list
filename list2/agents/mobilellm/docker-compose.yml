@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mobilellm:
+    build: .
+    container_name: mobilellm
+    environment:
+      - AGENT_NAME=mobilellm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

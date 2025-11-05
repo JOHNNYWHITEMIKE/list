@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  harbor:
+    build: .
+    container_name: harbor
+    environment:
+      - AGENT_NAME=harbor
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

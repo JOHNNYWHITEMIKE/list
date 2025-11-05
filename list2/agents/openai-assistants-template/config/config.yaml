@@ -1,0 +1,6 @@
+# Configuration for openai-assistants-template
+agent:
+  name: openai-assistants-template
+  version: 1.0.0
+  
+# Add your configuration here

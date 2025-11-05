@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-app:
+    build: .
+    container_name: llm-app
+    environment:
+      - AGENT_NAME=llm-app
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

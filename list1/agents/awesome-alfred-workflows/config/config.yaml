@@ -1,0 +1,6 @@
+# Configuration for awesome-alfred-workflows
+agent:
+  name: awesome-alfred-workflows
+  version: 1.0.0
+  
+# Add your configuration here

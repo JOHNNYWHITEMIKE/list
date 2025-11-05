@@ -1,0 +1,6 @@
+# Configuration for codel
+agent:
+  name: codel
+  version: 1.0.0
+  
+# Add your configuration here

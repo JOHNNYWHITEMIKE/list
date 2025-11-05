@@ -1,0 +1,6 @@
+# Configuration for agriaid
+agent:
+  name: agriaid
+  version: 1.0.0
+  
+# Add your configuration here

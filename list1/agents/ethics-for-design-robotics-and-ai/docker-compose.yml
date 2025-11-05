@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ethics-for-design-robotics-and-ai:
+    build: .
+    container_name: ethics-for-design-robotics-and-ai
+    environment:
+      - AGENT_NAME=ethics-for-design-robotics-and-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

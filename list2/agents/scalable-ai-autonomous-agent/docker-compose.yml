@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  scalable-ai-autonomous-agent:
+    build: .
+    container_name: scalable-ai-autonomous-agent
+    environment:
+      - AGENT_NAME=scalable-ai-autonomous-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

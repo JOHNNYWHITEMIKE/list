@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  workflow:
+    build: .
+    container_name: workflow
+    environment:
+      - AGENT_NAME=workflow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for llm_evaluation_for_gene_set_interpretation
+agent:
+  name: llm_evaluation_for_gene_set_interpretation
+  version: 1.0.0
+  
+# Add your configuration here

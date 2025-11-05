@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ginix-fraud-agents:
+    build: .
+    container_name: ginix-fraud-agents
+    environment:
+      - AGENT_NAME=ginix-fraud-agents
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

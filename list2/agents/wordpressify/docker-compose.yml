@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  wordpressify:
+    build: .
+    container_name: wordpressify
+    environment:
+      - AGENT_NAME=wordpressify
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

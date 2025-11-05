@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  speechless:
+    build: .
+    container_name: speechless
+    environment:
+      - AGENT_NAME=speechless
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

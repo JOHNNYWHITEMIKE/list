@@ -1,0 +1,6 @@
+# Configuration for llm-derived-tvshowguess-dataset
+agent:
+  name: llm-derived-tvshowguess-dataset
+  version: 1.0.0
+  
+# Add your configuration here

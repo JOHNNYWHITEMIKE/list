@@ -1,0 +1,6 @@
+# Configuration for refuel-sdk
+agent:
+  name: refuel-sdk
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for owasp-agentic-ai
+agent:
+  name: owasp-agentic-ai
+  version: 1.0.0
+  
+# Add your configuration here

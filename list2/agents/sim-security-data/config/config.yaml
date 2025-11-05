@@ -1,0 +1,6 @@
+# Configuration for sim-security-data
+agent:
+  name: sim-security-data
+  version: 1.0.0
+  
+# Add your configuration here

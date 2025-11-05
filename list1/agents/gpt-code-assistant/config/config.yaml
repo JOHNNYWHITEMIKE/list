@@ -1,0 +1,6 @@
+# Configuration for gpt-code-assistant
+agent:
+  name: gpt-code-assistant
+  version: 1.0.0
+  
+# Add your configuration here

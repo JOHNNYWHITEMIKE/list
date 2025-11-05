@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  chat_agent:
+    build: .
+    container_name: chat_agent
+    environment:
+      - AGENT_NAME=chat_agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

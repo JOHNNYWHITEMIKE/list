@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  accident-simulation:
+    build: .
+    container_name: accident-simulation
+    environment:
+      - AGENT_NAME=accident-simulation
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

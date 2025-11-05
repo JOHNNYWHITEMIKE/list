@@ -1,0 +1,6 @@
+# Configuration for ai-agent-ecosystem
+agent:
+  name: ai-agent-ecosystem
+  version: 1.0.0
+  
+# Add your configuration here

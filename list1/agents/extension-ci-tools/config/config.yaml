@@ -1,0 +1,6 @@
+# Configuration for extension-ci-tools
+agent:
+  name: extension-ci-tools
+  version: 1.0.0
+  
+# Add your configuration here

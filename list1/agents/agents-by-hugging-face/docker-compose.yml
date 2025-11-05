@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agents-by-hugging-face:
+    build: .
+    container_name: agents-by-hugging-face
+    environment:
+      - AGENT_NAME=agents-by-hugging-face
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

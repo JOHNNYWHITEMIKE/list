@@ -1,0 +1,6 @@
+# Configuration for groq
+agent:
+  name: groq
+  version: 1.0.0
+  
+# Add your configuration here

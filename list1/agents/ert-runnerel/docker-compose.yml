@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ert-runnerel:
+    build: .
+    container_name: ert-runnerel
+    environment:
+      - AGENT_NAME=ert-runnerel
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

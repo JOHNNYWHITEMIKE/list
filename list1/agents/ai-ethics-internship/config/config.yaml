@@ -1,0 +1,6 @@
+# Configuration for ai-ethics-internship
+agent:
+  name: ai-ethics-internship
+  version: 1.0.0
+  
+# Add your configuration here

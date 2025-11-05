@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  create-actionsprs:
+    build: .
+    container_name: create-actionsprs
+    environment:
+      - AGENT_NAME=create-actionsprs
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

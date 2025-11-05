@@ -1,0 +1,6 @@
+# Configuration for prompt-engineering-note
+agent:
+  name: prompt-engineering-note
+  version: 1.0.0
+  
+# Add your configuration here

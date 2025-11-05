@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ethics-in-artificial-intelligence:
+    build: .
+    container_name: ethics-in-artificial-intelligence
+    environment:
+      - AGENT_NAME=ethics-in-artificial-intelligence
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

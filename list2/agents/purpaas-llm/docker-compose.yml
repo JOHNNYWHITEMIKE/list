@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  purpaas-llm:
+    build: .
+    container_name: purpaas-llm
+    environment:
+      - AGENT_NAME=purpaas-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

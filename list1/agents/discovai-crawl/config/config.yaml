@@ -1,0 +1,6 @@
+# Configuration for discovai-crawl
+agent:
+  name: discovai-crawl
+  version: 1.0.0
+  
+# Add your configuration here

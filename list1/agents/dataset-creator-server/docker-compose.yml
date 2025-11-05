@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dataset-creator-server:
+    build: .
+    container_name: dataset-creator-server
+    environment:
+      - AGENT_NAME=dataset-creator-server
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for global-ai-dynamics-mapping-the-ai-utilization-across-nations
+agent:
+  name: global-ai-dynamics-mapping-the-ai-utilization-across-nations
+  version: 1.0.0
+  
+# Add your configuration here

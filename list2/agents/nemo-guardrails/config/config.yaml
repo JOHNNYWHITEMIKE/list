@@ -1,0 +1,6 @@
+# Configuration for nemo-guardrails
+agent:
+  name: nemo-guardrails
+  version: 1.0.0
+  
+# Add your configuration here

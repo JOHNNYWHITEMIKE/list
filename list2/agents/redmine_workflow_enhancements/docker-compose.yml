@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  redmine_workflow_enhancements:
+    build: .
+    container_name: redmine_workflow_enhancements
+    environment:
+      - AGENT_NAME=redmine_workflow_enhancements
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

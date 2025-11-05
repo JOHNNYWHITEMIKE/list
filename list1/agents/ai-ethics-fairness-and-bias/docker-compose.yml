@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-ethics-fairness-and-bias:
+    build: .
+    container_name: ai-ethics-fairness-and-bias
+    environment:
+      - AGENT_NAME=ai-ethics-fairness-and-bias
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

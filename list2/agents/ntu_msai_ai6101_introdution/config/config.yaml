@@ -1,0 +1,6 @@
+# Configuration for ntu_msai_ai6101_introdution
+agent:
+  name: ntu_msai_ai6101_introdution
+  version: 1.0.0
+  
+# Add your configuration here

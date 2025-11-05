@@ -1,0 +1,6 @@
+# Configuration for ais-ethics-standards
+agent:
+  name: ais-ethics-standards
+  version: 1.0.0
+  
+# Add your configuration here

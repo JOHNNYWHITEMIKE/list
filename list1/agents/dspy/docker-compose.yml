@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dspy:
+    build: .
+    container_name: dspy
+    environment:
+      - AGENT_NAME=dspy
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

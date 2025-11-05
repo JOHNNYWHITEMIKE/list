@@ -1,0 +1,6 @@
+# Configuration for terraform-with-circleci-example
+agent:
+  name: terraform-with-circleci-example
+  version: 1.0.0
+  
+# Add your configuration here

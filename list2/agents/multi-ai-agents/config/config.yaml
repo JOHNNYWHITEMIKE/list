@@ -1,0 +1,6 @@
+# Configuration for multi-ai-agents
+agent:
+  name: multi-ai-agents
+  version: 1.0.0
+  
+# Add your configuration here

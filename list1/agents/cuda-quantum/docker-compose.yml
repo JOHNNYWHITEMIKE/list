@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cuda-quantum:
+    build: .
+    container_name: cuda-quantum
+    environment:
+      - AGENT_NAME=cuda-quantum
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  aiq-poa:
+    build: .
+    container_name: aiq-poa
+    environment:
+      - AGENT_NAME=aiq-poa
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

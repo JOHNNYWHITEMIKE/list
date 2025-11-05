@@ -1,0 +1,6 @@
+# Configuration for frontend-agent
+agent:
+  name: frontend-agent
+  version: 1.0.0
+  
+# Add your configuration here

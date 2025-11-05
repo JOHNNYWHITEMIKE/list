@@ -1,0 +1,6 @@
+# Configuration for puppet-git-hooks
+agent:
+  name: puppet-git-hooks
+  version: 1.0.0
+  
+# Add your configuration here

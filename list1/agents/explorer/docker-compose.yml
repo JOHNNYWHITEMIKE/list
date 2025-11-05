@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  explorer:
+    build: .
+    container_name: explorer
+    environment:
+      - AGENT_NAME=explorer
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  localgpt:
+    build: .
+    container_name: localgpt
+    environment:
+      - AGENT_NAME=localgpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

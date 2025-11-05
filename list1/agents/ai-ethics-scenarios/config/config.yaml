@@ -1,0 +1,6 @@
+# Configuration for ai-ethics-scenarios
+agent:
+  name: ai-ethics-scenarios
+  version: 1.0.0
+  
+# Add your configuration here

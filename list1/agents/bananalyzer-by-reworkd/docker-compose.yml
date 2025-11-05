@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bananalyzer-by-reworkd:
+    build: .
+    container_name: bananalyzer-by-reworkd
+    environment:
+      - AGENT_NAME=bananalyzer-by-reworkd
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

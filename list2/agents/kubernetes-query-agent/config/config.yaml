@@ -1,0 +1,6 @@
+# Configuration for kubernetes-query-agent
+agent:
+  name: kubernetes-query-agent
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai_for_efficient_programming:
+    build: .
+    container_name: ai_for_efficient_programming
+    environment:
+      - AGENT_NAME=ai_for_efficient_programming
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

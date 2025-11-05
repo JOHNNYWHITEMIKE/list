@@ -1,0 +1,6 @@
+# Configuration for fauno-italian-llm
+agent:
+  name: fauno-italian-llm
+  version: 1.0.0
+  
+# Add your configuration here

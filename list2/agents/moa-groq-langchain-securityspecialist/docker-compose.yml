@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  moa-groq-langchain-securityspecialist:
+    build: .
+    container_name: moa-groq-langchain-securityspecialist
+    environment:
+      - AGENT_NAME=moa-groq-langchain-securityspecialist
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

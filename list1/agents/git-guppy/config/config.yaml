@@ -1,0 +1,6 @@
+# Configuration for git-guppy
+agent:
+  name: git-guppy
+  version: 1.0.0
+  
+# Add your configuration here

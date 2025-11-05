@@ -1,0 +1,6 @@
+# Configuration for awesome-llm-productization
+agent:
+  name: awesome-llm-productization
+  version: 1.0.0
+  
+# Add your configuration here

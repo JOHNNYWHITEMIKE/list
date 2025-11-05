@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llms-world-models-for-planning:
+    build: .
+    container_name: llms-world-models-for-planning
+    environment:
+      - AGENT_NAME=llms-world-models-for-planning
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  textcloak:
+    build: .
+    container_name: textcloak
+    environment:
+      - AGENT_NAME=textcloak
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

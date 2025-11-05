@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-ethics-evaluation-report-in-healthcare:
+    build: .
+    container_name: ai-ethics-evaluation-report-in-healthcare
+    environment:
+      - AGENT_NAME=ai-ethics-evaluation-report-in-healthcare
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

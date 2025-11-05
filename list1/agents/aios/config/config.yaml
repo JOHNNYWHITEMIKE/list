@@ -1,0 +1,6 @@
+# Configuration for aios
+agent:
+  name: aios
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for self-operating-computer-by-otherside
+agent:
+  name: self-operating-computer-by-otherside
+  version: 1.0.0
+  
+# Add your configuration here

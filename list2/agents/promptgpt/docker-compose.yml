@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  promptgpt:
+    build: .
+    container_name: promptgpt
+    environment:
+      - AGENT_NAME=promptgpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

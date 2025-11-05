@@ -1,0 +1,6 @@
+# Configuration for teamx
+agent:
+  name: teamx
+  version: 1.0.0
+  
+# Add your configuration here

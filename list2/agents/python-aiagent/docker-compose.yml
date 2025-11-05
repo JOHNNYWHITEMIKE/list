@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  python-aiagent:
+    build: .
+    container_name: python-aiagent
+    environment:
+      - AGENT_NAME=python-aiagent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

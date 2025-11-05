@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  multion:
+    build: .
+    container_name: multion
+    environment:
+      - AGENT_NAME=multion
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

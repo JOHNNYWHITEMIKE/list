@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  reusable-workflows:
+    build: .
+    container_name: reusable-workflows
+    environment:
+      - AGENT_NAME=reusable-workflows
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

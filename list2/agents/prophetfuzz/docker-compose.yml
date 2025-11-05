@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  prophetfuzz:
+    build: .
+    container_name: prophetfuzz
+    environment:
+      - AGENT_NAME=prophetfuzz
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

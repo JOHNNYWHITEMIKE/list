@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lm-studio:
+    build: .
+    container_name: lm-studio
+    environment:
+      - AGENT_NAME=lm-studio
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

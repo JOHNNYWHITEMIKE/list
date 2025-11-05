@@ -1,0 +1,6 @@
+# Configuration for pittchallenge2023
+agent:
+  name: pittchallenge2023
+  version: 1.0.0
+  
+# Add your configuration here

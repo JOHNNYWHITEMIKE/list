@@ -1,0 +1,6 @@
+# Configuration for llms-learning
+agent:
+  name: llms-learning
+  version: 1.0.0
+  
+# Add your configuration here

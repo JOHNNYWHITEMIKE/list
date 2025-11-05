@@ -1,0 +1,6 @@
+# Configuration for fireworks
+agent:
+  name: fireworks
+  version: 1.0.0
+  
+# Add your configuration here

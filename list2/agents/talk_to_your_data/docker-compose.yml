@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  talk_to_your_data:
+    build: .
+    container_name: talk_to_your_data
+    environment:
+      - AGENT_NAME=talk_to_your_data
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for functions-tools-and-agents-with-langchain
+agent:
+  name: functions-tools-and-agents-with-langchain
+  version: 1.0.0
+  
+# Add your configuration here

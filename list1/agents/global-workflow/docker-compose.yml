@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  global-workflow:
+    build: .
+    container_name: global-workflow
+    environment:
+      - AGENT_NAME=global-workflow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

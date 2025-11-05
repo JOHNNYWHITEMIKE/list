@@ -1,0 +1,6 @@
+# Configuration for gated-402-api
+agent:
+  name: gated-402-api
+  version: 1.0.0
+  
+# Add your configuration here

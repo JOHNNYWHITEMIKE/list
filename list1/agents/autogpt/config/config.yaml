@@ -1,0 +1,6 @@
+# Configuration for autogpt
+agent:
+  name: autogpt
+  version: 1.0.0
+  
+# Add your configuration here

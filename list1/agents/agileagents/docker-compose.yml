@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agileagents:
+    build: .
+    container_name: agileagents
+    environment:
+      - AGENT_NAME=agileagents
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

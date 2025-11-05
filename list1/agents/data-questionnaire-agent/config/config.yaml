@@ -1,0 +1,6 @@
+# Configuration for data-questionnaire-agent
+agent:
+  name: data-questionnaire-agent
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for setup-amazon-bedrock-agent-for-text2sql-using-amazon-redshift-serverless-with-streamlit
+agent:
+  name: setup-amazon-bedrock-agent-for-text2sql-using-amazon-redshift-serverless-with-streamlit
+  version: 1.0.0
+  
+# Add your configuration here

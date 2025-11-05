@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ollamanvim:
+    build: .
+    container_name: ollamanvim
+    environment:
+      - AGENT_NAME=ollamanvim
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

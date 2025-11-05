@@ -1,0 +1,6 @@
+# Configuration for llm_optimize
+agent:
+  name: llm_optimize
+  version: 1.0.0
+  
+# Add your configuration here

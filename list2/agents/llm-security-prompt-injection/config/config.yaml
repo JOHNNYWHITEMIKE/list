@@ -1,0 +1,6 @@
+# Configuration for llm-security-prompt-injection
+agent:
+  name: llm-security-prompt-injection
+  version: 1.0.0
+  
+# Add your configuration here

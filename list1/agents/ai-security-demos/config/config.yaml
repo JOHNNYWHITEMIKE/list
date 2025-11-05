@@ -1,0 +1,6 @@
+# Configuration for ai-security-demos
+agent:
+  name: ai-security-demos
+  version: 1.0.0
+  
+# Add your configuration here

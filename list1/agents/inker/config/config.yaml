@@ -1,0 +1,6 @@
+# Configuration for inker
+agent:
+  name: inker
+  version: 1.0.0
+  
+# Add your configuration here

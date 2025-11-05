@@ -1,0 +1,6 @@
+# Configuration for bubbln_network-automation
+agent:
+  name: bubbln_network-automation
+  version: 1.0.0
+  
+# Add your configuration here

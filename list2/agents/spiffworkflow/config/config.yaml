@@ -1,0 +1,6 @@
+# Configuration for spiffworkflow
+agent:
+  name: spiffworkflow
+  version: 1.0.0
+  
+# Add your configuration here

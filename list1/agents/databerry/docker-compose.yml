@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  databerry:
+    build: .
+    container_name: databerry
+    environment:
+      - AGENT_NAME=databerry
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

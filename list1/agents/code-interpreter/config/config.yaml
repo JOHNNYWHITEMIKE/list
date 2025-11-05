@@ -1,0 +1,6 @@
+# Configuration for code-interpreter
+agent:
+  name: code-interpreter
+  version: 1.0.0
+  
+# Add your configuration here

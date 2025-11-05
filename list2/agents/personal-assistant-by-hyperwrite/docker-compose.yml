@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  personal-assistant-by-hyperwrite:
+    build: .
+    container_name: personal-assistant-by-hyperwrite
+    environment:
+      - AGENT_NAME=personal-assistant-by-hyperwrite
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

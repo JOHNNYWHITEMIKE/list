@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ollama:
+    build: .
+    container_name: ollama
+    environment:
+      - AGENT_NAME=ollama
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

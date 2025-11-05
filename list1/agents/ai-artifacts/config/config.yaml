@@ -1,0 +1,6 @@
+# Configuration for ai-artifacts
+agent:
+  name: ai-artifacts
+  version: 1.0.0
+  
+# Add your configuration here

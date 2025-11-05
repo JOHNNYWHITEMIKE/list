@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  redbaez-agent-builder-complete:
+    build: .
+    container_name: redbaez-agent-builder-complete
+    environment:
+      - AGENT_NAME=redbaez-agent-builder-complete
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

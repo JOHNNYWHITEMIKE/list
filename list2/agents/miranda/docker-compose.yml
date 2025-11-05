@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  miranda:
+    build: .
+    container_name: miranda
+    environment:
+      - AGENT_NAME=miranda
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

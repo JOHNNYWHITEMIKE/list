@@ -1,0 +1,6 @@
+# Configuration for java-ai-sbus-test
+agent:
+  name: java-ai-sbus-test
+  version: 1.0.0
+  
+# Add your configuration here

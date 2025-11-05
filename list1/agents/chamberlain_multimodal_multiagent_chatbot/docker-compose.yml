@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  chamberlain_multimodal_multiagent_chatbot:
+    build: .
+    container_name: chamberlain_multimodal_multiagent_chatbot
+    environment:
+      - AGENT_NAME=chamberlain_multimodal_multiagent_chatbot
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

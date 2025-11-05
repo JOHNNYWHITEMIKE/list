@@ -1,0 +1,6 @@
+# Configuration for ai-powered-security-agent
+agent:
+  name: ai-powered-security-agent
+  version: 1.0.0
+  
+# Add your configuration here

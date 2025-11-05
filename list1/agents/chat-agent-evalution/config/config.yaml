@@ -1,0 +1,6 @@
+# Configuration for chat-agent-evalution
+agent:
+  name: chat-agent-evalution
+  version: 1.0.0
+  
+# Add your configuration here

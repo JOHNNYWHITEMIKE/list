@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  jaiqu:
+    build: .
+    container_name: jaiqu
+    environment:
+      - AGENT_NAME=jaiqu
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

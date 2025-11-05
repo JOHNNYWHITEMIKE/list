@@ -1,0 +1,6 @@
+# Configuration for job-webscraper
+agent:
+  name: job-webscraper
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  simple_ai_agent:
+    build: .
+    container_name: simple_ai_agent
+    environment:
+      - AGENT_NAME=simple_ai_agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

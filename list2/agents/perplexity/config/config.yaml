@@ -1,0 +1,6 @@
+# Configuration for perplexity
+agent:
+  name: perplexity
+  version: 1.0.0
+  
+# Add your configuration here

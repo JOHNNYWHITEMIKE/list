@@ -1,0 +1,6 @@
+# Configuration for intelligent-agent
+agent:
+  name: intelligent-agent
+  version: 1.0.0
+  
+# Add your configuration here

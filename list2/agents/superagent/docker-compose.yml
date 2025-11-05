@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  superagent:
+    build: .
+    container_name: superagent
+    environment:
+      - AGENT_NAME=superagent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

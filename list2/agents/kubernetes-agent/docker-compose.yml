@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  kubernetes-agent:
+    build: .
+    container_name: kubernetes-agent
+    environment:
+      - AGENT_NAME=kubernetes-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

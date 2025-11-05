@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llmcode:
+    build: .
+    container_name: llmcode
+    environment:
+      - AGENT_NAME=llmcode
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for reddit_ai_topic_analysis
+agent:
+  name: reddit_ai_topic_analysis
+  version: 1.0.0
+  
+# Add your configuration here

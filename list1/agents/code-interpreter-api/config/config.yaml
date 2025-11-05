@@ -1,0 +1,6 @@
+# Configuration for code-interpreter-api
+agent:
+  name: code-interpreter-api
+  version: 1.0.0
+  
+# Add your configuration here

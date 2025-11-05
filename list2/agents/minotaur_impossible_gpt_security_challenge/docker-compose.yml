@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  minotaur_impossible_gpt_security_challenge:
+    build: .
+    container_name: minotaur_impossible_gpt_security_challenge
+    environment:
+      - AGENT_NAME=minotaur_impossible_gpt_security_challenge
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

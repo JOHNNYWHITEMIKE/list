@@ -1,0 +1,6 @@
+# Configuration for textbook_quality
+agent:
+  name: textbook_quality
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for resources
+agent:
+  name: resources
+  version: 1.0.0
+  
+# Add your configuration here

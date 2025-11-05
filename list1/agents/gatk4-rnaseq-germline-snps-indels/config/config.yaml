@@ -1,0 +1,6 @@
+# Configuration for gatk4-rnaseq-germline-snps-indels
+agent:
+  name: gatk4-rnaseq-germline-snps-indels
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for spacecreateai
+agent:
+  name: spacecreateai
+  version: 1.0.0
+  
+# Add your configuration here

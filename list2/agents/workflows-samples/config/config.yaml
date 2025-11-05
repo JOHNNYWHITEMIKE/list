@@ -1,0 +1,6 @@
+# Configuration for workflows-samples
+agent:
+  name: workflows-samples
+  version: 1.0.0
+  
+# Add your configuration here

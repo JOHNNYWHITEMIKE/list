@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dilemmasearcher:
+    build: .
+    container_name: dilemmasearcher
+    environment:
+      - AGENT_NAME=dilemmasearcher
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

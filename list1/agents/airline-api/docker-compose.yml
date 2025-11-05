@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  airline-api:
+    build: .
+    container_name: airline-api
+    environment:
+      - AGENT_NAME=airline-api
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

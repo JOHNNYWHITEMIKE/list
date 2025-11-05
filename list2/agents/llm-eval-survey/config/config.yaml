@@ -1,0 +1,6 @@
+# Configuration for llm-eval-survey
+agent:
+  name: llm-eval-survey
+  version: 1.0.0
+  
+# Add your configuration here

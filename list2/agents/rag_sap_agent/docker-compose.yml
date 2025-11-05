@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rag_sap_agent:
+    build: .
+    container_name: rag_sap_agent
+    environment:
+      - AGENT_NAME=rag_sap_agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

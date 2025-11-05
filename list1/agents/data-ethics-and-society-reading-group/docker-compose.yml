@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  data-ethics-and-society-reading-group:
+    build: .
+    container_name: data-ethics-and-society-reading-group
+    environment:
+      - AGENT_NAME=data-ethics-and-society-reading-group
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

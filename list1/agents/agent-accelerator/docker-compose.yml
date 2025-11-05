@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agent-accelerator:
+    build: .
+    container_name: agent-accelerator
+    environment:
+      - AGENT_NAME=agent-accelerator
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

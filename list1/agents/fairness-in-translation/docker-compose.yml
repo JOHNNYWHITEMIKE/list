@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fairness-in-translation:
+    build: .
+    container_name: fairness-in-translation
+    environment:
+      - AGENT_NAME=fairness-in-translation
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

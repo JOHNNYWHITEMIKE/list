@@ -1,0 +1,6 @@
+# Configuration for llm-semantic-duplicates
+agent:
+  name: llm-semantic-duplicates
+  version: 1.0.0
+  
+# Add your configuration here

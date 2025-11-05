@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  building-llm-powered-applications:
+    build: .
+    container_name: building-llm-powered-applications
+    environment:
+      - AGENT_NAME=building-llm-powered-applications
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

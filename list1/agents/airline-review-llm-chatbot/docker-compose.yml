@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  airline-review-llm-chatbot:
+    build: .
+    container_name: airline-review-llm-chatbot
+    environment:
+      - AGENT_NAME=airline-review-llm-chatbot
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

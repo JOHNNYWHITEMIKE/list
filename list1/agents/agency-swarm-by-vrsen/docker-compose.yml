@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agency-swarm-by-vrsen:
+    build: .
+    container_name: agency-swarm-by-vrsen
+    environment:
+      - AGENT_NAME=agency-swarm-by-vrsen
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

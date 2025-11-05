@@ -1,0 +1,6 @@
+# Configuration for llm-theory-of-mind
+agent:
+  name: llm-theory-of-mind
+  version: 1.0.0
+  
+# Add your configuration here

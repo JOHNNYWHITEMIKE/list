@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm_datasets_generators:
+    build: .
+    container_name: llm_datasets_generators
+    environment:
+      - AGENT_NAME=llm_datasets_generators
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

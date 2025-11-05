@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  just-eval:
+    build: .
+    container_name: just-eval
+    environment:
+      - AGENT_NAME=just-eval
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

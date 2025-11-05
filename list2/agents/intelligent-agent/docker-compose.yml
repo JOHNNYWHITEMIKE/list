@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  intelligent-agent:
+    build: .
+    container_name: intelligent-agent
+    environment:
+      - AGENT_NAME=intelligent-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

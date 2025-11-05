@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  derai:
+    build: .
+    container_name: derai
+    environment:
+      - AGENT_NAME=derai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

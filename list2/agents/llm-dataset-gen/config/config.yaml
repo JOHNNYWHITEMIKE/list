@@ -1,0 +1,6 @@
+# Configuration for llm-dataset-gen
+agent:
+  name: llm-dataset-gen
+  version: 1.0.0
+  
+# Add your configuration here

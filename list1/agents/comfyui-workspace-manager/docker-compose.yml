@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  comfyui-workspace-manager:
+    build: .
+    container_name: comfyui-workspace-manager
+    environment:
+      - AGENT_NAME=comfyui-workspace-manager
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

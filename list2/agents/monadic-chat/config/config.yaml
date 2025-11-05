@@ -1,0 +1,6 @@
+# Configuration for monadic-chat
+agent:
+  name: monadic-chat
+  version: 1.0.0
+  
+# Add your configuration here

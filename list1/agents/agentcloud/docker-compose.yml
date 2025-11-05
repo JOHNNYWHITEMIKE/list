@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentcloud:
+    build: .
+    container_name: agentcloud
+    environment:
+      - AGENT_NAME=agentcloud
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

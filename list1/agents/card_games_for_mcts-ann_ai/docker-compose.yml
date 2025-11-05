@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  card_games_for_mcts-ann_ai:
+    build: .
+    container_name: card_games_for_mcts-ann_ai
+    environment:
+      - AGENT_NAME=card_games_for_mcts-ann_ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for formal-ethics-ontology
+agent:
+  name: formal-ethics-ontology
+  version: 1.0.0
+  
+# Add your configuration here

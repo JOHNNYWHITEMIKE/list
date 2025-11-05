@@ -1,0 +1,6 @@
+# Configuration for potpie
+agent:
+  name: potpie
+  version: 1.0.0
+  
+# Add your configuration here

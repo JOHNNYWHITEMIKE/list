@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-fine-tuning-azure:
+    build: .
+    container_name: llm-fine-tuning-azure
+    environment:
+      - AGENT_NAME=llm-fine-tuning-azure
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

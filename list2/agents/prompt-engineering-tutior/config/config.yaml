@@ -1,0 +1,6 @@
+# Configuration for prompt-engineering-tutior
+agent:
+  name: prompt-engineering-tutior
+  version: 1.0.0
+  
+# Add your configuration here

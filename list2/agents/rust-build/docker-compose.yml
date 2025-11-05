@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rust-build:
+    build: .
+    container_name: rust-build
+    environment:
+      - AGENT_NAME=rust-build
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

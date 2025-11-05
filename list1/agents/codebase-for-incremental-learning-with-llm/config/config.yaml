@@ -1,0 +1,6 @@
+# Configuration for codebase-for-incremental-learning-with-llm
+agent:
+  name: codebase-for-incremental-learning-with-llm
+  version: 1.0.0
+  
+# Add your configuration here

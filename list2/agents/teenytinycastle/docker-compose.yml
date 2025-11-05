@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  teenytinycastle:
+    build: .
+    container_name: teenytinycastle
+    environment:
+      - AGENT_NAME=teenytinycastle
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

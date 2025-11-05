@@ -1,0 +1,6 @@
+# Configuration for tiny-agent
+agent:
+  name: tiny-agent
+  version: 1.0.0
+  
+# Add your configuration here

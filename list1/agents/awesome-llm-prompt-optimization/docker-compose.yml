@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-llm-prompt-optimization:
+    build: .
+    container_name: awesome-llm-prompt-optimization
+    environment:
+      - AGENT_NAME=awesome-llm-prompt-optimization
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

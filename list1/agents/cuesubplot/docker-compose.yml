@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cuesubplot:
+    build: .
+    container_name: cuesubplot
+    environment:
+      - AGENT_NAME=cuesubplot
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

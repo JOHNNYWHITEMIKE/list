@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  alpaca-chinese-dataset:
+    build: .
+    container_name: alpaca-chinese-dataset
+    environment:
+      - AGENT_NAME=alpaca-chinese-dataset
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

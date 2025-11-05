@@ -1,0 +1,6 @@
+# Configuration for swarmnode-node
+agent:
+  name: swarmnode-node
+  version: 1.0.0
+  
+# Add your configuration here

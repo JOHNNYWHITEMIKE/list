@@ -1,0 +1,6 @@
+# Configuration for llm-analysis
+agent:
+  name: llm-analysis
+  version: 1.0.0
+  
+# Add your configuration here

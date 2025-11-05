@@ -1,0 +1,6 @@
+# Configuration for llama-latte
+agent:
+  name: llama-latte
+  version: 1.0.0
+  
+# Add your configuration here

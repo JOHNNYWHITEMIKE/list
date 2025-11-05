@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  upliftingpoleai_bsc_dissertation:
+    build: .
+    container_name: upliftingpoleai_bsc_dissertation
+    environment:
+      - AGENT_NAME=upliftingpoleai_bsc_dissertation
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

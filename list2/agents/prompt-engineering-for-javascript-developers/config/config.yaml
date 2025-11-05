@@ -1,0 +1,6 @@
+# Configuration for prompt-engineering-for-javascript-developers
+agent:
+  name: prompt-engineering-for-javascript-developers
+  version: 1.0.0
+  
+# Add your configuration here

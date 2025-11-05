@@ -1,0 +1,6 @@
+# Configuration for web_scrape_agent_ai
+agent:
+  name: web_scrape_agent_ai
+  version: 1.0.0
+  
+# Add your configuration here

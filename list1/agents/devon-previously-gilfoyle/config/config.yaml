@@ -1,0 +1,6 @@
+# Configuration for devon-previously-gilfoyle
+agent:
+  name: devon-previously-gilfoyle
+  version: 1.0.0
+  
+# Add your configuration here

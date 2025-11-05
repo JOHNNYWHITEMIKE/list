@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lobe-chat:
+    build: .
+    container_name: lobe-chat
+    environment:
+      - AGENT_NAME=lobe-chat
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

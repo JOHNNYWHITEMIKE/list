@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cypress-realworld-app:
+    build: .
+    container_name: cypress-realworld-app
+    environment:
+      - AGENT_NAME=cypress-realworld-app
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

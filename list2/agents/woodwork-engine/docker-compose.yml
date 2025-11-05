@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  woodwork-engine:
+    build: .
+    container_name: woodwork-engine
+    environment:
+      - AGENT_NAME=woodwork-engine
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

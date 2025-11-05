@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  graphql-playground:
+    build: .
+    container_name: graphql-playground
+    environment:
+      - AGENT_NAME=graphql-playground
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

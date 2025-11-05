@@ -1,0 +1,6 @@
+# Configuration for aws-templates
+agent:
+  name: aws-templates
+  version: 1.0.0
+  
+# Add your configuration here

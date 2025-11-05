@@ -1,0 +1,6 @@
+# Configuration for comfyui-workspace-manager
+agent:
+  name: comfyui-workspace-manager
+  version: 1.0.0
+  
+# Add your configuration here

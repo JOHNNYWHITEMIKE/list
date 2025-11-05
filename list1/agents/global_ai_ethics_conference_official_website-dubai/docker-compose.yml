@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  global_ai_ethics_conference_official_website-dubai:
+    build: .
+    container_name: global_ai_ethics_conference_official_website-dubai
+    environment:
+      - AGENT_NAME=global_ai_ethics_conference_official_website-dubai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

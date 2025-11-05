@@ -1,0 +1,6 @@
+# Configuration for alfred-github-workflow
+agent:
+  name: alfred-github-workflow
+  version: 1.0.0
+  
+# Add your configuration here

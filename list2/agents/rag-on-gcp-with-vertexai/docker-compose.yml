@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rag-on-gcp-with-vertexai:
+    build: .
+    container_name: rag-on-gcp-with-vertexai
+    environment:
+      - AGENT_NAME=rag-on-gcp-with-vertexai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

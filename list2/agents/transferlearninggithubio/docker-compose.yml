@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  transferlearninggithubio:
+    build: .
+    container_name: transferlearninggithubio
+    environment:
+      - AGENT_NAME=transferlearninggithubio
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

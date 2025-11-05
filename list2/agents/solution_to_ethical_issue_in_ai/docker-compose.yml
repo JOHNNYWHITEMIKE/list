@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  solution_to_ethical_issue_in_ai:
+    build: .
+    container_name: solution_to_ethical_issue_in_ai
+    environment:
+      - AGENT_NAME=solution_to_ethical_issue_in_ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

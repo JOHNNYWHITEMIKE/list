@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agixt:
+    build: .
+    container_name: agixt
+    environment:
+      - AGENT_NAME=agixt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

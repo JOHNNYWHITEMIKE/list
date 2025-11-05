@@ -1,0 +1,6 @@
+# Configuration for pruneme
+agent:
+  name: pruneme
+  version: 1.0.0
+  
+# Add your configuration here

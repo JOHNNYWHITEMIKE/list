@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  startyourjourney:
+    build: .
+    container_name: startyourjourney
+    environment:
+      - AGENT_NAME=startyourjourney
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

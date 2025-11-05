@@ -1,0 +1,6 @@
+# Configuration for upar5iv
+agent:
+  name: upar5iv
+  version: 1.0.0
+  
+# Add your configuration here

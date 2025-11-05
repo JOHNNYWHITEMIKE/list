@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  aws-ai-templates:
+    build: .
+    container_name: aws-ai-templates
+    environment:
+      - AGENT_NAME=aws-ai-templates
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

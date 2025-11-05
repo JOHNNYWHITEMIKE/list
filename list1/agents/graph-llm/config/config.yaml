@@ -1,0 +1,6 @@
+# Configuration for graph-llm
+agent:
+  name: graph-llm
+  version: 1.0.0
+  
+# Add your configuration here

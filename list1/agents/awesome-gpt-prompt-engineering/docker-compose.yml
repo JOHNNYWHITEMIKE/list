@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-gpt-prompt-engineering:
+    build: .
+    container_name: awesome-gpt-prompt-engineering
+    environment:
+      - AGENT_NAME=awesome-gpt-prompt-engineering
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

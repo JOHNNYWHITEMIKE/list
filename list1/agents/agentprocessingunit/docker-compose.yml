@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentprocessingunit:
+    build: .
+    container_name: agentprocessingunit
+    environment:
+      - AGENT_NAME=agentprocessingunit
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

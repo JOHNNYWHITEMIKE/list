@@ -1,0 +1,6 @@
+# Configuration for awesome-ai-llms-in-radiology
+agent:
+  name: awesome-ai-llms-in-radiology
+  version: 1.0.0
+  
+# Add your configuration here

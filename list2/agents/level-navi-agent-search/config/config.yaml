@@ -1,0 +1,6 @@
+# Configuration for level-navi-agent-search
+agent:
+  name: level-navi-agent-search
+  version: 1.0.0
+  
+# Add your configuration here

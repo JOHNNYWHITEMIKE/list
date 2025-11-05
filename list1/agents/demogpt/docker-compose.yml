@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  demogpt:
+    build: .
+    container_name: demogpt
+    environment:
+      - AGENT_NAME=demogpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

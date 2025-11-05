@@ -1,0 +1,6 @@
+# Configuration for open-assistant-api
+agent:
+  name: open-assistant-api
+  version: 1.0.0
+  
+# Add your configuration here

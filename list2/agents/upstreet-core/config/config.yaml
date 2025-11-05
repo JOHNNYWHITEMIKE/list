@@ -1,0 +1,6 @@
+# Configuration for upstreet-core
+agent:
+  name: upstreet-core
+  version: 1.0.0
+  
+# Add your configuration here

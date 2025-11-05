@@ -1,0 +1,6 @@
+# Configuration for ai_agent
+agent:
+  name: ai_agent
+  version: 1.0.0
+  
+# Add your configuration here

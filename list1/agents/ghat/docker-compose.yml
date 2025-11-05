@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ghat:
+    build: .
+    container_name: ghat
+    environment:
+      - AGENT_NAME=ghat
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

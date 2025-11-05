@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gpt-researcher-by-tavily:
+    build: .
+    container_name: gpt-researcher-by-tavily
+    environment:
+      - AGENT_NAME=gpt-researcher-by-tavily
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

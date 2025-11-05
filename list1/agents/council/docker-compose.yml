@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  council:
+    build: .
+    container_name: council
+    environment:
+      - AGENT_NAME=council
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

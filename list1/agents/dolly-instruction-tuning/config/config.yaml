@@ -1,0 +1,6 @@
+# Configuration for dolly-instruction-tuning
+agent:
+  name: dolly-instruction-tuning
+  version: 1.0.0
+  
+# Add your configuration here

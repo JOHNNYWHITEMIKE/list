@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gazelle:
+    build: .
+    container_name: gazelle
+    environment:
+      - AGENT_NAME=gazelle
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for comfyui_examples
+agent:
+  name: comfyui_examples
+  version: 1.0.0
+  
+# Add your configuration here

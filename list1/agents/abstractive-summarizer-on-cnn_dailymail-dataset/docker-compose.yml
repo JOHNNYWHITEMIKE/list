@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  abstractive-summarizer-on-cnn_dailymail-dataset:
+    build: .
+    container_name: abstractive-summarizer-on-cnn_dailymail-dataset
+    environment:
+      - AGENT_NAME=abstractive-summarizer-on-cnn_dailymail-dataset
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

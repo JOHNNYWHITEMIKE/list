@@ -1,0 +1,6 @@
+# Configuration for awesome-datasets-for-llms
+agent:
+  name: awesome-datasets-for-llms
+  version: 1.0.0
+  
+# Add your configuration here

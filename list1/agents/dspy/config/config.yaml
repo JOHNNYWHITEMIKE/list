@@ -1,0 +1,6 @@
+# Configuration for dspy
+agent:
+  name: dspy
+  version: 1.0.0
+  
+# Add your configuration here

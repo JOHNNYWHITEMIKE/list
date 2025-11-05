@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  powerupsai:
+    build: .
+    container_name: powerupsai
+    environment:
+      - AGENT_NAME=powerupsai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

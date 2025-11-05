@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  remarkable-2-llm:
+    build: .
+    container_name: remarkable-2-llm
+    environment:
+      - AGENT_NAME=remarkable-2-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

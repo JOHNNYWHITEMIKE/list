@@ -1,0 +1,6 @@
+# Configuration for aigc_prompt_engineering
+agent:
+  name: aigc_prompt_engineering
+  version: 1.0.0
+  
+# Add your configuration here

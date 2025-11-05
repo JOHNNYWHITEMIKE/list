@@ -1,0 +1,6 @@
+# Configuration for testdriverai
+agent:
+  name: testdriverai
+  version: 1.0.0
+  
+# Add your configuration here

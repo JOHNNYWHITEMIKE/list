@@ -1,0 +1,6 @@
+# Configuration for pdf_to_llm_datasetpy
+agent:
+  name: pdf_to_llm_datasetpy
+  version: 1.0.0
+  
+# Add your configuration here

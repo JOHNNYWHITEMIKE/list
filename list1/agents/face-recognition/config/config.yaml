@@ -1,0 +1,6 @@
+# Configuration for face-recognition
+agent:
+  name: face-recognition
+  version: 1.0.0
+  
+# Add your configuration here

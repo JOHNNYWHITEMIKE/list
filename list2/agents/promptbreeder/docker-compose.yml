@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  promptbreeder:
+    build: .
+    container_name: promptbreeder
+    environment:
+      - AGENT_NAME=promptbreeder
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

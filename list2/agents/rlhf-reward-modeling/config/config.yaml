@@ -1,0 +1,6 @@
+# Configuration for rlhf-reward-modeling
+agent:
+  name: rlhf-reward-modeling
+  version: 1.0.0
+  
+# Add your configuration here

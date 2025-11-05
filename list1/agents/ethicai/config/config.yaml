@@ -1,0 +1,6 @@
+# Configuration for ethicai
+agent:
+  name: ethicai
+  version: 1.0.0
+  
+# Add your configuration here

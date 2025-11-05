@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fastmcp:
+    build: .
+    container_name: fastmcp
+    environment:
+      - AGENT_NAME=fastmcp
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

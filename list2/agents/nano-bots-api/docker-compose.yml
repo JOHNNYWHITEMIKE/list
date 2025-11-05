@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nano-bots-api:
+    build: .
+    container_name: nano-bots-api
+    environment:
+      - AGENT_NAME=nano-bots-api
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

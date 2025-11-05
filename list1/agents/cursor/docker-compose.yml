@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cursor:
+    build: .
+    container_name: cursor
+    environment:
+      - AGENT_NAME=cursor
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

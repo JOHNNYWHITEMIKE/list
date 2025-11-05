@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llmask:
+    build: .
+    container_name: llmask
+    environment:
+      - AGENT_NAME=llmask
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

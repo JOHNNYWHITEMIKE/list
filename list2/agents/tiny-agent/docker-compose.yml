@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tiny-agent:
+    build: .
+    container_name: tiny-agent
+    environment:
+      - AGENT_NAME=tiny-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

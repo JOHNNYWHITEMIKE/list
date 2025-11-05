@@ -1,0 +1,6 @@
+# Configuration for rag_sap_agent
+agent:
+  name: rag_sap_agent
+  version: 1.0.0
+  
+# Add your configuration here

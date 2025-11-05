@@ -1,0 +1,6 @@
+# Configuration for abstractive-summarizer-on-cnn_dailymail-dataset
+agent:
+  name: abstractive-summarizer-on-cnn_dailymail-dataset
+  version: 1.0.0
+  
+# Add your configuration here

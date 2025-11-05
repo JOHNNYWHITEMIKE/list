@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  data_fine_tune:
+    build: .
+    container_name: data_fine_tune
+    environment:
+      - AGENT_NAME=data_fine_tune
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for applying-the-ethics-of-ai-a-systematic-review-of-tools-for-developing-and-assessing-ai-based-system
+agent:
+  name: applying-the-ethics-of-ai-a-systematic-review-of-tools-for-developing-and-assessing-ai-based-system
+  version: 1.0.0
+  
+# Add your configuration here

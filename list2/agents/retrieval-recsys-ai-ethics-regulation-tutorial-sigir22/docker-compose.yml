@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  retrieval-recsys-ai-ethics-regulation-tutorial-sigir22:
+    build: .
+    container_name: retrieval-recsys-ai-ethics-regulation-tutorial-sigir22
+    environment:
+      - AGENT_NAME=retrieval-recsys-ai-ethics-regulation-tutorial-sigir22
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

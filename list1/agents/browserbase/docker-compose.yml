@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  browserbase:
+    build: .
+    container_name: browserbase
+    environment:
+      - AGENT_NAME=browserbase
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

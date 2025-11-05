@@ -1,0 +1,6 @@
+# Configuration for prompt-eng-interactive-tutorial
+agent:
+  name: prompt-eng-interactive-tutorial
+  version: 1.0.0
+  
+# Add your configuration here

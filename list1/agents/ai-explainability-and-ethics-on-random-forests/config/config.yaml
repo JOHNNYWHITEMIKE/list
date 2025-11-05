@@ -1,0 +1,6 @@
+# Configuration for ai-explainability-and-ethics-on-random-forests
+agent:
+  name: ai-explainability-and-ethics-on-random-forests
+  version: 1.0.0
+  
+# Add your configuration here

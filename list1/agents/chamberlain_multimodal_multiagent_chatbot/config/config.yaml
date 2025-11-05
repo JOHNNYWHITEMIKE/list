@@ -1,0 +1,6 @@
+# Configuration for chamberlain_multimodal_multiagent_chatbot
+agent:
+  name: chamberlain_multimodal_multiagent_chatbot
+  version: 1.0.0
+  
+# Add your configuration here

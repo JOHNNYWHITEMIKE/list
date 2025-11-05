@@ -1,0 +1,6 @@
+# Configuration for llm-text-completion-finetune
+agent:
+  name: llm-text-completion-finetune
+  version: 1.0.0
+  
+# Add your configuration here

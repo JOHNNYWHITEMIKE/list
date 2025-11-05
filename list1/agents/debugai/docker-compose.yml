@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  debugai:
+    build: .
+    container_name: debugai
+    environment:
+      - AGENT_NAME=debugai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

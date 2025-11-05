@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  imputer:
+    build: .
+    container_name: imputer
+    environment:
+      - AGENT_NAME=imputer
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

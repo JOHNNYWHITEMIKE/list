@@ -1,0 +1,6 @@
+# Configuration for chatglm-6b-engineering
+agent:
+  name: chatglm-6b-engineering
+  version: 1.0.0
+  
+# Add your configuration here

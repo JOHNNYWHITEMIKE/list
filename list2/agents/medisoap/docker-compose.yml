@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  medisoap:
+    build: .
+    container_name: medisoap
+    environment:
+      - AGENT_NAME=medisoap
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

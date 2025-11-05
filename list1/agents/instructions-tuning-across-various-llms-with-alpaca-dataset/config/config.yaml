@@ -1,0 +1,6 @@
+# Configuration for instructions-tuning-across-various-llms-with-alpaca-dataset
+agent:
+  name: instructions-tuning-across-various-llms-with-alpaca-dataset
+  version: 1.0.0
+  
+# Add your configuration here

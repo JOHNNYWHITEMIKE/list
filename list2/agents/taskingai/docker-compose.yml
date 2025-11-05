@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  taskingai:
+    build: .
+    container_name: taskingai
+    environment:
+      - AGENT_NAME=taskingai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

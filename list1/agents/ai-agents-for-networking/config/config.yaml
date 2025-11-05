@@ -1,0 +1,6 @@
+# Configuration for ai-agents-for-networking
+agent:
+  name: ai-agents-for-networking
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for graphql-cli
+agent:
+  name: graphql-cli
+  version: 1.0.0
+  
+# Add your configuration here

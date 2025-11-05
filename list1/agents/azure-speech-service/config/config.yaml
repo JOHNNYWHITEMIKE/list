@@ -1,0 +1,6 @@
+# Configuration for azure-speech-service
+agent:
+  name: azure-speech-service
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  arxivrag:
+    build: .
+    container_name: arxivrag
+    environment:
+      - AGENT_NAME=arxivrag
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

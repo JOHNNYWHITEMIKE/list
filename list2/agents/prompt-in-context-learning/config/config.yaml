@@ -1,0 +1,6 @@
+# Configuration for prompt-in-context-learning
+agent:
+  name: prompt-in-context-learning
+  version: 1.0.0
+  
+# Add your configuration here

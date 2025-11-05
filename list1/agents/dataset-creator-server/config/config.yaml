@@ -1,0 +1,6 @@
+# Configuration for dataset-creator-server
+agent:
+  name: dataset-creator-server
+  version: 1.0.0
+  
+# Add your configuration here

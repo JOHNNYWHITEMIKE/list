@@ -1,0 +1,6 @@
+# Configuration for waveterm
+agent:
+  name: waveterm
+  version: 1.0.0
+  
+# Add your configuration here

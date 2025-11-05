@@ -1,0 +1,6 @@
+# Configuration for a4-artificial-intelligence
+agent:
+  name: a4-artificial-intelligence
+  version: 1.0.0
+  
+# Add your configuration here

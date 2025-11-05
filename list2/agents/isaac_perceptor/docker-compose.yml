@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  isaac_perceptor:
+    build: .
+    container_name: isaac_perceptor
+    environment:
+      - AGENT_NAME=isaac_perceptor
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

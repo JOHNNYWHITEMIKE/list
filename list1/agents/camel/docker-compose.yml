@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  camel:
+    build: .
+    container_name: camel
+    environment:
+      - AGENT_NAME=camel
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

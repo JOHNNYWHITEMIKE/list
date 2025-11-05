@@ -1,0 +1,6 @@
+# Configuration for bananalyzer-by-reworkd
+agent:
+  name: bananalyzer-by-reworkd
+  version: 1.0.0
+  
+# Add your configuration here

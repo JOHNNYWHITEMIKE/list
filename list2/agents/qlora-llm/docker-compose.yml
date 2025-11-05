@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  qlora-llm:
+    build: .
+    container_name: qlora-llm
+    environment:
+      - AGENT_NAME=qlora-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  prompt-engineering-tutior:
+    build: .
+    container_name: prompt-engineering-tutior
+    environment:
+      - AGENT_NAME=prompt-engineering-tutior
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

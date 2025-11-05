@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  claude-3-artifacts-by-pierrunoyt:
+    build: .
+    container_name: claude-3-artifacts-by-pierrunoyt
+    environment:
+      - AGENT_NAME=claude-3-artifacts-by-pierrunoyt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

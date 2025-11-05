@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  devin-by-cognition:
+    build: .
+    container_name: devin-by-cognition
+    environment:
+      - AGENT_NAME=devin-by-cognition
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

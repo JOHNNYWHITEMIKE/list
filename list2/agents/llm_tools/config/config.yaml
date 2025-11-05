@@ -1,0 +1,6 @@
+# Configuration for llm_tools
+agent:
+  name: llm_tools
+  version: 1.0.0
+  
+# Add your configuration here

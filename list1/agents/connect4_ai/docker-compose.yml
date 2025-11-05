@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  connect4_ai:
+    build: .
+    container_name: connect4_ai
+    environment:
+      - AGENT_NAME=connect4_ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

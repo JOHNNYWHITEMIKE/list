@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  instantneo:
+    build: .
+    container_name: instantneo
+    environment:
+      - AGENT_NAME=instantneo
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

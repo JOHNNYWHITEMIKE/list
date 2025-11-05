@@ -1,0 +1,6 @@
+# Configuration for indie-hacker-tools-plus
+agent:
+  name: indie-hacker-tools-plus
+  version: 1.0.0
+  
+# Add your configuration here

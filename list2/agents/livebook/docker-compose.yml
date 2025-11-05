@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  livebook:
+    build: .
+    container_name: livebook
+    environment:
+      - AGENT_NAME=livebook
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

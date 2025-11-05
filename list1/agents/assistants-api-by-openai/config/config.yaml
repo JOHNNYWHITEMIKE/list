@@ -1,0 +1,6 @@
+# Configuration for assistants-api-by-openai
+agent:
+  name: assistants-api-by-openai
+  version: 1.0.0
+  
+# Add your configuration here

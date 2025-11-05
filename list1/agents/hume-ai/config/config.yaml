@@ -1,0 +1,6 @@
+# Configuration for hume-ai
+agent:
+  name: hume-ai
+  version: 1.0.0
+  
+# Add your configuration here

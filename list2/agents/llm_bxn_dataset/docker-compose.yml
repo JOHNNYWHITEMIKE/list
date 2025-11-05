@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm_bxn_dataset:
+    build: .
+    container_name: llm_bxn_dataset
+    environment:
+      - AGENT_NAME=llm_bxn_dataset
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

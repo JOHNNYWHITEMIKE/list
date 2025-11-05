@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web_scrape_agent_ai:
+    build: .
+    container_name: web_scrape_agent_ai
+    environment:
+      - AGENT_NAME=web_scrape_agent_ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

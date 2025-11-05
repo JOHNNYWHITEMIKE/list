@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  playht:
+    build: .
+    container_name: playht
+    environment:
+      - AGENT_NAME=playht
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

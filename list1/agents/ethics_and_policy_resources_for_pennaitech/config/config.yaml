@@ -1,0 +1,6 @@
+# Configuration for ethics_and_policy_resources_for_pennaitech
+agent:
+  name: ethics_and_policy_resources_for_pennaitech
+  version: 1.0.0
+  
+# Add your configuration here

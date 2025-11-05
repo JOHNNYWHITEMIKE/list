@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bubbln_network-automation:
+    build: .
+    container_name: bubbln_network-automation
+    environment:
+      - AGENT_NAME=bubbln_network-automation
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for web-llm-chat
+agent:
+  name: web-llm-chat
+  version: 1.0.0
+  
+# Add your configuration here

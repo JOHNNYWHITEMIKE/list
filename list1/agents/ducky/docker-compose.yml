@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ducky:
+    build: .
+    container_name: ducky
+    environment:
+      - AGENT_NAME=ducky
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

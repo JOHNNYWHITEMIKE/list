@@ -1,0 +1,6 @@
+# Configuration for shortx-by-rayventura
+agent:
+  name: shortx-by-rayventura
+  version: 1.0.0
+  
+# Add your configuration here

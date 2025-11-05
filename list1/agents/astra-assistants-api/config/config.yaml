@@ -1,0 +1,6 @@
+# Configuration for astra-assistants-api
+agent:
+  name: astra-assistants-api
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  onchain-ai-starter:
+    build: .
+    container_name: onchain-ai-starter
+    environment:
+      - AGENT_NAME=onchain-ai-starter
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

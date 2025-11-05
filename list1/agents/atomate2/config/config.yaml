@@ -1,0 +1,6 @@
+# Configuration for atomate2
+agent:
+  name: atomate2
+  version: 1.0.0
+  
+# Add your configuration here

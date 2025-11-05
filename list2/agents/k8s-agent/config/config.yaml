@@ -1,0 +1,6 @@
+# Configuration for k8s-agent
+agent:
+  name: k8s-agent
+  version: 1.0.0
+  
+# Add your configuration here

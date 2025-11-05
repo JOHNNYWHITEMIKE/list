@@ -1,0 +1,6 @@
+# Configuration for framework
+agent:
+  name: framework
+  version: 1.0.0
+  
+# Add your configuration here

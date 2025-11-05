@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  generativeaiexamples:
+    build: .
+    container_name: generativeaiexamples
+    environment:
+      - AGENT_NAME=generativeaiexamples
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

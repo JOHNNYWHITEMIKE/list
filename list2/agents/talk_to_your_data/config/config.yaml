@@ -1,0 +1,6 @@
+# Configuration for talk_to_your_data
+agent:
+  name: talk_to_your_data
+  version: 1.0.0
+  
+# Add your configuration here

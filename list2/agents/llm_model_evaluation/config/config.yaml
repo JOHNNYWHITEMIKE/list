@@ -1,0 +1,6 @@
+# Configuration for llm_model_evaluation
+agent:
+  name: llm_model_evaluation
+  version: 1.0.0
+  
+# Add your configuration here

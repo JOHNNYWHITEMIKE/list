@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pimeyesdataethics:
+    build: .
+    container_name: pimeyesdataethics
+    environment:
+      - AGENT_NAME=pimeyesdataethics
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

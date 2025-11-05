@@ -1,0 +1,6 @@
+# Configuration for docker-compose-laravel
+agent:
+  name: docker-compose-laravel
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ghost-agent:
+    build: .
+    container_name: ghost-agent
+    environment:
+      - AGENT_NAME=ghost-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

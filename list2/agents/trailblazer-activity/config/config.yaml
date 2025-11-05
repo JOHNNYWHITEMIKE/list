@@ -1,0 +1,6 @@
+# Configuration for trailblazer-activity
+agent:
+  name: trailblazer-activity
+  version: 1.0.0
+  
+# Add your configuration here

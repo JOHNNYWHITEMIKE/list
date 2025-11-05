@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cse582-final-project:
+    build: .
+    container_name: cse582-final-project
+    environment:
+      - AGENT_NAME=cse582-final-project
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

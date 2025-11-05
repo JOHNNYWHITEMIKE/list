@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sociotechnical-transparency-abm:
+    build: .
+    container_name: sociotechnical-transparency-abm
+    environment:
+      - AGENT_NAME=sociotechnical-transparency-abm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for awesome-llm-prompt-optimization
+agent:
+  name: awesome-llm-prompt-optimization
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentops:
+    build: .
+    container_name: agentops
+    environment:
+      - AGENT_NAME=agentops
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

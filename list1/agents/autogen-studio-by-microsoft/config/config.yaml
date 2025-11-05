@@ -1,0 +1,6 @@
+# Configuration for autogen-studio-by-microsoft
+agent:
+  name: autogen-studio-by-microsoft
+  version: 1.0.0
+  
+# Add your configuration here

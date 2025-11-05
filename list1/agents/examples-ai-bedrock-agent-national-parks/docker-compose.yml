@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  examples-ai-bedrock-agent-national-parks:
+    build: .
+    container_name: examples-ai-bedrock-agent-national-parks
+    environment:
+      - AGENT_NAME=examples-ai-bedrock-agent-national-parks
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

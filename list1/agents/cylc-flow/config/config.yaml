@@ -1,0 +1,6 @@
+# Configuration for cylc-flow
+agent:
+  name: cylc-flow
+  version: 1.0.0
+  
+# Add your configuration here

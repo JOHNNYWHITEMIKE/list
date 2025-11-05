@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  deobfuscate-android-app:
+    build: .
+    container_name: deobfuscate-android-app
+    environment:
+      - AGENT_NAME=deobfuscate-android-app
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

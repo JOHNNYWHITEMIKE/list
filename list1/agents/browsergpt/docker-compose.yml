@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  browsergpt:
+    build: .
+    container_name: browsergpt
+    environment:
+      - AGENT_NAME=browsergpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

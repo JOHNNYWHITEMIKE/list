@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  datacooker:
+    build: .
+    container_name: datacooker
+    environment:
+      - AGENT_NAME=datacooker
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  relaieo:
+    build: .
+    container_name: relaieo
+    environment:
+      - AGENT_NAME=relaieo
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

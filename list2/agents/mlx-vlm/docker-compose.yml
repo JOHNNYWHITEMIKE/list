@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mlx-vlm:
+    build: .
+    container_name: mlx-vlm
+    environment:
+      - AGENT_NAME=mlx-vlm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

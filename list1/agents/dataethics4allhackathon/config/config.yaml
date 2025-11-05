@@ -1,0 +1,6 @@
+# Configuration for dataethics4allhackathon
+agent:
+  name: dataethics4allhackathon
+  version: 1.0.0
+  
+# Add your configuration here

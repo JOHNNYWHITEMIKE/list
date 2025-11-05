@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fastshell:
+    build: .
+    container_name: fastshell
+    environment:
+      - AGENT_NAME=fastshell
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

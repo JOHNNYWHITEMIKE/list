@@ -1,0 +1,6 @@
+# Configuration for csi5195-ethicsinai-finalreport
+agent:
+  name: csi5195-ethicsinai-finalreport
+  version: 1.0.0
+  
+# Add your configuration here

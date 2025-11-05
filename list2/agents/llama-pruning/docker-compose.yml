@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llama-pruning:
+    build: .
+    container_name: llama-pruning
+    environment:
+      - AGENT_NAME=llama-pruning
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

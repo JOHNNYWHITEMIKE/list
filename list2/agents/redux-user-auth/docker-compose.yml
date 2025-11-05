@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  redux-user-auth:
+    build: .
+    container_name: redux-user-auth
+    environment:
+      - AGENT_NAME=redux-user-auth
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

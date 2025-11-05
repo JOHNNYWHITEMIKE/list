@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nft-2023:
+    build: .
+    container_name: nft-2023
+    environment:
+      - AGENT_NAME=nft-2023
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

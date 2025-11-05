@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  flux:
+    build: .
+    container_name: flux
+    environment:
+      - AGENT_NAME=flux
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

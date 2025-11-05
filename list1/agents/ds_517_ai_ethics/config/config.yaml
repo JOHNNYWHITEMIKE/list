@@ -1,0 +1,6 @@
+# Configuration for ds_517_ai_ethics
+agent:
+  name: ds_517_ai_ethics
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-transparency-tool:
+    build: .
+    container_name: llm-transparency-tool
+    environment:
+      - AGENT_NAME=llm-transparency-tool
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

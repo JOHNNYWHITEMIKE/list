@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  testchatbot:
+    build: .
+    container_name: testchatbot
+    environment:
+      - AGENT_NAME=testchatbot
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

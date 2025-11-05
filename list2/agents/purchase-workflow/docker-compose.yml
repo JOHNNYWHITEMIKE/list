@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  purchase-workflow:
+    build: .
+    container_name: purchase-workflow
+    environment:
+      - AGENT_NAME=purchase-workflow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

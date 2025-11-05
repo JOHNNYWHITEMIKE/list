@@ -1,0 +1,6 @@
+# Configuration for awesome-chatgpt-dataset
+agent:
+  name: awesome-chatgpt-dataset
+  version: 1.0.0
+  
+# Add your configuration here

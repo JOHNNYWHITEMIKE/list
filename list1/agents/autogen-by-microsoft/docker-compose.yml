@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  autogen-by-microsoft:
+    build: .
+    container_name: autogen-by-microsoft
+    environment:
+      - AGENT_NAME=autogen-by-microsoft
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

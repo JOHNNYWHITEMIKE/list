@@ -1,0 +1,6 @@
+# Configuration for continue
+agent:
+  name: continue
+  version: 1.0.0
+  
+# Add your configuration here

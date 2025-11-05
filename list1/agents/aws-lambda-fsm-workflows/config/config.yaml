@@ -1,0 +1,6 @@
+# Configuration for aws-lambda-fsm-workflows
+agent:
+  name: aws-lambda-fsm-workflows
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  shortcutsbench:
+    build: .
+    container_name: shortcutsbench
+    environment:
+      - AGENT_NAME=shortcutsbench
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  airportagentsimulation-security:
+    build: .
+    container_name: airportagentsimulation-security
+    environment:
+      - AGENT_NAME=airportagentsimulation-security
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

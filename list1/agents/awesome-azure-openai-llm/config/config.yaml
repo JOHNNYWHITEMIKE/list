@@ -1,0 +1,6 @@
+# Configuration for awesome-azure-openai-llm
+agent:
+  name: awesome-azure-openai-llm
+  version: 1.0.0
+  
+# Add your configuration here

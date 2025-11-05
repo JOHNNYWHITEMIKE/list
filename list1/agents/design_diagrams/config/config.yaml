@@ -1,0 +1,6 @@
+# Configuration for design_diagrams
+agent:
+  name: design_diagrams
+  version: 1.0.0
+  
+# Add your configuration here

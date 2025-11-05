@@ -1,0 +1,6 @@
+# Configuration for babyagi
+agent:
+  name: babyagi
+  version: 1.0.0
+  
+# Add your configuration here

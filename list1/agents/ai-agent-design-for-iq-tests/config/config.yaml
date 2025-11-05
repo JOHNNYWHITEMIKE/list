@@ -1,0 +1,6 @@
+# Configuration for ai-agent-design-for-iq-tests
+agent:
+  name: ai-agent-design-for-iq-tests
+  version: 1.0.0
+  
+# Add your configuration here

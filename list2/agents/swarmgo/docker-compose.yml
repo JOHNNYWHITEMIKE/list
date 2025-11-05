@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  swarmgo:
+    build: .
+    container_name: swarmgo
+    environment:
+      - AGENT_NAME=swarmgo
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

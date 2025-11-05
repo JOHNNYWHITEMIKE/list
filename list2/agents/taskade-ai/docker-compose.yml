@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  taskade-ai:
+    build: .
+    container_name: taskade-ai
+    environment:
+      - AGENT_NAME=taskade-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

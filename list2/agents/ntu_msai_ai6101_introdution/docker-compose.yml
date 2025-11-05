@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ntu_msai_ai6101_introdution:
+    build: .
+    container_name: ntu_msai_ai6101_introdution
+    environment:
+      - AGENT_NAME=ntu_msai_ai6101_introdution
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

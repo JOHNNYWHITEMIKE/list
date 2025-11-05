@@ -1,0 +1,6 @@
+# Configuration for redux-user-auth
+agent:
+  name: redux-user-auth
+  version: 1.0.0
+  
+# Add your configuration here

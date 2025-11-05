@@ -1,0 +1,6 @@
+# Configuration for cadea
+agent:
+  name: cadea
+  version: 1.0.0
+  
+# Add your configuration here

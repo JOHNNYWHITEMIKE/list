@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  hume-ai:
+    build: .
+    container_name: hume-ai
+    environment:
+      - AGENT_NAME=hume-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

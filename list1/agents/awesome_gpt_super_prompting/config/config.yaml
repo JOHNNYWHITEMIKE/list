@@ -1,0 +1,6 @@
+# Configuration for awesome_gpt_super_prompting
+agent:
+  name: awesome_gpt_super_prompting
+  version: 1.0.0
+  
+# Add your configuration here

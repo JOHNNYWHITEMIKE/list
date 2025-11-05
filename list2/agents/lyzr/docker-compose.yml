@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lyzr:
+    build: .
+    container_name: lyzr
+    environment:
+      - AGENT_NAME=lyzr
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

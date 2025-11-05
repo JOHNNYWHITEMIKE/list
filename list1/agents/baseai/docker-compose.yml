@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  baseai:
+    build: .
+    container_name: baseai
+    environment:
+      - AGENT_NAME=baseai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

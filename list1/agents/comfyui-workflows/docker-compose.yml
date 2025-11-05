@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  comfyui-workflows:
+    build: .
+    container_name: comfyui-workflows
+    environment:
+      - AGENT_NAME=comfyui-workflows
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

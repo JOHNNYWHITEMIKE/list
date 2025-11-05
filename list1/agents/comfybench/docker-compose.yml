@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  comfybench:
+    build: .
+    container_name: comfybench
+    environment:
+      - AGENT_NAME=comfybench
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

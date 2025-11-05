@@ -1,0 +1,6 @@
+# Configuration for ngx-i18nsupport
+agent:
+  name: ngx-i18nsupport
+  version: 1.0.0
+  
+# Add your configuration here

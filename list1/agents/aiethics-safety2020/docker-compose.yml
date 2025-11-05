@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  aiethics-safety2020:
+    build: .
+    container_name: aiethics-safety2020
+    environment:
+      - AGENT_NAME=aiethics-safety2020
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

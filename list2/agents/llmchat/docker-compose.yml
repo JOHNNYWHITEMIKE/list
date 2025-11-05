@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llmchat:
+    build: .
+    container_name: llmchat
+    environment:
+      - AGENT_NAME=llmchat
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

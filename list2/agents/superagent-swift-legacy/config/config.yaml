@@ -1,0 +1,6 @@
+# Configuration for superagent-swift-legacy
+agent:
+  name: superagent-swift-legacy
+  version: 1.0.0
+  
+# Add your configuration here

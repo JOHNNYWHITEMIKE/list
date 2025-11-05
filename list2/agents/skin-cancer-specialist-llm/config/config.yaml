@@ -1,0 +1,6 @@
+# Configuration for skin-cancer-specialist-llm
+agent:
+  name: skin-cancer-specialist-llm
+  version: 1.0.0
+  
+# Add your configuration here

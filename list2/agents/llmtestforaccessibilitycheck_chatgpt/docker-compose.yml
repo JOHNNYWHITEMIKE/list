@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llmtestforaccessibilitycheck_chatgpt:
+    build: .
+    container_name: llmtestforaccessibilitycheck_chatgpt
+    environment:
+      - AGENT_NAME=llmtestforaccessibilitycheck_chatgpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

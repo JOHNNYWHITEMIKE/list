@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mcts-agent-cythonized:
+    build: .
+    container_name: mcts-agent-cythonized
+    environment:
+      - AGENT_NAME=mcts-agent-cythonized
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

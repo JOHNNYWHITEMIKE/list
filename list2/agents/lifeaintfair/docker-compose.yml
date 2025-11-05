@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lifeaintfair:
+    build: .
+    container_name: lifeaintfair
+    environment:
+      - AGENT_NAME=lifeaintfair
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

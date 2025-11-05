@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  metamind:
+    build: .
+    container_name: metamind
+    environment:
+      - AGENT_NAME=metamind
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for prompt-engineering-with-anthropic-claude-v-3
+agent:
+  name: prompt-engineering-with-anthropic-claude-v-3
+  version: 1.0.0
+  
+# Add your configuration here

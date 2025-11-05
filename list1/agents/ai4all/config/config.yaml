@@ -1,0 +1,6 @@
+# Configuration for ai4all
+agent:
+  name: ai4all
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for startyourjourney
+agent:
+  name: startyourjourney
+  version: 1.0.0
+  
+# Add your configuration here

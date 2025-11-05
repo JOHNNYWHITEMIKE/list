@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-embed-jina:
+    build: .
+    container_name: llm-embed-jina
+    environment:
+      - AGENT_NAME=llm-embed-jina
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

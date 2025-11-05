@@ -1,0 +1,6 @@
+# Configuration for labs-ai-tools-for-devs
+agent:
+  name: labs-ai-tools-for-devs
+  version: 1.0.0
+  
+# Add your configuration here

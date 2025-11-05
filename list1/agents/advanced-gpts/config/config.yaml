@@ -1,0 +1,6 @@
+# Configuration for advanced-gpts
+agent:
+  name: advanced-gpts
+  version: 1.0.0
+  
+# Add your configuration here

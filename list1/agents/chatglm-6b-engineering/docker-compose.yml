@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  chatglm-6b-engineering:
+    build: .
+    container_name: chatglm-6b-engineering
+    environment:
+      - AGENT_NAME=chatglm-6b-engineering
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

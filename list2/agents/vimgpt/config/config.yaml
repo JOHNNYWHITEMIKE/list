@@ -1,0 +1,6 @@
+# Configuration for vimgpt
+agent:
+  name: vimgpt
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  floki:
+    build: .
+    container_name: floki
+    environment:
+      - AGENT_NAME=floki
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

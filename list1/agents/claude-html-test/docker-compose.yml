@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  claude-html-test:
+    build: .
+    container_name: claude-html-test
+    environment:
+      - AGENT_NAME=claude-html-test
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

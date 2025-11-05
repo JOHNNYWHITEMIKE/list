@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cody:
+    build: .
+    container_name: cody
+    environment:
+      - AGENT_NAME=cody
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

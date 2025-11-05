@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  othello-fx:
+    build: .
+    container_name: othello-fx
+    environment:
+      - AGENT_NAME=othello-fx
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

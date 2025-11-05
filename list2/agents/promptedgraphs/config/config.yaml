@@ -1,0 +1,6 @@
+# Configuration for promptedgraphs
+agent:
+  name: promptedgraphs
+  version: 1.0.0
+  
+# Add your configuration here

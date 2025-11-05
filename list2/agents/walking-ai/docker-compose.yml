@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  walking-ai:
+    build: .
+    container_name: walking-ai
+    environment:
+      - AGENT_NAME=walking-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

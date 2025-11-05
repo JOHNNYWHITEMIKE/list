@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gpt-models-by-openai:
+    build: .
+    container_name: gpt-models-by-openai
+    environment:
+      - AGENT_NAME=gpt-models-by-openai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

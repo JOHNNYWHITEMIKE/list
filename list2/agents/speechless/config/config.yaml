@@ -1,0 +1,6 @@
+# Configuration for speechless
+agent:
+  name: speechless
+  version: 1.0.0
+  
+# Add your configuration here

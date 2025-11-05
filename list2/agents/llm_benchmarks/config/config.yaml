@@ -1,0 +1,6 @@
+# Configuration for llm_benchmarks
+agent:
+  name: llm_benchmarks
+  version: 1.0.0
+  
+# Add your configuration here

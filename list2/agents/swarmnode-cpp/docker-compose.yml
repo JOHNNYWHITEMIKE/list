@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  swarmnode-cpp:
+    build: .
+    container_name: swarmnode-cpp
+    environment:
+      - AGENT_NAME=swarmnode-cpp
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

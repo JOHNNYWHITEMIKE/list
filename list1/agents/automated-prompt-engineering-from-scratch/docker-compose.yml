@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  automated-prompt-engineering-from-scratch:
+    build: .
+    container_name: automated-prompt-engineering-from-scratch
+    environment:
+      - AGENT_NAME=automated-prompt-engineering-from-scratch
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

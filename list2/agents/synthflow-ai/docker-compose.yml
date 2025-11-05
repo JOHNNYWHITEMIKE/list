@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  synthflow-ai:
+    build: .
+    container_name: synthflow-ai
+    environment:
+      - AGENT_NAME=synthflow-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

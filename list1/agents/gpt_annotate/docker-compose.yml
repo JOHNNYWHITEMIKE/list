@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gpt_annotate:
+    build: .
+    container_name: gpt_annotate
+    environment:
+      - AGENT_NAME=gpt_annotate
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

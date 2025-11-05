@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-theory-of-mind:
+    build: .
+    container_name: llm-theory-of-mind
+    environment:
+      - AGENT_NAME=llm-theory-of-mind
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

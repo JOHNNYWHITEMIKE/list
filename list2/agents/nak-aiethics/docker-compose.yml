@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nak-aiethics:
+    build: .
+    container_name: nak-aiethics
+    environment:
+      - AGENT_NAME=nak-aiethics
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

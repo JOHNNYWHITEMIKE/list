@@ -1,0 +1,6 @@
+# Configuration for llm-predictor
+agent:
+  name: llm-predictor
+  version: 1.0.0
+  
+# Add your configuration here

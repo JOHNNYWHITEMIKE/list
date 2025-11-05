@@ -1,0 +1,6 @@
+# Configuration for shortgpt-by-rayventura
+agent:
+  name: shortgpt-by-rayventura
+  version: 1.0.0
+  
+# Add your configuration here

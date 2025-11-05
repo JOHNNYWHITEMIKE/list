@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  travel_agent:
+    build: .
+    container_name: travel_agent
+    environment:
+      - AGENT_NAME=travel_agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

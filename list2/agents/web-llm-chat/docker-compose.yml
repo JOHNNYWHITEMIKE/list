@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web-llm-chat:
+    build: .
+    container_name: web-llm-chat
+    environment:
+      - AGENT_NAME=web-llm-chat
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for loopgpt
+agent:
+  name: loopgpt
+  version: 1.0.0
+  
+# Add your configuration here

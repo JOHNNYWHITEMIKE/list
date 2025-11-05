@@ -1,0 +1,6 @@
+# Configuration for awesome-llm4security
+agent:
+  name: awesome-llm4security
+  version: 1.0.0
+  
+# Add your configuration here

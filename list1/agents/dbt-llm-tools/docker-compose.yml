@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dbt-llm-tools:
+    build: .
+    container_name: dbt-llm-tools
+    environment:
+      - AGENT_NAME=dbt-llm-tools
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

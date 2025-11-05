@@ -1,0 +1,6 @@
+# Configuration for vanilla-parcel-boilerplate
+agent:
+  name: vanilla-parcel-boilerplate
+  version: 1.0.0
+  
+# Add your configuration here

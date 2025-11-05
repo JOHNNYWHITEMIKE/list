@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  autonomous-ai-team:
+    build: .
+    container_name: autonomous-ai-team
+    environment:
+      - AGENT_NAME=autonomous-ai-team
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

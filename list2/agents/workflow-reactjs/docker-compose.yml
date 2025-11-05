@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  workflow-reactjs:
+    build: .
+    container_name: workflow-reactjs
+    environment:
+      - AGENT_NAME=workflow-reactjs
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

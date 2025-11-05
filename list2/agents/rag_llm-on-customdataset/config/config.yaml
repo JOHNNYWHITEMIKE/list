@@ -1,0 +1,6 @@
+# Configuration for rag_llm-on-customdataset
+agent:
+  name: rag_llm-on-customdataset
+  version: 1.0.0
+  
+# Add your configuration here

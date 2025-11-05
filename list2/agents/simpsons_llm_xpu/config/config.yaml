@@ -1,0 +1,6 @@
+# Configuration for simpsons_llm_xpu
+agent:
+  name: simpsons_llm_xpu
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  apemind-framework:
+    build: .
+    container_name: apemind-framework
+    environment:
+      - AGENT_NAME=apemind-framework
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

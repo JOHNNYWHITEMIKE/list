@@ -1,0 +1,6 @@
+# Configuration for awesome-prompt-engineering
+agent:
+  name: awesome-prompt-engineering
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-agent-solving-security-challenges:
+    build: .
+    container_name: ai-agent-solving-security-challenges
+    environment:
+      - AGENT_NAME=ai-agent-solving-security-challenges
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

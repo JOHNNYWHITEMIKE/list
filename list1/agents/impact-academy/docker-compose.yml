@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  impact-academy:
+    build: .
+    container_name: impact-academy
+    environment:
+      - AGENT_NAME=impact-academy
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

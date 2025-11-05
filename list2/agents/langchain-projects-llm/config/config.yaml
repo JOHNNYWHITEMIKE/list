@@ -1,0 +1,6 @@
+# Configuration for langchain-projects-llm
+agent:
+  name: langchain-projects-llm
+  version: 1.0.0
+  
+# Add your configuration here

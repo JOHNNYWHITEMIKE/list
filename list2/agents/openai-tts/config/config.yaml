@@ -1,0 +1,6 @@
+# Configuration for openai-tts
+agent:
+  name: openai-tts
+  version: 1.0.0
+  
+# Add your configuration here

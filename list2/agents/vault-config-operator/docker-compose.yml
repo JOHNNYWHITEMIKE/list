@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vault-config-operator:
+    build: .
+    container_name: vault-config-operator
+    environment:
+      - AGENT_NAME=vault-config-operator
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sim-security-data:
+    build: .
+    container_name: sim-security-data
+    environment:
+      - AGENT_NAME=sim-security-data
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

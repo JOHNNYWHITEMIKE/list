@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gorilla:
+    build: .
+    container_name: gorilla
+    environment:
+      - AGENT_NAME=gorilla
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  code-interpreter:
+    build: .
+    container_name: code-interpreter
+    environment:
+      - AGENT_NAME=code-interpreter
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

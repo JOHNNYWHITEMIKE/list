@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fauno-italian-llm:
+    build: .
+    container_name: fauno-italian-llm
+    environment:
+      - AGENT_NAME=fauno-italian-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for data_fine_tune
+agent:
+  name: data_fine_tune
+  version: 1.0.0
+  
+# Add your configuration here

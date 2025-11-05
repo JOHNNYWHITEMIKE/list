@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  workflows_and_package_management:
+    build: .
+    container_name: workflows_and_package_management
+    environment:
+      - AGENT_NAME=workflows_and_package_management
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

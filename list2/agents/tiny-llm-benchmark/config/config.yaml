@@ -1,0 +1,6 @@
+# Configuration for tiny-llm-benchmark
+agent:
+  name: tiny-llm-benchmark
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for llms-world-models-for-planning
+agent:
+  name: llms-world-models-for-planning
+  version: 1.0.0
+  
+# Add your configuration here

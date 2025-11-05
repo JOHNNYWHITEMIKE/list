@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  aws-mwaa-local-runner:
+    build: .
+    container_name: aws-mwaa-local-runner
+    environment:
+      - AGENT_NAME=aws-mwaa-local-runner
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

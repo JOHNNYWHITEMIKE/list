@@ -1,0 +1,6 @@
+# Configuration for nak-aiethics
+agent:
+  name: nak-aiethics
+  version: 1.0.0
+  
+# Add your configuration here

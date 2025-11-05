@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  aidialer:
+    build: .
+    container_name: aidialer
+    environment:
+      - AGENT_NAME=aidialer
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

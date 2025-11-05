@@ -1,0 +1,6 @@
+# Configuration for markdown_llm
+agent:
+  name: markdown_llm
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  autogpt-handbook:
+    build: .
+    container_name: autogpt-handbook
+    environment:
+      - AGENT_NAME=autogpt-handbook
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

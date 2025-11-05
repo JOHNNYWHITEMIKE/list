@@ -1,0 +1,6 @@
+# Configuration for agents-by-ai-waves
+agent:
+  name: agents-by-ai-waves
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  loopgpt:
+    build: .
+    container_name: loopgpt
+    environment:
+      - AGENT_NAME=loopgpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

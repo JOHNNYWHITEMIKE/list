@@ -1,0 +1,6 @@
+# Configuration for pimcore-workflow-gui
+agent:
+  name: pimcore-workflow-gui
+  version: 1.0.0
+  
+# Add your configuration here

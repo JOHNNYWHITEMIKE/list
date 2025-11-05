@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agent-tools:
+    build: .
+    container_name: agent-tools
+    environment:
+      - AGENT_NAME=agent-tools
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

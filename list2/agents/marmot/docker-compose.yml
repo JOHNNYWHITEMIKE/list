@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  marmot:
+    build: .
+    container_name: marmot
+    environment:
+      - AGENT_NAME=marmot
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

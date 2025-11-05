@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  multi-agent-secops-llm:
+    build: .
+    container_name: multi-agent-secops-llm
+    environment:
+      - AGENT_NAME=multi-agent-secops-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

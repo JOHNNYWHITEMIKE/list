@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-ollama:
+    build: .
+    container_name: llm-ollama
+    environment:
+      - AGENT_NAME=llm-ollama
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

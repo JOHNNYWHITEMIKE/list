@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  notiongpt:
+    build: .
+    container_name: notiongpt
+    environment:
+      - AGENT_NAME=notiongpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

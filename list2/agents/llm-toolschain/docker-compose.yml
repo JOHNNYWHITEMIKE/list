@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-toolschain:
+    build: .
+    container_name: llm-toolschain
+    environment:
+      - AGENT_NAME=llm-toolschain
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

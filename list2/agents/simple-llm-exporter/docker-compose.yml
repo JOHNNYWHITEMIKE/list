@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  simple-llm-exporter:
+    build: .
+    container_name: simple-llm-exporter
+    environment:
+      - AGENT_NAME=simple-llm-exporter
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

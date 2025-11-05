@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pdf_to_llm_datasetpy:
+    build: .
+    container_name: pdf_to_llm_datasetpy
+    environment:
+      - AGENT_NAME=pdf_to_llm_datasetpy
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

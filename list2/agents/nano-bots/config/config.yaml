@@ -1,0 +1,6 @@
+# Configuration for nano-bots
+agent:
+  name: nano-bots
+  version: 1.0.0
+  
+# Add your configuration here

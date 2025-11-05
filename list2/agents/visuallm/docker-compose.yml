@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  visuallm:
+    build: .
+    container_name: visuallm
+    environment:
+      - AGENT_NAME=visuallm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

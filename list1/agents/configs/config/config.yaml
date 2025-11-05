@@ -1,0 +1,6 @@
+# Configuration for configs
+agent:
+  name: configs
+  version: 1.0.0
+  
+# Add your configuration here

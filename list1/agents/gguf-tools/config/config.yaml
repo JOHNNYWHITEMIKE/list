@@ -1,0 +1,6 @@
+# Configuration for gguf-tools
+agent:
+  name: gguf-tools
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for just-eval
+agent:
+  name: just-eval
+  version: 1.0.0
+  
+# Add your configuration here

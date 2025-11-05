@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  haystack:
+    build: .
+    container_name: haystack
+    environment:
+      - AGENT_NAME=haystack
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  swarms:
+    build: .
+    container_name: swarms
+    environment:
+      - AGENT_NAME=swarms
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

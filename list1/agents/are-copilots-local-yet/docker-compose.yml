@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  are-copilots-local-yet:
+    build: .
+    container_name: are-copilots-local-yet
+    environment:
+      - AGENT_NAME=are-copilots-local-yet
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

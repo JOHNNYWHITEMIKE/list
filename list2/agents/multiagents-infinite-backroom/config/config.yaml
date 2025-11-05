@@ -1,0 +1,6 @@
+# Configuration for multiagents-infinite-backroom
+agent:
+  name: multiagents-infinite-backroom
+  version: 1.0.0
+  
+# Add your configuration here

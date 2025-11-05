@@ -1,0 +1,6 @@
+# Configuration for init-eliza
+agent:
+  name: init-eliza
+  version: 1.0.0
+  
+# Add your configuration here

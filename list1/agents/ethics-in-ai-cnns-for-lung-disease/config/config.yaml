@@ -1,0 +1,6 @@
+# Configuration for ethics-in-ai-cnns-for-lung-disease
+agent:
+  name: ethics-in-ai-cnns-for-lung-disease
+  version: 1.0.0
+  
+# Add your configuration here

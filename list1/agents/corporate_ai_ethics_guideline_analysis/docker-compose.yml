@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  corporate_ai_ethics_guideline_analysis:
+    build: .
+    container_name: corporate_ai_ethics_guideline_analysis
+    environment:
+      - AGENT_NAME=corporate_ai_ethics_guideline_analysis
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

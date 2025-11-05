@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  the-ethics-of-ai-navigating-complex-challenges-and-opportunities:
+    build: .
+    container_name: the-ethics-of-ai-navigating-complex-challenges-and-opportunities
+    environment:
+      - AGENT_NAME=the-ethics-of-ai-navigating-complex-challenges-and-opportunities
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

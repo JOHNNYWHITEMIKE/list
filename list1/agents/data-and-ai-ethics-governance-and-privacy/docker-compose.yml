@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  data-and-ai-ethics-governance-and-privacy:
+    build: .
+    container_name: data-and-ai-ethics-governance-and-privacy
+    environment:
+      - AGENT_NAME=data-and-ai-ethics-governance-and-privacy
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

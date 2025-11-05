@@ -1,0 +1,6 @@
+# Configuration for ethics-in-artificial-intelligence
+agent:
+  name: ethics-in-artificial-intelligence
+  version: 1.0.0
+  
+# Add your configuration here

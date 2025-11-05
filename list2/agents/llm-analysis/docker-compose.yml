@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-analysis:
+    build: .
+    container_name: llm-analysis
+    environment:
+      - AGENT_NAME=llm-analysis
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

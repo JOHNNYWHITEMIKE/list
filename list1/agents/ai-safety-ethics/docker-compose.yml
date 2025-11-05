@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-safety-ethics:
+    build: .
+    container_name: ai-safety-ethics
+    environment:
+      - AGENT_NAME=ai-safety-ethics
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

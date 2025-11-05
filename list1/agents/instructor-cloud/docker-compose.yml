@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  instructor-cloud:
+    build: .
+    container_name: instructor-cloud
+    environment:
+      - AGENT_NAME=instructor-cloud
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

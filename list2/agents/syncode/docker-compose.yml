@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  syncode:
+    build: .
+    container_name: syncode
+    environment:
+      - AGENT_NAME=syncode
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

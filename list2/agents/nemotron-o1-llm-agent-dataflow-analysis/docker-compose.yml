@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nemotron-o1-llm-agent-dataflow-analysis:
+    build: .
+    container_name: nemotron-o1-llm-agent-dataflow-analysis
+    environment:
+      - AGENT_NAME=nemotron-o1-llm-agent-dataflow-analysis
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

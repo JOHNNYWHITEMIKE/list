@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  aifs:
+    build: .
+    container_name: aifs
+    environment:
+      - AGENT_NAME=aifs
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

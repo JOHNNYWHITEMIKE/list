@@ -1,0 +1,6 @@
+# Configuration for chatgptclone
+agent:
+  name: chatgptclone
+  version: 1.0.0
+  
+# Add your configuration here

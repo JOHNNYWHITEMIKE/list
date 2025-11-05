@@ -1,0 +1,6 @@
+# Configuration for langchain-ollama-chainlit
+agent:
+  name: langchain-ollama-chainlit
+  version: 1.0.0
+  
+# Add your configuration here

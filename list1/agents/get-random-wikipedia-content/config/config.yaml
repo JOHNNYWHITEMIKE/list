@@ -1,0 +1,6 @@
+# Configuration for get-random-wikipedia-content
+agent:
+  name: get-random-wikipedia-content
+  version: 1.0.0
+  
+# Add your configuration here

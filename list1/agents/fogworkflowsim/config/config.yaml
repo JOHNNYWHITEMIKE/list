@@ -1,0 +1,6 @@
+# Configuration for fogworkflowsim
+agent:
+  name: fogworkflowsim
+  version: 1.0.0
+  
+# Add your configuration here

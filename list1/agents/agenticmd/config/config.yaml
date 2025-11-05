@@ -1,0 +1,6 @@
+# Configuration for agenticmd
+agent:
+  name: agenticmd
+  version: 1.0.0
+  
+# Add your configuration here

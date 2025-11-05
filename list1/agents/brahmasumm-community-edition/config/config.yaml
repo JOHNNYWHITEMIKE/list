@@ -1,0 +1,6 @@
+# Configuration for brahmasumm-community-edition
+agent:
+  name: brahmasumm-community-edition
+  version: 1.0.0
+  
+# Add your configuration here

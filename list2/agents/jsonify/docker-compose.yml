@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  jsonify:
+    build: .
+    container_name: jsonify
+    environment:
+      - AGENT_NAME=jsonify
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

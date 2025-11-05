@@ -1,0 +1,6 @@
+# Configuration for llm-audio-dataset-process
+agent:
+  name: llm-audio-dataset-process
+  version: 1.0.0
+  
+# Add your configuration here

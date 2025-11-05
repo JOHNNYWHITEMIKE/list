@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  renellm:
+    build: .
+    container_name: renellm
+    environment:
+      - AGENT_NAME=renellm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

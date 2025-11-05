@@ -1,0 +1,6 @@
+# Configuration for airflow-cookbook
+agent:
+  name: airflow-cookbook
+  version: 1.0.0
+  
+# Add your configuration here

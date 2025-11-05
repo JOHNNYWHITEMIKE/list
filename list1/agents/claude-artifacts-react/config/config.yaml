@@ -1,0 +1,6 @@
+# Configuration for claude-artifacts-react
+agent:
+  name: claude-artifacts-react
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for gamabench
+agent:
+  name: gamabench
+  version: 1.0.0
+  
+# Add your configuration here

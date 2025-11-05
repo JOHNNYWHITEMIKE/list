@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  brahmasumm-community-edition:
+    build: .
+    container_name: brahmasumm-community-edition
+    environment:
+      - AGENT_NAME=brahmasumm-community-edition
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

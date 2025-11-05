@@ -1,0 +1,6 @@
+# Configuration for ai_ethics_bookclub
+agent:
+  name: ai_ethics_bookclub
+  version: 1.0.0
+  
+# Add your configuration here

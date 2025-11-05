@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  erag:
+    build: .
+    container_name: erag
+    environment:
+      - AGENT_NAME=erag
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

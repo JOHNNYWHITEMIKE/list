@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  huggingfacemodeldownloader:
+    build: .
+    container_name: huggingfacemodeldownloader
+    environment:
+      - AGENT_NAME=huggingfacemodeldownloader
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

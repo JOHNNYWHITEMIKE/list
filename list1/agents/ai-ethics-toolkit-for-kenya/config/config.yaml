@@ -1,0 +1,6 @@
+# Configuration for ai-ethics-toolkit-for-kenya
+agent:
+  name: ai-ethics-toolkit-for-kenya
+  version: 1.0.0
+  
+# Add your configuration here

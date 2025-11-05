@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  whitebox-code-gpt:
+    build: .
+    container_name: whitebox-code-gpt
+    environment:
+      - AGENT_NAME=whitebox-code-gpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

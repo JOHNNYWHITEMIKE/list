@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ee-llm:
+    build: .
+    container_name: ee-llm
+    environment:
+      - AGENT_NAME=ee-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sdm23:
+    build: .
+    container_name: sdm23
+    environment:
+      - AGENT_NAME=sdm23
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

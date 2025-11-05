@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  earth2studio:
+    build: .
+    container_name: earth2studio
+    environment:
+      - AGENT_NAME=earth2studio
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for csc2541-f19
+agent:
+  name: csc2541-f19
+  version: 1.0.0
+  
+# Add your configuration here

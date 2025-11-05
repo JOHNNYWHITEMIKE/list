@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  waii:
+    build: .
+    container_name: waii
+    environment:
+      - AGENT_NAME=waii
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

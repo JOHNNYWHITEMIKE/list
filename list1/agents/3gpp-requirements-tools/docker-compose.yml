@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  3gpp-requirements-tools:
+    build: .
+    container_name: 3gpp-requirements-tools
+    environment:
+      - AGENT_NAME=3gpp-requirements-tools
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

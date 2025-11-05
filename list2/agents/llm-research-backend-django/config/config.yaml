@@ -1,0 +1,6 @@
+# Configuration for llm-research-backend-django
+agent:
+  name: llm-research-backend-django
+  version: 1.0.0
+  
+# Add your configuration here

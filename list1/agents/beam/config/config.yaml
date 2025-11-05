@@ -1,0 +1,6 @@
+# Configuration for beam
+agent:
+  name: beam
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for scientific-llm-survey
+agent:
+  name: scientific-llm-survey
+  version: 1.0.0
+  
+# Add your configuration here

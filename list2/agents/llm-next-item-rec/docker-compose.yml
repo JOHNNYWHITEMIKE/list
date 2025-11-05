@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-next-item-rec:
+    build: .
+    container_name: llm-next-item-rec
+    environment:
+      - AGENT_NAME=llm-next-item-rec
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

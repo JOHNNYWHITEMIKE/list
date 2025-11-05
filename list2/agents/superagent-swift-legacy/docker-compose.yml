@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  superagent-swift-legacy:
+    build: .
+    container_name: superagent-swift-legacy
+    environment:
+      - AGENT_NAME=superagent-swift-legacy
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

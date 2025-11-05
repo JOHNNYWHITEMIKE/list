@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentgpt:
+    build: .
+    container_name: agentgpt
+    environment:
+      - AGENT_NAME=agentgpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

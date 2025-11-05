@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ethics-fairness-and-explanation-in-ai:
+    build: .
+    container_name: ethics-fairness-and-explanation-in-ai
+    environment:
+      - AGENT_NAME=ethics-fairness-and-explanation-in-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

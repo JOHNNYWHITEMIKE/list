@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  docgenie:
+    build: .
+    container_name: docgenie
+    environment:
+      - AGENT_NAME=docgenie
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

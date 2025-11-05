@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-api:
+    build: .
+    container_name: llm-api
+    environment:
+      - AGENT_NAME=llm-api
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for ethical-ai-courses
+agent:
+  name: ethical-ai-courses
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for xai-data-science
+agent:
+  name: xai-data-science
+  version: 1.0.0
+  
+# Add your configuration here

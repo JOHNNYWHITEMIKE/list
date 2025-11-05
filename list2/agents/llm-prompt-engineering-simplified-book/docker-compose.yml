@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-prompt-engineering-simplified-book:
+    build: .
+    container_name: llm-prompt-engineering-simplified-book
+    environment:
+      - AGENT_NAME=llm-prompt-engineering-simplified-book
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

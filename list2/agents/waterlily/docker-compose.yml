@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  waterlily:
+    build: .
+    container_name: waterlily
+    environment:
+      - AGENT_NAME=waterlily
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

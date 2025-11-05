@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fl_llm_benchmark_dataset:
+    build: .
+    container_name: fl_llm_benchmark_dataset
+    environment:
+      - AGENT_NAME=fl_llm_benchmark_dataset
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

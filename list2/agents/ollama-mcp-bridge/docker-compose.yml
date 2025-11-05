@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ollama-mcp-bridge:
+    build: .
+    container_name: ollama-mcp-bridge
+    environment:
+      - AGENT_NAME=ollama-mcp-bridge
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

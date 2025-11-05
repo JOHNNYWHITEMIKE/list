@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  java-ai-sbus-test:
+    build: .
+    container_name: java-ai-sbus-test
+    environment:
+      - AGENT_NAME=java-ai-sbus-test
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sammo:
+    build: .
+    container_name: sammo
+    environment:
+      - AGENT_NAME=sammo
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-ethics-tool-landscape:
+    build: .
+    container_name: ai-ethics-tool-landscape
+    environment:
+      - AGENT_NAME=ai-ethics-tool-landscape
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

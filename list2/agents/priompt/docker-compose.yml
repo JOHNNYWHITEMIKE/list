@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  priompt:
+    build: .
+    container_name: priompt
+    environment:
+      - AGENT_NAME=priompt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gpt-pilot:
+    build: .
+    container_name: gpt-pilot
+    environment:
+      - AGENT_NAME=gpt-pilot
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

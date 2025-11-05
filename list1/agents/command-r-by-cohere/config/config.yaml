@@ -1,0 +1,6 @@
+# Configuration for command-r-by-cohere
+agent:
+  name: command-r-by-cohere
+  version: 1.0.0
+  
+# Add your configuration here

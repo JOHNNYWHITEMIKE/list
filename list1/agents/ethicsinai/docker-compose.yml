@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ethicsinai:
+    build: .
+    container_name: ethicsinai
+    environment:
+      - AGENT_NAME=ethicsinai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

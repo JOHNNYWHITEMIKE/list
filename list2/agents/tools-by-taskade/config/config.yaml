@@ -1,0 +1,6 @@
+# Configuration for tools-by-taskade
+agent:
+  name: tools-by-taskade
+  version: 1.0.0
+  
+# Add your configuration here

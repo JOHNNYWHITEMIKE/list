@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  docker-wordpress:
+    build: .
+    container_name: docker-wordpress
+    environment:
+      - AGENT_NAME=docker-wordpress
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

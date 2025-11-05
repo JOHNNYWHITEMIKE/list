@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  chatgptclone:
+    build: .
+    container_name: chatgptclone
+    environment:
+      - AGENT_NAME=chatgptclone
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

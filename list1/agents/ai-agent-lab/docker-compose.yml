@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-agent-lab:
+    build: .
+    container_name: ai-agent-lab
+    environment:
+      - AGENT_NAME=ai-agent-lab
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for cuda-quantum
+agent:
+  name: cuda-quantum
+  version: 1.0.0
+  
+# Add your configuration here

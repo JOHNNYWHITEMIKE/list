@@ -1,0 +1,6 @@
+# Configuration for talkscriber
+agent:
+  name: talkscriber
+  version: 1.0.0
+  
+# Add your configuration here

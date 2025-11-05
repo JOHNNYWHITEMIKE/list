@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dall-e2-cartography-ethics:
+    build: .
+    container_name: dall-e2-cartography-ethics
+    environment:
+      - AGENT_NAME=dall-e2-cartography-ethics
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

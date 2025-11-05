@@ -1,0 +1,6 @@
+# Configuration for cognitive-security-ai-powered-threat-agent-evaluation-for-impact-on-assets
+agent:
+  name: cognitive-security-ai-powered-threat-agent-evaluation-for-impact-on-assets
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentlab:
+    build: .
+    container_name: agentlab
+    environment:
+      - AGENT_NAME=agentlab
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

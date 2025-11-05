@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  graphrag-visualizer:
+    build: .
+    container_name: graphrag-visualizer
+    environment:
+      - AGENT_NAME=graphrag-visualizer
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

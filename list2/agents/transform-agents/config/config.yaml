@@ -1,0 +1,6 @@
+# Configuration for transform-agents
+agent:
+  name: transform-agents
+  version: 1.0.0
+  
+# Add your configuration here

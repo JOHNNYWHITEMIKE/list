@@ -1,0 +1,6 @@
+# Configuration for travel_agent
+agent:
+  name: travel_agent
+  version: 1.0.0
+  
+# Add your configuration here

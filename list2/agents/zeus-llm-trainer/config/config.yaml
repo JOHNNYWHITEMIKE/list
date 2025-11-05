@@ -1,0 +1,6 @@
+# Configuration for zeus-llm-trainer
+agent:
+  name: zeus-llm-trainer
+  version: 1.0.0
+  
+# Add your configuration here

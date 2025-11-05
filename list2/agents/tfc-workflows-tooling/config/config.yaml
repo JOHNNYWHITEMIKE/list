@@ -1,0 +1,6 @@
+# Configuration for tfc-workflows-tooling
+agent:
+  name: tfc-workflows-tooling
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for llm_scavengerhunt
+agent:
+  name: llm_scavengerhunt
+  version: 1.0.0
+  
+# Add your configuration here

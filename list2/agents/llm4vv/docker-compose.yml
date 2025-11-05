@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm4vv:
+    build: .
+    container_name: llm4vv
+    environment:
+      - AGENT_NAME=llm4vv
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

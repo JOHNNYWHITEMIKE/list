@@ -1,0 +1,6 @@
+# Configuration for prompt-eng-ollama-interactive-tutorial
+agent:
+  name: prompt-eng-ollama-interactive-tutorial
+  version: 1.0.0
+  
+# Add your configuration here

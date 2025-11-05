@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  machine-learning-examples:
+    build: .
+    container_name: machine-learning-examples
+    environment:
+      - AGENT_NAME=machine-learning-examples
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

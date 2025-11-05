@@ -1,0 +1,6 @@
+# Configuration for baseline-agent
+agent:
+  name: baseline-agent
+  version: 1.0.0
+  
+# Add your configuration here

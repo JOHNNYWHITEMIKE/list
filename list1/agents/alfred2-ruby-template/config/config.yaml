@@ -1,0 +1,6 @@
+# Configuration for alfred2-ruby-template
+agent:
+  name: alfred2-ruby-template
+  version: 1.0.0
+  
+# Add your configuration here

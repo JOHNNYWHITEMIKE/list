@@ -1,0 +1,6 @@
+# Configuration for agent-accelerator
+agent:
+  name: agent-accelerator
+  version: 1.0.0
+  
+# Add your configuration here

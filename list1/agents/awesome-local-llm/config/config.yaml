@@ -1,0 +1,6 @@
+# Configuration for awesome-local-llm
+agent:
+  name: awesome-local-llm
+  version: 1.0.0
+  
+# Add your configuration here

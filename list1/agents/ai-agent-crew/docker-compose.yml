@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-agent-crew:
+    build: .
+    container_name: ai-agent-crew
+    environment:
+      - AGENT_NAME=ai-agent-crew
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

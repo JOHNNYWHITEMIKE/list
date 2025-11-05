@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dataset-error-reduction:
+    build: .
+    container_name: dataset-error-reduction
+    environment:
+      - AGENT_NAME=dataset-error-reduction
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

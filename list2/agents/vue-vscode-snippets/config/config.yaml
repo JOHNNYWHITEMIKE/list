@@ -1,0 +1,6 @@
+# Configuration for vue-vscode-snippets
+agent:
+  name: vue-vscode-snippets
+  version: 1.0.0
+  
+# Add your configuration here

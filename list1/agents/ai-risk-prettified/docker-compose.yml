@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-risk-prettified:
+    build: .
+    container_name: ai-risk-prettified
+    environment:
+      - AGENT_NAME=ai-risk-prettified
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

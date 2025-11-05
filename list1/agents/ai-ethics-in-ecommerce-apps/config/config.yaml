@@ -1,0 +1,6 @@
+# Configuration for ai-ethics-in-ecommerce-apps
+agent:
+  name: ai-ethics-in-ecommerce-apps
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  companion:
+    build: .
+    container_name: companion
+    environment:
+      - AGENT_NAME=companion
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

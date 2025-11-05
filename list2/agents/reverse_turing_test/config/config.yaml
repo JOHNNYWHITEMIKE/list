@@ -1,0 +1,6 @@
+# Configuration for reverse_turing_test
+agent:
+  name: reverse_turing_test
+  version: 1.0.0
+  
+# Add your configuration here

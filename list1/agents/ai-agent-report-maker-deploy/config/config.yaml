@@ -1,0 +1,6 @@
+# Configuration for ai-agent-report-maker-deploy
+agent:
+  name: ai-agent-report-maker-deploy
+  version: 1.0.0
+  
+# Add your configuration here

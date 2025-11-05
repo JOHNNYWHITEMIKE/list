@@ -1,0 +1,6 @@
+# Configuration for promptengineering4devs
+agent:
+  name: promptengineering4devs
+  version: 1.0.0
+  
+# Add your configuration here

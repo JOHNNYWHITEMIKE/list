@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  swarmnode-node:
+    build: .
+    container_name: swarmnode-node
+    environment:
+      - AGENT_NAME=swarmnode-node
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

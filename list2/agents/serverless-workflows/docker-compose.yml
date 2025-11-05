@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  serverless-workflows:
+    build: .
+    container_name: serverless-workflows
+    environment:
+      - AGENT_NAME=serverless-workflows
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

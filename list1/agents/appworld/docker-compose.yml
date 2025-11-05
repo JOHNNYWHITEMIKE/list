@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  appworld:
+    build: .
+    container_name: appworld
+    environment:
+      - AGENT_NAME=appworld
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

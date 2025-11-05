@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  groq:
+    build: .
+    container_name: groq
+    environment:
+      - AGENT_NAME=groq
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

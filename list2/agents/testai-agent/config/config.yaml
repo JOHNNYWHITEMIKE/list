@@ -1,0 +1,6 @@
+# Configuration for testai-agent
+agent:
+  name: testai-agent
+  version: 1.0.0
+  
+# Add your configuration here

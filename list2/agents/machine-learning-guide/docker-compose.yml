@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  machine-learning-guide:
+    build: .
+    container_name: machine-learning-guide
+    environment:
+      - AGENT_NAME=machine-learning-guide
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

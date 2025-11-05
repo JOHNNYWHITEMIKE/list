@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  flyte:
+    build: .
+    container_name: flyte
+    environment:
+      - AGENT_NAME=flyte
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

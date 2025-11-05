@@ -1,0 +1,6 @@
+# Configuration for contact-center-genai-agent
+agent:
+  name: contact-center-genai-agent
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for testzeus-hercules
+agent:
+  name: testzeus-hercules
+  version: 1.0.0
+  
+# Add your configuration here

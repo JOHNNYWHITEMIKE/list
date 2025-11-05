@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  reverse_turing_test:
+    build: .
+    container_name: reverse_turing_test
+    environment:
+      - AGENT_NAME=reverse_turing_test
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

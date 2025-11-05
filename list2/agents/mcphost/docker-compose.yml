@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mcphost:
+    build: .
+    container_name: mcphost
+    environment:
+      - AGENT_NAME=mcphost
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for speechllm
+agent:
+  name: speechllm
+  version: 1.0.0
+  
+# Add your configuration here

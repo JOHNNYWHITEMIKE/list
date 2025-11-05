@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  glm-edge:
+    build: .
+    container_name: glm-edge
+    environment:
+      - AGENT_NAME=glm-edge
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

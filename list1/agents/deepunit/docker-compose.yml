@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  deepunit:
+    build: .
+    container_name: deepunit
+    environment:
+      - AGENT_NAME=deepunit
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

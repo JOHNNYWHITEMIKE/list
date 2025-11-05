@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-wallet-agent-test:
+    build: .
+    container_name: ai-wallet-agent-test
+    environment:
+      - AGENT_NAME=ai-wallet-agent-test
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

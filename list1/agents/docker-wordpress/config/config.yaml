@@ -1,0 +1,6 @@
+# Configuration for docker-wordpress
+agent:
+  name: docker-wordpress
+  version: 1.0.0
+  
+# Add your configuration here

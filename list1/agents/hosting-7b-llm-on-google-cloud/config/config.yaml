@@ -1,0 +1,6 @@
+# Configuration for hosting-7b-llm-on-google-cloud
+agent:
+  name: hosting-7b-llm-on-google-cloud
+  version: 1.0.0
+  
+# Add your configuration here

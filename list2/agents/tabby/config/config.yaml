@@ -1,0 +1,6 @@
+# Configuration for tabby
+agent:
+  name: tabby
+  version: 1.0.0
+  
+# Add your configuration here

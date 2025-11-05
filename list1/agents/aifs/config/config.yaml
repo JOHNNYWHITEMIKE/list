@@ -1,0 +1,6 @@
+# Configuration for aifs
+agent:
+  name: aifs
+  version: 1.0.0
+  
+# Add your configuration here

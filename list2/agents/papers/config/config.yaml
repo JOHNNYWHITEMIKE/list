@@ -1,0 +1,6 @@
+# Configuration for papers
+agent:
+  name: papers
+  version: 1.0.0
+  
+# Add your configuration here

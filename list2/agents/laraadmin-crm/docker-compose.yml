@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  laraadmin-crm:
+    build: .
+    container_name: laraadmin-crm
+    environment:
+      - AGENT_NAME=laraadmin-crm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for tora
+agent:
+  name: tora
+  version: 1.0.0
+  
+# Add your configuration here

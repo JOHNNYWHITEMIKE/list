@@ -1,0 +1,6 @@
+# Configuration for ai-wallet-agent-test
+agent:
+  name: ai-wallet-agent-test
+  version: 1.0.0
+  
+# Add your configuration here

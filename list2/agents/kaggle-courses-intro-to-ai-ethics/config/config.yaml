@@ -1,0 +1,6 @@
+# Configuration for kaggle-courses-intro-to-ai-ethics
+agent:
+  name: kaggle-courses-intro-to-ai-ethics
+  version: 1.0.0
+  
+# Add your configuration here

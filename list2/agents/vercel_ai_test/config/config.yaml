@@ -1,0 +1,6 @@
+# Configuration for vercel_ai_test
+agent:
+  name: vercel_ai_test
+  version: 1.0.0
+  
+# Add your configuration here

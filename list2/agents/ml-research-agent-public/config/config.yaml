@@ -1,0 +1,6 @@
+# Configuration for ml-research-agent-public
+agent:
+  name: ml-research-agent-public
+  version: 1.0.0
+  
+# Add your configuration here

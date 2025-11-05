@@ -1,0 +1,6 @@
+# Configuration for langchain-js-tools
+agent:
+  name: langchain-js-tools
+  version: 1.0.0
+  
+# Add your configuration here

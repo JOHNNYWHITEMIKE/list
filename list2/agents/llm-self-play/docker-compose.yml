@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-self-play:
+    build: .
+    container_name: llm-self-play
+    environment:
+      - AGENT_NAME=llm-self-play
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vacuum-agents:
+    build: .
+    container_name: vacuum-agents
+    environment:
+      - AGENT_NAME=vacuum-agents
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

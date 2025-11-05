@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  xai-data-science:
+    build: .
+    container_name: xai-data-science
+    environment:
+      - AGENT_NAME=xai-data-science
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  splaa:
+    build: .
+    container_name: splaa
+    environment:
+      - AGENT_NAME=splaa
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

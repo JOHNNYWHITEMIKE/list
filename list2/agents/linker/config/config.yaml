@@ -1,0 +1,6 @@
+# Configuration for linker
+agent:
+  name: linker
+  version: 1.0.0
+  
+# Add your configuration here

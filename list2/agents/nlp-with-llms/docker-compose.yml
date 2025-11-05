@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nlp-with-llms:
+    build: .
+    container_name: nlp-with-llms
+    environment:
+      - AGENT_NAME=nlp-with-llms
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

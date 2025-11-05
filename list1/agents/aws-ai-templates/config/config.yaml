@@ -1,0 +1,6 @@
+# Configuration for aws-ai-templates
+agent:
+  name: aws-ai-templates
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  stream-bench:
+    build: .
+    container_name: stream-bench
+    environment:
+      - AGENT_NAME=stream-bench
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

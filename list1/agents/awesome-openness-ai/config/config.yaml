@@ -1,0 +1,6 @@
+# Configuration for awesome-openness-ai
+agent:
+  name: awesome-openness-ai
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mastermind:
+    build: .
+    container_name: mastermind
+    environment:
+      - AGENT_NAME=mastermind
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

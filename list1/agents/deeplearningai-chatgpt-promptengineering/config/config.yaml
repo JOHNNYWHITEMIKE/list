@@ -1,0 +1,6 @@
+# Configuration for deeplearningai-chatgpt-promptengineering
+agent:
+  name: deeplearningai-chatgpt-promptengineering
+  version: 1.0.0
+  
+# Add your configuration here

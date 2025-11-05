@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-reinforcement-learning:
+    build: .
+    container_name: ai-reinforcement-learning
+    environment:
+      - AGENT_NAME=ai-reinforcement-learning
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

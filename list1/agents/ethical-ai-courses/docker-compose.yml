@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ethical-ai-courses:
+    build: .
+    container_name: ethical-ai-courses
+    environment:
+      - AGENT_NAME=ethical-ai-courses
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

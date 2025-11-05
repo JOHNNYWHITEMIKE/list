@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-mlsecops:
+    build: .
+    container_name: awesome-mlsecops
+    environment:
+      - AGENT_NAME=awesome-mlsecops
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

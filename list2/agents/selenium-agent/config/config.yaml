@@ -1,0 +1,6 @@
+# Configuration for selenium-agent
+agent:
+  name: selenium-agent
+  version: 1.0.0
+  
+# Add your configuration here

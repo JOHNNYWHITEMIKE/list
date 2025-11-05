@@ -1,0 +1,6 @@
+# Configuration for ai-writing-survey
+agent:
+  name: ai-writing-survey
+  version: 1.0.0
+  
+# Add your configuration here

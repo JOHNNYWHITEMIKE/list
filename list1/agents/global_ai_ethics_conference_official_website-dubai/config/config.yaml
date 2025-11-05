@@ -1,0 +1,6 @@
+# Configuration for global_ai_ethics_conference_official_website-dubai
+agent:
+  name: global_ai_ethics_conference_official_website-dubai
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for llmcuratorio
+agent:
+  name: llmcuratorio
+  version: 1.0.0
+  
+# Add your configuration here

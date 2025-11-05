@@ -1,0 +1,6 @@
+# Configuration for shimmering-obsidian
+agent:
+  name: shimmering-obsidian
+  version: 1.0.0
+  
+# Add your configuration here

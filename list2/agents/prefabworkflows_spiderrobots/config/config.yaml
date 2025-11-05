@@ -1,0 +1,6 @@
+# Configuration for prefabworkflows_spiderrobots
+agent:
+  name: prefabworkflows_spiderrobots
+  version: 1.0.0
+  
+# Add your configuration here

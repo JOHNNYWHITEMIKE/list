@@ -1,0 +1,6 @@
+# Configuration for traces-by-weights-biases
+agent:
+  name: traces-by-weights-biases
+  version: 1.0.0
+  
+# Add your configuration here

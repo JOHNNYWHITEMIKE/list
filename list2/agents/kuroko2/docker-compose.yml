@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  kuroko2:
+    build: .
+    container_name: kuroko2
+    environment:
+      - AGENT_NAME=kuroko2
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

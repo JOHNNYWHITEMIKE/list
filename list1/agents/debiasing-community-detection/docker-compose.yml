@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  debiasing-community-detection:
+    build: .
+    container_name: debiasing-community-detection
+    environment:
+      - AGENT_NAME=debiasing-community-detection
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

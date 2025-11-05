@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  comfyuimini:
+    build: .
+    container_name: comfyuimini
+    environment:
+      - AGENT_NAME=comfyuimini
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

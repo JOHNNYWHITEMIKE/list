@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  smart_fault_injector_llm:
+    build: .
+    container_name: smart_fault_injector_llm
+    environment:
+      - AGENT_NAME=smart_fault_injector_llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

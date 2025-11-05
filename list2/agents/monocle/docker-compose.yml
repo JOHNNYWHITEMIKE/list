@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  monocle:
+    build: .
+    container_name: monocle
+    environment:
+      - AGENT_NAME=monocle
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

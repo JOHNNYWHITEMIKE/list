@@ -1,0 +1,6 @@
+# Configuration for test-ai-agent-ideas
+agent:
+  name: test-ai-agent-ideas
+  version: 1.0.0
+  
+# Add your configuration here

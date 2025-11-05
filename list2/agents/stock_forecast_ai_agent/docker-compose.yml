@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  stock_forecast_ai_agent:
+    build: .
+    container_name: stock_forecast_ai_agent
+    environment:
+      - AGENT_NAME=stock_forecast_ai_agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

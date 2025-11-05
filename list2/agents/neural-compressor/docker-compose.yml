@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  neural-compressor:
+    build: .
+    container_name: neural-compressor
+    environment:
+      - AGENT_NAME=neural-compressor
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

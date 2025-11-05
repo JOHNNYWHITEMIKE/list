@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  corexai:
+    build: .
+    container_name: corexai
+    environment:
+      - AGENT_NAME=corexai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

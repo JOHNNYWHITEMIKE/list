@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  intro-to-ai-ethics-free-course-kaggle:
+    build: .
+    container_name: intro-to-ai-ethics-free-course-kaggle
+    environment:
+      - AGENT_NAME=intro-to-ai-ethics-free-course-kaggle
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

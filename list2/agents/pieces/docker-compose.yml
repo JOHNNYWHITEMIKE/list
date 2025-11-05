@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pieces:
+    build: .
+    container_name: pieces
+    environment:
+      - AGENT_NAME=pieces
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

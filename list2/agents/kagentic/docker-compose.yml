@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  kagentic:
+    build: .
+    container_name: kagentic
+    environment:
+      - AGENT_NAME=kagentic
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

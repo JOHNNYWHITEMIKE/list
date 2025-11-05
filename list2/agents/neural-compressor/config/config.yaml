@@ -1,0 +1,6 @@
+# Configuration for neural-compressor
+agent:
+  name: neural-compressor
+  version: 1.0.0
+  
+# Add your configuration here

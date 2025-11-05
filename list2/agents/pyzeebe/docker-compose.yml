@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pyzeebe:
+    build: .
+    container_name: pyzeebe
+    environment:
+      - AGENT_NAME=pyzeebe
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

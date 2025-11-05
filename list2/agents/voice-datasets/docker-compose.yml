@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  voice-datasets:
+    build: .
+    container_name: voice-datasets
+    environment:
+      - AGENT_NAME=voice-datasets
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for github-script
+agent:
+  name: github-script
+  version: 1.0.0
+  
+# Add your configuration here

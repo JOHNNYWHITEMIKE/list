@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  openai-tts:
+    build: .
+    container_name: openai-tts
+    environment:
+      - AGENT_NAME=openai-tts
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

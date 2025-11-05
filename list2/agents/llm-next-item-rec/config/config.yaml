@@ -1,0 +1,6 @@
+# Configuration for llm-next-item-rec
+agent:
+  name: llm-next-item-rec
+  version: 1.0.0
+  
+# Add your configuration here

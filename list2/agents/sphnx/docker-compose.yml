@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sphnx:
+    build: .
+    container_name: sphnx
+    environment:
+      - AGENT_NAME=sphnx
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

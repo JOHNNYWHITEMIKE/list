@@ -1,0 +1,6 @@
+# Configuration for deepinfra
+agent:
+  name: deepinfra
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  phoneit:
+    build: .
+    container_name: phoneit
+    environment:
+      - AGENT_NAME=phoneit
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

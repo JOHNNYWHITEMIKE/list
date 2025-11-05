@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm_counts:
+    build: .
+    container_name: llm_counts
+    environment:
+      - AGENT_NAME=llm_counts
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

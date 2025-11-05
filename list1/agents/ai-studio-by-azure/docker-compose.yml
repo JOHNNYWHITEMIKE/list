@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-studio-by-azure:
+    build: .
+    container_name: ai-studio-by-azure
+    environment:
+      - AGENT_NAME=ai-studio-by-azure
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

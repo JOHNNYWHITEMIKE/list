@@ -1,0 +1,6 @@
+# Configuration for ai-agent-ui
+agent:
+  name: ai-agent-ui
+  version: 1.0.0
+  
+# Add your configuration here

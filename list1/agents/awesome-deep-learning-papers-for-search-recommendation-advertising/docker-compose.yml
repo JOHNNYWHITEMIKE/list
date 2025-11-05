@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-deep-learning-papers-for-search-recommendation-advertising:
+    build: .
+    container_name: awesome-deep-learning-papers-for-search-recommendation-advertising
+    environment:
+      - AGENT_NAME=awesome-deep-learning-papers-for-search-recommendation-advertising
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

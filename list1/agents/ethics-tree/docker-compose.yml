@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ethics-tree:
+    build: .
+    container_name: ethics-tree
+    environment:
+      - AGENT_NAME=ethics-tree
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

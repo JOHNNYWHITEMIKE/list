@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  airflow-cookbook:
+    build: .
+    container_name: airflow-cookbook
+    environment:
+      - AGENT_NAME=airflow-cookbook
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

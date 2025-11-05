@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mobilebench:
+    build: .
+    container_name: mobilebench
+    environment:
+      - AGENT_NAME=mobilebench
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

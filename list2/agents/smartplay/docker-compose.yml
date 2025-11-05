@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  smartplay:
+    build: .
+    container_name: smartplay
+    environment:
+      - AGENT_NAME=smartplay
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

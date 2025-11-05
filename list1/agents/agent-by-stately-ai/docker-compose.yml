@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agent-by-stately-ai:
+    build: .
+    container_name: agent-by-stately-ai
+    environment:
+      - AGENT_NAME=agent-by-stately-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

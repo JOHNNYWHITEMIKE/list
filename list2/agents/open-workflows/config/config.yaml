@@ -1,0 +1,6 @@
+# Configuration for open-workflows
+agent:
+  name: open-workflows
+  version: 1.0.0
+  
+# Add your configuration here

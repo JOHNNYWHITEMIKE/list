@@ -1,0 +1,6 @@
+# Configuration for the-art-of-asking-chatgpt-for-high-quality-answers-a-complete-guide-to-prompt-engineering-technique
+agent:
+  name: the-art-of-asking-chatgpt-for-high-quality-answers-a-complete-guide-to-prompt-engineering-technique
+  version: 1.0.0
+  
+# Add your configuration here

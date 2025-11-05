@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  brokenhill:
+    build: .
+    container_name: brokenhill
+    environment:
+      - AGENT_NAME=brokenhill
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

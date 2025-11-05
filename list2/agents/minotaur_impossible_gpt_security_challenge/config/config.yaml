@@ -1,0 +1,6 @@
+# Configuration for minotaur_impossible_gpt_security_challenge
+agent:
+  name: minotaur_impossible_gpt_security_challenge
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for lex-fridman-dataset-llm
+agent:
+  name: lex-fridman-dataset-llm
+  version: 1.0.0
+  
+# Add your configuration here

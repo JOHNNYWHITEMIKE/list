@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ethics_and_policy_resources_for_pennaitech:
+    build: .
+    container_name: ethics_and_policy_resources_for_pennaitech
+    environment:
+      - AGENT_NAME=ethics_and_policy_resources_for_pennaitech
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

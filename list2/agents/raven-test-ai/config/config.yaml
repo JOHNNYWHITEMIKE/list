@@ -1,0 +1,6 @@
+# Configuration for raven-test-ai
+agent:
+  name: raven-test-ai
+  version: 1.0.0
+  
+# Add your configuration here

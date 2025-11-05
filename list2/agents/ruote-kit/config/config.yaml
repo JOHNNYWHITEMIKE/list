@@ -1,0 +1,6 @@
+# Configuration for ruote-kit
+agent:
+  name: ruote-kit
+  version: 1.0.0
+  
+# Add your configuration here

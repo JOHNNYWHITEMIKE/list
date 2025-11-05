@@ -1,0 +1,6 @@
+# Configuration for instruct-qna-fine-tuning-google-flan-t5-large-llm-qlora-peft-open-orca-dataset
+agent:
+  name: instruct-qna-fine-tuning-google-flan-t5-large-llm-qlora-peft-open-orca-dataset
+  version: 1.0.0
+  
+# Add your configuration here

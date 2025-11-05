@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  diplomacy-llm:
+    build: .
+    container_name: diplomacy-llm
+    environment:
+      - AGENT_NAME=diplomacy-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

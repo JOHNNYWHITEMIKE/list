@@ -1,0 +1,6 @@
+# Configuration for ghat
+agent:
+  name: ghat
+  version: 1.0.0
+  
+# Add your configuration here

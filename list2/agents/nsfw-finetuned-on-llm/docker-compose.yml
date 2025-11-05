@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nsfw-finetuned-on-llm:
+    build: .
+    container_name: nsfw-finetuned-on-llm
+    environment:
+      - AGENT_NAME=nsfw-finetuned-on-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

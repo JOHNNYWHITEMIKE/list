@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  advancedaicoursework_2:
+    build: .
+    container_name: advancedaicoursework_2
+    environment:
+      - AGENT_NAME=advancedaicoursework_2
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

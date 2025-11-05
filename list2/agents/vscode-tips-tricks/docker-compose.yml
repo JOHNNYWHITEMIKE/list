@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vscode-tips-tricks:
+    build: .
+    container_name: vscode-tips-tricks
+    environment:
+      - AGENT_NAME=vscode-tips-tricks
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

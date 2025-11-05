@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  azure-speech-service:
+    build: .
+    container_name: azure-speech-service
+    environment:
+      - AGENT_NAME=azure-speech-service
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

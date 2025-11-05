@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-datasets-for-llms:
+    build: .
+    container_name: awesome-datasets-for-llms
+    environment:
+      - AGENT_NAME=awesome-datasets-for-llms
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

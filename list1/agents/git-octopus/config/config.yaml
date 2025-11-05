@@ -1,0 +1,6 @@
+# Configuration for git-octopus
+agent:
+  name: git-octopus
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vonage:
+    build: .
+    container_name: vonage
+    environment:
+      - AGENT_NAME=vonage
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentic_security:
+    build: .
+    container_name: agentic_security
+    environment:
+      - AGENT_NAME=agentic_security
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

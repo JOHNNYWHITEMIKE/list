@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  curategpt:
+    build: .
+    container_name: curategpt
+    environment:
+      - AGENT_NAME=curategpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

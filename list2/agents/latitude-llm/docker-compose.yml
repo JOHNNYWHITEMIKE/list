@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  latitude-llm:
+    build: .
+    container_name: latitude-llm
+    environment:
+      - AGENT_NAME=latitude-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

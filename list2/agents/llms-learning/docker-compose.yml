@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llms-learning:
+    build: .
+    container_name: llms-learning
+    environment:
+      - AGENT_NAME=llms-learning
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

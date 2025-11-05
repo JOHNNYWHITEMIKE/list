@@ -1,0 +1,6 @@
+# Configuration for llm-term
+agent:
+  name: llm-term
+  version: 1.0.0
+  
+# Add your configuration here

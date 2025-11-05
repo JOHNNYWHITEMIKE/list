@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pipeline:
+    build: .
+    container_name: pipeline
+    environment:
+      - AGENT_NAME=pipeline
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

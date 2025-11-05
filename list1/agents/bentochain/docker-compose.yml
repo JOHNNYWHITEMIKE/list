@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bentochain:
+    build: .
+    container_name: bentochain
+    environment:
+      - AGENT_NAME=bentochain
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

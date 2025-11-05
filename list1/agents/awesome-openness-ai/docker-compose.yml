@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-openness-ai:
+    build: .
+    container_name: awesome-openness-ai
+    environment:
+      - AGENT_NAME=awesome-openness-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

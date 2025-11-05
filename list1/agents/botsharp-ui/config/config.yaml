@@ -1,0 +1,6 @@
+# Configuration for botsharp-ui
+agent:
+  name: botsharp-ui
+  version: 1.0.0
+  
+# Add your configuration here

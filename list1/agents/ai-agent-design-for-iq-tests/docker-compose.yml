@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-agent-design-for-iq-tests:
+    build: .
+    container_name: ai-agent-design-for-iq-tests
+    environment:
+      - AGENT_NAME=ai-agent-design-for-iq-tests
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

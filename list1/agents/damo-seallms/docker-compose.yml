@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  damo-seallms:
+    build: .
+    container_name: damo-seallms
+    environment:
+      - AGENT_NAME=damo-seallms
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

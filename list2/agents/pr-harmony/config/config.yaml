@@ -1,0 +1,6 @@
+# Configuration for pr-harmony
+agent:
+  name: pr-harmony
+  version: 1.0.0
+  
+# Add your configuration here

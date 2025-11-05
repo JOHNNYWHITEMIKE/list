@@ -1,0 +1,6 @@
+# Configuration for ai-onchain-agent
+agent:
+  name: ai-onchain-agent
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pathology_llm:
+    build: .
+    container_name: pathology_llm
+    environment:
+      - AGENT_NAME=pathology_llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

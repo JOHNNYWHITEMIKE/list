@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  functions-tools-and-agents-with-langchain:
+    build: .
+    container_name: functions-tools-and-agents-with-langchain
+    environment:
+      - AGENT_NAME=functions-tools-and-agents-with-langchain
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

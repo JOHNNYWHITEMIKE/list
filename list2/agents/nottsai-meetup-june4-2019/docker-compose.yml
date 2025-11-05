@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nottsai-meetup-june4-2019:
+    build: .
+    container_name: nottsai-meetup-june4-2019
+    environment:
+      - AGENT_NAME=nottsai-meetup-june4-2019
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

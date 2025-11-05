@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gpt_llm:
+    build: .
+    container_name: gpt_llm
+    environment:
+      - AGENT_NAME=gpt_llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

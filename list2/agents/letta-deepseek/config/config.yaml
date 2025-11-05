@@ -1,0 +1,6 @@
+# Configuration for letta-deepseek
+agent:
+  name: letta-deepseek
+  version: 1.0.0
+  
+# Add your configuration here

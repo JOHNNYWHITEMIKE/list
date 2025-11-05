@@ -1,0 +1,6 @@
+# Configuration for yzv103e-intrtoai-dataeng-ethics
+agent:
+  name: yzv103e-intrtoai-dataeng-ethics
+  version: 1.0.0
+  
+# Add your configuration here

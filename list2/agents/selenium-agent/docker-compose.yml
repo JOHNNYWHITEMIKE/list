@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  selenium-agent:
+    build: .
+    container_name: selenium-agent
+    environment:
+      - AGENT_NAME=selenium-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

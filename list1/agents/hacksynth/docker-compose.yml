@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  hacksynth:
+    build: .
+    container_name: hacksynth
+    environment:
+      - AGENT_NAME=hacksynth
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-ethics-internship:
+    build: .
+    container_name: ai-ethics-internship
+    environment:
+      - AGENT_NAME=ai-ethics-internship
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

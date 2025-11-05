@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  groma:
+    build: .
+    container_name: groma
+    environment:
+      - AGENT_NAME=groma
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

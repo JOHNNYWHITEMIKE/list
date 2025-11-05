@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  wasm-ai:
+    build: .
+    container_name: wasm-ai
+    environment:
+      - AGENT_NAME=wasm-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

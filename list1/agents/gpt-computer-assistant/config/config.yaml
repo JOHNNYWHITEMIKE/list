@@ -1,0 +1,6 @@
+# Configuration for gpt-computer-assistant
+agent:
+  name: gpt-computer-assistant
+  version: 1.0.0
+  
+# Add your configuration here

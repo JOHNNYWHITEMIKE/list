@@ -1,0 +1,6 @@
+# Configuration for data-and-ai-ethics-governance-and-privacy
+agent:
+  name: data-and-ai-ethics-governance-and-privacy
+  version: 1.0.0
+  
+# Add your configuration here

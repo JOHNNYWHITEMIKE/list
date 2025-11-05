@@ -1,0 +1,6 @@
+# Configuration for project-socrates
+agent:
+  name: project-socrates
+  version: 1.0.0
+  
+# Add your configuration here

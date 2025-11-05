@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  openrecall:
+    build: .
+    container_name: openrecall
+    environment:
+      - AGENT_NAME=openrecall
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

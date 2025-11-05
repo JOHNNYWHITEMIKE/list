@@ -1,0 +1,6 @@
+# Configuration for deepl-alfred-workflow2
+agent:
+  name: deepl-alfred-workflow2
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for so-vits-models
+agent:
+  name: so-vits-models
+  version: 1.0.0
+  
+# Add your configuration here

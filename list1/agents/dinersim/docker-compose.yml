@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dinersim:
+    build: .
+    container_name: dinersim
+    environment:
+      - AGENT_NAME=dinersim
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for serverless-workflows
+agent:
+  name: serverless-workflows
+  version: 1.0.0
+  
+# Add your configuration here

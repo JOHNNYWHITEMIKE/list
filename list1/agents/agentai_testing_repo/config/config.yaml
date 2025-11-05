@@ -1,0 +1,6 @@
+# Configuration for agentai_testing_repo
+agent:
+  name: agentai_testing_repo
+  version: 1.0.0
+  
+# Add your configuration here

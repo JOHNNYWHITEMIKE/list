@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  prompt-in-context-learning:
+    build: .
+    container_name: prompt-in-context-learning
+    environment:
+      - AGENT_NAME=prompt-in-context-learning
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  petercat:
+    build: .
+    container_name: petercat
+    environment:
+      - AGENT_NAME=petercat
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

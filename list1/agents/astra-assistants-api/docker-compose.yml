@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  astra-assistants-api:
+    build: .
+    container_name: astra-assistants-api
+    environment:
+      - AGENT_NAME=astra-assistants-api
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

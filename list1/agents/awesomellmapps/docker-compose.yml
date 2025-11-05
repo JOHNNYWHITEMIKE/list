@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesomellmapps:
+    build: .
+    container_name: awesomellmapps
+    environment:
+      - AGENT_NAME=awesomellmapps
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

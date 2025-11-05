@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  prompt-optimizer:
+    build: .
+    container_name: prompt-optimizer
+    environment:
+      - AGENT_NAME=prompt-optimizer
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

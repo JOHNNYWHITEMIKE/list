@@ -1,0 +1,6 @@
+# Configuration for bioinformatics
+agent:
+  name: bioinformatics
+  version: 1.0.0
+  
+# Add your configuration here

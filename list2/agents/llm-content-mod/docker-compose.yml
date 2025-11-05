@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-content-mod:
+    build: .
+    container_name: llm-content-mod
+    environment:
+      - AGENT_NAME=llm-content-mod
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

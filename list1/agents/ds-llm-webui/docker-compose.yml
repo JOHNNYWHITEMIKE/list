@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ds-llm-webui:
+    build: .
+    container_name: ds-llm-webui
+    environment:
+      - AGENT_NAME=ds-llm-webui
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
