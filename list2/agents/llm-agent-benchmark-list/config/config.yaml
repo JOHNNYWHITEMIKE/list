@@ -1,0 +1,6 @@
+# Configuration for llm-agent-benchmark-list
+agent:
+  name: llm-agent-benchmark-list
+  version: 1.0.0
+  
+# Add your configuration here

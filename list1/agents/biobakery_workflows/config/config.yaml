@@ -1,0 +1,6 @@
+# Configuration for biobakery_workflows
+agent:
+  name: biobakery_workflows
+  version: 1.0.0
+  
+# Add your configuration here

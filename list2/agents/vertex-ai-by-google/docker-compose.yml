@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vertex-ai-by-google:
+    build: .
+    container_name: vertex-ai-by-google
+    environment:
+      - AGENT_NAME=vertex-ai-by-google
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

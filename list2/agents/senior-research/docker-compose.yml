@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  senior-research:
+    build: .
+    container_name: senior-research
+    environment:
+      - AGENT_NAME=senior-research
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

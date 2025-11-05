@@ -1,0 +1,6 @@
+# Configuration for microsoft-magentic-one
+agent:
+  name: microsoft-magentic-one
+  version: 1.0.0
+  
+# Add your configuration here

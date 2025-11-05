@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  instantrun:
+    build: .
+    container_name: instantrun
+    environment:
+      - AGENT_NAME=instantrun
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for h6_4c_ethics_in_ai
+agent:
+  name: h6_4c_ethics_in_ai
+  version: 1.0.0
+  
+# Add your configuration here

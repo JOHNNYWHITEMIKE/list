@@ -1,0 +1,6 @@
+# Configuration for uagents-by-fetch-ai
+agent:
+  name: uagents-by-fetch-ai
+  version: 1.0.0
+  
+# Add your configuration here

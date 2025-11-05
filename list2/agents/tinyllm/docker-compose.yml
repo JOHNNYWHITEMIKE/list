@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tinyllm:
+    build: .
+    container_name: tinyllm
+    environment:
+      - AGENT_NAME=tinyllm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

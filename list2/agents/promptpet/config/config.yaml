@@ -1,0 +1,6 @@
+# Configuration for promptpet
+agent:
+  name: promptpet
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cosmo:
+    build: .
+    container_name: cosmo
+    environment:
+      - AGENT_NAME=cosmo
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

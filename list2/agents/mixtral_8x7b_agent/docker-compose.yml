@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mixtral_8x7b_agent:
+    build: .
+    container_name: mixtral_8x7b_agent
+    environment:
+      - AGENT_NAME=mixtral_8x7b_agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

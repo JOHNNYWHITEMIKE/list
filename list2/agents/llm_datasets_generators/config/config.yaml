@@ -1,0 +1,6 @@
+# Configuration for llm_datasets_generators
+agent:
+  name: llm_datasets_generators
+  version: 1.0.0
+  
+# Add your configuration here

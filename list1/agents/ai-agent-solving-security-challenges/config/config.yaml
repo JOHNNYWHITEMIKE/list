@@ -1,0 +1,6 @@
+# Configuration for ai-agent-solving-security-challenges
+agent:
+  name: ai-agent-solving-security-challenges
+  version: 1.0.0
+  
+# Add your configuration here

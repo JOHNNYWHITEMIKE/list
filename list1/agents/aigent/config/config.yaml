@@ -1,0 +1,6 @@
+# Configuration for aigent
+agent:
+  name: aigent
+  version: 1.0.0
+  
+# Add your configuration here

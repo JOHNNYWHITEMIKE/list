@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  the-art-of-asking-chatgpt-for-high-quality-answers-a-complete-guide-to-prompt-engineering-technique:
+    build: .
+    container_name: the-art-of-asking-chatgpt-for-high-quality-answers-a-complete-guide-to-prompt-engineering-technique
+    environment:
+      - AGENT_NAME=the-art-of-asking-chatgpt-for-high-quality-answers-a-complete-guide-to-prompt-engineering-technique
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

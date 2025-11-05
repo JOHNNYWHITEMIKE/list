@@ -1,0 +1,6 @@
+# Configuration for ricai_unittestgen_tool
+agent:
+  name: ricai_unittestgen_tool
+  version: 1.0.0
+  
+# Add your configuration here

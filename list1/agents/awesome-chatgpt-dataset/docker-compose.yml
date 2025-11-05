@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-chatgpt-dataset:
+    build: .
+    container_name: awesome-chatgpt-dataset
+    environment:
+      - AGENT_NAME=awesome-chatgpt-dataset
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for sdp-llm-dataset
+agent:
+  name: sdp-llm-dataset
+  version: 1.0.0
+  
+# Add your configuration here

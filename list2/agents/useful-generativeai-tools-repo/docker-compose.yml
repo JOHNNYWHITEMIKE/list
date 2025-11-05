@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  useful-generativeai-tools-repo:
+    build: .
+    container_name: useful-generativeai-tools-repo
+    environment:
+      - AGENT_NAME=useful-generativeai-tools-repo
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

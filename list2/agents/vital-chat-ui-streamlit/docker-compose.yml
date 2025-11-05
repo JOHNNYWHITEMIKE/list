@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vital-chat-ui-streamlit:
+    build: .
+    container_name: vital-chat-ui-streamlit
+    environment:
+      - AGENT_NAME=vital-chat-ui-streamlit
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

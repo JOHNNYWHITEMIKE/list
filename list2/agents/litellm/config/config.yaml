@@ -1,0 +1,6 @@
+# Configuration for litellm
+agent:
+  name: litellm
+  version: 1.0.0
+  
+# Add your configuration here

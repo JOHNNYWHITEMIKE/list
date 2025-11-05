@@ -1,0 +1,6 @@
+# Configuration for claude-react-jumpstart
+agent:
+  name: claude-react-jumpstart
+  version: 1.0.0
+  
+# Add your configuration here

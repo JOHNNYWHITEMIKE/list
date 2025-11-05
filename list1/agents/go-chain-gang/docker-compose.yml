@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  go-chain-gang:
+    build: .
+    container_name: go-chain-gang
+    environment:
+      - AGENT_NAME=go-chain-gang
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

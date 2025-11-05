@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  safeagentbench:
+    build: .
+    container_name: safeagentbench
+    environment:
+      - AGENT_NAME=safeagentbench
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

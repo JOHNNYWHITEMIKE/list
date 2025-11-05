@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentive:
+    build: .
+    container_name: agentive
+    environment:
+      - AGENT_NAME=agentive
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

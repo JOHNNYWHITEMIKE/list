@@ -1,0 +1,6 @@
+# Configuration for structgenius
+agent:
+  name: structgenius
+  version: 1.0.0
+  
+# Add your configuration here

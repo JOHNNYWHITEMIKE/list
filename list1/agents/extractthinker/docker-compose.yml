@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  extractthinker:
+    build: .
+    container_name: extractthinker
+    environment:
+      - AGENT_NAME=extractthinker
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

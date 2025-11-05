@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  megaminer-tinyarena:
+    build: .
+    container_name: megaminer-tinyarena
+    environment:
+      - AGENT_NAME=megaminer-tinyarena
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

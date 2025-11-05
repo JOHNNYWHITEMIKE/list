@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lmnt:
+    build: .
+    container_name: lmnt
+    environment:
+      - AGENT_NAME=lmnt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

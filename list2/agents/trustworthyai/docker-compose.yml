@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  trustworthyai:
+    build: .
+    container_name: trustworthyai
+    environment:
+      - AGENT_NAME=trustworthyai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

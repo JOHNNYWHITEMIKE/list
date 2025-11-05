@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  refuel-sdk:
+    build: .
+    container_name: refuel-sdk
+    environment:
+      - AGENT_NAME=refuel-sdk
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

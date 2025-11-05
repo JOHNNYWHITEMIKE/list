@@ -1,0 +1,6 @@
+# Configuration for huatuo-llama-med-chinese
+agent:
+  name: huatuo-llama-med-chinese
+  version: 1.0.0
+  
+# Add your configuration here

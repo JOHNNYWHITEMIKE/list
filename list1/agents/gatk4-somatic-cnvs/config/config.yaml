@@ -1,0 +1,6 @@
+# Configuration for gatk4-somatic-cnvs
+agent:
+  name: gatk4-somatic-cnvs
+  version: 1.0.0
+  
+# Add your configuration here

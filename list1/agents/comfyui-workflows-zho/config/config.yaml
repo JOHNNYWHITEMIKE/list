@@ -1,0 +1,6 @@
+# Configuration for comfyui-workflows-zho
+agent:
+  name: comfyui-workflows-zho
+  version: 1.0.0
+  
+# Add your configuration here

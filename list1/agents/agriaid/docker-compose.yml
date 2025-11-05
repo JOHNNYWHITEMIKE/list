@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agriaid:
+    build: .
+    container_name: agriaid
+    environment:
+      - AGENT_NAME=agriaid
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

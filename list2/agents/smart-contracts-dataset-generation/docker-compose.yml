@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  smart-contracts-dataset-generation:
+    build: .
+    container_name: smart-contracts-dataset-generation
+    environment:
+      - AGENT_NAME=smart-contracts-dataset-generation
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

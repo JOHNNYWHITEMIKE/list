@@ -1,0 +1,6 @@
+# Configuration for whitebox-code-gpt
+agent:
+  name: whitebox-code-gpt
+  version: 1.0.0
+  
+# Add your configuration here

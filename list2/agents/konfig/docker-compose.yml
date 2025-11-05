@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  konfig:
+    build: .
+    container_name: konfig
+    environment:
+      - AGENT_NAME=konfig
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

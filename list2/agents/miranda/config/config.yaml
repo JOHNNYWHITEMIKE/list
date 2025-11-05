@@ -1,0 +1,6 @@
+# Configuration for miranda
+agent:
+  name: miranda
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-security-prompt-injection:
+    build: .
+    container_name: llm-security-prompt-injection
+    environment:
+      - AGENT_NAME=llm-security-prompt-injection
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

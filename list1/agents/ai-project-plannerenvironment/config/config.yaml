@@ -1,0 +1,6 @@
+# Configuration for ai-project-plannerenvironment
+agent:
+  name: ai-project-plannerenvironment
+  version: 1.0.0
+  
+# Add your configuration here

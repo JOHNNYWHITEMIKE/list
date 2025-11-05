@@ -1,0 +1,6 @@
+# Configuration for hugging-face-datasets
+agent:
+  name: hugging-face-datasets
+  version: 1.0.0
+  
+# Add your configuration here

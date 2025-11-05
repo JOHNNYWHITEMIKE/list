@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  openai-tools:
+    build: .
+    container_name: openai-tools
+    environment:
+      - AGENT_NAME=openai-tools
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

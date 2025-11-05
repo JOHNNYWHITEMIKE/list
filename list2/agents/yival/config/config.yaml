@@ -1,0 +1,6 @@
+# Configuration for yival
+agent:
+  name: yival
+  version: 1.0.0
+  
+# Add your configuration here

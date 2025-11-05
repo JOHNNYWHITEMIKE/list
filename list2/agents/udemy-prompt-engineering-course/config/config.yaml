@@ -1,0 +1,6 @@
+# Configuration for udemy-prompt-engineering-course
+agent:
+  name: udemy-prompt-engineering-course
+  version: 1.0.0
+  
+# Add your configuration here

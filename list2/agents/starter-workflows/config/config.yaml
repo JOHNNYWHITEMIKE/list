@@ -1,0 +1,6 @@
+# Configuration for starter-workflows
+agent:
+  name: starter-workflows
+  version: 1.0.0
+  
+# Add your configuration here

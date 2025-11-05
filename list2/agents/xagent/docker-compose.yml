@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  xagent:
+    build: .
+    container_name: xagent
+    environment:
+      - AGENT_NAME=xagent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  shadcn-next-workflows:
+    build: .
+    container_name: shadcn-next-workflows
+    environment:
+      - AGENT_NAME=shadcn-next-workflows
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

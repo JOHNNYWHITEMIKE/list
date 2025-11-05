@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  simplerllm:
+    build: .
+    container_name: simplerllm
+    environment:
+      - AGENT_NAME=simplerllm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

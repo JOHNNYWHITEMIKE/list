@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  scientific-llm-survey:
+    build: .
+    container_name: scientific-llm-survey
+    environment:
+      - AGENT_NAME=scientific-llm-survey
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

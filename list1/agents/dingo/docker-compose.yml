@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dingo:
+    build: .
+    container_name: dingo
+    environment:
+      - AGENT_NAME=dingo
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

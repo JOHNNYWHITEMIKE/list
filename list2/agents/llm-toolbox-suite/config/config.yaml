@@ -1,0 +1,6 @@
+# Configuration for llm-toolbox-suite
+agent:
+  name: llm-toolbox-suite
+  version: 1.0.0
+  
+# Add your configuration here

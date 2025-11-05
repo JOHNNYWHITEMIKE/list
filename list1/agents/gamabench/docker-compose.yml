@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gamabench:
+    build: .
+    container_name: gamabench
+    environment:
+      - AGENT_NAME=gamabench
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  usability-benchmarking-framework-project:
+    build: .
+    container_name: usability-benchmarking-framework-project
+    environment:
+      - AGENT_NAME=usability-benchmarking-framework-project
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for fate-in-ai
+agent:
+  name: fate-in-ai
+  version: 1.0.0
+  
+# Add your configuration here

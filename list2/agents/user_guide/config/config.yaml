@@ -1,0 +1,6 @@
+# Configuration for user_guide
+agent:
+  name: user_guide
+  version: 1.0.0
+  
+# Add your configuration here

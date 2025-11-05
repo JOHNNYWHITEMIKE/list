@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fetchai:
+    build: .
+    container_name: fetchai
+    environment:
+      - AGENT_NAME=fetchai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

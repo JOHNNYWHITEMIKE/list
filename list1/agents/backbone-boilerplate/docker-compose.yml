@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  backbone-boilerplate:
+    build: .
+    container_name: backbone-boilerplate
+    environment:
+      - AGENT_NAME=backbone-boilerplate
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

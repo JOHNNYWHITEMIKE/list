@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bigcodebench:
+    build: .
+    container_name: bigcodebench
+    environment:
+      - AGENT_NAME=bigcodebench
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

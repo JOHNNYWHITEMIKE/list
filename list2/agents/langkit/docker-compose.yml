@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  langkit:
+    build: .
+    container_name: langkit
+    environment:
+      - AGENT_NAME=langkit
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cyber-security-llm-agents:
+    build: .
+    container_name: cyber-security-llm-agents
+    environment:
+      - AGENT_NAME=cyber-security-llm-agents
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

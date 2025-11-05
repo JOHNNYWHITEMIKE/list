@@ -1,0 +1,6 @@
+# Configuration for datacooker
+agent:
+  name: datacooker
+  version: 1.0.0
+  
+# Add your configuration here

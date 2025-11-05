@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  h6_4c_ethics_in_ai:
+    build: .
+    container_name: h6_4c_ethics_in_ai
+    environment:
+      - AGENT_NAME=h6_4c_ethics_in_ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

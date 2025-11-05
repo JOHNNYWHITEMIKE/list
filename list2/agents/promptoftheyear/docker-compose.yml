@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  promptoftheyear:
+    build: .
+    container_name: promptoftheyear
+    environment:
+      - AGENT_NAME=promptoftheyear
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

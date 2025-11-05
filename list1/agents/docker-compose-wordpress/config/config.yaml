@@ -1,0 +1,6 @@
+# Configuration for docker-compose-wordpress
+agent:
+  name: docker-compose-wordpress
+  version: 1.0.0
+  
+# Add your configuration here

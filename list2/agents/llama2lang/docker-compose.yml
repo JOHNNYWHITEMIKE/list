@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llama2lang:
+    build: .
+    container_name: llama2lang
+    environment:
+      - AGENT_NAME=llama2lang
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-ai-art-image-synthesis:
+    build: .
+    container_name: awesome-ai-art-image-synthesis
+    environment:
+      - AGENT_NAME=awesome-ai-art-image-synthesis
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

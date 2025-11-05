@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  core:
+    build: .
+    container_name: core
+    environment:
+      - AGENT_NAME=core
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

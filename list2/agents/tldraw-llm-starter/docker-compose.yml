@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tldraw-llm-starter:
+    build: .
+    container_name: tldraw-llm-starter
+    environment:
+      - AGENT_NAME=tldraw-llm-starter
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

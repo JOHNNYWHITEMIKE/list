@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  keras-cv:
+    build: .
+    container_name: keras-cv
+    environment:
+      - AGENT_NAME=keras-cv
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

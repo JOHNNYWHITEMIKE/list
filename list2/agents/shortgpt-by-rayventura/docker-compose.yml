@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  shortgpt-by-rayventura:
+    build: .
+    container_name: shortgpt-by-rayventura
+    environment:
+      - AGENT_NAME=shortgpt-by-rayventura
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

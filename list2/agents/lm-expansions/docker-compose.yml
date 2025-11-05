@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lm-expansions:
+    build: .
+    container_name: lm-expansions
+    environment:
+      - AGENT_NAME=lm-expansions
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

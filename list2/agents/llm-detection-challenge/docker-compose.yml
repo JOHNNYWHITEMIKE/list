@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-detection-challenge:
+    build: .
+    container_name: llm-detection-challenge
+    environment:
+      - AGENT_NAME=llm-detection-challenge
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

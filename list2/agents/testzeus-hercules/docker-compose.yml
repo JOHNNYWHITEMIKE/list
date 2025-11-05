@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  testzeus-hercules:
+    build: .
+    container_name: testzeus-hercules
+    environment:
+      - AGENT_NAME=testzeus-hercules
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

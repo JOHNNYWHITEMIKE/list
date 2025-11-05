@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  jonathan-flightbase:
+    build: .
+    container_name: jonathan-flightbase
+    environment:
+      - AGENT_NAME=jonathan-flightbase
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

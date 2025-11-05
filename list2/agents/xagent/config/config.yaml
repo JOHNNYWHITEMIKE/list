@@ -1,0 +1,6 @@
+# Configuration for xagent
+agent:
+  name: xagent
+  version: 1.0.0
+  
+# Add your configuration here

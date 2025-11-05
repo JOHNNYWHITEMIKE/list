@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  aws-swf-flow-library:
+    build: .
+    container_name: aws-swf-flow-library
+    environment:
+      - AGENT_NAME=aws-swf-flow-library
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

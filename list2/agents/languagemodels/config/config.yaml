@@ -1,0 +1,6 @@
+# Configuration for languagemodels
+agent:
+  name: languagemodels
+  version: 1.0.0
+  
+# Add your configuration here

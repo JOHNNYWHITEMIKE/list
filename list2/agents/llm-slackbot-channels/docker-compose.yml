@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-slackbot-channels:
+    build: .
+    container_name: llm-slackbot-channels
+    environment:
+      - AGENT_NAME=llm-slackbot-channels
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

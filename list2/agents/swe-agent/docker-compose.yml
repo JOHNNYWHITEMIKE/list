@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  swe-agent:
+    build: .
+    container_name: swe-agent
+    environment:
+      - AGENT_NAME=swe-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

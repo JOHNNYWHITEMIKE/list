@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  prompt-engineering-by-openai:
+    build: .
+    container_name: prompt-engineering-by-openai
+    environment:
+      - AGENT_NAME=prompt-engineering-by-openai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

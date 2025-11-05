@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  purplellama:
+    build: .
+    container_name: purplellama
+    environment:
+      - AGENT_NAME=purplellama
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

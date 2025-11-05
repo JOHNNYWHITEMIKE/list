@@ -1,0 +1,6 @@
+# Configuration for livekit-agents
+agent:
+  name: livekit-agents
+  version: 1.0.0
+  
+# Add your configuration here

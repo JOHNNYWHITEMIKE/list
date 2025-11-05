@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nemo-guardrails:
+    build: .
+    container_name: nemo-guardrails
+    environment:
+      - AGENT_NAME=nemo-guardrails
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

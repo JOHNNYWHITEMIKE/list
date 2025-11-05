@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  open-assistant-api:
+    build: .
+    container_name: open-assistant-api
+    environment:
+      - AGENT_NAME=open-assistant-api
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

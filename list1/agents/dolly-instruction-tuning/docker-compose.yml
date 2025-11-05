@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dolly-instruction-tuning:
+    build: .
+    container_name: dolly-instruction-tuning
+    environment:
+      - AGENT_NAME=dolly-instruction-tuning
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

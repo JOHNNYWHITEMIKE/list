@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  captain:
+    build: .
+    container_name: captain
+    environment:
+      - AGENT_NAME=captain
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

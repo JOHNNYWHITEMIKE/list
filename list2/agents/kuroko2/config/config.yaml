@@ -1,0 +1,6 @@
+# Configuration for kuroko2
+agent:
+  name: kuroko2
+  version: 1.0.0
+  
+# Add your configuration here

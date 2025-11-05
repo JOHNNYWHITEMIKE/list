@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  applying-the-ethics-of-ai-a-systematic-review-of-tools-for-developing-and-assessing-ai-based-system:
+    build: .
+    container_name: applying-the-ethics-of-ai-a-systematic-review-of-tools-for-developing-and-assessing-ai-based-system
+    environment:
+      - AGENT_NAME=applying-the-ethics-of-ai-a-systematic-review-of-tools-for-developing-and-assessing-ai-based-system
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

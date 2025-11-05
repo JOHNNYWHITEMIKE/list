@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  monadic-chat:
+    build: .
+    container_name: monadic-chat
+    environment:
+      - AGENT_NAME=monadic-chat
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

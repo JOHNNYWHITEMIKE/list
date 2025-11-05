@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  learning-prompt:
+    build: .
+    container_name: learning-prompt
+    environment:
+      - AGENT_NAME=learning-prompt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

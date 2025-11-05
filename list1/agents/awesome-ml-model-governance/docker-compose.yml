@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-ml-model-governance:
+    build: .
+    container_name: awesome-ml-model-governance
+    environment:
+      - AGENT_NAME=awesome-ml-model-governance
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

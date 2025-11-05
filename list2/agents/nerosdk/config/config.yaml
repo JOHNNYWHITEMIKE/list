@@ -1,0 +1,6 @@
+# Configuration for nerosdk
+agent:
+  name: nerosdk
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  stan:
+    build: .
+    container_name: stan
+    environment:
+      - AGENT_NAME=stan
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

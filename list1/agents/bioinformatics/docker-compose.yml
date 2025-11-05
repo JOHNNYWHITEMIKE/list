@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bioinformatics:
+    build: .
+    container_name: bioinformatics
+    environment:
+      - AGENT_NAME=bioinformatics
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

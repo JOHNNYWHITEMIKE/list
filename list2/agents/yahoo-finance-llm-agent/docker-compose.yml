@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  yahoo-finance-llm-agent:
+    build: .
+    container_name: yahoo-finance-llm-agent
+    environment:
+      - AGENT_NAME=yahoo-finance-llm-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

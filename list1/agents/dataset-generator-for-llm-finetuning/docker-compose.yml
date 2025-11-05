@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dataset-generator-for-llm-finetuning:
+    build: .
+    container_name: dataset-generator-for-llm-finetuning
+    environment:
+      - AGENT_NAME=dataset-generator-for-llm-finetuning
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

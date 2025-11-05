@@ -1,0 +1,6 @@
+# Configuration for ai-studio-by-azure
+agent:
+  name: ai-studio-by-azure
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ketrew:
+    build: .
+    container_name: ketrew
+    environment:
+      - AGENT_NAME=ketrew
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

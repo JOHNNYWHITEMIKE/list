@@ -1,0 +1,6 @@
+# Configuration for ai-agent-teams
+agent:
+  name: ai-agent-teams
+  version: 1.0.0
+  
+# Add your configuration here

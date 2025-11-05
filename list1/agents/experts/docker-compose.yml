@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  experts:
+    build: .
+    container_name: experts
+    environment:
+      - AGENT_NAME=experts
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

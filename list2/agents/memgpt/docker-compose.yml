@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  memgpt:
+    build: .
+    container_name: memgpt
+    environment:
+      - AGENT_NAME=memgpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for workflows_and_package_management
+agent:
+  name: workflows_and_package_management
+  version: 1.0.0
+  
+# Add your configuration here

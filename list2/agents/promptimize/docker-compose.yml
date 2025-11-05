@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  promptimize:
+    build: .
+    container_name: promptimize
+    environment:
+      - AGENT_NAME=promptimize
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

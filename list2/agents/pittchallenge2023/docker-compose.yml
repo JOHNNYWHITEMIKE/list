@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pittchallenge2023:
+    build: .
+    container_name: pittchallenge2023
+    environment:
+      - AGENT_NAME=pittchallenge2023
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

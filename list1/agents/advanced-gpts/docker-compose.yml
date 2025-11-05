@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  advanced-gpts:
+    build: .
+    container_name: advanced-gpts
+    environment:
+      - AGENT_NAME=advanced-gpts
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

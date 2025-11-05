@@ -1,0 +1,6 @@
+# Configuration for awesome-instruction-selector
+agent:
+  name: awesome-instruction-selector
+  version: 1.0.0
+  
+# Add your configuration here

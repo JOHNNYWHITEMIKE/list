@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nactivity:
+    build: .
+    container_name: nactivity
+    environment:
+      - AGENT_NAME=nactivity
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

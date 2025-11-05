@@ -1,0 +1,6 @@
+# Configuration for laravel-4-generators
+agent:
+  name: laravel-4-generators
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  attck-pe:
+    build: .
+    container_name: attck-pe
+    environment:
+      - AGENT_NAME=attck-pe
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

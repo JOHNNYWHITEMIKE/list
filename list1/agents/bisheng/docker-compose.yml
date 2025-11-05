@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bisheng:
+    build: .
+    container_name: bisheng
+    environment:
+      - AGENT_NAME=bisheng
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

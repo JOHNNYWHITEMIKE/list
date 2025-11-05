@@ -1,0 +1,6 @@
+# Configuration for ethics-in-ai-and-intelligent-interfaces
+agent:
+  name: ethics-in-ai-and-intelligent-interfaces
+  version: 1.0.0
+  
+# Add your configuration here

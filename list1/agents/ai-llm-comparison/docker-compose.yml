@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-llm-comparison:
+    build: .
+    container_name: ai-llm-comparison
+    environment:
+      - AGENT_NAME=ai-llm-comparison
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  uagents-by-fetch-ai:
+    build: .
+    container_name: uagents-by-fetch-ai
+    environment:
+      - AGENT_NAME=uagents-by-fetch-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

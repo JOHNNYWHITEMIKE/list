@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  csi5195-ethicsinai-finalreport:
+    build: .
+    container_name: csi5195-ethicsinai-finalreport
+    environment:
+      - AGENT_NAME=csi5195-ethicsinai-finalreport
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

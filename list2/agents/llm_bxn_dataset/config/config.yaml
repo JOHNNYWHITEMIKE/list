@@ -1,0 +1,6 @@
+# Configuration for llm_bxn_dataset
+agent:
+  name: llm_bxn_dataset
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for ethics-and-ai
+agent:
+  name: ethics-and-ai
+  version: 1.0.0
+  
+# Add your configuration here

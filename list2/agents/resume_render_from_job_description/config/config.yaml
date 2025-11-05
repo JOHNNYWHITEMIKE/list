@@ -1,0 +1,6 @@
+# Configuration for resume_render_from_job_description
+agent:
+  name: resume_render_from_job_description
+  version: 1.0.0
+  
+# Add your configuration here

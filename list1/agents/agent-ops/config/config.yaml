@@ -1,0 +1,6 @@
+# Configuration for agent-ops
+agent:
+  name: agent-ops
+  version: 1.0.0
+  
+# Add your configuration here

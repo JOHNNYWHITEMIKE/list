@@ -1,0 +1,6 @@
+# Configuration for llm-deployment-tools-llmops
+agent:
+  name: llm-deployment-tools-llmops
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for claude-powered-study-assistant
+agent:
+  name: claude-powered-study-assistant
+  version: 1.0.0
+  
+# Add your configuration here

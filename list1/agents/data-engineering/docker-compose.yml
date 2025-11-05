@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  data-engineering:
+    build: .
+    container_name: data-engineering
+    environment:
+      - AGENT_NAME=data-engineering
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

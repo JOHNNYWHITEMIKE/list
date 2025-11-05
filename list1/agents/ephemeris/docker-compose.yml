@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ephemeris:
+    build: .
+    container_name: ephemeris
+    environment:
+      - AGENT_NAME=ephemeris
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

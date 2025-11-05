@@ -1,0 +1,6 @@
+# Configuration for llama2lang
+agent:
+  name: llama2lang
+  version: 1.0.0
+  
+# Add your configuration here

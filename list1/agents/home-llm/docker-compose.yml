@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  home-llm:
+    build: .
+    container_name: home-llm
+    environment:
+      - AGENT_NAME=home-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  generative_ai:
+    build: .
+    container_name: generative_ai
+    environment:
+      - AGENT_NAME=generative_ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  eduscribe-llm-backend:
+    build: .
+    container_name: eduscribe-llm-backend
+    environment:
+      - AGENT_NAME=eduscribe-llm-backend
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

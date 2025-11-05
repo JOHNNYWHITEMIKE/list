@@ -1,0 +1,6 @@
+# Configuration for gpt-engineer
+agent:
+  name: gpt-engineer
+  version: 1.0.0
+  
+# Add your configuration here

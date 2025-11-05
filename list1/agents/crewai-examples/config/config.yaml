@@ -1,0 +1,6 @@
+# Configuration for crewai-examples
+agent:
+  name: crewai-examples
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for chatdev
+agent:
+  name: chatdev
+  version: 1.0.0
+  
+# Add your configuration here

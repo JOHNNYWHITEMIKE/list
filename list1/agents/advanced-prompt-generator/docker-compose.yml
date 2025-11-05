@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  advanced-prompt-generator:
+    build: .
+    container_name: advanced-prompt-generator
+    environment:
+      - AGENT_NAME=advanced-prompt-generator
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

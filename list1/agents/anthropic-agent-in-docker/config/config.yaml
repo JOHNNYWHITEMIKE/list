@@ -1,0 +1,6 @@
+# Configuration for anthropic-agent-in-docker
+agent:
+  name: anthropic-agent-in-docker
+  version: 1.0.0
+  
+# Add your configuration here

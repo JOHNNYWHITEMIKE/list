@@ -1,0 +1,6 @@
+# Configuration for graph-instruction-tuning
+agent:
+  name: graph-instruction-tuning
+  version: 1.0.0
+  
+# Add your configuration here

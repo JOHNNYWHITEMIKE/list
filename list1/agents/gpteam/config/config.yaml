@@ -1,0 +1,6 @@
+# Configuration for gpteam
+agent:
+  name: gpteam
+  version: 1.0.0
+  
+# Add your configuration here

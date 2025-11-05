@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-chatbot:
+    build: .
+    container_name: llm-chatbot
+    environment:
+      - AGENT_NAME=llm-chatbot
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  obsidian-flashcards-llm:
+    build: .
+    container_name: obsidian-flashcards-llm
+    environment:
+      - AGENT_NAME=obsidian-flashcards-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

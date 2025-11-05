@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  guidance:
+    build: .
+    container_name: guidance
+    environment:
+      - AGENT_NAME=guidance
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

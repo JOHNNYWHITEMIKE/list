@@ -1,0 +1,6 @@
+# Configuration for advanced-logic-reason-idea-and-learning-algorithms
+agent:
+  name: advanced-logic-reason-idea-and-learning-algorithms
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  starter-workflows:
+    build: .
+    container_name: starter-workflows
+    environment:
+      - AGENT_NAME=starter-workflows
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

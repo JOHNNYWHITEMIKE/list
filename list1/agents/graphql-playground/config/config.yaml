@@ -1,0 +1,6 @@
+# Configuration for graphql-playground
+agent:
+  name: graphql-playground
+  version: 1.0.0
+  
+# Add your configuration here

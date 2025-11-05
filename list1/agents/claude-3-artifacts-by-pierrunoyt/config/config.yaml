@@ -1,0 +1,6 @@
+# Configuration for claude-3-artifacts-by-pierrunoyt
+agent:
+  name: claude-3-artifacts-by-pierrunoyt
+  version: 1.0.0
+  
+# Add your configuration here

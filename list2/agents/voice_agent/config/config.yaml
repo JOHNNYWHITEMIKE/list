@@ -1,0 +1,6 @@
+# Configuration for voice_agent
+agent:
+  name: voice_agent
+  version: 1.0.0
+  
+# Add your configuration here

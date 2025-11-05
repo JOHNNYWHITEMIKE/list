@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ftdatagen:
+    build: .
+    container_name: ftdatagen
+    environment:
+      - AGENT_NAME=ftdatagen
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

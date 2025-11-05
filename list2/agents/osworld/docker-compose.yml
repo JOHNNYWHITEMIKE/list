@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  osworld:
+    build: .
+    container_name: osworld
+    environment:
+      - AGENT_NAME=osworld
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

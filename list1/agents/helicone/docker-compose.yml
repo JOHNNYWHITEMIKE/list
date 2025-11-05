@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  helicone:
+    build: .
+    container_name: helicone
+    environment:
+      - AGENT_NAME=helicone
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

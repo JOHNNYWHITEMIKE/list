@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  superagi:
+    build: .
+    container_name: superagi
+    environment:
+      - AGENT_NAME=superagi
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

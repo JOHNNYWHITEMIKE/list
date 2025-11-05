@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  enact:
+    build: .
+    container_name: enact
+    environment:
+      - AGENT_NAME=enact
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

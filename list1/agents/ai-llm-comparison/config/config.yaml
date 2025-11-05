@@ -1,0 +1,6 @@
+# Configuration for ai-llm-comparison
+agent:
+  name: ai-llm-comparison
+  version: 1.0.0
+  
+# Add your configuration here

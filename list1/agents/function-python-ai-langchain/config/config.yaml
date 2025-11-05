@@ -1,0 +1,6 @@
+# Configuration for function-python-ai-langchain
+agent:
+  name: function-python-ai-langchain
+  version: 1.0.0
+  
+# Add your configuration here

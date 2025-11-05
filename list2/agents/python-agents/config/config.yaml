@@ -1,0 +1,6 @@
+# Configuration for python-agents
+agent:
+  name: python-agents
+  version: 1.0.0
+  
+# Add your configuration here

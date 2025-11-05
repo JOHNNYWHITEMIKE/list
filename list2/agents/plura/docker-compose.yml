@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  plura:
+    build: .
+    container_name: plura
+    environment:
+      - AGENT_NAME=plura
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

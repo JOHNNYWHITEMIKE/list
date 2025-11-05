@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  botpress:
+    build: .
+    container_name: botpress
+    environment:
+      - AGENT_NAME=botpress
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

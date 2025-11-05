@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  prefabworkflows_spiderrobots:
+    build: .
+    container_name: prefabworkflows_spiderrobots
+    environment:
+      - AGENT_NAME=prefabworkflows_spiderrobots
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

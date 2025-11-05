@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  smoothlingua:
+    build: .
+    container_name: smoothlingua
+    environment:
+      - AGENT_NAME=smoothlingua
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

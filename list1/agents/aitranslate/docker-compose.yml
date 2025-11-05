@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  aitranslate:
+    build: .
+    container_name: aitranslate
+    environment:
+      - AGENT_NAME=aitranslate
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

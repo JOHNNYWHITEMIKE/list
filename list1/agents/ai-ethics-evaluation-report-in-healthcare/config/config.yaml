@@ -1,0 +1,6 @@
+# Configuration for ai-ethics-evaluation-report-in-healthcare
+agent:
+  name: ai-ethics-evaluation-report-in-healthcare
+  version: 1.0.0
+  
+# Add your configuration here

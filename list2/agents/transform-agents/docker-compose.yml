@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  transform-agents:
+    build: .
+    container_name: transform-agents
+    environment:
+      - AGENT_NAME=transform-agents
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for cartlis
+agent:
+  name: cartlis
+  version: 1.0.0
+  
+# Add your configuration here

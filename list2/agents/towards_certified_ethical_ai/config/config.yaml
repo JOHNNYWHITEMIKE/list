@@ -1,0 +1,6 @@
+# Configuration for towards_certified_ethical_ai
+agent:
+  name: towards_certified_ethical_ai
+  version: 1.0.0
+  
+# Add your configuration here

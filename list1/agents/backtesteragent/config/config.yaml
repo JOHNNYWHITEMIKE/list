@@ -1,0 +1,6 @@
+# Configuration for backtesteragent
+agent:
+  name: backtesteragent
+  version: 1.0.0
+  
+# Add your configuration here

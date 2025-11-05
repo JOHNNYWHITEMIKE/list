@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gatk4-somatic-cnvs:
+    build: .
+    container_name: gatk4-somatic-cnvs
+    environment:
+      - AGENT_NAME=gatk4-somatic-cnvs
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for crew-news
+agent:
+  name: crew-news
+  version: 1.0.0
+  
+# Add your configuration here

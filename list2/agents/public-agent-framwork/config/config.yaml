@@ -1,0 +1,6 @@
+# Configuration for public-agent-framwork
+agent:
+  name: public-agent-framwork
+  version: 1.0.0
+  
+# Add your configuration here

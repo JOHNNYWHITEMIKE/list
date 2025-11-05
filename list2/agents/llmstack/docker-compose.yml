@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llmstack:
+    build: .
+    container_name: llmstack
+    environment:
+      - AGENT_NAME=llmstack
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

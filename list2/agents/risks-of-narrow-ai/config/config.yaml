@@ -1,0 +1,6 @@
+# Configuration for risks-of-narrow-ai
+agent:
+  name: risks-of-narrow-ai
+  version: 1.0.0
+  
+# Add your configuration here

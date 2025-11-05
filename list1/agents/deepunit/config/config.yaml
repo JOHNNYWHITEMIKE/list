@@ -1,0 +1,6 @@
+# Configuration for deepunit
+agent:
+  name: deepunit
+  version: 1.0.0
+  
+# Add your configuration here

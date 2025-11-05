@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  self-operating-computer-by-otherside:
+    build: .
+    container_name: self-operating-computer-by-otherside
+    environment:
+      - AGENT_NAME=self-operating-computer-by-otherside
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

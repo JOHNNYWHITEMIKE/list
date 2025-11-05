@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-agent-ask-for-help:
+    build: .
+    container_name: llm-agent-ask-for-help
+    environment:
+      - AGENT_NAME=llm-agent-ask-for-help
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

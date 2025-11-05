@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mario-playability-test:
+    build: .
+    container_name: mario-playability-test
+    environment:
+      - AGENT_NAME=mario-playability-test
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

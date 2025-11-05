@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  claude-powered-study-assistant:
+    build: .
+    container_name: claude-powered-study-assistant
+    environment:
+      - AGENT_NAME=claude-powered-study-assistant
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

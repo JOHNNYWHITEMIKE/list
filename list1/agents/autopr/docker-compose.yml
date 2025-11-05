@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  autopr:
+    build: .
+    container_name: autopr
+    environment:
+      - AGENT_NAME=autopr
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

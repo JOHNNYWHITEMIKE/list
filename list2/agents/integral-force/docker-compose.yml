@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  integral-force:
+    build: .
+    container_name: integral-force
+    environment:
+      - AGENT_NAME=integral-force
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

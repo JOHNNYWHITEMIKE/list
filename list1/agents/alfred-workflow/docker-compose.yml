@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  alfred-workflow:
+    build: .
+    container_name: alfred-workflow
+    environment:
+      - AGENT_NAME=alfred-workflow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

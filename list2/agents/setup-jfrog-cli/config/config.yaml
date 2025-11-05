@@ -1,0 +1,6 @@
+# Configuration for setup-jfrog-cli
+agent:
+  name: setup-jfrog-cli
+  version: 1.0.0
+  
+# Add your configuration here

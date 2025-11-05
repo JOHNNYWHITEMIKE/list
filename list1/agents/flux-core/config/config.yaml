@@ -1,0 +1,6 @@
+# Configuration for flux-core
+agent:
+  name: flux-core
+  version: 1.0.0
+  
+# Add your configuration here

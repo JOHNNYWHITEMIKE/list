@@ -1,0 +1,6 @@
+# Configuration for mg-3-aiethics
+agent:
+  name: mg-3-aiethics
+  version: 1.0.0
+  
+# Add your configuration here

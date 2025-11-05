@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  multiagent-collab-scenario-benchmark:
+    build: .
+    container_name: multiagent-collab-scenario-benchmark
+    environment:
+      - AGENT_NAME=multiagent-collab-scenario-benchmark
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

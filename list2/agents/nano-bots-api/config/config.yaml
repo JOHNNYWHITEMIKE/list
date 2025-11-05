@@ -1,0 +1,6 @@
+# Configuration for nano-bots-api
+agent:
+  name: nano-bots-api
+  version: 1.0.0
+  
+# Add your configuration here

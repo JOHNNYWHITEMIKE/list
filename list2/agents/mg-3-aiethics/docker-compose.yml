@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mg-3-aiethics:
+    build: .
+    container_name: mg-3-aiethics
+    environment:
+      - AGENT_NAME=mg-3-aiethics
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

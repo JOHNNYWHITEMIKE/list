@@ -1,0 +1,6 @@
+# Configuration for llm-chain
+agent:
+  name: llm-chain
+  version: 1.0.0
+  
+# Add your configuration here

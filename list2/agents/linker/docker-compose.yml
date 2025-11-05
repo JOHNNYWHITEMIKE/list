@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  linker:
+    build: .
+    container_name: linker
+    environment:
+      - AGENT_NAME=linker
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

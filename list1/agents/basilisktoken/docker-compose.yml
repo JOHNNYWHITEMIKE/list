@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  basilisktoken:
+    build: .
+    container_name: basilisktoken
+    environment:
+      - AGENT_NAME=basilisktoken
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

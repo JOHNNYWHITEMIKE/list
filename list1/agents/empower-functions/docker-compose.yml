@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  empower-functions:
+    build: .
+    container_name: empower-functions
+    environment:
+      - AGENT_NAME=empower-functions
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

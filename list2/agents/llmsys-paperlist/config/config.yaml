@@ -1,0 +1,6 @@
+# Configuration for llmsys-paperlist
+agent:
+  name: llmsys-paperlist
+  version: 1.0.0
+  
+# Add your configuration here

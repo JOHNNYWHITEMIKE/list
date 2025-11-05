@@ -1,0 +1,6 @@
+# Configuration for damo-seallms
+agent:
+  name: damo-seallms
+  version: 1.0.0
+  
+# Add your configuration here

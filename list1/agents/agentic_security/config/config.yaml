@@ -1,0 +1,6 @@
+# Configuration for agentic_security
+agent:
+  name: agentic_security
+  version: 1.0.0
+  
+# Add your configuration here

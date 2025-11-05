@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  viewflow:
+    build: .
+    container_name: viewflow
+    environment:
+      - AGENT_NAME=viewflow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for ai-agent-wallet
+agent:
+  name: ai-agent-wallet
+  version: 1.0.0
+  
+# Add your configuration here

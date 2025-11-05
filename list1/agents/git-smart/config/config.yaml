@@ -1,0 +1,6 @@
+# Configuration for git-smart
+agent:
+  name: git-smart
+  version: 1.0.0
+  
+# Add your configuration here

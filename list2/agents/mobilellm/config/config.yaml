@@ -1,0 +1,6 @@
+# Configuration for mobilellm
+agent:
+  name: mobilellm
+  version: 1.0.0
+  
+# Add your configuration here

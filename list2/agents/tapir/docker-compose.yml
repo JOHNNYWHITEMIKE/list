@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tapir:
+    build: .
+    container_name: tapir
+    environment:
+      - AGENT_NAME=tapir
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

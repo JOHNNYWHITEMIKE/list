@@ -1,0 +1,6 @@
+# Configuration for llm-detect-ai-generated-text
+agent:
+  name: llm-detect-ai-generated-text
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for ai_agent_crewai
+agent:
+  name: ai_agent_crewai
+  version: 1.0.0
+  
+# Add your configuration here

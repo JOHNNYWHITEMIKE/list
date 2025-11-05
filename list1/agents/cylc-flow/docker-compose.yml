@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cylc-flow:
+    build: .
+    container_name: cylc-flow
+    environment:
+      - AGENT_NAME=cylc-flow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

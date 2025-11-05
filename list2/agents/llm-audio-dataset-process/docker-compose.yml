@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-audio-dataset-process:
+    build: .
+    container_name: llm-audio-dataset-process
+    environment:
+      - AGENT_NAME=llm-audio-dataset-process
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

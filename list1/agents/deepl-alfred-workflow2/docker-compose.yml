@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  deepl-alfred-workflow2:
+    build: .
+    container_name: deepl-alfred-workflow2
+    environment:
+      - AGENT_NAME=deepl-alfred-workflow2
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

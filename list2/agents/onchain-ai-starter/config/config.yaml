@@ -1,0 +1,6 @@
+# Configuration for onchain-ai-starter
+agent:
+  name: onchain-ai-starter
+  version: 1.0.0
+  
+# Add your configuration here

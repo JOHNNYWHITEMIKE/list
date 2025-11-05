@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vacaigent:
+    build: .
+    container_name: vacaigent
+    environment:
+      - AGENT_NAME=vacaigent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

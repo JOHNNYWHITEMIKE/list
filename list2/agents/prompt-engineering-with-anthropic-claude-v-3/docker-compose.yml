@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  prompt-engineering-with-anthropic-claude-v-3:
+    build: .
+    container_name: prompt-engineering-with-anthropic-claude-v-3
+    environment:
+      - AGENT_NAME=prompt-engineering-with-anthropic-claude-v-3
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

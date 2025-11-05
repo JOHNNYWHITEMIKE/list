@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  elsa-core:
+    build: .
+    container_name: elsa-core
+    environment:
+      - AGENT_NAME=elsa-core
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

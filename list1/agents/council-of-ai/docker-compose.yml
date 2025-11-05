@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  council-of-ai:
+    build: .
+    container_name: council-of-ai
+    environment:
+      - AGENT_NAME=council-of-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

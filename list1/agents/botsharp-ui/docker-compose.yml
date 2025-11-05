@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  botsharp-ui:
+    build: .
+    container_name: botsharp-ui
+    environment:
+      - AGENT_NAME=botsharp-ui
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

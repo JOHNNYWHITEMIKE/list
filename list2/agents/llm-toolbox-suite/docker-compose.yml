@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-toolbox-suite:
+    build: .
+    container_name: llm-toolbox-suite
+    environment:
+      - AGENT_NAME=llm-toolbox-suite
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

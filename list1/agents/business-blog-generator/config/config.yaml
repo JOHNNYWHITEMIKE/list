@@ -1,0 +1,6 @@
+# Configuration for business-blog-generator
+agent:
+  name: business-blog-generator
+  version: 1.0.0
+  
+# Add your configuration here

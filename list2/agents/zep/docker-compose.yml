@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  zep:
+    build: .
+    container_name: zep
+    environment:
+      - AGENT_NAME=zep
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

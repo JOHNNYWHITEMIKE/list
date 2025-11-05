@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  terraform-with-circleci-example:
+    build: .
+    container_name: terraform-with-circleci-example
+    environment:
+      - AGENT_NAME=terraform-with-circleci-example
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

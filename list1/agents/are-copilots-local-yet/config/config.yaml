@@ -1,0 +1,6 @@
+# Configuration for are-copilots-local-yet
+agent:
+  name: are-copilots-local-yet
+  version: 1.0.0
+  
+# Add your configuration here

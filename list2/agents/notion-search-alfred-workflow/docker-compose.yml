@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  notion-search-alfred-workflow:
+    build: .
+    container_name: notion-search-alfred-workflow
+    environment:
+      - AGENT_NAME=notion-search-alfred-workflow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for promptoftheyear
+agent:
+  name: promptoftheyear
+  version: 1.0.0
+  
+# Add your configuration here

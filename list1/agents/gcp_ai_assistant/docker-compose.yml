@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gcp_ai_assistant:
+    build: .
+    container_name: gcp_ai_assistant
+    environment:
+      - AGENT_NAME=gcp_ai_assistant
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

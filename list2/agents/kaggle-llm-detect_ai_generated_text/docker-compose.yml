@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  kaggle-llm-detect_ai_generated_text:
+    build: .
+    container_name: kaggle-llm-detect_ai_generated_text
+    environment:
+      - AGENT_NAME=kaggle-llm-detect_ai_generated_text
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

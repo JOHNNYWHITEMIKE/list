@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  documentation:
+    build: .
+    container_name: documentation
+    environment:
+      - AGENT_NAME=documentation
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

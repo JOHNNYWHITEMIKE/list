@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  amazon-mwaa-examples:
+    build: .
+    container_name: amazon-mwaa-examples
+    environment:
+      - AGENT_NAME=amazon-mwaa-examples
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

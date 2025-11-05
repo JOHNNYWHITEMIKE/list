@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  flowise:
+    build: .
+    container_name: flowise
+    environment:
+      - AGENT_NAME=flowise
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tools-by-taskade:
+    build: .
+    container_name: tools-by-taskade
+    environment:
+      - AGENT_NAME=tools-by-taskade
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for langfuse
+agent:
+  name: langfuse
+  version: 1.0.0
+  
+# Add your configuration here

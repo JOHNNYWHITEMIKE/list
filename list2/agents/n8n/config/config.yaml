@@ -1,0 +1,6 @@
+# Configuration for n8n
+agent:
+  name: n8n
+  version: 1.0.0
+  
+# Add your configuration here

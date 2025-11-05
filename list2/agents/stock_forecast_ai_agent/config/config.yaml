@@ -1,0 +1,6 @@
+# Configuration for stock_forecast_ai_agent
+agent:
+  name: stock_forecast_ai_agent
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  k8s-agent:
+    build: .
+    container_name: k8s-agent
+    environment:
+      - AGENT_NAME=k8s-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

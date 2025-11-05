@@ -1,0 +1,6 @@
+# Configuration for eduscribe-llm-backend
+agent:
+  name: eduscribe-llm-backend
+  version: 1.0.0
+  
+# Add your configuration here

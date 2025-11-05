@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  slashbase-go:
+    build: .
+    container_name: slashbase-go
+    environment:
+      - AGENT_NAME=slashbase-go
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

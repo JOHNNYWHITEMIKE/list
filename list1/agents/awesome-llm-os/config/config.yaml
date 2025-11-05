@@ -1,0 +1,6 @@
+# Configuration for awesome-llm-os
+agent:
+  name: awesome-llm-os
+  version: 1.0.0
+  
+# Add your configuration here

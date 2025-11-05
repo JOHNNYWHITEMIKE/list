@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-pacman-classification:
+    build: .
+    container_name: ai-pacman-classification
+    environment:
+      - AGENT_NAME=ai-pacman-classification
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

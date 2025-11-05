@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  auto-dev:
+    build: .
+    container_name: auto-dev
+    environment:
+      - AGENT_NAME=auto-dev
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

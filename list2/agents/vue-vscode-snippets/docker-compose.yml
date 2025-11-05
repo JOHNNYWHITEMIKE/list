@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vue-vscode-snippets:
+    build: .
+    container_name: vue-vscode-snippets
+    environment:
+      - AGENT_NAME=vue-vscode-snippets
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

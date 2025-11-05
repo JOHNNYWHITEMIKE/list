@@ -1,0 +1,6 @@
+# Configuration for data-ethics-and-society-reading-group
+agent:
+  name: data-ethics-and-society-reading-group
+  version: 1.0.0
+  
+# Add your configuration here

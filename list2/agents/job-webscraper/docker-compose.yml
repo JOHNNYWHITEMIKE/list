@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  job-webscraper:
+    build: .
+    container_name: job-webscraper
+    environment:
+      - AGENT_NAME=job-webscraper
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

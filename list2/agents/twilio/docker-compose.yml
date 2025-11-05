@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  twilio:
+    build: .
+    container_name: twilio
+    environment:
+      - AGENT_NAME=twilio
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

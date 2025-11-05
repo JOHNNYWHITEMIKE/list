@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  n8n-workflows:
+    build: .
+    container_name: n8n-workflows
+    environment:
+      - AGENT_NAME=n8n-workflows
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

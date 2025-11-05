@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ella:
+    build: .
+    container_name: ella
+    environment:
+      - AGENT_NAME=ella
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

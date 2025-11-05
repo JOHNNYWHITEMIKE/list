@@ -1,0 +1,6 @@
+# Configuration for open-interpreter
+agent:
+  name: open-interpreter
+  version: 1.0.0
+  
+# Add your configuration here

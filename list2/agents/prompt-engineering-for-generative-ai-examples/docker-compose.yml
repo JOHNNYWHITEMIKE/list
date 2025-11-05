@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  prompt-engineering-for-generative-ai-examples:
+    build: .
+    container_name: prompt-engineering-for-generative-ai-examples
+    environment:
+      - AGENT_NAME=prompt-engineering-for-generative-ai-examples
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

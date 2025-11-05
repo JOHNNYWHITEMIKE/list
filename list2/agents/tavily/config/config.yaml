@@ -1,0 +1,6 @@
+# Configuration for tavily
+agent:
+  name: tavily
+  version: 1.0.0
+  
+# Add your configuration here

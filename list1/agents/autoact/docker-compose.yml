@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  autoact:
+    build: .
+    container_name: autoact
+    environment:
+      - AGENT_NAME=autoact
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

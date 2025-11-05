@@ -1,0 +1,6 @@
+# Configuration for nsfw-finetuned-on-llm
+agent:
+  name: nsfw-finetuned-on-llm
+  version: 1.0.0
+  
+# Add your configuration here

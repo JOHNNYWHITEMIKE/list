@@ -1,0 +1,6 @@
+# Configuration for ai_for_ethics
+agent:
+  name: ai_for_ethics
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for aart-ai-safety-dataset
+agent:
+  name: aart-ai-safety-dataset
+  version: 1.0.0
+  
+# Add your configuration here

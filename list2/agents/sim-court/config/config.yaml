@@ -1,0 +1,6 @@
+# Configuration for sim-court
+agent:
+  name: sim-court
+  version: 1.0.0
+  
+# Add your configuration here

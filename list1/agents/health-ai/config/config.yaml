@@ -1,0 +1,6 @@
+# Configuration for health-ai
+agent:
+  name: health-ai
+  version: 1.0.0
+  
+# Add your configuration here

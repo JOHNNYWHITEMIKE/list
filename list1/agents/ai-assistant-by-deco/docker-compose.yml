@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-assistant-by-deco:
+    build: .
+    container_name: ai-assistant-by-deco
+    environment:
+      - AGENT_NAME=ai-assistant-by-deco
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

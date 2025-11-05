@@ -1,0 +1,6 @@
+# Configuration for sandbox
+agent:
+  name: sandbox
+  version: 1.0.0
+  
+# Add your configuration here

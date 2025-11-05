@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tough-llm-tests:
+    build: .
+    container_name: tough-llm-tests
+    environment:
+      - AGENT_NAME=tough-llm-tests
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

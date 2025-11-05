@@ -1,0 +1,6 @@
+# Configuration for cross-model-evaluation-judging-ai-ethics-and-alignment-responses-with-language-models
+agent:
+  name: cross-model-evaluation-judging-ai-ethics-and-alignment-responses-with-language-models
+  version: 1.0.0
+  
+# Add your configuration here

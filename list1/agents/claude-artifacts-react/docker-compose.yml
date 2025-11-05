@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  claude-artifacts-react:
+    build: .
+    container_name: claude-artifacts-react
+    environment:
+      - AGENT_NAME=claude-artifacts-react
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

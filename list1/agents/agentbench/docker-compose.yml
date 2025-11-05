@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentbench:
+    build: .
+    container_name: agentbench
+    environment:
+      - AGENT_NAME=agentbench
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

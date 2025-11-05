@@ -1,0 +1,6 @@
+# Configuration for xemantic-ai-tool-schema
+agent:
+  name: xemantic-ai-tool-schema
+  version: 1.0.0
+  
+# Add your configuration here

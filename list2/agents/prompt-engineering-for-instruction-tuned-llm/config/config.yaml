@@ -1,0 +1,6 @@
+# Configuration for prompt-engineering-for-instruction-tuned-llm
+agent:
+  name: prompt-engineering-for-instruction-tuned-llm
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mcts-agent-python:
+    build: .
+    container_name: mcts-agent-python
+    environment:
+      - AGENT_NAME=mcts-agent-python
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

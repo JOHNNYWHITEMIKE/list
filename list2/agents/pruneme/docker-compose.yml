@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pruneme:
+    build: .
+    container_name: pruneme
+    environment:
+      - AGENT_NAME=pruneme
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for workflow-reactjs
+agent:
+  name: workflow-reactjs
+  version: 1.0.0
+  
+# Add your configuration here

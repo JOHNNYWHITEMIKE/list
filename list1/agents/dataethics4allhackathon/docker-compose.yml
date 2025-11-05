@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dataethics4allhackathon:
+    build: .
+    container_name: dataethics4allhackathon
+    environment:
+      - AGENT_NAME=dataethics4allhackathon
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

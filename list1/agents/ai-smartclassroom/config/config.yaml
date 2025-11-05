@@ -1,0 +1,6 @@
+# Configuration for ai-smartclassroom
+agent:
+  name: ai-smartclassroom
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  prompt-engineering-for-javascript-developers:
+    build: .
+    container_name: prompt-engineering-for-javascript-developers
+    environment:
+      - AGENT_NAME=prompt-engineering-for-javascript-developers
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

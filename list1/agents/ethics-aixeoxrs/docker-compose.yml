@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ethics-aixeoxrs:
+    build: .
+    container_name: ethics-aixeoxrs
+    environment:
+      - AGENT_NAME=ethics-aixeoxrs
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

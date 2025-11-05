@@ -1,0 +1,6 @@
+# Configuration for comfyui-yolain-workflows
+agent:
+  name: comfyui-yolain-workflows
+  version: 1.0.0
+  
+# Add your configuration here

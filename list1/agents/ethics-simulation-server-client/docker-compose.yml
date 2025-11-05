@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ethics-simulation-server-client:
+    build: .
+    container_name: ethics-simulation-server-client
+    environment:
+      - AGENT_NAME=ethics-simulation-server-client
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-planning-papers:
+    build: .
+    container_name: llm-planning-papers
+    environment:
+      - AGENT_NAME=llm-planning-papers
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

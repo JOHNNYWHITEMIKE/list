@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  prompt_engineering:
+    build: .
+    container_name: prompt_engineering
+    environment:
+      - AGENT_NAME=prompt_engineering
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

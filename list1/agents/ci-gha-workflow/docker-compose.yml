@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ci-gha-workflow:
+    build: .
+    container_name: ci-gha-workflow
+    environment:
+      - AGENT_NAME=ci-gha-workflow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

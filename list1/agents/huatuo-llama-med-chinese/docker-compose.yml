@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  huatuo-llama-med-chinese:
+    build: .
+    container_name: huatuo-llama-med-chinese
+    environment:
+      - AGENT_NAME=huatuo-llama-med-chinese
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

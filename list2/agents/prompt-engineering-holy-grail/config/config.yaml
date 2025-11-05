@@ -1,0 +1,6 @@
+# Configuration for prompt-engineering-holy-grail
+agent:
+  name: prompt-engineering-holy-grail
+  version: 1.0.0
+  
+# Add your configuration here

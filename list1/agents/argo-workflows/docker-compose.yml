@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  argo-workflows:
+    build: .
+    container_name: argo-workflows
+    environment:
+      - AGENT_NAME=argo-workflows
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

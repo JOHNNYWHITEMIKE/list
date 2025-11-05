@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gulp:
+    build: .
+    container_name: gulp
+    environment:
+      - AGENT_NAME=gulp
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

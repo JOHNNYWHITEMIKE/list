@@ -1,0 +1,6 @@
+# Configuration for multiagentworkflow
+agent:
+  name: multiagentworkflow
+  version: 1.0.0
+  
+# Add your configuration here

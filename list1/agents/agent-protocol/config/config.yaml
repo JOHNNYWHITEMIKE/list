@@ -1,0 +1,6 @@
+# Configuration for agent-protocol
+agent:
+  name: agent-protocol
+  version: 1.0.0
+  
+# Add your configuration here

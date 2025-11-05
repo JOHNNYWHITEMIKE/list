@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rome-llm:
+    build: .
+    container_name: rome-llm
+    environment:
+      - AGENT_NAME=rome-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

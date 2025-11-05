@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ragelo:
+    build: .
+    container_name: ragelo
+    environment:
+      - AGENT_NAME=ragelo
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

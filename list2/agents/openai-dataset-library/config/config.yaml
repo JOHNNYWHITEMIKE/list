@@ -1,0 +1,6 @@
+# Configuration for openai-dataset-library
+agent:
+  name: openai-dataset-library
+  version: 1.0.0
+  
+# Add your configuration here

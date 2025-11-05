@@ -1,0 +1,6 @@
+# Configuration for autogen-by-microsoft
+agent:
+  name: autogen-by-microsoft
+  version: 1.0.0
+  
+# Add your configuration here

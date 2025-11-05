@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sop-bench:
+    build: .
+    container_name: sop-bench
+    environment:
+      - AGENT_NAME=sop-bench
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

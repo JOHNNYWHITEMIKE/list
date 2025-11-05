@@ -1,0 +1,6 @@
+# Configuration for ai-ethics-projects
+agent:
+  name: ai-ethics-projects
+  version: 1.0.0
+  
+# Add your configuration here

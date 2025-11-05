@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-solana-ai-hackathon:
+    build: .
+    container_name: awesome-solana-ai-hackathon
+    environment:
+      - AGENT_NAME=awesome-solana-ai-hackathon
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

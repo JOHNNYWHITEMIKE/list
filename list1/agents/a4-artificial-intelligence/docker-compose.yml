@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  a4-artificial-intelligence:
+    build: .
+    container_name: a4-artificial-intelligence
+    environment:
+      - AGENT_NAME=a4-artificial-intelligence
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

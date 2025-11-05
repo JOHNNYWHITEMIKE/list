@@ -1,0 +1,6 @@
+# Configuration for anythingllm_agentsample
+agent:
+  name: anythingllm_agentsample
+  version: 1.0.0
+  
+# Add your configuration here

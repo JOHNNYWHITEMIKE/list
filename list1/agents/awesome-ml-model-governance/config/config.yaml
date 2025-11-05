@@ -1,0 +1,6 @@
+# Configuration for awesome-ml-model-governance
+agent:
+  name: awesome-ml-model-governance
+  version: 1.0.0
+  
+# Add your configuration here

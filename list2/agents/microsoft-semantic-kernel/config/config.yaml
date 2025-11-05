@@ -1,0 +1,6 @@
+# Configuration for microsoft-semantic-kernel
+agent:
+  name: microsoft-semantic-kernel
+  version: 1.0.0
+  
+# Add your configuration here

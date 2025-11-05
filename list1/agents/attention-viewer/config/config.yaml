@@ -1,0 +1,6 @@
+# Configuration for attention-viewer
+agent:
+  name: attention-viewer
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for aiethics-safety2020
+agent:
+  name: aiethics-safety2020
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm_finetune:
+    build: .
+    container_name: llm_finetune
+    environment:
+      - AGENT_NAME=llm_finetune
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

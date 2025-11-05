@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  formfill:
+    build: .
+    container_name: formfill
+    environment:
+      - AGENT_NAME=formfill
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

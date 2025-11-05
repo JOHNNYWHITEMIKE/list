@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  skyvern:
+    build: .
+    container_name: skyvern
+    environment:
+      - AGENT_NAME=skyvern
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

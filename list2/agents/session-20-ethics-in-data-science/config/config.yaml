@@ -1,0 +1,6 @@
+# Configuration for session-20-ethics-in-data-science
+agent:
+  name: session-20-ethics-in-data-science
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  init-eliza:
+    build: .
+    container_name: init-eliza
+    environment:
+      - AGENT_NAME=init-eliza
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

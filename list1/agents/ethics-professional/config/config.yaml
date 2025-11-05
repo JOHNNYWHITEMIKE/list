@@ -1,0 +1,6 @@
+# Configuration for ethics-professional
+agent:
+  name: ethics-professional
+  version: 1.0.0
+  
+# Add your configuration here

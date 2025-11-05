@@ -1,0 +1,6 @@
+# Configuration for anyscale
+agent:
+  name: anyscale
+  version: 1.0.0
+  
+# Add your configuration here

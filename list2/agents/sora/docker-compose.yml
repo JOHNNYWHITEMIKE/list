@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sora:
+    build: .
+    container_name: sora
+    environment:
+      - AGENT_NAME=sora
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  aigent:
+    build: .
+    container_name: aigent
+    environment:
+      - AGENT_NAME=aigent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

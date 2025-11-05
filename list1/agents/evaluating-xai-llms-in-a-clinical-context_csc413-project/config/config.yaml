@@ -1,0 +1,6 @@
+# Configuration for evaluating-xai-llms-in-a-clinical-context_csc413-project
+agent:
+  name: evaluating-xai-llms-in-a-clinical-context_csc413-project
+  version: 1.0.0
+  
+# Add your configuration here

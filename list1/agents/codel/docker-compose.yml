@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  codel:
+    build: .
+    container_name: codel
+    environment:
+      - AGENT_NAME=codel
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

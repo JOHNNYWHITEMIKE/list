@@ -1,0 +1,6 @@
+# Configuration for tapir
+agent:
+  name: tapir
+  version: 1.0.0
+  
+# Add your configuration here

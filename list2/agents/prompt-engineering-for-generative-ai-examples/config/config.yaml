@@ -1,0 +1,6 @@
+# Configuration for prompt-engineering-for-generative-ai-examples
+agent:
+  name: prompt-engineering-for-generative-ai-examples
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for yet-another-applied-llm-benchmark
+agent:
+  name: yet-another-applied-llm-benchmark
+  version: 1.0.0
+  
+# Add your configuration here

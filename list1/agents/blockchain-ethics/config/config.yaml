@@ -1,0 +1,6 @@
+# Configuration for blockchain-ethics
+agent:
+  name: blockchain-ethics
+  version: 1.0.0
+  
+# Add your configuration here

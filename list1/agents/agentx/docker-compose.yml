@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentx:
+    build: .
+    container_name: agentx
+    environment:
+      - AGENT_NAME=agentx
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  appagent:
+    build: .
+    container_name: appagent
+    environment:
+      - AGENT_NAME=appagent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for perplexity-inspired-llm-answer-engine
+agent:
+  name: perplexity-inspired-llm-answer-engine
+  version: 1.0.0
+  
+# Add your configuration here

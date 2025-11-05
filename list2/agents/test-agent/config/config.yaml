@@ -1,0 +1,6 @@
+# Configuration for test-agent
+agent:
+  name: test-agent
+  version: 1.0.0
+  
+# Add your configuration here

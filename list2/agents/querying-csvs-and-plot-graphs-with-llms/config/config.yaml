@@ -1,0 +1,6 @@
+# Configuration for querying-csvs-and-plot-graphs-with-llms
+agent:
+  name: querying-csvs-and-plot-graphs-with-llms
+  version: 1.0.0
+  
+# Add your configuration here

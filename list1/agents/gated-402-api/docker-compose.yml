@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gated-402-api:
+    build: .
+    container_name: gated-402-api
+    environment:
+      - AGENT_NAME=gated-402-api
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

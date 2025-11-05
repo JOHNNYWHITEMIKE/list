@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  get-things-done-with-prompt-engineering-and-langchain:
+    build: .
+    container_name: get-things-done-with-prompt-engineering-and-langchain
+    environment:
+      - AGENT_NAME=get-things-done-with-prompt-engineering-and-langchain
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

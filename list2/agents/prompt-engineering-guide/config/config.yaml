@@ -1,0 +1,6 @@
+# Configuration for prompt-engineering-guide
+agent:
+  name: prompt-engineering-guide
+  version: 1.0.0
+  
+# Add your configuration here

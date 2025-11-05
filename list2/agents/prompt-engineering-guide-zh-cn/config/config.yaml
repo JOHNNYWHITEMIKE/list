@@ -1,0 +1,6 @@
+# Configuration for prompt-engineering-guide-zh-cn
+agent:
+  name: prompt-engineering-guide-zh-cn
+  version: 1.0.0
+  
+# Add your configuration here

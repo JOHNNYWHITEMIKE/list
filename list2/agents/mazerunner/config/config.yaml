@@ -1,0 +1,6 @@
+# Configuration for mazerunner
+agent:
+  name: mazerunner
+  version: 1.0.0
+  
+# Add your configuration here

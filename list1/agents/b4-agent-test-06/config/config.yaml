@@ -1,0 +1,6 @@
+# Configuration for b4-agent-test-06
+agent:
+  name: b4-agent-test-06
+  version: 1.0.0
+  
+# Add your configuration here

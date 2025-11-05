@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ethicsforais:
+    build: .
+    container_name: ethicsforais
+    environment:
+      - AGENT_NAME=ethicsforais
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

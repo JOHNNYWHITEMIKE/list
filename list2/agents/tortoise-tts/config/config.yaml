@@ -1,0 +1,6 @@
+# Configuration for tortoise-tts
+agent:
+  name: tortoise-tts
+  version: 1.0.0
+  
+# Add your configuration here

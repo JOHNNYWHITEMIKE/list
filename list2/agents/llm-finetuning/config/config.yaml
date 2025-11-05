@@ -1,0 +1,6 @@
+# Configuration for llm-finetuning
+agent:
+  name: llm-finetuning
+  version: 1.0.0
+  
+# Add your configuration here

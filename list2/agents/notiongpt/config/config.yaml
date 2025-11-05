@@ -1,0 +1,6 @@
+# Configuration for notiongpt
+agent:
+  name: notiongpt
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ais-ethics-orgs:
+    build: .
+    container_name: ais-ethics-orgs
+    environment:
+      - AGENT_NAME=ais-ethics-orgs
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

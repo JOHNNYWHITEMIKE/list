@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  aart-ai-safety-dataset:
+    build: .
+    container_name: aart-ai-safety-dataset
+    environment:
+      - AGENT_NAME=aart-ai-safety-dataset
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

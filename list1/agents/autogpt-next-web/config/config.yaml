@@ -1,0 +1,6 @@
+# Configuration for autogpt-next-web
+agent:
+  name: autogpt-next-web
+  version: 1.0.0
+  
+# Add your configuration here

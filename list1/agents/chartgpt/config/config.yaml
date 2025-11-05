@@ -1,0 +1,6 @@
+# Configuration for chartgpt
+agent:
+  name: chartgpt
+  version: 1.0.0
+  
+# Add your configuration here

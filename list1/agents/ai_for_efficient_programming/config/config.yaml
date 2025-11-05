@@ -1,0 +1,6 @@
+# Configuration for ai_for_efficient_programming
+agent:
+  name: ai_for_efficient_programming
+  version: 1.0.0
+  
+# Add your configuration here

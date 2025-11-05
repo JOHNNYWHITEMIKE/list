@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pixel-agi:
+    build: .
+    container_name: pixel-agi
+    environment:
+      - AGENT_NAME=pixel-agi
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

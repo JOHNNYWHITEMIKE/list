@@ -1,0 +1,6 @@
+# Configuration for amazon-bedrock-agent-test-ui
+agent:
+  name: amazon-bedrock-agent-test-ui
+  version: 1.0.0
+  
+# Add your configuration here

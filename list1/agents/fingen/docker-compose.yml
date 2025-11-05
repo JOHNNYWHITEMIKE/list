@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fingen:
+    build: .
+    container_name: fingen
+    environment:
+      - AGENT_NAME=fingen
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  humane:
+    build: .
+    container_name: humane
+    environment:
+      - AGENT_NAME=humane
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

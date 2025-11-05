@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  jazzx:
+    build: .
+    container_name: jazzx
+    environment:
+      - AGENT_NAME=jazzx
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

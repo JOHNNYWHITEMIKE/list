@@ -1,17 +1,93 @@
-# AI Agents List
+# AI Agents Repository
 
-A comprehensive list of AI agents with templates and instructions on how to build each one.
+A comprehensive collection of **1423** AI agents, each with Docker containerization support and ready-to-deploy infrastructure.
 
-This repository contains **1497** AI agents, each documented with:
-- Name and description
-- Official links and resources
-- Installation and usage instructions
+## 🚀 New Structure
 
-## Agents Directory
+This repository has been reorganized into two separate collections for better manageability:
 
-All agents are organized in the [agents/](agents/) directory.
+### List1 - 711 Agents
+Located in `list1/agents/`, containing the first half of agents (alphabetically sorted).
+[View List1 README](list1/README.md)
 
-## Complete List of Agents
+### List2 - 712 Agents  
+Located in `list2/agents/`, containing the second half of agents (alphabetically sorted).
+[View List2 README](list2/README.md)
+
+## 📁 Agent Structure
+
+Each agent follows a standardized Docker-ready structure:
+
+```
+agents/
+  agent-name/
+    ├── Dockerfile          # Container definition
+    ├── docker-compose.yml  # Orchestration configuration
+    ├── requirements.txt    # Python dependencies
+    ├── config/
+    │   └── config.yaml    # Agent configuration
+    ├── src/
+    │   └── main.py        # Main entry point
+    ├── data/              # Runtime data (gitignored)
+    └── README.md          # Agent documentation
+```
+
+## 🐳 Quick Start
+
+### Running an Agent
+
+```bash
+# Navigate to any agent directory
+cd list1/agents/aider
+
+# Build and start the agent
+docker-compose up -d
+
+# View logs
+docker-compose logs -f
+
+# Stop the agent
+docker-compose down
+```
+
+### Building All Agents
+
+```bash
+# Build all agents in list1
+cd list1/agents
+for dir in */; do
+  cd "$dir"
+  docker-compose build
+  cd ..
+done
+```
+
+## 📚 Original Documentation
+
+The original agent documentation from markdown files has been preserved in each agent's README.md file.
+
+## 🔧 Development
+
+Each agent includes:
+- **Dockerfile**: Pre-configured Python 3.11 environment
+- **docker-compose.yml**: Container orchestration with volume mounts
+- **config.yaml**: Centralized configuration
+- **main.py**: Template entry point for agent logic
+- **requirements.txt**: Dependency management
+
+## 🤝 Contributing
+
+To add or modify an agent:
+1. Navigate to the agent's directory
+2. Update the configuration, source code, or dependencies
+3. Test with `docker-compose up`
+4. Submit your changes
+
+## 📖 Legacy Documentation
+
+For the original flat documentation structure, see the `agents/` directory which contains all the original markdown files.
+
+## Complete Agent List
 
 - [01](agents/01.md)
 - [3Gpp-Requirements-Tools](agents/3gpp-requirements-tools.md)

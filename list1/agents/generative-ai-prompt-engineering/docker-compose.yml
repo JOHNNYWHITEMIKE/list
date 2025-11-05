@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  generative-ai-prompt-engineering:
+    build: .
+    container_name: generative-ai-prompt-engineering
+    environment:
+      - AGENT_NAME=generative-ai-prompt-engineering
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

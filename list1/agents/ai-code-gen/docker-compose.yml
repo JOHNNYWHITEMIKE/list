@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-code-gen:
+    build: .
+    container_name: ai-code-gen
+    environment:
+      - AGENT_NAME=ai-code-gen
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

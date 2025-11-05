@@ -1,0 +1,6 @@
+# Configuration for cheap_ai
+agent:
+  name: cheap_ai
+  version: 1.0.0
+  
+# Add your configuration here

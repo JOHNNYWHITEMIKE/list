@@ -1,0 +1,6 @@
+# Configuration for ai-agents-tool-dev
+agent:
+  name: ai-agents-tool-dev
+  version: 1.0.0
+  
+# Add your configuration here

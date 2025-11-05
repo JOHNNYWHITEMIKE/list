@@ -1,0 +1,6 @@
+# Configuration for autogen-and-crewai-agenttests
+agent:
+  name: autogen-and-crewai-agenttests
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for agent-by-stately-ai
+agent:
+  name: agent-by-stately-ai
+  version: 1.0.0
+  
+# Add your configuration here

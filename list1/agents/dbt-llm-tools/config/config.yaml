@@ -1,0 +1,6 @@
+# Configuration for dbt-llm-tools
+agent:
+  name: dbt-llm-tools
+  version: 1.0.0
+  
+# Add your configuration here

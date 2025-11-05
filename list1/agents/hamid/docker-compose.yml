@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  hamid:
+    build: .
+    container_name: hamid
+    environment:
+      - AGENT_NAME=hamid
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

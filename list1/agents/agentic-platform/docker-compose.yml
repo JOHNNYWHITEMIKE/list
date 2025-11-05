@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentic-platform:
+    build: .
+    container_name: agentic-platform
+    environment:
+      - AGENT_NAME=agentic-platform
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for dataset-error-reduction
+agent:
+  name: dataset-error-reduction
+  version: 1.0.0
+  
+# Add your configuration here

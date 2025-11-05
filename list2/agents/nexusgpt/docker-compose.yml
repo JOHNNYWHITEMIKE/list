@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nexusgpt:
+    build: .
+    container_name: nexusgpt
+    environment:
+      - AGENT_NAME=nexusgpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

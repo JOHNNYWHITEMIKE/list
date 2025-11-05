@@ -1,0 +1,6 @@
+# Configuration for cyber-security-llm-agents
+agent:
+  name: cyber-security-llm-agents
+  version: 1.0.0
+  
+# Add your configuration here

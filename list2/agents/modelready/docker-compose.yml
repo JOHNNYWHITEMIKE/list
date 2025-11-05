@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  modelready:
+    build: .
+    container_name: modelready
+    environment:
+      - AGENT_NAME=modelready
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

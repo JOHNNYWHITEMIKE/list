@@ -1,0 +1,6 @@
+# Configuration for lumos
+agent:
+  name: lumos
+  version: 1.0.0
+  
+# Add your configuration here

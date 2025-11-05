@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  deepinfra:
+    build: .
+    container_name: deepinfra
+    environment:
+      - AGENT_NAME=deepinfra
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

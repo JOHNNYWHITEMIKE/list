@@ -1,0 +1,6 @@
+# Configuration for redmine_workflow_enhancements
+agent:
+  name: redmine_workflow_enhancements
+  version: 1.0.0
+  
+# Add your configuration here

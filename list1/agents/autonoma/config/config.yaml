@@ -1,0 +1,6 @@
+# Configuration for autonoma
+agent:
+  name: autonoma
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for llm-chatbot
+agent:
+  name: llm-chatbot
+  version: 1.0.0
+  
+# Add your configuration here

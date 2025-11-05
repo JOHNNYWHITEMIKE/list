@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  plark_ai_public:
+    build: .
+    container_name: plark_ai_public
+    environment:
+      - AGENT_NAME=plark_ai_public
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

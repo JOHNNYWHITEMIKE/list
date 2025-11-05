@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  process-enginejs:
+    build: .
+    container_name: process-enginejs
+    environment:
+      - AGENT_NAME=process-enginejs
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

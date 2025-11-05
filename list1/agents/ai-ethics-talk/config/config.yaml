@@ -1,0 +1,6 @@
+# Configuration for ai-ethics-talk
+agent:
+  name: ai-ethics-talk
+  version: 1.0.0
+  
+# Add your configuration here

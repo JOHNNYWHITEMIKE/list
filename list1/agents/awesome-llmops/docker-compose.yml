@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-llmops:
+    build: .
+    container_name: awesome-llmops
+    environment:
+      - AGENT_NAME=awesome-llmops
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

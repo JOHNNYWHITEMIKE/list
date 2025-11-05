@@ -1,0 +1,6 @@
+# Configuration for agentgpt-llm-tools
+agent:
+  name: agentgpt-llm-tools
+  version: 1.0.0
+  
+# Add your configuration here

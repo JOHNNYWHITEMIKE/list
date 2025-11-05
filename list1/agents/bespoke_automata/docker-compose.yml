@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bespoke_automata:
+    build: .
+    container_name: bespoke_automata
+    environment:
+      - AGENT_NAME=bespoke_automata
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for ai-game-devtools
+agent:
+  name: ai-game-devtools
+  version: 1.0.0
+  
+# Add your configuration here

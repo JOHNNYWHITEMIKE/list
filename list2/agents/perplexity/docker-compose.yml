@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  perplexity:
+    build: .
+    container_name: perplexity
+    environment:
+      - AGENT_NAME=perplexity
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  classifai:
+    build: .
+    container_name: classifai
+    environment:
+      - AGENT_NAME=classifai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

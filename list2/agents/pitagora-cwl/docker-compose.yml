@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pitagora-cwl:
+    build: .
+    container_name: pitagora-cwl
+    environment:
+      - AGENT_NAME=pitagora-cwl
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

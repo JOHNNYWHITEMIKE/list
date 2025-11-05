@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  shampoosalesagent:
+    build: .
+    container_name: shampoosalesagent
+    environment:
+      - AGENT_NAME=shampoosalesagent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dnd-llm-game:
+    build: .
+    container_name: dnd-llm-game
+    environment:
+      - AGENT_NAME=dnd-llm-game
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

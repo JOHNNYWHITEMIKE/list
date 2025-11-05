@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai_brainstorming_team_agents:
+    build: .
+    container_name: ai_brainstorming_team_agents
+    environment:
+      - AGENT_NAME=ai_brainstorming_team_agents
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

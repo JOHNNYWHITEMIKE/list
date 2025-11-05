@@ -1,0 +1,6 @@
+# Configuration for gcp_ai_assistant
+agent:
+  name: gcp_ai_assistant
+  version: 1.0.0
+  
+# Add your configuration here

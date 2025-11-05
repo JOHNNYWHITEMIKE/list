@@ -1,0 +1,6 @@
+# Configuration for awesome-llm-json
+agent:
+  name: awesome-llm-json
+  version: 1.0.0
+  
+# Add your configuration here

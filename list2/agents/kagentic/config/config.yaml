@@ -1,0 +1,6 @@
+# Configuration for kagentic
+agent:
+  name: kagentic
+  version: 1.0.0
+  
+# Add your configuration here

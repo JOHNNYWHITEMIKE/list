@@ -1,0 +1,6 @@
+# Configuration for vital-chat-ui-streamlit
+agent:
+  name: vital-chat-ui-streamlit
+  version: 1.0.0
+  
+# Add your configuration here

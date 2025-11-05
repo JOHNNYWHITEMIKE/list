@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pimcore-workflow-gui:
+    build: .
+    container_name: pimcore-workflow-gui
+    environment:
+      - AGENT_NAME=pimcore-workflow-gui
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

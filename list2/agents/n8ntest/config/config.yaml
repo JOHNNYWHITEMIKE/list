@@ -1,0 +1,6 @@
+# Configuration for n8ntest
+agent:
+  name: n8ntest
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for ai-code-gen
+agent:
+  name: ai-code-gen
+  version: 1.0.0
+  
+# Add your configuration here

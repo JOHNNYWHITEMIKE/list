@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ethics-in-ai-cnns-for-lung-disease:
+    build: .
+    container_name: ethics-in-ai-cnns-for-lung-disease
+    environment:
+      - AGENT_NAME=ethics-in-ai-cnns-for-lung-disease
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  xemantic-ai-tool-schema:
+    build: .
+    container_name: xemantic-ai-tool-schema
+    environment:
+      - AGENT_NAME=xemantic-ai-tool-schema
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  comfyui_examples:
+    build: .
+    container_name: comfyui_examples
+    environment:
+      - AGENT_NAME=comfyui_examples
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

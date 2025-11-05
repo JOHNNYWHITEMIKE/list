@@ -1,0 +1,6 @@
+# Configuration for llm4mol
+agent:
+  name: llm4mol
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  langchain-ollama-chainlit:
+    build: .
+    container_name: langchain-ollama-chainlit
+    environment:
+      - AGENT_NAME=langchain-ollama-chainlit
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

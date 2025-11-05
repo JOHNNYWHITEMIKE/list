@@ -1,0 +1,6 @@
+# Configuration for awesome-recommend-system-pretraining-papers
+agent:
+  name: awesome-recommend-system-pretraining-papers
+  version: 1.0.0
+  
+# Add your configuration here

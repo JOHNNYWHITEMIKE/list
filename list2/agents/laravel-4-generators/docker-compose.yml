@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  laravel-4-generators:
+    build: .
+    container_name: laravel-4-generators
+    environment:
+      - AGENT_NAME=laravel-4-generators
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

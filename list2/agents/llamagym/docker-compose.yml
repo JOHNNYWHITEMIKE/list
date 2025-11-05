@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llamagym:
+    build: .
+    container_name: llamagym
+    environment:
+      - AGENT_NAME=llamagym
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

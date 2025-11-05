@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-medical-healthcare-dataset-for-llm:
+    build: .
+    container_name: awesome-medical-healthcare-dataset-for-llm
+    environment:
+      - AGENT_NAME=awesome-medical-healthcare-dataset-for-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

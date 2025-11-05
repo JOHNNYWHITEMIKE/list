@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pytexas-ethics-in-ai-shap:
+    build: .
+    container_name: pytexas-ethics-in-ai-shap
+    environment:
+      - AGENT_NAME=pytexas-ethics-in-ai-shap
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for prompt_engineering
+agent:
+  name: prompt_engineering
+  version: 1.0.0
+  
+# Add your configuration here

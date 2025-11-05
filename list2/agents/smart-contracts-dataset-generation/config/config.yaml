@@ -1,0 +1,6 @@
+# Configuration for smart-contracts-dataset-generation
+agent:
+  name: smart-contracts-dataset-generation
+  version: 1.0.0
+  
+# Add your configuration here

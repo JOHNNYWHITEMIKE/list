@@ -1,0 +1,6 @@
+# Configuration for awesome-medical-healthcare-dataset-for-llm
+agent:
+  name: awesome-medical-healthcare-dataset-for-llm
+  version: 1.0.0
+  
+# Add your configuration here

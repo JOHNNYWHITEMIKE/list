@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  b4-agent-test-06:
+    build: .
+    container_name: b4-agent-test-06
+    environment:
+      - AGENT_NAME=b4-agent-test-06
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

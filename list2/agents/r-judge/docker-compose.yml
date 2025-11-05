@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  r-judge:
+    build: .
+    container_name: r-judge
+    environment:
+      - AGENT_NAME=r-judge
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

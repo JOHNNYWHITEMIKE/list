@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  local-rag:
+    build: .
+    container_name: local-rag
+    environment:
+      - AGENT_NAME=local-rag
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

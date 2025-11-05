@@ -1,0 +1,6 @@
+# Configuration for dall-e2-cartography-ethics
+agent:
+  name: dall-e2-cartography-ethics
+  version: 1.0.0
+  
+# Add your configuration here

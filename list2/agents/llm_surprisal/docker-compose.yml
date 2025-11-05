@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm_surprisal:
+    build: .
+    container_name: llm_surprisal
+    environment:
+      - AGENT_NAME=llm_surprisal
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

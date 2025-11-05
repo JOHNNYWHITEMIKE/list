@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ambrose:
+    build: .
+    container_name: ambrose
+    environment:
+      - AGENT_NAME=ambrose
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

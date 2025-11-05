@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  trailblazer-activity:
+    build: .
+    container_name: trailblazer-activity
+    environment:
+      - AGENT_NAME=trailblazer-activity
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

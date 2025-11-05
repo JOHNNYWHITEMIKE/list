@@ -1,0 +1,6 @@
+# Configuration for txtai
+agent:
+  name: txtai
+  version: 1.0.0
+  
+# Add your configuration here

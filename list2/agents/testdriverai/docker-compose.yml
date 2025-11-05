@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  testdriverai:
+    build: .
+    container_name: testdriverai
+    environment:
+      - AGENT_NAME=testdriverai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

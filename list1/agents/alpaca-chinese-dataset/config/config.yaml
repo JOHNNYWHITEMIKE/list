@@ -1,0 +1,6 @@
+# Configuration for alpaca-chinese-dataset
+agent:
+  name: alpaca-chinese-dataset
+  version: 1.0.0
+  
+# Add your configuration here

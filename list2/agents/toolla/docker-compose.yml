@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  toolla:
+    build: .
+    container_name: toolla
+    environment:
+      - AGENT_NAME=toolla
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for kevlar-anti-leak-system-prompts
+agent:
+  name: kevlar-anti-leak-system-prompts
+  version: 1.0.0
+  
+# Add your configuration here

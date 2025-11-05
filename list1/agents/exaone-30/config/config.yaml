@@ -1,0 +1,6 @@
+# Configuration for exaone-30
+agent:
+  name: exaone-30
+  version: 1.0.0
+  
+# Add your configuration here

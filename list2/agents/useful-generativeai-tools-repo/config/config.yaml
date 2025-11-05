@@ -1,0 +1,6 @@
+# Configuration for useful-generativeai-tools-repo
+agent:
+  name: useful-generativeai-tools-repo
+  version: 1.0.0
+  
+# Add your configuration here

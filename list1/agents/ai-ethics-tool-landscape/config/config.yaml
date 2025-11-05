@@ -1,0 +1,6 @@
+# Configuration for ai-ethics-tool-landscape
+agent:
+  name: ai-ethics-tool-landscape
+  version: 1.0.0
+  
+# Add your configuration here

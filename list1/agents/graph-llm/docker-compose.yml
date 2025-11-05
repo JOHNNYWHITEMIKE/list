@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  graph-llm:
+    build: .
+    container_name: graph-llm
+    environment:
+      - AGENT_NAME=graph-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

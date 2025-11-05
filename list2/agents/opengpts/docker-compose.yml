@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  opengpts:
+    build: .
+    container_name: opengpts
+    environment:
+      - AGENT_NAME=opengpts
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

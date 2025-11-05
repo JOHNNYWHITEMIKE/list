@@ -1,0 +1,6 @@
+# Configuration for aiethics4science
+agent:
+  name: aiethics4science
+  version: 1.0.0
+  
+# Add your configuration here

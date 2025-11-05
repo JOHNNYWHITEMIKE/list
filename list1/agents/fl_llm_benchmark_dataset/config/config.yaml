@@ -1,0 +1,6 @@
+# Configuration for fl_llm_benchmark_dataset
+agent:
+  name: fl_llm_benchmark_dataset
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  alfy:
+    build: .
+    container_name: alfy
+    environment:
+      - AGENT_NAME=alfy
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

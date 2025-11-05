@@ -1,0 +1,6 @@
+# Configuration for multi-agent-secops-llm
+agent:
+  name: multi-agent-secops-llm
+  version: 1.0.0
+  
+# Add your configuration here

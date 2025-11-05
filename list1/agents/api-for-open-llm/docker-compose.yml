@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  api-for-open-llm:
+    build: .
+    container_name: api-for-open-llm
+    environment:
+      - AGENT_NAME=api-for-open-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

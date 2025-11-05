@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  seqtoseq-dataset-creator:
+    build: .
+    container_name: seqtoseq-dataset-creator
+    environment:
+      - AGENT_NAME=seqtoseq-dataset-creator
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

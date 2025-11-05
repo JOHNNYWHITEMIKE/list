@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  business-blog-generator:
+    build: .
+    container_name: business-blog-generator
+    environment:
+      - AGENT_NAME=business-blog-generator
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

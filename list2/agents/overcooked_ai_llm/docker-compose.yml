@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  overcooked_ai_llm:
+    build: .
+    container_name: overcooked_ai_llm
+    environment:
+      - AGENT_NAME=overcooked_ai_llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

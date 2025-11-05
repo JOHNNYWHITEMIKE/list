@@ -1,0 +1,6 @@
+# Configuration for data_analysis_with_local_llama
+agent:
+  name: data_analysis_with_local_llama
+  version: 1.0.0
+  
+# Add your configuration here

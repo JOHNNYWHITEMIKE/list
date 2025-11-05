@@ -1,0 +1,6 @@
+# Configuration for vertex-ai-by-google
+agent:
+  name: vertex-ai-by-google
+  version: 1.0.0
+  
+# Add your configuration here

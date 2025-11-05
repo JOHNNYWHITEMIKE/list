@@ -1,0 +1,6 @@
+# Configuration for upliftingpoleai_bsc_dissertation
+agent:
+  name: upliftingpoleai_bsc_dissertation
+  version: 1.0.0
+  
+# Add your configuration here

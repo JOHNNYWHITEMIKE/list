@@ -1,0 +1,6 @@
+# Configuration for attck-pe
+agent:
+  name: attck-pe
+  version: 1.0.0
+  
+# Add your configuration here

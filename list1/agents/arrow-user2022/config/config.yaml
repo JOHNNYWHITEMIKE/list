@@ -1,0 +1,6 @@
+# Configuration for arrow-user2022
+agent:
+  name: arrow-user2022
+  version: 1.0.0
+  
+# Add your configuration here

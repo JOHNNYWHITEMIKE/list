@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  arrow-user2022:
+    build: .
+    container_name: arrow-user2022
+    environment:
+      - AGENT_NAME=arrow-user2022
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

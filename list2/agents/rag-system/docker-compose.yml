@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rag-system:
+    build: .
+    container_name: rag-system
+    environment:
+      - AGENT_NAME=rag-system
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

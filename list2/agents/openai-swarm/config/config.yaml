@@ -1,0 +1,6 @@
+# Configuration for openai-swarm
+agent:
+  name: openai-swarm
+  version: 1.0.0
+  
+# Add your configuration here

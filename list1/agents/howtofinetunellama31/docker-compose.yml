@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  howtofinetunellama31:
+    build: .
+    container_name: howtofinetunellama31
+    environment:
+      - AGENT_NAME=howtofinetunellama31
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

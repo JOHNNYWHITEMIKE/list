@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llama-latte:
+    build: .
+    container_name: llama-latte
+    environment:
+      - AGENT_NAME=llama-latte
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

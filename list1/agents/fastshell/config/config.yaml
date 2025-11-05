@@ -1,0 +1,6 @@
+# Configuration for fastshell
+agent:
+  name: fastshell
+  version: 1.0.0
+  
+# Add your configuration here

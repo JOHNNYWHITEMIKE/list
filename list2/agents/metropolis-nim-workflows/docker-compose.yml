@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  metropolis-nim-workflows:
+    build: .
+    container_name: metropolis-nim-workflows
+    environment:
+      - AGENT_NAME=metropolis-nim-workflows
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

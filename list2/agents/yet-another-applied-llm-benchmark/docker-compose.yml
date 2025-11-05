@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  yet-another-applied-llm-benchmark:
+    build: .
+    container_name: yet-another-applied-llm-benchmark
+    environment:
+      - AGENT_NAME=yet-another-applied-llm-benchmark
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

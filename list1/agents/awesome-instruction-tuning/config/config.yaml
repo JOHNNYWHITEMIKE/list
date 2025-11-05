@@ -1,0 +1,6 @@
+# Configuration for awesome-instruction-tuning
+agent:
+  name: awesome-instruction-tuning
+  version: 1.0.0
+  
+# Add your configuration here

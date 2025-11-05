@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  docker-compose-laravel:
+    build: .
+    container_name: docker-compose-laravel
+    environment:
+      - AGENT_NAME=docker-compose-laravel
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  jarvis-by-microsoft:
+    build: .
+    container_name: jarvis-by-microsoft
+    environment:
+      - AGENT_NAME=jarvis-by-microsoft
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  synnex_symphony:
+    build: .
+    container_name: synnex_symphony
+    environment:
+      - AGENT_NAME=synnex_symphony
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

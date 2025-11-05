@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  instrukt:
+    build: .
+    container_name: instrukt
+    environment:
+      - AGENT_NAME=instrukt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

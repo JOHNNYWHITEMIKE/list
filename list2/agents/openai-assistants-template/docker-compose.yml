@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  openai-assistants-template:
+    build: .
+    container_name: openai-assistants-template
+    environment:
+      - AGENT_NAME=openai-assistants-template
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

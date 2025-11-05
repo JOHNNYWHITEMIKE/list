@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llmsys-paperlist:
+    build: .
+    container_name: llmsys-paperlist
+    environment:
+      - AGENT_NAME=llmsys-paperlist
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

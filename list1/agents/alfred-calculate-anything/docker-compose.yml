@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  alfred-calculate-anything:
+    build: .
+    container_name: alfred-calculate-anything
+    environment:
+      - AGENT_NAME=alfred-calculate-anything
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

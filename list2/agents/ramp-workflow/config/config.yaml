@@ -1,0 +1,6 @@
+# Configuration for ramp-workflow
+agent:
+  name: ramp-workflow
+  version: 1.0.0
+  
+# Add your configuration here

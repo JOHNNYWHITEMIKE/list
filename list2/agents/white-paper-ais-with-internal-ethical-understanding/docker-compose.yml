@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  white-paper-ais-with-internal-ethical-understanding:
+    build: .
+    container_name: white-paper-ais-with-internal-ethical-understanding
+    environment:
+      - AGENT_NAME=white-paper-ais-with-internal-ethical-understanding
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

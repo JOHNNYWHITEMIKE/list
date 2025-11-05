@@ -1,0 +1,6 @@
+# Configuration for tough-llm-tests
+agent:
+  name: tough-llm-tests
+  version: 1.0.0
+  
+# Add your configuration here

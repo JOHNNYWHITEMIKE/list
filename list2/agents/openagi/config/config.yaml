@@ -1,0 +1,6 @@
+# Configuration for openagi
+agent:
+  name: openagi
+  version: 1.0.0
+  
+# Add your configuration here

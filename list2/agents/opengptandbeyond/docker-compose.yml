@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  opengptandbeyond:
+    build: .
+    container_name: opengptandbeyond
+    environment:
+      - AGENT_NAME=opengptandbeyond
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

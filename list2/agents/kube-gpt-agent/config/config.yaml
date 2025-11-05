@@ -1,0 +1,6 @@
+# Configuration for kube-gpt-agent
+agent:
+  name: kube-gpt-agent
+  version: 1.0.0
+  
+# Add your configuration here

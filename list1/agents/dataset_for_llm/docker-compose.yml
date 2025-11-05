@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dataset_for_llm:
+    build: .
+    container_name: dataset_for_llm
+    environment:
+      - AGENT_NAME=dataset_for_llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for rust-build
+agent:
+  name: rust-build
+  version: 1.0.0
+  
+# Add your configuration here

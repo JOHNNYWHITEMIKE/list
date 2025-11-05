@@ -1,0 +1,6 @@
+# Configuration for multiagent-collab-scenario-benchmark
+agent:
+  name: multiagent-collab-scenario-benchmark
+  version: 1.0.0
+  
+# Add your configuration here

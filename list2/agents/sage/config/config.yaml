@@ -1,0 +1,6 @@
+# Configuration for sage
+agent:
+  name: sage
+  version: 1.0.0
+  
+# Add your configuration here

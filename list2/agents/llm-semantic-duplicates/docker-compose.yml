@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-semantic-duplicates:
+    build: .
+    container_name: llm-semantic-duplicates
+    environment:
+      - AGENT_NAME=llm-semantic-duplicates
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for lm-expansions
+agent:
+  name: lm-expansions
+  version: 1.0.0
+  
+# Add your configuration here

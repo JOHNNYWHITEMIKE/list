@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mb-nothing:
+    build: .
+    container_name: mb-nothing
+    environment:
+      - AGENT_NAME=mb-nothing
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for n8n-workflows
+agent:
+  name: n8n-workflows
+  version: 1.0.0
+  
+# Add your configuration here

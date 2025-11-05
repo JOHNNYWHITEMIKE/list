@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  public-agent-framwork:
+    build: .
+    container_name: public-agent-framwork
+    environment:
+      - AGENT_NAME=public-agent-framwork
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

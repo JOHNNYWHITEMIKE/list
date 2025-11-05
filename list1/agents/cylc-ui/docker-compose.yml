@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cylc-ui:
+    build: .
+    container_name: cylc-ui
+    environment:
+      - AGENT_NAME=cylc-ui
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

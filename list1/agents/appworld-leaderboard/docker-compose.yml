@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  appworld-leaderboard:
+    build: .
+    container_name: appworld-leaderboard
+    environment:
+      - AGENT_NAME=appworld-leaderboard
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

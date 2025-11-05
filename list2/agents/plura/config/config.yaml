@@ -1,0 +1,6 @@
+# Configuration for plura
+agent:
+  name: plura
+  version: 1.0.0
+  
+# Add your configuration here

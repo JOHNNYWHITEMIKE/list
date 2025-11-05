@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  software-dev-prompt-library:
+    build: .
+    container_name: software-dev-prompt-library
+    environment:
+      - AGENT_NAME=software-dev-prompt-library
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for awesome-ai-ethics
+agent:
+  name: awesome-ai-ethics
+  version: 1.0.0
+  
+# Add your configuration here

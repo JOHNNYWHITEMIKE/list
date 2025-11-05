@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentgpt-llm-tools:
+    build: .
+    container_name: agentgpt-llm-tools
+    environment:
+      - AGENT_NAME=agentgpt-llm-tools
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

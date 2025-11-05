@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  devid-by-agency-swarm:
+    build: .
+    container_name: devid-by-agency-swarm
+    environment:
+      - AGENT_NAME=devid-by-agency-swarm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

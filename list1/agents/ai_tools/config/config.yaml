@@ -1,0 +1,6 @@
+# Configuration for ai_tools
+agent:
+  name: ai_tools
+  version: 1.0.0
+  
+# Add your configuration here

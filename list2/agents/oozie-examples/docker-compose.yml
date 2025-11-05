@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  oozie-examples:
+    build: .
+    container_name: oozie-examples
+    environment:
+      - AGENT_NAME=oozie-examples
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

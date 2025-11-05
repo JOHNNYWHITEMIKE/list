@@ -1,0 +1,6 @@
+# Configuration for keras-cv
+agent:
+  name: keras-cv
+  version: 1.0.0
+  
+# Add your configuration here

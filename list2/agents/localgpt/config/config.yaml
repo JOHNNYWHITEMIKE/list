@@ -1,0 +1,6 @@
+# Configuration for localgpt
+agent:
+  name: localgpt
+  version: 1.0.0
+  
+# Add your configuration here

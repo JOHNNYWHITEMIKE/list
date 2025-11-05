@@ -1,0 +1,6 @@
+# Configuration for prompt-engineering-by-openai
+agent:
+  name: prompt-engineering-by-openai
+  version: 1.0.0
+  
+# Add your configuration here

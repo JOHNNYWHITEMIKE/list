@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  composio:
+    build: .
+    container_name: composio
+    environment:
+      - AGENT_NAME=composio
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

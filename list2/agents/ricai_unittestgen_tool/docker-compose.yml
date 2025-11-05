@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ricai_unittestgen_tool:
+    build: .
+    container_name: ricai_unittestgen_tool
+    environment:
+      - AGENT_NAME=ricai_unittestgen_tool
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

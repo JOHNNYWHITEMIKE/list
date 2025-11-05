@@ -1,0 +1,6 @@
+# Configuration for aws-ddk
+agent:
+  name: aws-ddk
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for woodwork-engine
+agent:
+  name: woodwork-engine
+  version: 1.0.0
+  
+# Add your configuration here

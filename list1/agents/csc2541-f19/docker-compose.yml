@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  csc2541-f19:
+    build: .
+    container_name: csc2541-f19
+    environment:
+      - AGENT_NAME=csc2541-f19
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

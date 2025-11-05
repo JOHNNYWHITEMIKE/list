@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  claude-models-by-anthropic:
+    build: .
+    container_name: claude-models-by-anthropic
+    environment:
+      - AGENT_NAME=claude-models-by-anthropic
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

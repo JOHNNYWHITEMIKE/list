@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  security-ai-agent-brama:
+    build: .
+    container_name: security-ai-agent-brama
+    environment:
+      - AGENT_NAME=security-ai-agent-brama
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

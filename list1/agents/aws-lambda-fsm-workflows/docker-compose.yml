@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  aws-lambda-fsm-workflows:
+    build: .
+    container_name: aws-lambda-fsm-workflows
+    environment:
+      - AGENT_NAME=aws-lambda-fsm-workflows
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

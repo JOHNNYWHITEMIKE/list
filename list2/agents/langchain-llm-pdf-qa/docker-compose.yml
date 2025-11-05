@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  langchain-llm-pdf-qa:
+    build: .
+    container_name: langchain-llm-pdf-qa
+    environment:
+      - AGENT_NAME=langchain-llm-pdf-qa
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-llm-productization:
+    build: .
+    container_name: awesome-llm-productization
+    environment:
+      - AGENT_NAME=awesome-llm-productization
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

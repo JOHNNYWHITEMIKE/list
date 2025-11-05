@@ -1,0 +1,6 @@
+# Configuration for deploy-pages
+agent:
+  name: deploy-pages
+  version: 1.0.0
+  
+# Add your configuration here

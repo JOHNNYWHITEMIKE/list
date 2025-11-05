@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  trafilatura:
+    build: .
+    container_name: trafilatura
+    environment:
+      - AGENT_NAME=trafilatura
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

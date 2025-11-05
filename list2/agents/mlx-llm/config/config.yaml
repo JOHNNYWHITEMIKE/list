@@ -1,0 +1,6 @@
+# Configuration for mlx-llm
+agent:
+  name: mlx-llm
+  version: 1.0.0
+  
+# Add your configuration here

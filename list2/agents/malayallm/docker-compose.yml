@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  malayallm:
+    build: .
+    container_name: malayallm
+    environment:
+      - AGENT_NAME=malayallm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for chatbot
+agent:
+  name: chatbot
+  version: 1.0.0
+  
+# Add your configuration here

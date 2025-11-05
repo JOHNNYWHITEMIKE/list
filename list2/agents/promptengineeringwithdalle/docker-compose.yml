@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  promptengineeringwithdalle:
+    build: .
+    container_name: promptengineeringwithdalle
+    environment:
+      - AGENT_NAME=promptengineeringwithdalle
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

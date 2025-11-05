@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  health-ai:
+    build: .
+    container_name: health-ai
+    environment:
+      - AGENT_NAME=health-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

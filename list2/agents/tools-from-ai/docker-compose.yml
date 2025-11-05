@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tools-from-ai:
+    build: .
+    container_name: tools-from-ai
+    environment:
+      - AGENT_NAME=tools-from-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

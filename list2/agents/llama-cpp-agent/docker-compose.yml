@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llama-cpp-agent:
+    build: .
+    container_name: llama-cpp-agent
+    environment:
+      - AGENT_NAME=llama-cpp-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

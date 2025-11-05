@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  flow-prompt:
+    build: .
+    container_name: flow-prompt
+    environment:
+      - AGENT_NAME=flow-prompt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

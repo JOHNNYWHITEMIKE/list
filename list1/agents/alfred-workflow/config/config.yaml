@@ -1,0 +1,6 @@
+# Configuration for alfred-workflow
+agent:
+  name: alfred-workflow
+  version: 1.0.0
+  
+# Add your configuration here

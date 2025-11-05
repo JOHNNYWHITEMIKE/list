@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  couler:
+    build: .
+    container_name: couler
+    environment:
+      - AGENT_NAME=couler
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

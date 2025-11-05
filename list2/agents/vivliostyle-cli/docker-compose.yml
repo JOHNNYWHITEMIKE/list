@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vivliostyle-cli:
+    build: .
+    container_name: vivliostyle-cli
+    environment:
+      - AGENT_NAME=vivliostyle-cli
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

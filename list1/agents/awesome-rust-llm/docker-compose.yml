@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-rust-llm:
+    build: .
+    container_name: awesome-rust-llm
+    environment:
+      - AGENT_NAME=awesome-rust-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

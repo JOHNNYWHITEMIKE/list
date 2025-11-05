@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentsy:
+    build: .
+    container_name: agentsy
+    environment:
+      - AGENT_NAME=agentsy
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

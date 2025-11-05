@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  playai:
+    build: .
+    container_name: playai
+    environment:
+      - AGENT_NAME=playai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

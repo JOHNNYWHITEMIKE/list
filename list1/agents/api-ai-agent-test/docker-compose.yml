@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  api-ai-agent-test:
+    build: .
+    container_name: api-ai-agent-test
+    environment:
+      - AGENT_NAME=api-ai-agent-test
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

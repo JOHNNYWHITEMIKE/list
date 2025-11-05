@@ -1,0 +1,6 @@
+# Configuration for hamid
+agent:
+  name: hamid
+  version: 1.0.0
+  
+# Add your configuration here

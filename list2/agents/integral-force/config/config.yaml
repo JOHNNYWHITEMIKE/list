@@ -1,0 +1,6 @@
+# Configuration for integral-force
+agent:
+  name: integral-force
+  version: 1.0.0
+  
+# Add your configuration here

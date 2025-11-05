@@ -1,0 +1,6 @@
+# Configuration for dev-swarm
+agent:
+  name: dev-swarm
+  version: 1.0.0
+  
+# Add your configuration here

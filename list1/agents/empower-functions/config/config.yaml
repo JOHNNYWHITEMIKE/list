@@ -1,0 +1,6 @@
+# Configuration for empower-functions
+agent:
+  name: empower-functions
+  version: 1.0.0
+  
+# Add your configuration here

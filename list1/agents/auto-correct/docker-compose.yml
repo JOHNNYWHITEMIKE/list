@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  auto-correct:
+    build: .
+    container_name: auto-correct
+    environment:
+      - AGENT_NAME=auto-correct
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

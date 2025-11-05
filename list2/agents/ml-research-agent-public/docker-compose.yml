@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ml-research-agent-public:
+    build: .
+    container_name: ml-research-agent-public
+    environment:
+      - AGENT_NAME=ml-research-agent-public
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

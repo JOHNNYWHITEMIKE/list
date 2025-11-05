@@ -1,0 +1,6 @@
+# Configuration for autonomous-ai-team
+agent:
+  name: autonomous-ai-team
+  version: 1.0.0
+  
+# Add your configuration here

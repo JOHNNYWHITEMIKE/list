@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lmql:
+    build: .
+    container_name: lmql
+    environment:
+      - AGENT_NAME=lmql
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

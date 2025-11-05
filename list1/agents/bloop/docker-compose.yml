@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bloop:
+    build: .
+    container_name: bloop
+    environment:
+      - AGENT_NAME=bloop
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

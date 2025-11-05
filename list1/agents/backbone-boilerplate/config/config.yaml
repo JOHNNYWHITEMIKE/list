@@ -1,0 +1,6 @@
+# Configuration for backbone-boilerplate
+agent:
+  name: backbone-boilerplate
+  version: 1.0.0
+  
+# Add your configuration here

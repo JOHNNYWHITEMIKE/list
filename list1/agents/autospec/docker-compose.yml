@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  autospec:
+    build: .
+    container_name: autospec
+    environment:
+      - AGENT_NAME=autospec
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

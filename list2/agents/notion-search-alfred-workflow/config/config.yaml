@@ -1,0 +1,6 @@
+# Configuration for notion-search-alfred-workflow
+agent:
+  name: notion-search-alfred-workflow
+  version: 1.0.0
+  
+# Add your configuration here

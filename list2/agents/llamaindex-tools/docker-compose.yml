@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llamaindex-tools:
+    build: .
+    container_name: llamaindex-tools
+    environment:
+      - AGENT_NAME=llamaindex-tools
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

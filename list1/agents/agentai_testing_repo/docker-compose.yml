@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentai_testing_repo:
+    build: .
+    container_name: agentai_testing_repo
+    environment:
+      - AGENT_NAME=agentai_testing_repo
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

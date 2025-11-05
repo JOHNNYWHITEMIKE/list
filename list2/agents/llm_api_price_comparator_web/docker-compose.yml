@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm_api_price_comparator_web:
+    build: .
+    container_name: llm_api_price_comparator_web
+    environment:
+      - AGENT_NAME=llm_api_price_comparator_web
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

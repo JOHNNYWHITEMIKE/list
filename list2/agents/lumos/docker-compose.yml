@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lumos:
+    build: .
+    container_name: lumos
+    environment:
+      - AGENT_NAME=lumos
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

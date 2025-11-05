@@ -1,0 +1,6 @@
+# Configuration for alfred-pinboard-rs
+agent:
+  name: alfred-pinboard-rs
+  version: 1.0.0
+  
+# Add your configuration here

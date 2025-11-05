@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  healthy-ui:
+    build: .
+    container_name: healthy-ui
+    environment:
+      - AGENT_NAME=healthy-ui
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  chatgpt-prompt-engineering-deeplearningai:
+    build: .
+    container_name: chatgpt-prompt-engineering-deeplearningai
+    environment:
+      - AGENT_NAME=chatgpt-prompt-engineering-deeplearningai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

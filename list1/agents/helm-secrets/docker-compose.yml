@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  helm-secrets:
+    build: .
+    container_name: helm-secrets
+    environment:
+      - AGENT_NAME=helm-secrets
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

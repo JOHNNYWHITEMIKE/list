@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  multiagentworkflow:
+    build: .
+    container_name: multiagentworkflow
+    environment:
+      - AGENT_NAME=multiagentworkflow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

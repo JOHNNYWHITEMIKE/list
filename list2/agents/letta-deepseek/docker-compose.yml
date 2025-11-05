@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  letta-deepseek:
+    build: .
+    container_name: letta-deepseek
+    environment:
+      - AGENT_NAME=letta-deepseek
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

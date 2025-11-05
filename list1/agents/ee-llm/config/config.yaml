@@ -1,0 +1,6 @@
+# Configuration for ee-llm
+agent:
+  name: ee-llm
+  version: 1.0.0
+  
+# Add your configuration here

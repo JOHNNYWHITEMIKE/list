@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bolaa:
+    build: .
+    container_name: bolaa
+    environment:
+      - AGENT_NAME=bolaa
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

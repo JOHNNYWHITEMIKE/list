@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  youtrack-workflows:
+    build: .
+    container_name: youtrack-workflows
+    environment:
+      - AGENT_NAME=youtrack-workflows
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

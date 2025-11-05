@@ -1,0 +1,6 @@
+# Configuration for gpt-models-by-openai
+agent:
+  name: gpt-models-by-openai
+  version: 1.0.0
+  
+# Add your configuration here

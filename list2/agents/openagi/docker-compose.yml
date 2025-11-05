@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  openagi:
+    build: .
+    container_name: openagi
+    environment:
+      - AGENT_NAME=openagi
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

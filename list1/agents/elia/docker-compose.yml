@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  elia:
+    build: .
+    container_name: elia
+    environment:
+      - AGENT_NAME=elia
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

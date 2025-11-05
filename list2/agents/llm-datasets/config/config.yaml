@@ -1,0 +1,6 @@
+# Configuration for llm-datasets
+agent:
+  name: llm-datasets
+  version: 1.0.0
+  
+# Add your configuration here

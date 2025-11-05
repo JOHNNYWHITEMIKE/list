@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  maestro:
+    build: .
+    container_name: maestro
+    environment:
+      - AGENT_NAME=maestro
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

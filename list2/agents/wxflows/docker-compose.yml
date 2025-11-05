@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  wxflows:
+    build: .
+    container_name: wxflows
+    environment:
+      - AGENT_NAME=wxflows
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

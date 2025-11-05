@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llms-txt:
+    build: .
+    container_name: llms-txt
+    environment:
+      - AGENT_NAME=llms-txt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fireworks:
+    build: .
+    container_name: fireworks
+    environment:
+      - AGENT_NAME=fireworks
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  chatdev:
+    build: .
+    container_name: chatdev
+    environment:
+      - AGENT_NAME=chatdev
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

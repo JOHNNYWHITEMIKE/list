@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tutorteachai:
+    build: .
+    container_name: tutorteachai
+    environment:
+      - AGENT_NAME=tutorteachai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

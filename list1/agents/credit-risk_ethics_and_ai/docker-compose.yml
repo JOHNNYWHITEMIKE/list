@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  credit-risk_ethics_and_ai:
+    build: .
+    container_name: credit-risk_ethics_and_ai
+    environment:
+      - AGENT_NAME=credit-risk_ethics_and_ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  contact-center-genai-agent:
+    build: .
+    container_name: contact-center-genai-agent
+    environment:
+      - AGENT_NAME=contact-center-genai-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

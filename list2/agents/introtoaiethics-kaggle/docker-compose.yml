@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  introtoaiethics-kaggle:
+    build: .
+    container_name: introtoaiethics-kaggle
+    environment:
+      - AGENT_NAME=introtoaiethics-kaggle
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

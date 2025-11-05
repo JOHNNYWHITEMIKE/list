@@ -1,0 +1,6 @@
+# Configuration for model_baseline
+agent:
+  name: model_baseline
+  version: 1.0.0
+  
+# Add your configuration here

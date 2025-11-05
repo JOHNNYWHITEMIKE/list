@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cognee:
+    build: .
+    container_name: cognee
+    environment:
+      - AGENT_NAME=cognee
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

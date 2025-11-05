@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  jest-ai:
+    build: .
+    container_name: jest-ai
+    environment:
+      - AGENT_NAME=jest-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

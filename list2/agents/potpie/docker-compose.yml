@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  potpie:
+    build: .
+    container_name: potpie
+    environment:
+      - AGENT_NAME=potpie
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

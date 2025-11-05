@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fairgo:
+    build: .
+    container_name: fairgo
+    environment:
+      - AGENT_NAME=fairgo
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

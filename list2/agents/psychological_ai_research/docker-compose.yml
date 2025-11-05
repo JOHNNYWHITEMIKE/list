@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  psychological_ai_research:
+    build: .
+    container_name: psychological_ai_research
+    environment:
+      - AGENT_NAME=psychological_ai_research
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

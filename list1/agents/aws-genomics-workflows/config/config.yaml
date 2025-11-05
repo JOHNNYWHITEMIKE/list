@@ -1,0 +1,6 @@
+# Configuration for aws-genomics-workflows
+agent:
+  name: aws-genomics-workflows
+  version: 1.0.0
+  
+# Add your configuration here

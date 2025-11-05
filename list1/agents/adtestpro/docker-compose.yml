@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  adtestpro:
+    build: .
+    container_name: adtestpro
+    environment:
+      - AGENT_NAME=adtestpro
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

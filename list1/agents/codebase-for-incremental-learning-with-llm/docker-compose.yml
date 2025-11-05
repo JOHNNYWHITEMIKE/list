@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  codebase-for-incremental-learning-with-llm:
+    build: .
+    container_name: codebase-for-incremental-learning-with-llm
+    environment:
+      - AGENT_NAME=codebase-for-incremental-learning-with-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

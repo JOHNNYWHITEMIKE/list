@@ -1,0 +1,6 @@
+# Configuration for documentation
+agent:
+  name: documentation
+  version: 1.0.0
+  
+# Add your configuration here

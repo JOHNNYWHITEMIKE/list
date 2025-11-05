@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  adala:
+    build: .
+    container_name: adala
+    environment:
+      - AGENT_NAME=adala
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

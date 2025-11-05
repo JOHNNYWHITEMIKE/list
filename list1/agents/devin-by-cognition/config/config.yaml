@@ -1,0 +1,6 @@
+# Configuration for devin-by-cognition
+agent:
+  name: devin-by-cognition
+  version: 1.0.0
+  
+# Add your configuration here

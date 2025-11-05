@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  prompt-eng-interactive-tutorial:
+    build: .
+    container_name: prompt-eng-interactive-tutorial
+    environment:
+      - AGENT_NAME=prompt-eng-interactive-tutorial
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

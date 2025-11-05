@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  actions-workflow-samples:
+    build: .
+    container_name: actions-workflow-samples
+    environment:
+      - AGENT_NAME=actions-workflow-samples
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

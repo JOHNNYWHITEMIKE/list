@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  speech-trident:
+    build: .
+    container_name: speech-trident
+    environment:
+      - AGENT_NAME=speech-trident
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

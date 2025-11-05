@@ -1,0 +1,6 @@
+# Configuration for adfa2
+agent:
+  name: adfa2
+  version: 1.0.0
+  
+# Add your configuration here

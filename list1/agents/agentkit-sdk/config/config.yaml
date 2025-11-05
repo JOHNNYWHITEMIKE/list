@@ -1,0 +1,6 @@
+# Configuration for agentkit-sdk
+agent:
+  name: agentkit-sdk
+  version: 1.0.0
+  
+# Add your configuration here

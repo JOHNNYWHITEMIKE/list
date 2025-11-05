@@ -1,0 +1,6 @@
+# Configuration for megaminer-tinyarena
+agent:
+  name: megaminer-tinyarena
+  version: 1.0.0
+  
+# Add your configuration here

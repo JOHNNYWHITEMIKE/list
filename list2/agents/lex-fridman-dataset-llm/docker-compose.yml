@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lex-fridman-dataset-llm:
+    build: .
+    container_name: lex-fridman-dataset-llm
+    environment:
+      - AGENT_NAME=lex-fridman-dataset-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

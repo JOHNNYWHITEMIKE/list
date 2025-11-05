@@ -1,0 +1,6 @@
+# Configuration for prompt-engineering-guide-chinese
+agent:
+  name: prompt-engineering-guide-chinese
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sale-workflow:
+    build: .
+    container_name: sale-workflow
+    environment:
+      - AGENT_NAME=sale-workflow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

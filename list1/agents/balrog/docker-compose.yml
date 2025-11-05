@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  balrog:
+    build: .
+    container_name: balrog
+    environment:
+      - AGENT_NAME=balrog
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for imbue
+agent:
+  name: imbue
+  version: 1.0.0
+  
+# Add your configuration here

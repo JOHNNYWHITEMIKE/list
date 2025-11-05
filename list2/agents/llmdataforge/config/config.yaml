@@ -1,0 +1,6 @@
+# Configuration for llmdataforge
+agent:
+  name: llmdataforge
+  version: 1.0.0
+  
+# Add your configuration here

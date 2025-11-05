@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  evolutionary-model-merge:
+    build: .
+    container_name: evolutionary-model-merge
+    environment:
+      - AGENT_NAME=evolutionary-model-merge
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for repo-to-text
+agent:
+  name: repo-to-text
+  version: 1.0.0
+  
+# Add your configuration here

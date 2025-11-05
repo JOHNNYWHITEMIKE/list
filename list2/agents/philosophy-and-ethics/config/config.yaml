@@ -1,0 +1,6 @@
+# Configuration for philosophy-and-ethics
+agent:
+  name: philosophy-and-ethics
+  version: 1.0.0
+  
+# Add your configuration here

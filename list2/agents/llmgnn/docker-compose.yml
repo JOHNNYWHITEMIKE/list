@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llmgnn:
+    build: .
+    container_name: llmgnn
+    environment:
+      - AGENT_NAME=llmgnn
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  phidata:
+    build: .
+    container_name: phidata
+    environment:
+      - AGENT_NAME=phidata
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

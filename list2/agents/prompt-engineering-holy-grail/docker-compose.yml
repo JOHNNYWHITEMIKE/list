@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  prompt-engineering-holy-grail:
+    build: .
+    container_name: prompt-engineering-holy-grail
+    environment:
+      - AGENT_NAME=prompt-engineering-holy-grail
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

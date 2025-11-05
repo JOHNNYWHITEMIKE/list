@@ -1,0 +1,6 @@
+# Configuration for orchestrai
+agent:
+  name: orchestrai
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  openrouter:
+    build: .
+    container_name: openrouter
+    environment:
+      - AGENT_NAME=openrouter
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

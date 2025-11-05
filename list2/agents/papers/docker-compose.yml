@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  papers:
+    build: .
+    container_name: papers
+    environment:
+      - AGENT_NAME=papers
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

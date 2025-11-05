@@ -1,0 +1,6 @@
+# Configuration for argo-workflows
+agent:
+  name: argo-workflows
+  version: 1.0.0
+  
+# Add your configuration here

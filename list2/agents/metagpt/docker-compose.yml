@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  metagpt:
+    build: .
+    container_name: metagpt
+    environment:
+      - AGENT_NAME=metagpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

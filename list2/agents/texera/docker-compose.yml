@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  texera:
+    build: .
+    container_name: texera
+    environment:
+      - AGENT_NAME=texera
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

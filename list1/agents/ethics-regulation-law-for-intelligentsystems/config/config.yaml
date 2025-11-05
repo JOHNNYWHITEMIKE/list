@@ -1,0 +1,6 @@
+# Configuration for ethics-regulation-law-for-intelligentsystems
+agent:
+  name: ethics-regulation-law-for-intelligentsystems
+  version: 1.0.0
+  
+# Add your configuration here

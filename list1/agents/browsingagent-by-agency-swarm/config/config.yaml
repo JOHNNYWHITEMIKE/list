@@ -1,0 +1,6 @@
+# Configuration for browsingagent-by-agency-swarm
+agent:
+  name: browsingagent-by-agency-swarm
+  version: 1.0.0
+  
+# Add your configuration here

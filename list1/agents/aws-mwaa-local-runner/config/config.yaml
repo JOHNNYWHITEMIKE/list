@@ -1,0 +1,6 @@
+# Configuration for aws-mwaa-local-runner
+agent:
+  name: aws-mwaa-local-runner
+  version: 1.0.0
+  
+# Add your configuration here

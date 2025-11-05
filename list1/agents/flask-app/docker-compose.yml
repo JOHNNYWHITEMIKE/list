@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  flask-app:
+    build: .
+    container_name: flask-app
+    environment:
+      - AGENT_NAME=flask-app
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

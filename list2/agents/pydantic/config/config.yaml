@@ -1,0 +1,6 @@
+# Configuration for pydantic
+agent:
+  name: pydantic
+  version: 1.0.0
+  
+# Add your configuration here

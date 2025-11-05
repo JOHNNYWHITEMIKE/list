@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ngx-i18nsupport:
+    build: .
+    container_name: ngx-i18nsupport
+    environment:
+      - AGENT_NAME=ngx-i18nsupport
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

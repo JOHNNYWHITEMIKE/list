@@ -1,0 +1,6 @@
+# Configuration for cypress-realworld-app
+agent:
+  name: cypress-realworld-app
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  co-llm:
+    build: .
+    container_name: co-llm
+    environment:
+      - AGENT_NAME=co-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

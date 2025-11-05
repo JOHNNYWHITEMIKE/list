@@ -1,0 +1,6 @@
+# Configuration for worldwide_ai-ethics
+agent:
+  name: worldwide_ai-ethics
+  version: 1.0.0
+  
+# Add your configuration here

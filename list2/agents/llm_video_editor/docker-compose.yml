@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm_video_editor:
+    build: .
+    container_name: llm_video_editor
+    environment:
+      - AGENT_NAME=llm_video_editor
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

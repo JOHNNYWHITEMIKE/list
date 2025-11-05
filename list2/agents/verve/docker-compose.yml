@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  verve:
+    build: .
+    container_name: verve
+    environment:
+      - AGENT_NAME=verve
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

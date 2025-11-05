@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agent-repoguardian:
+    build: .
+    container_name: agent-repoguardian
+    environment:
+      - AGENT_NAME=agent-repoguardian
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

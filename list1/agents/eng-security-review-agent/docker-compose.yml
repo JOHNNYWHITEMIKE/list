@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  eng-security-review-agent:
+    build: .
+    container_name: eng-security-review-agent
+    environment:
+      - AGENT_NAME=eng-security-review-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

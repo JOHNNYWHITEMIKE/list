@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  google-stt:
+    build: .
+    container_name: google-stt
+    environment:
+      - AGENT_NAME=google-stt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

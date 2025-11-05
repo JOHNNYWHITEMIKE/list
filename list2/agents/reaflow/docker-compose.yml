@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  reaflow:
+    build: .
+    container_name: reaflow
+    environment:
+      - AGENT_NAME=reaflow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

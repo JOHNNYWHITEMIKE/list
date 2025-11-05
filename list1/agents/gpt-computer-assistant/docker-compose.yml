@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gpt-computer-assistant:
+    build: .
+    container_name: gpt-computer-assistant
+    environment:
+      - AGENT_NAME=gpt-computer-assistant
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

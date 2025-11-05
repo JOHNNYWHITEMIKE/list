@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  alphacodium:
+    build: .
+    container_name: alphacodium
+    environment:
+      - AGENT_NAME=alphacodium
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

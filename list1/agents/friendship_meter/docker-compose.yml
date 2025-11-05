@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  friendship_meter:
+    build: .
+    container_name: friendship_meter
+    environment:
+      - AGENT_NAME=friendship_meter
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

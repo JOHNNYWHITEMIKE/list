@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  datasetgpt:
+    build: .
+    container_name: datasetgpt
+    environment:
+      - AGENT_NAME=datasetgpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

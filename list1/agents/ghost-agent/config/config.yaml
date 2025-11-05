@@ -1,0 +1,6 @@
+# Configuration for ghost-agent
+agent:
+  name: ghost-agent
+  version: 1.0.0
+  
+# Add your configuration here

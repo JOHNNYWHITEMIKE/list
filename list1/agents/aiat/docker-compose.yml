@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  aiat:
+    build: .
+    container_name: aiat
+    environment:
+      - AGENT_NAME=aiat
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

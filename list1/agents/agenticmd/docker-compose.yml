@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agenticmd:
+    build: .
+    container_name: agenticmd
+    environment:
+      - AGENT_NAME=agenticmd
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

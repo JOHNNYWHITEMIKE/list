@@ -1,0 +1,6 @@
+# Configuration for brokenhill
+agent:
+  name: brokenhill
+  version: 1.0.0
+  
+# Add your configuration here

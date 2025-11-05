@@ -1,0 +1,6 @@
+# Configuration for pixel-agi
+agent:
+  name: pixel-agi
+  version: 1.0.0
+  
+# Add your configuration here

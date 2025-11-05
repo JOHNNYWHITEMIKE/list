@@ -1,0 +1,6 @@
+# Configuration for dance-ai-research-project
+agent:
+  name: dance-ai-research-project
+  version: 1.0.0
+  
+# Add your configuration here

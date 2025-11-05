@@ -1,0 +1,6 @@
+# Configuration for viewflow
+agent:
+  name: viewflow
+  version: 1.0.0
+  
+# Add your configuration here

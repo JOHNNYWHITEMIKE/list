@@ -1,0 +1,6 @@
+# Configuration for pytexas-ethics-in-ai-shap
+agent:
+  name: pytexas-ethics-in-ai-shap
+  version: 1.0.0
+  
+# Add your configuration here

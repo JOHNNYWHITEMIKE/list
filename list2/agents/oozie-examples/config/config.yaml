@@ -1,0 +1,6 @@
+# Configuration for oozie-examples
+agent:
+  name: oozie-examples
+  version: 1.0.0
+  
+# Add your configuration here

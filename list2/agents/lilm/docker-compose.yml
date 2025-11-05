@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lilm:
+    build: .
+    container_name: lilm
+    environment:
+      - AGENT_NAME=lilm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

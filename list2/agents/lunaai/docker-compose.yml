@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lunaai:
+    build: .
+    container_name: lunaai
+    environment:
+      - AGENT_NAME=lunaai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for white-paper-ais-with-internal-ethical-understanding
+agent:
+  name: white-paper-ais-with-internal-ethical-understanding
+  version: 1.0.0
+  
+# Add your configuration here

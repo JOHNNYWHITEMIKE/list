@@ -1,0 +1,6 @@
+# Configuration for redlite
+agent:
+  name: redlite
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for sc-helm-app
+agent:
+  name: sc-helm-app
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sos:
+    build: .
+    container_name: sos
+    environment:
+      - AGENT_NAME=sos
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

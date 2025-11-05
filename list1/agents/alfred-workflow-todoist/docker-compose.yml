@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  alfred-workflow-todoist:
+    build: .
+    container_name: alfred-workflow-todoist
+    environment:
+      - AGENT_NAME=alfred-workflow-todoist
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

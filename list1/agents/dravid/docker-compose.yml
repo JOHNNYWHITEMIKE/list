@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dravid:
+    build: .
+    container_name: dravid
+    environment:
+      - AGENT_NAME=dravid
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm_agents_devtools:
+    build: .
+    container_name: llm_agents_devtools
+    environment:
+      - AGENT_NAME=llm_agents_devtools
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

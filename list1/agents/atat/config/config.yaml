@@ -1,0 +1,6 @@
+# Configuration for atat
+agent:
+  name: atat
+  version: 1.0.0
+  
+# Add your configuration here

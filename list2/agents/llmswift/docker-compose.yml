@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llmswift:
+    build: .
+    container_name: llmswift
+    environment:
+      - AGENT_NAME=llmswift
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

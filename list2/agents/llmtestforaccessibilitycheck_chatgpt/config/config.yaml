@@ -1,0 +1,6 @@
+# Configuration for llmtestforaccessibilitycheck_chatgpt
+agent:
+  name: llmtestforaccessibilitycheck_chatgpt
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for llm_cybersecurity_datasets_uss_2025
+agent:
+  name: llm_cybersecurity_datasets_uss_2025
+  version: 1.0.0
+  
+# Add your configuration here

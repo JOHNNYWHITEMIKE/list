@@ -1,0 +1,6 @@
+# Configuration for ai-ethics-resources
+agent:
+  name: ai-ethics-resources
+  version: 1.0.0
+  
+# Add your configuration here

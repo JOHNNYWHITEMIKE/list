@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  alfred-terminalfinder:
+    build: .
+    container_name: alfred-terminalfinder
+    environment:
+      - AGENT_NAME=alfred-terminalfinder
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

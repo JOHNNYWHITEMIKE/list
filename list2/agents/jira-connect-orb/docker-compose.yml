@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  jira-connect-orb:
+    build: .
+    container_name: jira-connect-orb
+    environment:
+      - AGENT_NAME=jira-connect-orb
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

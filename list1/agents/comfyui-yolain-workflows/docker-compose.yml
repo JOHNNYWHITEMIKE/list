@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  comfyui-yolain-workflows:
+    build: .
+    container_name: comfyui-yolain-workflows
+    environment:
+      - AGENT_NAME=comfyui-yolain-workflows
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

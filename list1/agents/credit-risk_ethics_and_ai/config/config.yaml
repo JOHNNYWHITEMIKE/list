@@ -1,0 +1,6 @@
+# Configuration for credit-risk_ethics_and_ai
+agent:
+  name: credit-risk_ethics_and_ai
+  version: 1.0.0
+  
+# Add your configuration here

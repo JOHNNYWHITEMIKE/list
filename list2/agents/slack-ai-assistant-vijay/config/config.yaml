@@ -1,0 +1,6 @@
+# Configuration for slack-ai-assistant-vijay
+agent:
+  name: slack-ai-assistant-vijay
+  version: 1.0.0
+  
+# Add your configuration here

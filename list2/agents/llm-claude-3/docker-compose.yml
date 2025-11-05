@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-claude-3:
+    build: .
+    container_name: llm-claude-3
+    environment:
+      - AGENT_NAME=llm-claude-3
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for privategpt
+agent:
+  name: privategpt
+  version: 1.0.0
+  
+# Add your configuration here

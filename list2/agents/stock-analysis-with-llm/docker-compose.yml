@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  stock-analysis-with-llm:
+    build: .
+    container_name: stock-analysis-with-llm
+    environment:
+      - AGENT_NAME=stock-analysis-with-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

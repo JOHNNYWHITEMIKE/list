@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  aiethics4science:
+    build: .
+    container_name: aiethics4science
+    environment:
+      - AGENT_NAME=aiethics4science
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

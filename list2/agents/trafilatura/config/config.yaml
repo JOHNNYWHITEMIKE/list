@@ -1,0 +1,6 @@
+# Configuration for trafilatura
+agent:
+  name: trafilatura
+  version: 1.0.0
+  
+# Add your configuration here

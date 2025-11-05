@@ -1,0 +1,6 @@
+# Configuration for ai-exchange
+agent:
+  name: ai-exchange
+  version: 1.0.0
+  
+# Add your configuration here

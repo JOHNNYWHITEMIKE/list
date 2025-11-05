@@ -1,0 +1,6 @@
+# Configuration for crewai-web-render
+agent:
+  name: crewai-web-render
+  version: 1.0.0
+  
+# Add your configuration here

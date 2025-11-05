@@ -1,0 +1,6 @@
+# Configuration for gpt-researcher-by-tavily
+agent:
+  name: gpt-researcher-by-tavily
+  version: 1.0.0
+  
+# Add your configuration here

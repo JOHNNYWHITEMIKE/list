@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  hugging-face-datasets:
+    build: .
+    container_name: hugging-face-datasets
+    environment:
+      - AGENT_NAME=hugging-face-datasets
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

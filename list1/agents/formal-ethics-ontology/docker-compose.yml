@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  formal-ethics-ontology:
+    build: .
+    container_name: formal-ethics-ontology
+    environment:
+      - AGENT_NAME=formal-ethics-ontology
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

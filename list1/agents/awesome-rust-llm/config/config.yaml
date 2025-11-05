@@ -1,0 +1,6 @@
+# Configuration for awesome-rust-llm
+agent:
+  name: awesome-rust-llm
+  version: 1.0.0
+  
+# Add your configuration here

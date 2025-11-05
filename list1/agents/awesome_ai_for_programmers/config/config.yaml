@@ -1,0 +1,6 @@
+# Configuration for awesome_ai_for_programmers
+agent:
+  name: awesome_ai_for_programmers
+  version: 1.0.0
+  
+# Add your configuration here

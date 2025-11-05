@@ -1,0 +1,6 @@
+# Configuration for ert-runnerel
+agent:
+  name: ert-runnerel
+  version: 1.0.0
+  
+# Add your configuration here

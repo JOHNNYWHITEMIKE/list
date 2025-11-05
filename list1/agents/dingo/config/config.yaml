@@ -1,0 +1,6 @@
+# Configuration for dingo
+agent:
+  name: dingo
+  version: 1.0.0
+  
+# Add your configuration here

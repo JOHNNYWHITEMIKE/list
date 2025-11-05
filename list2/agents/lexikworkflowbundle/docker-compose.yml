@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lexikworkflowbundle:
+    build: .
+    container_name: lexikworkflowbundle
+    environment:
+      - AGENT_NAME=lexikworkflowbundle
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

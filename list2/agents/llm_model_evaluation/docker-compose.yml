@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm_model_evaluation:
+    build: .
+    container_name: llm_model_evaluation
+    environment:
+      - AGENT_NAME=llm_model_evaluation
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

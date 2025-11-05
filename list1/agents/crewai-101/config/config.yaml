@@ -1,0 +1,6 @@
+# Configuration for crewai-101
+agent:
+  name: crewai-101
+  version: 1.0.0
+  
+# Add your configuration here

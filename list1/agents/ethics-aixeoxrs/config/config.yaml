@@ -1,0 +1,6 @@
+# Configuration for ethics-aixeoxrs
+agent:
+  name: ethics-aixeoxrs
+  version: 1.0.0
+  
+# Add your configuration here

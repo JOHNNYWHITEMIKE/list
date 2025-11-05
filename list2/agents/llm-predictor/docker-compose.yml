@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-predictor:
+    build: .
+    container_name: llm-predictor
+    environment:
+      - AGENT_NAME=llm-predictor
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

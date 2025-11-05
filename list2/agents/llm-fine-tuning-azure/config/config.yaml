@@ -1,0 +1,6 @@
+# Configuration for llm-fine-tuning-azure
+agent:
+  name: llm-fine-tuning-azure
+  version: 1.0.0
+  
+# Add your configuration here

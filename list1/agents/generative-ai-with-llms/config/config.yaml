@@ -1,0 +1,6 @@
+# Configuration for generative-ai-with-llms
+agent:
+  name: generative-ai-with-llms
+  version: 1.0.0
+  
+# Add your configuration here

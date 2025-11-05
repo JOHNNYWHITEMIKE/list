@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-llm4tool:
+    build: .
+    container_name: awesome-llm4tool
+    environment:
+      - AGENT_NAME=awesome-llm4tool
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

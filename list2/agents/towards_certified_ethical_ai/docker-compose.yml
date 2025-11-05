@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  towards_certified_ethical_ai:
+    build: .
+    container_name: towards_certified_ethical_ai
+    environment:
+      - AGENT_NAME=towards_certified_ethical_ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

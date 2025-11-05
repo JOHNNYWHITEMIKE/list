@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  discovai-crawl:
+    build: .
+    container_name: discovai-crawl
+    environment:
+      - AGENT_NAME=discovai-crawl
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

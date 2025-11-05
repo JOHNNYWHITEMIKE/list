@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  elm:
+    build: .
+    container_name: elm
+    environment:
+      - AGENT_NAME=elm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

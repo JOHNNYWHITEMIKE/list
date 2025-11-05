@@ -1,0 +1,6 @@
+# Configuration for fast-llm-security-guardrails
+agent:
+  name: fast-llm-security-guardrails
+  version: 1.0.0
+  
+# Add your configuration here

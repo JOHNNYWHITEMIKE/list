@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  kaggle-courses-intro-to-ai-ethics:
+    build: .
+    container_name: kaggle-courses-intro-to-ai-ethics
+    environment:
+      - AGENT_NAME=kaggle-courses-intro-to-ai-ethics
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

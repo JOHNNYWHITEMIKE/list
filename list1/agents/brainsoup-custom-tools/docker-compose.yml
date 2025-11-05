@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  brainsoup-custom-tools:
+    build: .
+    container_name: brainsoup-custom-tools
+    environment:
+      - AGENT_NAME=brainsoup-custom-tools
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  chatgpt-code-preview:
+    build: .
+    container_name: chatgpt-code-preview
+    environment:
+      - AGENT_NAME=chatgpt-code-preview
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

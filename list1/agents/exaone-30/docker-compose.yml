@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  exaone-30:
+    build: .
+    container_name: exaone-30
+    environment:
+      - AGENT_NAME=exaone-30
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vector-vein:
+    build: .
+    container_name: vector-vein
+    environment:
+      - AGENT_NAME=vector-vein
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

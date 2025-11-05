@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  d6tflow:
+    build: .
+    container_name: d6tflow
+    environment:
+      - AGENT_NAME=d6tflow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

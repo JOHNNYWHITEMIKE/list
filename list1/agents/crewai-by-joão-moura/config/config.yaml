@@ -1,0 +1,6 @@
+# Configuration for crewai-by-joão-moura
+agent:
+  name: crewai-by-joão-moura
+  version: 1.0.0
+  
+# Add your configuration here

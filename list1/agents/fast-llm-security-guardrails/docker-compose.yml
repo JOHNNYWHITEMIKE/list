@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fast-llm-security-guardrails:
+    build: .
+    container_name: fast-llm-security-guardrails
+    environment:
+      - AGENT_NAME=fast-llm-security-guardrails
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

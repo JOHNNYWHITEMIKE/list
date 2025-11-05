@@ -1,0 +1,6 @@
+# Configuration for ai_brainstorming_team_agents
+agent:
+  name: ai_brainstorming_team_agents
+  version: 1.0.0
+  
+# Add your configuration here

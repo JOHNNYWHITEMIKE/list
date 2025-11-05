@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  streamflow:
+    build: .
+    container_name: streamflow
+    environment:
+      - AGENT_NAME=streamflow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

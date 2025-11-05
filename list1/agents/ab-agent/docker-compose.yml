@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ab-agent:
+    build: .
+    container_name: ab-agent
+    environment:
+      - AGENT_NAME=ab-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

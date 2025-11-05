@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  python-agents:
+    build: .
+    container_name: python-agents
+    environment:
+      - AGENT_NAME=python-agents
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

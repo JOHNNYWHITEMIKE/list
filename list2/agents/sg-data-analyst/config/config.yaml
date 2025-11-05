@@ -1,0 +1,6 @@
+# Configuration for sg-data-analyst
+agent:
+  name: sg-data-analyst
+  version: 1.0.0
+  
+# Add your configuration here

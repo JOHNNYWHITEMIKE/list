@@ -1,0 +1,6 @@
+# Configuration for team-ai
+agent:
+  name: team-ai
+  version: 1.0.0
+  
+# Add your configuration here

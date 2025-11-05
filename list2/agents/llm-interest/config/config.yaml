@@ -1,0 +1,6 @@
+# Configuration for llm-interest
+agent:
+  name: llm-interest
+  version: 1.0.0
+  
+# Add your configuration here

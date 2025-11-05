@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  generative-ai-with-llms:
+    build: .
+    container_name: generative-ai-with-llms
+    environment:
+      - AGENT_NAME=generative-ai-with-llms
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

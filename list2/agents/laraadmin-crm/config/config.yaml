@@ -1,0 +1,6 @@
+# Configuration for laraadmin-crm
+agent:
+  name: laraadmin-crm
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  codegebragpt:
+    build: .
+    container_name: codegebragpt
+    environment:
+      - AGENT_NAME=codegebragpt
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

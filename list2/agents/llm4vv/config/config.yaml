@@ -1,0 +1,6 @@
+# Configuration for llm4vv
+agent:
+  name: llm4vv
+  version: 1.0.0
+  
+# Add your configuration here

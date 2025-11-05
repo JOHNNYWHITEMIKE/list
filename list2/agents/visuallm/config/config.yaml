@@ -1,0 +1,6 @@
+# Configuration for visuallm
+agent:
+  name: visuallm
+  version: 1.0.0
+  
+# Add your configuration here

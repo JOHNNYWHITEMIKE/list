@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  generativeaiethicsplaybook:
+    build: .
+    container_name: generativeaiethicsplaybook
+    environment:
+      - AGENT_NAME=generativeaiethicsplaybook
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

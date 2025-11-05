@@ -1,0 +1,6 @@
+# Configuration for ai-agent-lab
+agent:
+  name: ai-agent-lab
+  version: 1.0.0
+  
+# Add your configuration here

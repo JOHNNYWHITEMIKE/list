@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  kg-llm-prompting:
+    build: .
+    container_name: kg-llm-prompting
+    environment:
+      - AGENT_NAME=kg-llm-prompting
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

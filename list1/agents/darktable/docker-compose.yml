@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  darktable:
+    build: .
+    container_name: darktable
+    environment:
+      - AGENT_NAME=darktable
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

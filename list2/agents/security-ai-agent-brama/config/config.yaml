@@ -1,0 +1,6 @@
+# Configuration for security-ai-agent-brama
+agent:
+  name: security-ai-agent-brama
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  praisonai:
+    build: .
+    container_name: praisonai
+    environment:
+      - AGENT_NAME=praisonai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

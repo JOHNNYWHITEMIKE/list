@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  user_guide:
+    build: .
+    container_name: user_guide
+    environment:
+      - AGENT_NAME=user_guide
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

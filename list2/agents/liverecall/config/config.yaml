@@ -1,0 +1,6 @@
+# Configuration for liverecall
+agent:
+  name: liverecall
+  version: 1.0.0
+  
+# Add your configuration here

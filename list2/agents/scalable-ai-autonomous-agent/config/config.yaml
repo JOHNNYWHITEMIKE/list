@@ -1,0 +1,6 @@
+# Configuration for scalable-ai-autonomous-agent
+agent:
+  name: scalable-ai-autonomous-agent
+  version: 1.0.0
+  
+# Add your configuration here

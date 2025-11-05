@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  skin-cancer-specialist-llm:
+    build: .
+    container_name: skin-cancer-specialist-llm
+    environment:
+      - AGENT_NAME=skin-cancer-specialist-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sweep:
+    build: .
+    container_name: sweep
+    environment:
+      - AGENT_NAME=sweep
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

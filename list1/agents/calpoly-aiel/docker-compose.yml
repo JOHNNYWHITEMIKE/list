@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  calpoly-aiel:
+    build: .
+    container_name: calpoly-aiel
+    environment:
+      - AGENT_NAME=calpoly-aiel
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

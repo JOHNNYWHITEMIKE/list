@@ -1,0 +1,6 @@
+# Configuration for autogpt-handbook
+agent:
+  name: autogpt-handbook
+  version: 1.0.0
+  
+# Add your configuration here

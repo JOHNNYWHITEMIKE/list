@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llmcuratorio:
+    build: .
+    container_name: llmcuratorio
+    environment:
+      - AGENT_NAME=llmcuratorio
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for verve
+agent:
+  name: verve
+  version: 1.0.0
+  
+# Add your configuration here

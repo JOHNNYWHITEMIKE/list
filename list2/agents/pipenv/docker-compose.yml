@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pipenv:
+    build: .
+    container_name: pipenv
+    environment:
+      - AGENT_NAME=pipenv
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

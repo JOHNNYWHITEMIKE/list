@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  autogen-and-crewai-agenttests:
+    build: .
+    container_name: autogen-and-crewai-agenttests
+    environment:
+      - AGENT_NAME=autogen-and-crewai-agenttests
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

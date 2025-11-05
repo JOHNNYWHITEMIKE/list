@@ -1,0 +1,6 @@
+# Configuration for demogpt
+agent:
+  name: demogpt
+  version: 1.0.0
+  
+# Add your configuration here

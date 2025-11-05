@@ -1,0 +1,6 @@
+# Configuration for fullstack-nextjs-app-generator
+agent:
+  name: fullstack-nextjs-app-generator
+  version: 1.0.0
+  
+# Add your configuration here

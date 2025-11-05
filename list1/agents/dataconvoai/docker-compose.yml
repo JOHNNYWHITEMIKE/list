@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dataconvoai:
+    build: .
+    container_name: dataconvoai
+    environment:
+      - AGENT_NAME=dataconvoai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

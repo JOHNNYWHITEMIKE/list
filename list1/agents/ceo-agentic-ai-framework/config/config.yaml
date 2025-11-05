@@ -1,0 +1,6 @@
+# Configuration for ceo-agentic-ai-framework
+agent:
+  name: ceo-agentic-ai-framework
+  version: 1.0.0
+  
+# Add your configuration here

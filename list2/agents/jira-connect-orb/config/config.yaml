@@ -1,0 +1,6 @@
+# Configuration for jira-connect-orb
+agent:
+  name: jira-connect-orb
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sage:
+    build: .
+    container_name: sage
+    environment:
+      - AGENT_NAME=sage
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

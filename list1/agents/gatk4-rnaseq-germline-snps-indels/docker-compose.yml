@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gatk4-rnaseq-germline-snps-indels:
+    build: .
+    container_name: gatk4-rnaseq-germline-snps-indels
+    environment:
+      - AGENT_NAME=gatk4-rnaseq-germline-snps-indels
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

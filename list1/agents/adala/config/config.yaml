@@ -1,0 +1,6 @@
+# Configuration for adala
+agent:
+  name: adala
+  version: 1.0.0
+  
+# Add your configuration here

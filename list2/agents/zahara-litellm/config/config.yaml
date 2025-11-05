@@ -1,0 +1,6 @@
+# Configuration for zahara-litellm
+agent:
+  name: zahara-litellm
+  version: 1.0.0
+  
+# Add your configuration here

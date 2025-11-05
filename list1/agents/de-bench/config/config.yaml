@@ -1,0 +1,6 @@
+# Configuration for de-bench
+agent:
+  name: de-bench
+  version: 1.0.0
+  
+# Add your configuration here

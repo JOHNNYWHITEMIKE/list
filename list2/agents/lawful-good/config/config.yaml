@@ -1,0 +1,6 @@
+# Configuration for lawful-good
+agent:
+  name: lawful-good
+  version: 1.0.0
+  
+# Add your configuration here

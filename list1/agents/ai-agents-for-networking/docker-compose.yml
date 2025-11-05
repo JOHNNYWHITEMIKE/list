@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-agents-for-networking:
+    build: .
+    container_name: ai-agents-for-networking
+    environment:
+      - AGENT_NAME=ai-agents-for-networking
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

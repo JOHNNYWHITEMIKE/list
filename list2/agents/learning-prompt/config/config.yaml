@@ -1,0 +1,6 @@
+# Configuration for learning-prompt
+agent:
+  name: learning-prompt
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for llm_video_editor
+agent:
+  name: llm_video_editor
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,6 @@
+# Configuration for testchatbot
+agent:
+  name: testchatbot
+  version: 1.0.0
+  
+# Add your configuration here

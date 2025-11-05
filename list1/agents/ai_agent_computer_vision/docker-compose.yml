@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai_agent_computer_vision:
+    build: .
+    container_name: ai_agent_computer_vision
+    environment:
+      - AGENT_NAME=ai_agent_computer_vision
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-ethics-in-ecommerce-apps:
+    build: .
+    container_name: ai-ethics-in-ecommerce-apps
+    environment:
+      - AGENT_NAME=ai-ethics-in-ecommerce-apps
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

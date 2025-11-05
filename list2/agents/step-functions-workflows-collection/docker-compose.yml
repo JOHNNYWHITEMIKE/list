@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  step-functions-workflows-collection:
+    build: .
+    container_name: step-functions-workflows-collection
+    environment:
+      - AGENT_NAME=step-functions-workflows-collection
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

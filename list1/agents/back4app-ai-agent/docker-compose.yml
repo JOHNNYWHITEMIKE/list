@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  back4app-ai-agent:
+    build: .
+    container_name: back4app-ai-agent
+    environment:
+      - AGENT_NAME=back4app-ai-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

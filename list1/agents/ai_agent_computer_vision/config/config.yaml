@@ -1,0 +1,6 @@
+# Configuration for ai_agent_computer_vision
+agent:
+  name: ai_agent_computer_vision
+  version: 1.0.0
+  
+# Add your configuration here

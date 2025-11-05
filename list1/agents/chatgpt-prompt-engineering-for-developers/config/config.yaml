@@ -1,0 +1,6 @@
+# Configuration for chatgpt-prompt-engineering-for-developers
+agent:
+  name: chatgpt-prompt-engineering-for-developers
+  version: 1.0.0
+  
+# Add your configuration here

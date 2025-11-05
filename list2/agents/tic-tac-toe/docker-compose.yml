@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tic-tac-toe:
+    build: .
+    container_name: tic-tac-toe
+    environment:
+      - AGENT_NAME=tic-tac-toe
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

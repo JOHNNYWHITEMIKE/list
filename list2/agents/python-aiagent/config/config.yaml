@@ -1,0 +1,6 @@
+# Configuration for python-aiagent
+agent:
+  name: python-aiagent
+  version: 1.0.0
+  
+# Add your configuration here

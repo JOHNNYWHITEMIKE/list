@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  custom-tools-by-bland-ai:
+    build: .
+    container_name: custom-tools-by-bland-ai
+    environment:
+      - AGENT_NAME=custom-tools-by-bland-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

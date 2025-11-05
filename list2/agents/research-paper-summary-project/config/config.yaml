@@ -1,0 +1,6 @@
+# Configuration for research-paper-summary-project
+agent:
+  name: research-paper-summary-project
+  version: 1.0.0
+  
+# Add your configuration here

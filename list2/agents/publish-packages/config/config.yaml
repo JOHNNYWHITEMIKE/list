@@ -1,0 +1,6 @@
+# Configuration for publish-packages
+agent:
+  name: publish-packages
+  version: 1.0.0
+  
+# Add your configuration here

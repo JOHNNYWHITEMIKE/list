@@ -1,0 +1,6 @@
+# Configuration for gpt-newspaper-by-tavily
+agent:
+  name: gpt-newspaper-by-tavily
+  version: 1.0.0
+  
+# Add your configuration here

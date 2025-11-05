@@ -1,0 +1,6 @@
+# Configuration for stream-bench
+agent:
+  name: stream-bench
+  version: 1.0.0
+  
+# Add your configuration here

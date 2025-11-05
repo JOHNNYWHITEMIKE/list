@@ -1,0 +1,6 @@
+# Configuration for overcooked_ai_llm
+agent:
+  name: overcooked_ai_llm
+  version: 1.0.0
+  
+# Add your configuration here

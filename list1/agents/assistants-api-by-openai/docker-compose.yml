@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  assistants-api-by-openai:
+    build: .
+    container_name: assistants-api-by-openai
+    environment:
+      - AGENT_NAME=assistants-api-by-openai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

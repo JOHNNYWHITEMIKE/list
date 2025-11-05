@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agents-by-ai-waves:
+    build: .
+    container_name: agents-by-ai-waves
+    environment:
+      - AGENT_NAME=agents-by-ai-waves
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

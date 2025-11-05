@@ -1,0 +1,6 @@
+# Configuration for heb-gen-ai
+agent:
+  name: heb-gen-ai
+  version: 1.0.0
+  
+# Add your configuration here

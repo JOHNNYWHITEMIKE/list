@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  streamlit-agent-by-langchain:
+    build: .
+    container_name: streamlit-agent-by-langchain
+    environment:
+      - AGENT_NAME=streamlit-agent-by-langchain
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

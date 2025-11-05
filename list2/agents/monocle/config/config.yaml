@@ -1,0 +1,6 @@
+# Configuration for monocle
+agent:
+  name: monocle
+  version: 1.0.0
+  
+# Add your configuration here

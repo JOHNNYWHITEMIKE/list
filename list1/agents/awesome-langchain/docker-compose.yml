@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  awesome-langchain:
+    build: .
+    container_name: awesome-langchain
+    environment:
+      - AGENT_NAME=awesome-langchain
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

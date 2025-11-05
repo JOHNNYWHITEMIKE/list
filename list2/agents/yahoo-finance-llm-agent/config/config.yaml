@@ -1,0 +1,6 @@
+# Configuration for yahoo-finance-llm-agent
+agent:
+  name: yahoo-finance-llm-agent
+  version: 1.0.0
+  
+# Add your configuration here

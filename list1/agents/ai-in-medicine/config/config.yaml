@@ -1,0 +1,6 @@
+# Configuration for ai-in-medicine
+agent:
+  name: ai-in-medicine
+  version: 1.0.0
+  
+# Add your configuration here

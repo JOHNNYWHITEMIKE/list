@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  linux-security-agent:
+    build: .
+    container_name: linux-security-agent
+    environment:
+      - AGENT_NAME=linux-security-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

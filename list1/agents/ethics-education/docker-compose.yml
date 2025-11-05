@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ethics-education:
+    build: .
+    container_name: ethics-education
+    environment:
+      - AGENT_NAME=ethics-education
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

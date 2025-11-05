@@ -1,0 +1,6 @@
+# Configuration for bland
+agent:
+  name: bland
+  version: 1.0.0
+  
+# Add your configuration here

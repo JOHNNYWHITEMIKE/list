@@ -1,0 +1,6 @@
+# Configuration for psychological_ai_research
+agent:
+  name: psychological_ai_research
+  version: 1.0.0
+  
+# Add your configuration here

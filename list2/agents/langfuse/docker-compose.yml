@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  langfuse:
+    build: .
+    container_name: langfuse
+    environment:
+      - AGENT_NAME=langfuse
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  zorow:
+    build: .
+    container_name: zorow
+    environment:
+      - AGENT_NAME=zorow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

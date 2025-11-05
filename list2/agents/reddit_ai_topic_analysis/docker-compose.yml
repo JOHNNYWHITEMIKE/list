@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  reddit_ai_topic_analysis:
+    build: .
+    container_name: reddit_ai_topic_analysis
+    environment:
+      - AGENT_NAME=reddit_ai_topic_analysis
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

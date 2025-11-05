@@ -1,0 +1,6 @@
+# Configuration for ai-pacman-classification
+agent:
+  name: ai-pacman-classification
+  version: 1.0.0
+  
+# Add your configuration here

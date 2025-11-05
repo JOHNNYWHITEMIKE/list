@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  calai:
+    build: .
+    container_name: calai
+    environment:
+      - AGENT_NAME=calai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

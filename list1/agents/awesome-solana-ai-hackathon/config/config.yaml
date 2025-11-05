@@ -1,0 +1,6 @@
+# Configuration for awesome-solana-ai-hackathon
+agent:
+  name: awesome-solana-ai-hackathon
+  version: 1.0.0
+  
+# Add your configuration here

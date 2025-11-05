@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  zapier:
+    build: .
+    container_name: zapier
+    environment:
+      - AGENT_NAME=zapier
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

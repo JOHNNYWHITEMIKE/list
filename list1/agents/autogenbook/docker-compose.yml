@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  autogenbook:
+    build: .
+    container_name: autogenbook
+    environment:
+      - AGENT_NAME=autogenbook
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

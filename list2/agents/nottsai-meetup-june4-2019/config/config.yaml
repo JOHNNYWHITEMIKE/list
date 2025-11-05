@@ -1,0 +1,6 @@
+# Configuration for nottsai-meetup-june4-2019
+agent:
+  name: nottsai-meetup-june4-2019
+  version: 1.0.0
+  
+# Add your configuration here

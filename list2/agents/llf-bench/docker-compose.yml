@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llf-bench:
+    build: .
+    container_name: llf-bench
+    environment:
+      - AGENT_NAME=llf-bench
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

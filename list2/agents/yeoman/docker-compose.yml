@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  yeoman:
+    build: .
+    container_name: yeoman
+    environment:
+      - AGENT_NAME=yeoman
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

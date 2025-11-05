@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  crewaiknowledgetest:
+    build: .
+    container_name: crewaiknowledgetest
+    environment:
+      - AGENT_NAME=crewaiknowledgetest
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

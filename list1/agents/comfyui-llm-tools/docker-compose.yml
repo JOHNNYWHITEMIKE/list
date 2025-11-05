@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  comfyui-llm-tools:
+    build: .
+    container_name: comfyui-llm-tools
+    environment:
+      - AGENT_NAME=comfyui-llm-tools
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

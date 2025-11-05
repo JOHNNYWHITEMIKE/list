@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  icodes:
+    build: .
+    container_name: icodes
+    environment:
+      - AGENT_NAME=icodes
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

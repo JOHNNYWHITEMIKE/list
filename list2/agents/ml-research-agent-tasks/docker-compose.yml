@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ml-research-agent-tasks:
+    build: .
+    container_name: ml-research-agent-tasks
+    environment:
+      - AGENT_NAME=ml-research-agent-tasks
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for taskade-ai
+agent:
+  name: taskade-ai
+  version: 1.0.0
+  
+# Add your configuration here

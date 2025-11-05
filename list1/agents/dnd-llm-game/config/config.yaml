@@ -1,0 +1,6 @@
+# Configuration for dnd-llm-game
+agent:
+  name: dnd-llm-game
+  version: 1.0.0
+  
+# Add your configuration here

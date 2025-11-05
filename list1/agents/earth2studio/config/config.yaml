@@ -1,0 +1,6 @@
+# Configuration for earth2studio
+agent:
+  name: earth2studio
+  version: 1.0.0
+  
+# Add your configuration here

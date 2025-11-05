@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  confluent-kubernetes-examples:
+    build: .
+    container_name: confluent-kubernetes-examples
+    environment:
+      - AGENT_NAME=confluent-kubernetes-examples
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

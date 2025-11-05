@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  aix:
+    build: .
+    container_name: aix
+    environment:
+      - AGENT_NAME=aix
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

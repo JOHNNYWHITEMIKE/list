@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llmdataparser:
+    build: .
+    container_name: llmdataparser
+    environment:
+      - AGENT_NAME=llmdataparser
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

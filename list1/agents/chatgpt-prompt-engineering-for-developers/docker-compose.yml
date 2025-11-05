@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  chatgpt-prompt-engineering-for-developers:
+    build: .
+    container_name: chatgpt-prompt-engineering-for-developers
+    environment:
+      - AGENT_NAME=chatgpt-prompt-engineering-for-developers
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

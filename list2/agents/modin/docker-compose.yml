@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  modin:
+    build: .
+    container_name: modin
+    environment:
+      - AGENT_NAME=modin
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

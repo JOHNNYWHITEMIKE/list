@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tiger:
+    build: .
+    container_name: tiger
+    environment:
+      - AGENT_NAME=tiger
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

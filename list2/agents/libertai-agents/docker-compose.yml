@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  libertai-agents:
+    build: .
+    container_name: libertai-agents
+    environment:
+      - AGENT_NAME=libertai-agents
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

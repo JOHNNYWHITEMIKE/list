@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  row-oriented-workflows:
+    build: .
+    container_name: row-oriented-workflows
+    environment:
+      - AGENT_NAME=row-oriented-workflows
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

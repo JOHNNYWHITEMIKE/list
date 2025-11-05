@@ -1,0 +1,6 @@
+# Configuration for rag-on-gcp-with-vertexai
+agent:
+  name: rag-on-gcp-with-vertexai
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  togetherai:
+    build: .
+    container_name: togetherai
+    environment:
+      - AGENT_NAME=togetherai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

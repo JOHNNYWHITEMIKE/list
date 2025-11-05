@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-project-plannerenvironment:
+    build: .
+    container_name: ai-project-plannerenvironment
+    environment:
+      - AGENT_NAME=ai-project-plannerenvironment
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

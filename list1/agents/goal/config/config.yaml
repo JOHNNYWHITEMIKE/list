@@ -1,0 +1,6 @@
+# Configuration for goal
+agent:
+  name: goal
+  version: 1.0.0
+  
+# Add your configuration here

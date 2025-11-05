@@ -1,0 +1,6 @@
+# Configuration for vlm_databuilder
+agent:
+  name: vlm_databuilder
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nipype:
+    build: .
+    container_name: nipype
+    environment:
+      - AGENT_NAME=nipype
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

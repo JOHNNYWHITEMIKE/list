@@ -1,0 +1,6 @@
+# Configuration for idseq-workflows
+agent:
+  name: idseq-workflows
+  version: 1.0.0
+  
+# Add your configuration here

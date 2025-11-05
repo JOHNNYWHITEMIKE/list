@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  anythingllm_agentsample:
+    build: .
+    container_name: anythingllm_agentsample
+    environment:
+      - AGENT_NAME=anythingllm_agentsample
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

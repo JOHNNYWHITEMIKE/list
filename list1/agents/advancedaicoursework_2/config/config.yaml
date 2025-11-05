@@ -1,0 +1,6 @@
+# Configuration for advancedaicoursework_2
+agent:
+  name: advancedaicoursework_2
+  version: 1.0.0
+  
+# Add your configuration here

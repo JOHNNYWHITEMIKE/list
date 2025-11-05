@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  claude-react-jumpstart:
+    build: .
+    container_name: claude-react-jumpstart
+    environment:
+      - AGENT_NAME=claude-react-jumpstart
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for personal-assistant-by-hyperwrite
+agent:
+  name: personal-assistant-by-hyperwrite
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dolphinscheduler:
+    build: .
+    container_name: dolphinscheduler
+    environment:
+      - AGENT_NAME=dolphinscheduler
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

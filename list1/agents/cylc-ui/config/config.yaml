@@ -1,0 +1,6 @@
+# Configuration for cylc-ui
+agent:
+  name: cylc-ui
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  upstreet-core:
+    build: .
+    container_name: upstreet-core
+    environment:
+      - AGENT_NAME=upstreet-core
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

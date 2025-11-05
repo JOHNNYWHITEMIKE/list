@@ -1,0 +1,6 @@
+# Configuration for 42dot_llm
+agent:
+  name: 42dot_llm
+  version: 1.0.0
+  
+# Add your configuration here

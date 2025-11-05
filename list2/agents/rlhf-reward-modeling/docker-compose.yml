@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rlhf-reward-modeling:
+    build: .
+    container_name: rlhf-reward-modeling
+    environment:
+      - AGENT_NAME=rlhf-reward-modeling
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

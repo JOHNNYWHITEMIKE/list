@@ -1,0 +1,6 @@
+# Configuration for othello-fx
+agent:
+  name: othello-fx
+  version: 1.0.0
+  
+# Add your configuration here

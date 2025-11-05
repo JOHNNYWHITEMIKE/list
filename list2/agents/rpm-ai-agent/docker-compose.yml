@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rpm-ai-agent:
+    build: .
+    container_name: rpm-ai-agent
+    environment:
+      - AGENT_NAME=rpm-ai-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

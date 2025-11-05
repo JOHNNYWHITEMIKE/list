@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  multimodal-llm:
+    build: .
+    container_name: multimodal-llm
+    environment:
+      - AGENT_NAME=multimodal-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

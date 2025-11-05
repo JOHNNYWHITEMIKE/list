@@ -1,0 +1,6 @@
+# Configuration for awesome_role_of_small_models
+agent:
+  name: awesome_role_of_small_models
+  version: 1.0.0
+  
+# Add your configuration here

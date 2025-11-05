@@ -1,0 +1,6 @@
+# Configuration for agentlabs
+agent:
+  name: agentlabs
+  version: 1.0.0
+  
+# Add your configuration here

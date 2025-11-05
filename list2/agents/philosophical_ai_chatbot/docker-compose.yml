@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  philosophical_ai_chatbot:
+    build: .
+    container_name: philosophical_ai_chatbot
+    environment:
+      - AGENT_NAME=philosophical_ai_chatbot
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

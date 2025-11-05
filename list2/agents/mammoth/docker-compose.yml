@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mammoth:
+    build: .
+    container_name: mammoth
+    environment:
+      - AGENT_NAME=mammoth
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

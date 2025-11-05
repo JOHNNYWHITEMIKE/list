@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vercel_ai_test:
+    build: .
+    container_name: vercel_ai_test
+    environment:
+      - AGENT_NAME=vercel_ai_test
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

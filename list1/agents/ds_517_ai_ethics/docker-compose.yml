@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ds_517_ai_ethics:
+    build: .
+    container_name: ds_517_ai_ethics
+    environment:
+      - AGENT_NAME=ds_517_ai_ethics
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

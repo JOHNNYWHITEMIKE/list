@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bluemarz:
+    build: .
+    container_name: bluemarz
+    environment:
+      - AGENT_NAME=bluemarz
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

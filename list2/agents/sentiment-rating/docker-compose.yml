@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sentiment-rating:
+    build: .
+    container_name: sentiment-rating
+    environment:
+      - AGENT_NAME=sentiment-rating
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

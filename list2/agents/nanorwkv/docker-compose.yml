@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nanorwkv:
+    build: .
+    container_name: nanorwkv
+    environment:
+      - AGENT_NAME=nanorwkv
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

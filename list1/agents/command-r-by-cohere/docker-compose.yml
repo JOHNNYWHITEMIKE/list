@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  command-r-by-cohere:
+    build: .
+    container_name: command-r-by-cohere
+    environment:
+      - AGENT_NAME=command-r-by-cohere
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

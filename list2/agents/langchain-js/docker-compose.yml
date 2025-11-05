@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  langchain-js:
+    build: .
+    container_name: langchain-js
+    environment:
+      - AGENT_NAME=langchain-js
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

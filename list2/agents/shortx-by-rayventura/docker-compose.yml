@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  shortx-by-rayventura:
+    build: .
+    container_name: shortx-by-rayventura
+    environment:
+      - AGENT_NAME=shortx-by-rayventura
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

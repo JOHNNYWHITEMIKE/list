@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pharmasimtext-os-llms:
+    build: .
+    container_name: pharmasimtext-os-llms
+    environment:
+      - AGENT_NAME=pharmasimtext-os-llms
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

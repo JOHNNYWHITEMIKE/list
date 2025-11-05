@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  unchained:
+    build: .
+    container_name: unchained
+    environment:
+      - AGENT_NAME=unchained
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

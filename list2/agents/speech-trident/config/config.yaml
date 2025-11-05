@@ -1,0 +1,6 @@
+# Configuration for speech-trident
+agent:
+  name: speech-trident
+  version: 1.0.0
+  
+# Add your configuration here

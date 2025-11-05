@@ -1,0 +1,6 @@
+# Configuration for automated-prompt-engineering-from-scratch
+agent:
+  name: automated-prompt-engineering-from-scratch
+  version: 1.0.0
+  
+# Add your configuration here

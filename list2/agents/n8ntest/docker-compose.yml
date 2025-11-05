@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  n8ntest:
+    build: .
+    container_name: n8ntest
+    environment:
+      - AGENT_NAME=n8ntest
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

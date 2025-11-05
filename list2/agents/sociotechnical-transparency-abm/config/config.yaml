@@ -1,0 +1,6 @@
+# Configuration for sociotechnical-transparency-abm
+agent:
+  name: sociotechnical-transparency-abm
+  version: 1.0.0
+  
+# Add your configuration here

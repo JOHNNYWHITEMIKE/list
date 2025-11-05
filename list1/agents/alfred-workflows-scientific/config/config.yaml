@@ -1,0 +1,6 @@
+# Configuration for alfred-workflows-scientific
+agent:
+  name: alfred-workflows-scientific
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  udemy-prompt-engineering-course:
+    build: .
+    container_name: udemy-prompt-engineering-course
+    environment:
+      - AGENT_NAME=udemy-prompt-engineering-course
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  collective:
+    build: .
+    container_name: collective
+    environment:
+      - AGENT_NAME=collective
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

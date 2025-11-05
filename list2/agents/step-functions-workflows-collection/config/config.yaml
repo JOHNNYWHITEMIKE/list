@@ -1,0 +1,6 @@
+# Configuration for step-functions-workflows-collection
+agent:
+  name: step-functions-workflows-collection
+  version: 1.0.0
+  
+# Add your configuration here

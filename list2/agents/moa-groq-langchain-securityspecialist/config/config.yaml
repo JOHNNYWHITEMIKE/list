@@ -1,0 +1,6 @@
+# Configuration for moa-groq-langchain-securityspecialist
+agent:
+  name: moa-groq-langchain-securityspecialist
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  funflow:
+    build: .
+    container_name: funflow
+    environment:
+      - AGENT_NAME=funflow
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

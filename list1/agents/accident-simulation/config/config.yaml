@@ -1,0 +1,6 @@
+# Configuration for accident-simulation
+agent:
+  name: accident-simulation
+  version: 1.0.0
+  
+# Add your configuration here

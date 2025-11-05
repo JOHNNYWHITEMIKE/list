@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  data_analysis_with_local_llama:
+    build: .
+    container_name: data_analysis_with_local_llama
+    environment:
+      - AGENT_NAME=data_analysis_with_local_llama
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

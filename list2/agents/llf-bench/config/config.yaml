@@ -1,0 +1,6 @@
+# Configuration for llf-bench
+agent:
+  name: llf-bench
+  version: 1.0.0
+  
+# Add your configuration here

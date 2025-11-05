@@ -1,0 +1,6 @@
+# Configuration for llmsmartaudittool
+agent:
+  name: llmsmartaudittool
+  version: 1.0.0
+  
+# Add your configuration here

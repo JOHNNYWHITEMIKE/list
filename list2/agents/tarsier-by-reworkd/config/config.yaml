@@ -1,0 +1,6 @@
+# Configuration for tarsier-by-reworkd
+agent:
+  name: tarsier-by-reworkd
+  version: 1.0.0
+  
+# Add your configuration here

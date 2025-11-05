@@ -1,0 +1,6 @@
+# Configuration for simple_ai_agent
+agent:
+  name: simple_ai_agent
+  version: 1.0.0
+  
+# Add your configuration here

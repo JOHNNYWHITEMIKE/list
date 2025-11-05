@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  github-script:
+    build: .
+    container_name: github-script
+    environment:
+      - AGENT_NAME=github-script
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ethics-and-ai:
+    build: .
+    container_name: ethics-and-ai
+    environment:
+      - AGENT_NAME=ethics-and-ai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-exchange:
+    build: .
+    container_name: ai-exchange
+    environment:
+      - AGENT_NAME=ai-exchange
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

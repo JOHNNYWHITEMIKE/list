@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  stocks-ai-agent:
+    build: .
+    container_name: stocks-ai-agent
+    environment:
+      - AGENT_NAME=stocks-ai-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

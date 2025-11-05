@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tora:
+    build: .
+    container_name: tora
+    environment:
+      - AGENT_NAME=tora
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

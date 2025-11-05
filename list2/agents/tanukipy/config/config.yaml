@@ -1,0 +1,6 @@
+# Configuration for tanukipy
+agent:
+  name: tanukipy
+  version: 1.0.0
+  
+# Add your configuration here

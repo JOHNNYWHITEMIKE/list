@@ -1,0 +1,6 @@
+# Configuration for swarmnode-go
+agent:
+  name: swarmnode-go
+  version: 1.0.0
+  
+# Add your configuration here

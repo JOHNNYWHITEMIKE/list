@@ -1,0 +1,6 @@
+# Configuration for lang-tools-llm-powered
+agent:
+  name: lang-tools-llm-powered
+  version: 1.0.0
+  
+# Add your configuration here

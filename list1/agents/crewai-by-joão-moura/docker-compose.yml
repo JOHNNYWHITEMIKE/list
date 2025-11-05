@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  crewai-by-joão-moura:
+    build: .
+    container_name: crewai-by-joão-moura
+    environment:
+      - AGENT_NAME=crewai-by-joão-moura
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for modin
+agent:
+  name: modin
+  version: 1.0.0
+  
+# Add your configuration here

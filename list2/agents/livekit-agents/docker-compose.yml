@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  livekit-agents:
+    build: .
+    container_name: livekit-agents
+    environment:
+      - AGENT_NAME=livekit-agents
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

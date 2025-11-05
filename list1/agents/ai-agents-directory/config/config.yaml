@@ -1,0 +1,6 @@
+# Configuration for ai-agents-directory
+agent:
+  name: ai-agents-directory
+  version: 1.0.0
+  
+# Add your configuration here

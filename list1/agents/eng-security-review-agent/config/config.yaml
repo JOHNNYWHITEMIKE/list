@@ -1,0 +1,6 @@
+# Configuration for eng-security-review-agent
+agent:
+  name: eng-security-review-agent
+  version: 1.0.0
+  
+# Add your configuration here

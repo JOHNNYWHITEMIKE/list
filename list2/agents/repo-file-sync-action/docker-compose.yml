@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  repo-file-sync-action:
+    build: .
+    container_name: repo-file-sync-action
+    environment:
+      - AGENT_NAME=repo-file-sync-action
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

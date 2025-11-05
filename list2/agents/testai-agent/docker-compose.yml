@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  testai-agent:
+    build: .
+    container_name: testai-agent
+    environment:
+      - AGENT_NAME=testai-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

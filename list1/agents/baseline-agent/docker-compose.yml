@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  baseline-agent:
+    build: .
+    container_name: baseline-agent
+    environment:
+      - AGENT_NAME=baseline-agent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentkit-sdk:
+    build: .
+    container_name: agentkit-sdk
+    environment:
+      - AGENT_NAME=agentkit-sdk
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

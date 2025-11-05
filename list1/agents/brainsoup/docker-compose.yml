@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  brainsoup:
+    build: .
+    container_name: brainsoup
+    environment:
+      - AGENT_NAME=brainsoup
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

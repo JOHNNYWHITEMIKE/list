@@ -1,0 +1,6 @@
+# Configuration for awesome-llm-long-context-modeling
+agent:
+  name: awesome-llm-long-context-modeling
+  version: 1.0.0
+  
+# Add your configuration here

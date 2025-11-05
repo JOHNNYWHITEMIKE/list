@@ -1,0 +1,6 @@
+# Configuration for tools-from-ai
+agent:
+  name: tools-from-ai
+  version: 1.0.0
+  
+# Add your configuration here

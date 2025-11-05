@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  windowsagentarena:
+    build: .
+    container_name: windowsagentarena
+    environment:
+      - AGENT_NAME=windowsagentarena
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

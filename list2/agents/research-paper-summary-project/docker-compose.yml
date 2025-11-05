@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  research-paper-summary-project:
+    build: .
+    container_name: research-paper-summary-project
+    environment:
+      - AGENT_NAME=research-paper-summary-project
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for llms-txt
+agent:
+  name: llms-txt
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  whiteboxing-unitymlagents:
+    build: .
+    container_name: whiteboxing-unitymlagents
+    environment:
+      - AGENT_NAME=whiteboxing-unitymlagents
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

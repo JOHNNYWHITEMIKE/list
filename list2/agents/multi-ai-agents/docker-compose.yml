@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  multi-ai-agents:
+    build: .
+    container_name: multi-ai-agents
+    environment:
+      - AGENT_NAME=multi-ai-agents
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

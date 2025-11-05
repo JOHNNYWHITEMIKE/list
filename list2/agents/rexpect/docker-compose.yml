@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rexpect:
+    build: .
+    container_name: rexpect
+    environment:
+      - AGENT_NAME=rexpect
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

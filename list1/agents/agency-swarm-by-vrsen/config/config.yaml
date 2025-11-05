@@ -1,0 +1,6 @@
+# Configuration for agency-swarm-by-vrsen
+agent:
+  name: agency-swarm-by-vrsen
+  version: 1.0.0
+  
+# Add your configuration here

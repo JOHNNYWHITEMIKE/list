@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-security-demos:
+    build: .
+    container_name: ai-security-demos
+    environment:
+      - AGENT_NAME=ai-security-demos
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

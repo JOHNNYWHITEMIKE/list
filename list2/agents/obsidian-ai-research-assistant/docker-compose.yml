@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  obsidian-ai-research-assistant:
+    build: .
+    container_name: obsidian-ai-research-assistant
+    environment:
+      - AGENT_NAME=obsidian-ai-research-assistant
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

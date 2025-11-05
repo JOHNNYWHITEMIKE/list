@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm-dataset-converter-examples:
+    build: .
+    container_name: llm-dataset-converter-examples
+    environment:
+      - AGENT_NAME=llm-dataset-converter-examples
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

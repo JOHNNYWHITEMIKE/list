@@ -1,0 +1,6 @@
+# Configuration for instantrun
+agent:
+  name: instantrun
+  version: 1.0.0
+  
+# Add your configuration here

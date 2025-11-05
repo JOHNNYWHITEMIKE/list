@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  spacecreateai:
+    build: .
+    container_name: spacecreateai
+    environment:
+      - AGENT_NAME=spacecreateai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

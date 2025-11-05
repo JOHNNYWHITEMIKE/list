@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  kevlar-anti-leak-system-prompts:
+    build: .
+    container_name: kevlar-anti-leak-system-prompts
+    environment:
+      - AGENT_NAME=kevlar-anti-leak-system-prompts
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

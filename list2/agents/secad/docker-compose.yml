@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  secad:
+    build: .
+    container_name: secad
+    environment:
+      - AGENT_NAME=secad
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

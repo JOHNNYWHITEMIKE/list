@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  advanced-prompt-engineering-techniques-3817061:
+    build: .
+    container_name: advanced-prompt-engineering-techniques-3817061
+    environment:
+      - AGENT_NAME=advanced-prompt-engineering-techniques-3817061
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

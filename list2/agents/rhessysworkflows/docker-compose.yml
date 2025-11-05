@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rhessysworkflows:
+    build: .
+    container_name: rhessysworkflows
+    environment:
+      - AGENT_NAME=rhessysworkflows
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

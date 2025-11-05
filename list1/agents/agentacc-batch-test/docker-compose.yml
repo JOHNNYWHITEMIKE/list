@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agentacc-batch-test:
+    build: .
+    container_name: agentacc-batch-test
+    environment:
+      - AGENT_NAME=agentacc-batch-test
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  slam-llm:
+    build: .
+    container_name: slam-llm
+    environment:
+      - AGENT_NAME=slam-llm
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+# Configuration for vivliostyle-cli
+agent:
+  name: vivliostyle-cli
+  version: 1.0.0
+  
+# Add your configuration here

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  backtesteragent:
+    build: .
+    container_name: backtesteragent
+    environment:
+      - AGENT_NAME=backtesteragent
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

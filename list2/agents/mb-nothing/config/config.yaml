@@ -1,0 +1,6 @@
+# Configuration for mb-nothing
+agent:
+  name: mb-nothing
+  version: 1.0.0
+  
+# Add your configuration here

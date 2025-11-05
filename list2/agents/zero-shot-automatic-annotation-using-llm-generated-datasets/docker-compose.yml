@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  zero-shot-automatic-annotation-using-llm-generated-datasets:
+    build: .
+    container_name: zero-shot-automatic-annotation-using-llm-generated-datasets
+    environment:
+      - AGENT_NAME=zero-shot-automatic-annotation-using-llm-generated-datasets
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

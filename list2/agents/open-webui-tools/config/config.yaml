@@ -1,0 +1,6 @@
+# Configuration for open-webui-tools
+agent:
+  name: open-webui-tools
+  version: 1.0.0
+  
+# Add your configuration here

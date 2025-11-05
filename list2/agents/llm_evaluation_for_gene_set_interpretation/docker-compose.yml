@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  llm_evaluation_for_gene_set_interpretation:
+    build: .
+    container_name: llm_evaluation_for_gene_set_interpretation
+    environment:
+      - AGENT_NAME=llm_evaluation_for_gene_set_interpretation
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped

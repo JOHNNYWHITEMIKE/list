@@ -1,0 +1,6 @@
+# Configuration for rasflow
+agent:
+  name: rasflow
+  version: 1.0.0
+  
+# Add your configuration here

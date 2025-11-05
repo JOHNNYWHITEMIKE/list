@@ -1,0 +1,6 @@
+# Configuration for airline-review-llm-chatbot
+agent:
+  name: airline-review-llm-chatbot
+  version: 1.0.0
+  
+# Add your configuration here

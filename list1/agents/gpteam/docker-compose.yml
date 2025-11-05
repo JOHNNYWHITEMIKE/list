@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gpteam:
+    build: .
+    container_name: gpteam
+    environment:
+      - AGENT_NAME=gpteam
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
