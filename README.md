@@ -2,19 +2,45 @@
 
 A comprehensive list of AI agents with templates and instructions on how to build each one.
 
-This repository contains **1497** AI agents, each documented with:
+This repository contains **1423** AI agents, each documented with:
 - Name and description
 - Official links and resources
 - Installation and usage instructions
+- **Docker container configuration** for easy deployment
+
+## 🐳 Docker Support
+
+Each agent now includes a complete Docker setup:
+- **Dockerfile** - Container configuration
+- **docker-compose.yaml** - Orchestration setup
+- **config/** - Configuration files
+- **src/** - Source code directory  
+- **README.md** - Agent documentation
+
+See [DOCKER_USAGE.md](DOCKER_USAGE.md) for detailed instructions on running agents with Docker.
+
+Use the included `manage-agents.sh` script to easily manage multiple agents:
+```bash
+./manage-agents.sh list           # List all agents
+./manage-agents.sh build aider    # Build an agent
+./manage-agents.sh start langchain # Start an agent
+./manage-agents.sh status         # Check running agents
+```
 
 ## Agents Directory
 
-All agents are organized in the [agents/](agents/) directory.
+All agents are organized in the [agents/](agents/) directory, with each agent in its own subdirectory.
 
 ## Complete List of Agents
 
-- [01](agents/01.md)
-- [3Gpp-Requirements-Tools](agents/3gpp-requirements-tools.md)
+**Note:** Each agent is now in its own directory with complete Docker setup. Navigate to `agents/{agent-name}/README.md` for documentation.
+
+Browse the [agents/](agents/) directory to explore all available agents, or use the management script to list them:
+```bash
+./manage-agents.sh list
+```
+
+### Quick Links (Sample)
 - [42Dot_Llm](agents/42dot_llm.md)
 - [A4-Artificial-Intelligence](agents/a4-artificial-intelligence.md)
 - [AGiXT](agents/agixt.md)
