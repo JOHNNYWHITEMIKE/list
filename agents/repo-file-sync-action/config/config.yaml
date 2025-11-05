@@ -1,7 +1,0 @@
-# Configuration for Repo-File-Sync-Action
-agent:
-  name: "Repo-File-Sync-Action"
-  description: "🔄 GitHub Action to keep files like Action workflows or entire directories in sync between multiple repositories."
-  github_url: "https://github.com/BetaHuhn/repo-file-sync-action](https://github.com/BetaHuhn/repo-file-sync-action"
-  
-# Add your configuration here

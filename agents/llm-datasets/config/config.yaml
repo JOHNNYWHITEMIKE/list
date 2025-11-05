@@ -1,7 +1,0 @@
-# Configuration for Llm-Datasets
-agent:
-  name: "Llm-Datasets"
-  description: "High-quality datasets, tools, and concepts for LLM fine-tuning."
-  github_url: "https://github.com/mlabonne/llm-datasets](https://github.com/mlabonne/llm-datasets"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Awesome-Local-Llm
-agent:
-  name: "Awesome-Local-Llm"
-  description: "A curated list of resources, libraries, tools, and communities for working with Local Large Language Models (LLMs)."
-  github_url: "https://github.com/WaterPistolAI/Awesome-Local-LLM](https://github.com/WaterPistolAI/Awesome-Local-LLM"
-  
-# Add your configuration here

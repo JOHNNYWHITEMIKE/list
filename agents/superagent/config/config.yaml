@@ -1,7 +1,0 @@
-# Configuration for Superagent
-agent:
-  name: "Superagent"
-  description: "Superagent is an open-source AI assistant framework backed by Y Combinator, facilitating the integration of large language models (LLM) and generative AI into applications, supporting various use cases such as question answering, chatbots, and content generation"
-  github_url: "https://github.com/superagent-ai/superagent](https://github.com/superagent-ai/superagent"
-  
-# Add your configuration here

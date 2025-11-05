@@ -1,7 +1,0 @@
-# Configuration for Agent by Stately AI
-agent:
-  name: "Agent by Stately AI"
-  description: "Stately Agent is a software for building intelligent agents that interact via chat and events, with examples including joke generation, tic-tac-toe, and weather querying, requiring installation and an OpenAI API key"
-  github_url: "https://github.com/statelyai/agent/](https://github.com/statelyai/agent/"
-  
-# Add your configuration here

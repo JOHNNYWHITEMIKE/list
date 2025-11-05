@@ -1,7 +1,0 @@
-# Configuration for Gguf-Tools
-agent:
-  name: "Gguf-Tools"
-  description: "Some random tools for working with the GGUF file format"
-  github_url: "https://github.com/KerfuffleV2/gguf-tools](https://github.com/KerfuffleV2/gguf-tools"
-  
-# Add your configuration here

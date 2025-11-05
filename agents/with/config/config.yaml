@@ -1,7 +1,0 @@
-# Configuration for With
-agent:
-  name: "With"
-  description: "Command prefixing for continuous workflow using a single tool."
-  github_url: "https://github.com/mchav/with](https://github.com/mchav/with"
-  
-# Add your configuration here

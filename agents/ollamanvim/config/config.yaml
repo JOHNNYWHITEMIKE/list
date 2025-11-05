@@ -1,7 +1,0 @@
-# Configuration for Ollama.Nvim
-agent:
-  name: "Ollama.Nvim"
-  description: "A plugin for managing and integrating your ollama workflows in neovim."
-  github_url: "https://github.com/nomnivore/ollama.nvim](https://github.com/nomnivore/ollama.nvim"
-  
-# Add your configuration here

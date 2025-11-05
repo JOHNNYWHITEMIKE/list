@@ -1,7 +1,0 @@
-# Configuration for Vacuum-Agents
-agent:
-  name: "Vacuum-Agents"
-  description: "A Simulated Robot Vaccuum for testing different AI algorithms."
-  github_url: "https://github.com/hholb/vacuum-agents](https://github.com/hholb/vacuum-agents"
-  
-# Add your configuration here

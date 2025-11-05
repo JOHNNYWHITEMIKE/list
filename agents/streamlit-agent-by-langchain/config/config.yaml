@@ -1,7 +1,0 @@
-# Configuration for Streamlit Agent by Langchain
-agent:
-  name: "Streamlit Agent by Langchain"
-  description: "This repository showcases various LangChain agents as Streamlit apps, including a basic streaming app, a memory-based conversation app, a demo replicating MRKL functionality, a minimal agent with search capability, chatbots with feedback options, document querying, database communication, and pandas DataFrame interaction, featuring LangChain and Streamlit integrations"
-  github_url: "https://github.com/langchain-ai/streamlit-agent](https://github.com/langchain-ai/streamlit-agent"
-  
-# Add your configuration here

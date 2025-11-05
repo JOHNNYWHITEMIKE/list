@@ -1,7 +1,0 @@
-# Configuration for Incredible.Dev
-agent:
-  name: "Incredible.Dev"
-  description: "Incredible.dev is an AI Coding Co-worker which can code, fix, document, deploy, test your APIs. One agent to rule everything API."
-  github_url: "https://github.com/IncredibleDevHQ/Incredible.dev](https://github.com/IncredibleDevHQ/Incredible.dev"
-  
-# Add your configuration here

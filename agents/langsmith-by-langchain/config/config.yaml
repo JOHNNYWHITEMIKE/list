@@ -1,7 +1,0 @@
-# Configuration for LangSmith by LangChain
-agent:
-  name: "LangSmith by LangChain"
-  description: "LangSmith provides tools for debugging, testing, evaluating, and monitoring LLM applications, integrating seamlessly with LangChain for comprehensive AI agent observability"
-  github_url: "https://github.com/langchain-ai/langsmith-sdk](https://github.com/langchain-ai/langsmith-sdk"
-  
-# Add your configuration here

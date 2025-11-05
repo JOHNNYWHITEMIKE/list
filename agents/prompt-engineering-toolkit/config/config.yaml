@@ -1,7 +1,0 @@
-# Configuration for Prompt-Engineering-Toolkit
-agent:
-  name: "Prompt-Engineering-Toolkit"
-  description: "The Prompt Engineering Tool is a web-based application designed to help users experiment with and optimize prompts for various large language models (LLMs)"
-  github_url: "https://github.com/teknium1/Prompt-Engineering-Toolkit](https://github.com/teknium1/Prompt-Engineering-Toolkit"
-  
-# Add your configuration here

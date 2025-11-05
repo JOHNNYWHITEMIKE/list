@@ -1,7 +1,0 @@
-# Configuration for Parsee-Datasets
-agent:
-  name: "Parsee-Datasets"
-  description: "Datasets, case studies and benchmarks for extracting structured information from PDFs, HTML files or images, created by the Parsee.ai team."
-  github_url: "https://github.com/parsee-ai/parsee-datasets](https://github.com/parsee-ai/parsee-datasets"
-  
-# Add your configuration here

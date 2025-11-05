@@ -1,7 +1,0 @@
-# Configuration for Llm_Model_Evaluation
-agent:
-  name: "Llm_Model_Evaluation"
-  description: "LLM Model Evaluation for tmmluplus datasets"
-  github_url: "https://github.com/LiuYuWei/llm_model_evaluation](https://github.com/LiuYuWei/llm_model_evaluation"
-  
-# Add your configuration here

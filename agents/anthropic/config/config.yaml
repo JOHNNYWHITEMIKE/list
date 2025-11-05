@@ -1,7 +1,0 @@
-# Configuration for Anthropic
-agent:
-  name: "Anthropic"
-  description: "Anthropic's new suite of Claud 3 models improves AI agents with superior reasoning, rapid responses, and diverse cognitive capabilities without compromising user privacy"
-  github_url: ""
-  
-# Add your configuration here

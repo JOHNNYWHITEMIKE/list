@@ -1,7 +1,0 @@
-# Configuration for NPI
-agent:
-  name: "NPI"
-  description: "NPi is an open-source platform providing tool-use APIs for AI agents, with installation and setup instructions available"
-  github_url: "https://github.com/npi-ai/npi](https://github.com/npi-ai/npi"
-  
-# Add your configuration here

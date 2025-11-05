@@ -1,7 +1,0 @@
-# Configuration for Imbue
-agent:
-  name: "Imbue"
-  description: "Imbue, previously known as Generally Intelligent, is developing AI systems designed for reasoning and coding, aiming to create truly personal computers that enhance human freedom, dignity, and agency, supported by a $200M funding round to advance their technology"
-  github_url: ""
-  
-# Add your configuration here

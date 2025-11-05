@@ -1,7 +1,0 @@
-# Configuration for Awesomellmapps
-agent:
-  name: "Awesomellmapps"
-  description: "A curated collection of awesome applications and tools that utilize large language models (LLMs) with retrieval-augmented generation (RAG…"
-  github_url: "https://github.com/Abhishek-yadv/AwesomeLLMApps](https://github.com/Abhishek-yadv/AwesomeLLMApps"
-  
-# Add your configuration here

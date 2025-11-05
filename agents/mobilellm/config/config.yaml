@@ -1,7 +1,0 @@
-# Configuration for Mobilellm
-agent:
-  name: "Mobilellm"
-  description: "MobileLLM Optimizing Sub-billion Parameter Language Models for On-Device Use Cases. In ICML 2024."
-  github_url: "https://github.com/facebookresearch/MobileLLM](https://github.com/facebookresearch/MobileLLM"
-  
-# Add your configuration here

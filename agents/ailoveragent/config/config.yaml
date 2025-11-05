@@ -1,7 +1,0 @@
-# Configuration for Ailoveragent
-agent:
-  name: "Ailoveragent"
-  description: "Some testing for AILover's agent implementation."
-  github_url: "https://github.com/caizhuoyue77/AILoverAgent](https://github.com/caizhuoyue77/AILoverAgent"
-  
-# Add your configuration here

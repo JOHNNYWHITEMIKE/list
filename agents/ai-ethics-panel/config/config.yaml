@@ -1,7 +1,0 @@
-# Configuration for Ai-Ethics-Panel
-agent:
-  name: "Ai-Ethics-Panel"
-  description: "panel notes"
-  github_url: "https://github.com/whatmakeart/ai-ethics-panel](https://github.com/whatmakeart/ai-ethics-panel"
-  
-# Add your configuration here

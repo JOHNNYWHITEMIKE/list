@@ -1,7 +1,0 @@
-# Configuration for Ai-Ethics
-agent:
-  name: "Ai-Ethics"
-  description: "Ethical Guidelines for Human-Advanced Intelligence Interaction"
-  github_url: "https://github.com/cbhanni/AI-Ethics](https://github.com/cbhanni/AI-Ethics"
-  
-# Add your configuration here

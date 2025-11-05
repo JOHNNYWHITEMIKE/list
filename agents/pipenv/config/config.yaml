@@ -1,7 +1,0 @@
-# Configuration for Pipenv
-agent:
-  name: "Pipenv"
-  description: "Python Development Workflow for Humans."
-  github_url: "https://github.com/pypa/pipenv](https://github.com/pypa/pipenv"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Imputer
-agent:
-  name: "Imputer"
-  description: "Using LLMs to impute values in a dataset"
-  github_url: "https://github.com/shaunporwal/imputer](https://github.com/shaunporwal/imputer"
-  
-# Add your configuration here

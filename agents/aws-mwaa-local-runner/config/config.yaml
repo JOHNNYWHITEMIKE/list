@@ -1,7 +1,0 @@
-# Configuration for Aws-Mwaa-Local-Runner
-agent:
-  name: "Aws-Mwaa-Local-Runner"
-  description: "This repository provides a command line interface (CLI) utility that replicates an Amazon Managed Workflows for Apache Airflow (MWAA) env…"
-  github_url: "https://github.com/aws/aws-mwaa-local-runner](https://github.com/aws/aws-mwaa-local-runner"
-  
-# Add your configuration here

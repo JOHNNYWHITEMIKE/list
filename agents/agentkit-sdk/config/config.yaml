@@ -1,7 +1,0 @@
-# Configuration for Agentkit-Sdk
-agent:
-  name: "Agentkit-Sdk"
-  description: "Build, deploy, and manage LLM-powered agents on  platforms."
-  github_url: "https://github.com/simonweniger/agentkit-sdk](https://github.com/simonweniger/agentkit-sdk"
-  
-# Add your configuration here

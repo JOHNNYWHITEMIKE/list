@@ -1,7 +1,0 @@
-# Configuration for Confluent-Kubernetes-Examples
-agent:
-  name: "Confluent-Kubernetes-Examples"
-  description: "Example scenario workflows for Confluent for Kubernetes"
-  github_url: "https://github.com/confluentinc/confluent-kubernetes-examples](https://github.com/confluentinc/confluent-kubernetes-examples"
-  
-# Add your configuration here

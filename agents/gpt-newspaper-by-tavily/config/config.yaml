@@ -1,7 +1,0 @@
-# Configuration for GPT Newspaper by Tavily
-agent:
-  name: "GPT Newspaper by Tavily"
-  description: "GPT Newspaper is an autonomous agent project using AI to create personalized newspapers based on user preferences, featuring six specialized sub-agents for searching, curating, writing, designing, editing, and publishing content tailored to individual interests"
-  github_url: "https://github.com/rotemweiss57/gpt-newspaper](https://github.com/rotemweiss57/gpt-newspaper"
-  
-# Add your configuration here

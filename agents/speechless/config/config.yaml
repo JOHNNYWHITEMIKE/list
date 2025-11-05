@@ -1,7 +1,0 @@
-# Configuration for Speechless
-agent:
-  name: "Speechless"
-  description: "LLM based agents with proactive interactions, long-term memory, external tool integration, and local deployment capabilities."
-  github_url: "https://github.com/uukuguy/speechless](https://github.com/uukuguy/speechless"
-  
-# Add your configuration here

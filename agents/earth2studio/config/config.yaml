@@ -1,7 +1,0 @@
-# Configuration for Earth2Studio
-agent:
-  name: "Earth2Studio"
-  description: "Open-source deep-learning framework for exploring, building and deploying AI weather/climate workflows."
-  github_url: "https://github.com/NVIDIA/earth2studio](https://github.com/NVIDIA/earth2studio"
-  
-# Add your configuration here

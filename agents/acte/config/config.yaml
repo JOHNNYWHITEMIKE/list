@@ -1,7 +1,0 @@
-# Configuration for Acte
-agent:
-  name: "Acte"
-  description: "A framework to build GUI-like Agent Tools, enhancement to Function Calling of LLM AI."
-  github_url: "https://github.com/j66n/acte](https://github.com/j66n/acte"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Dolphinscheduler
-agent:
-  name: "Dolphinscheduler"
-  description: "Apache DolphinScheduler is the modern data orchestration platform. Agile to create high performance workflow with low-code"
-  github_url: "https://github.com/apache/dolphinscheduler](https://github.com/apache/dolphinscheduler"
-  
-# Add your configuration here

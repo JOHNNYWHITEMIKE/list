@@ -1,7 +1,0 @@
-# Configuration for Synthflow AI
-agent:
-  name: "Synthflow AI"
-  description: "Synthflow is a platform enabling the creation of human-like conversational AI voice agents with no-code customization, integrating directly with apps like HubSpot and Eleven Labs for voice services"
-  github_url: ""
-  
-# Add your configuration here

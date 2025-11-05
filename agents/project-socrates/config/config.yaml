@@ -1,7 +1,0 @@
-# Configuration for Project-S.O.C.R.A.T.E.S.
-agent:
-  name: "Project-S.O.C.R.A.T.E.S."
-  description: "🤖 Advanced Multi-Agent AI Template - Production-ready system combining Groq's speed with LangChain's flexibility. Features RAG, document p…"
-  github_url: "https://github.com/Hams-Ollo/Project-S.O.C.R.A.T.E.S.](https://github.com/Hams-Ollo/Project-S.O.C.R.A.T.E.S."
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Baseline-Agent
-agent:
-  name: "Baseline-Agent"
-  description: "This is a simple AI Agent used to test the Bloodrock CORE Benchmark."
-  github_url: "https://github.com/Bloodrock-AI/baseline-agent](https://github.com/Bloodrock-AI/baseline-agent"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Alfy
-agent:
-  name: "Alfy"
-  description: "Create Alfred workflows with ease"
-  github_url: "https://github.com/sindresorhus/alfy](https://github.com/sindresorhus/alfy"
-  
-# Add your configuration here

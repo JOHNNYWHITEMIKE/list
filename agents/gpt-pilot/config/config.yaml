@@ -1,7 +1,0 @@
-# Configuration for GPT Pilot
-agent:
-  name: "GPT Pilot"
-  description: "GPT Pilot is an open-source AI developer tool that aims to provide a comprehensive development companion, capable of writing features, debugging, and interacting with users, presenting itself as an alternative to Devin, the world's first AI software engineer developed by Cognition Labs"
-  github_url: "https://github.com/Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot"
-  
-# Add your configuration here

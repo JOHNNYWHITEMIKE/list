@@ -1,7 +1,0 @@
-# Configuration for Viewflow
-agent:
-  name: "Viewflow"
-  description: "Reusable workflow library for Django"
-  github_url: "https://github.com/viewflow/viewflow](https://github.com/viewflow/viewflow"
-  
-# Add your configuration here

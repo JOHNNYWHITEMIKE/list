@@ -1,7 +1,0 @@
-# Configuration for Crewai-101
-agent:
-  name: "Crewai-101"
-  description: "Testing around framework using multi-agent"
-  github_url: "https://github.com/Reyzenello/CrewAI-101](https://github.com/Reyzenello/CrewAI-101"
-  
-# Add your configuration here

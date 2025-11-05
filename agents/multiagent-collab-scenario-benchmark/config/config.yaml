@@ -1,7 +1,0 @@
-# Configuration for Multiagent-Collab-Scenario-Benchmark
-agent:
-  name: "Multiagent-Collab-Scenario-Benchmark"
-  description: "Benchmarking data and script used for LLM multi-agent collaboration systems from AWS Bedrock Agents Science team."
-  github_url: "https://github.com/aws-samples/multiagent-collab-scenario-benchmark](https://github.com/aws-samples/multiagent-collab-scenario-benchmark"
-  
-# Add your configuration here

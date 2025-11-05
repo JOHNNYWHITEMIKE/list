@@ -1,7 +1,0 @@
-# Configuration for Pathology_Llm
-agent:
-  name: "Pathology_Llm"
-  description: "GPT-4 as decision support tool in oncology"
-  github_url: "https://github.com/JaesikKim/pathology_llm](https://github.com/JaesikKim/pathology_llm"
-  
-# Add your configuration here

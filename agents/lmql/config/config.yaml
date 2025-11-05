@@ -1,7 +1,0 @@
-# Configuration for LMQL
-agent:
-  name: "LMQL"
-  description: "LMQL is a Python-based programming language for large language models, allowing seamless integration of LLMs into code with advanced features like conditional logic, constraints, and multi-model support"
-  github_url: "https://github.com/eth-sri/lmql](https://github.com/eth-sri/lmql"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Rag_Llm-On-Customdataset
-agent:
-  name: "Rag_Llm-On-Customdataset"
-  description: "The ConvoSummarizer is a Retrieval-Augmented Generation (RAG) application that uses the Hugging Face Transformers library with the google…"
-  github_url: "https://github.com/vinu0404/RAG_LLM-on-CustomDataset](https://github.com/vinu0404/RAG_LLM-on-CustomDataset"
-  
-# Add your configuration here

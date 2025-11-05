@@ -1,7 +1,0 @@
-# Configuration for Agent-Ai-Test
-agent:
-  name: "Agent-Ai-Test"
-  description: "Testing finance agent"
-  github_url: "https://github.com/Praagnya/agent-ai-test](https://github.com/Praagnya/agent-ai-test"
-  
-# Add your configuration here

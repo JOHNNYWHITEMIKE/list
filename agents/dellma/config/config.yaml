@@ -1,7 +1,0 @@
-# Configuration for Dellma
-agent:
-  name: "Dellma"
-  description: "Official Implementation of "DeLLMa - Decision Making Under Uncertainty with Large Language Models""
-  github_url: "https://github.com/DeLLMa/DeLLMa](https://github.com/DeLLMa/DeLLMa"
-  
-# Add your configuration here

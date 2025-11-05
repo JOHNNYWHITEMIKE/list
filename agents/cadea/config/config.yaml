@@ -1,7 +1,0 @@
-# Configuration for Cadea
-agent:
-  name: "Cadea"
-  description: "Cadea offers a secure AI platform for businesses, providing solutions against prompt injection, data breaches, and ensuring content safety through end-to-end security, access controls, and integration with major identity providers"
-  github_url: ""
-  
-# Add your configuration here

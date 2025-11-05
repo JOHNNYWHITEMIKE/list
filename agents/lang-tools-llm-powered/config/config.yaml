@@ -1,7 +1,0 @@
-# Configuration for Lang-Tools-Llm-Powered
-agent:
-  name: "Lang-Tools-Llm-Powered"
-  description: "language learning tools utilizing LLM APIs among others"
-  github_url: "https://github.com/odedwolff/lang-tools-LLM-powered](https://github.com/odedwolff/lang-tools-LLM-powered"
-  
-# Add your configuration here

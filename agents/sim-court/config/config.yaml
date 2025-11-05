@@ -1,7 +1,0 @@
-# Configuration for Sim-Court
-agent:
-  name: "Sim-Court"
-  description: "BenCourt - A Benchmark and Framework for Court Simulation using LLM-based Agents"
-  github_url: "https://github.com/Miracle-2001/Sim-Court](https://github.com/Miracle-2001/Sim-Court"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Introtoaiethics-Kaggle
-agent:
-  name: "Introtoaiethics-Kaggle"
-  description: "Notebooks developed during the Intro to AI Ethics course, offered by Kaggle (https://www.kaggle.com/learn/intro-to-ai-ethics)"
-  github_url: "https://github.com/mariammarques/IntroToAIEthics-Kaggle](https://github.com/mariammarques/IntroToAIEthics-Kaggle"
-  
-# Add your configuration here

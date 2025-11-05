@@ -1,7 +1,0 @@
-# Configuration for Promptbase
-agent:
-  name: "Promptbase"
-  description: "All things prompt engineering"
-  github_url: "https://github.com/microsoft/promptbase](https://github.com/microsoft/promptbase"
-  
-# Add your configuration here

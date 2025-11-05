@@ -1,7 +1,0 @@
-# Configuration for Friendship_Meter
-agent:
-  name: "Friendship_Meter"
-  description: "A fun project to measure the interactions between human and AI agent. Deployed on Vercel."
-  github_url: "https://github.com/almagashi/friendship_meter](https://github.com/almagashi/friendship_meter"
-  
-# Add your configuration here

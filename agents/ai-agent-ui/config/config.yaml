@@ -1,7 +1,0 @@
-# Configuration for Ai-Agent-Ui
-agent:
-  name: "Ai-Agent-Ui"
-  description: "UI Template for a chatbot agent created Llama Deploy (LlamaIndex Workflow)"
-  github_url: "https://github.com/Linzo99/ai-agent-ui](https://github.com/Linzo99/ai-agent-ui"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Stocks-Ai-Agent
-agent:
-  name: "Stocks-Ai-Agent"
-  description: "Deploy"
-  github_url: "https://github.com/muriloguerreiro/stocks-ai-agent](https://github.com/muriloguerreiro/stocks-ai-agent"
-  
-# Add your configuration here

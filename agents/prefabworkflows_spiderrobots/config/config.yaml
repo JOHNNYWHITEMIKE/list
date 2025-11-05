@@ -1,7 +1,0 @@
-# Configuration for Prefabworkflows_Spiderrobots
-agent:
-  name: "Prefabworkflows_Spiderrobots"
-  description: "Demo Project showing the new Prefab Workflows - Prefab Mode, Editing and Nesting!"
-  github_url: "https://github.com/UnityTechnologies/PrefabWorkflows_SpiderRobots](https://github.com/UnityTechnologies/PrefabWorkflows_SpiderRobots"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Llm-Research-Backend-Django
-agent:
-  name: "Llm-Research-Backend-Django"
-  description: "This is the django project for deploying the LLM Research of Conversational AI Agent for test purpose."
-  github_url: "https://github.com/muhammadnasif/llm-research-backend-django](https://github.com/muhammadnasif/llm-research-backend-django"
-  
-# Add your configuration here

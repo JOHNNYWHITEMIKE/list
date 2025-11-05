@@ -1,7 +1,0 @@
-# Configuration for O1_Agent_Test
-agent:
-  name: "O1_Agent_Test"
-  description: "Building a multi-agent AI program"
-  github_url: "https://github.com/alexmoses/o1_Agent_Test](https://github.com/alexmoses/o1_Agent_Test"
-  
-# Add your configuration here

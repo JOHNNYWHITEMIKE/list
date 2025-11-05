@@ -1,7 +1,0 @@
-# Configuration for Vercel_Ai_Test
-agent:
-  name: "Vercel_Ai_Test"
-  description: "Test for webgl ai agent"
-  github_url: "https://github.com/pixelknit/vercel_ai_test](https://github.com/pixelknit/vercel_ai_test"
-  
-# Add your configuration here

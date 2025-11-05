@@ -1,7 +1,0 @@
-# Configuration for Ai-Project-Plannerenvironment
-agent:
-  name: "Ai-Project-Plannerenvironment"
-  description: "An environment to test a planner agent, created for a college course."
-  github_url: "https://github.com/MircoT/AI-Project-PlannerEnvironment](https://github.com/MircoT/AI-Project-PlannerEnvironment"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Amazon-Mwaa-Examples
-agent:
-  name: "Amazon-Mwaa-Examples"
-  description: "Amazon Managed Workflows for Apache Airflow (MWAA) Examples repository contains example DAGs, requirements.txt, plugins, and CloudFormati…"
-  github_url: "https://github.com/aws-samples/amazon-mwaa-examples](https://github.com/aws-samples/amazon-mwaa-examples"
-  
-# Add your configuration here

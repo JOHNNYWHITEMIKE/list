@@ -1,7 +1,0 @@
-# Configuration for Talk_To_Your_Data
-agent:
-  name: "Talk_To_Your_Data"
-  description: "Get insights from your dataset, small or large. Using PandasAI and a LLM."
-  github_url: "https://github.com/mktaop/talk_to_your_data](https://github.com/mktaop/talk_to_your_data"
-  
-# Add your configuration here

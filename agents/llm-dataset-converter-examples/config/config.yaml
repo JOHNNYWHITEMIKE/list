@@ -1,7 +1,0 @@
-# Configuration for Llm-Dataset-Converter-Examples
-agent:
-  name: "Llm-Dataset-Converter-Examples"
-  description: "Repository with examples for the llm-dataset-converter libraries."
-  github_url: "https://github.com/waikato-llm/llm-dataset-converter-examples](https://github.com/waikato-llm/llm-dataset-converter-examples"
-  
-# Add your configuration here

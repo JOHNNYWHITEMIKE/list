@@ -1,7 +1,0 @@
-# Configuration for Gamabench
-agent:
-  name: "Gamabench"
-  description: "Benchmarking LLMs' Gaming Ability in Multi-Agent Environments"
-  github_url: "https://github.com/CUHK-ARISE/GAMABench](https://github.com/CUHK-ARISE/GAMABench"
-  
-# Add your configuration here

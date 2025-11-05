@@ -1,7 +1,0 @@
-# Configuration for Anygpt
-agent:
-  name: "Anygpt"
-  description: "Code for "AnyGPT - Unified Multimodal LLM with Discrete Sequence Modeling""
-  github_url: "https://github.com/OpenMOSS/AnyGPT](https://github.com/OpenMOSS/AnyGPT"
-  
-# Add your configuration here

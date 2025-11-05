@@ -1,7 +1,0 @@
-# Configuration for Team-Ai
-agent:
-  name: "Team-Ai"
-  description: "AI agent orchestration engine written in Go used internally at deployment.io"
-  github_url: "https://github.com/deployment-io/team-ai](https://github.com/deployment-io/team-ai"
-  
-# Add your configuration here

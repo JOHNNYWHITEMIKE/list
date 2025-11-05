@@ -1,7 +1,0 @@
-# Configuration for Llm-App
-agent:
-  name: "Llm-App"
-  description: "An AI-powered movielens dataset based recommendation system"
-  github_url: "https://github.com/skanduru/llm-app](https://github.com/skanduru/llm-app"
-  
-# Add your configuration here

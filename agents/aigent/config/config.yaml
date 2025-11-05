@@ -1,7 +1,0 @@
-# Configuration for Aigent
-agent:
-  name: "Aigent"
-  description: "Generate tests for you application using an autonomous AI agent"
-  github_url: "https://github.com/automators-com/aigent](https://github.com/automators-com/aigent"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Promptengineering
-agent:
-  name: "Promptengineering"
-  description: "A repository for Generative AI prompt's I've engineered"
-  github_url: "https://github.com/DaleStewart/PromptEngineering](https://github.com/DaleStewart/PromptEngineering"
-  
-# Add your configuration here

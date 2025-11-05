@@ -1,7 +1,0 @@
-# Configuration for CAMEL
-agent:
-  name: "CAMEL"
-  description: "CAMEL (Communicative Agents for Mind Exploration of Large Language Model Society) is an open-source library designed for studying autonomous and communicative agents, facilitating research in understanding their behaviors, capabilities, and potential risks through scalable techniques and cooperative frameworks, including role-playing, with extensive documentation, examples, and datasets, while also supporting integration with open-source models as backends for diverse applications"
-  github_url: "https://github.com/camel-ai/camel](https://github.com/camel-ai/camel"
-  
-# Add your configuration here

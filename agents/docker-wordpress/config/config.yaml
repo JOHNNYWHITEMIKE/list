@@ -1,7 +1,0 @@
-# Configuration for Docker-Wordpress
-agent:
-  name: "Docker-Wordpress"
-  description: "Demostrating dev workflow ... vagrant -> docker -> openstack"
-  github_url: "https://github.com/paulczar/docker-wordpress](https://github.com/paulczar/docker-wordpress"
-  
-# Add your configuration here

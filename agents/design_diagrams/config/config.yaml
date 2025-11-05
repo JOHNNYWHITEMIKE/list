@@ -1,7 +1,0 @@
-# Configuration for Design_Diagrams
-agent:
-  name: "Design_Diagrams"
-  description: "flowcharts, workflows and diagrams"
-  github_url: "https://github.com/iam-veeramalla/design_diagrams](https://github.com/iam-veeramalla/design_diagrams"
-  
-# Add your configuration here

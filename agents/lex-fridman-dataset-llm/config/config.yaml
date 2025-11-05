@@ -1,7 +1,0 @@
-# Configuration for Lex-Fridman-Dataset-Llm
-agent:
-  name: "Lex-Fridman-Dataset-Llm"
-  description: "Lex Fridman Podcast transcripts for LLM training"
-  github_url: "https://github.com/JasonFengGit/Lex-Fridman-Dataset-LLM](https://github.com/JasonFengGit/Lex-Fridman-Dataset-LLM"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Nactivity
-agent:
-  name: "Nactivity"
-  description: "workflow engine activity activiti"
-  github_url: "https://github.com/zhangzihan/nactivity](https://github.com/zhangzihan/nactivity"
-  
-# Add your configuration here

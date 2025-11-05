@@ -1,7 +1,0 @@
-# Configuration for Operationalizingaiethics
-agent:
-  name: "Operationalizingaiethics"
-  description: "IVADO Fin-ML Workshop - Operationalizing AI Ethics in the Modeling Process"
-  github_url: "https://github.com/stephaniekelley/operationalizingAIethics](https://github.com/stephaniekelley/operationalizingAIethics"
-  
-# Add your configuration here

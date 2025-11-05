@@ -1,7 +1,0 @@
-# Configuration for Documentation
-agent:
-  name: "Documentation"
-  description: "Documentation for ProActive Workflows & Scheduling"
-  github_url: "https://github.com/ow2-proactive/documentation](https://github.com/ow2-proactive/documentation"
-  
-# Add your configuration here

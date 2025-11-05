@@ -1,7 +1,0 @@
-# Configuration for Aider
-agent:
-  name: "Aider"
-  description: "Aider is a command-line tool for AI-assisted pair programming, allowing code editing in local git repositories with GPT-3.5/GPT-4, featuring direct file edits, automatic git commits, and support for most popular programming languages"
-  github_url: "https://github.com/paul-gauthier/aider](https://github.com/paul-gauthier/aider"
-  
-# Add your configuration here

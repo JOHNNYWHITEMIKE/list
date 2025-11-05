@@ -1,7 +1,0 @@
-# Configuration for Ert-Runner.El
-agent:
-  name: "Ert-Runner.El"
-  description: "Opinionated Ert testing workflow"
-  github_url: "https://github.com/rejeep/ert-runner.el](https://github.com/rejeep/ert-runner.el"
-  
-# Add your configuration here

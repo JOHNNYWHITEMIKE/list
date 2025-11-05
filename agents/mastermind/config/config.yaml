@@ -1,7 +1,0 @@
-# Configuration for Mastermind
-agent:
-  name: "Mastermind"
-  description: "An LLM-powered CLI tool to help you be a better spymaster in Codenames"
-  github_url: "https://github.com/theoforger/mastermind](https://github.com/theoforger/mastermind"
-  
-# Add your configuration here

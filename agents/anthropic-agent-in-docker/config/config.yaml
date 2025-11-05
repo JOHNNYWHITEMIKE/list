@@ -1,7 +1,0 @@
-# Configuration for Anthropic-Agent-In-Docker
-agent:
-  name: "Anthropic-Agent-In-Docker"
-  description: "This repository offers a Dockerized implementation of the Anthropic Agent for streamlined deployment and scalability. It ensures consiste…"
-  github_url: "https://github.com/LiteObject/anthropic-agent-in-docker](https://github.com/LiteObject/anthropic-agent-in-docker"
-  
-# Add your configuration here

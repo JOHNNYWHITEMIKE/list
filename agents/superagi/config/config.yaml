@@ -1,7 +1,0 @@
-# Configuration for SuperAGI
-agent:
-  name: "SuperAGI"
-  description: "SuperAGI is an open-source framework facilitating the development, management, and operation of useful Autonomous AI Agents with a variety of features and toolkits available, including a graphical user interface, action console, and multiple vector databases"
-  github_url: "https://github.com/TransformerOptimus/SuperAGI](https://github.com/TransformerOptimus/SuperAGI"
-  
-# Add your configuration here

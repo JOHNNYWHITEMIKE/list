@@ -1,7 +1,0 @@
-# Configuration for Langchain-Ollama-Chainlit
-agent:
-  name: "Langchain-Ollama-Chainlit"
-  description: "Simple Chat UI as well as chat with documents using LLMs with Ollama (mistral model) locally, LangChaiin and Chainlit"
-  github_url: "https://github.com/sudarshan-koirala/langchain-ollama-chainlit](https://github.com/sudarshan-koirala/langchain-ollama-chainlit"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Tough-Llm-Tests
-agent:
-  name: "Tough-Llm-Tests"
-  description: "Some tough questions to test new models."
-  github_url: "https://github.com/hrishioa/tough-llm-tests](https://github.com/hrishioa/tough-llm-tests"
-  
-# Add your configuration here

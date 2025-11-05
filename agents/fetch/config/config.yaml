@@ -1,7 +1,0 @@
-# Configuration for Fetch
-agent:
-  name: "Fetch"
-  description: "Fetch by Fetch AI offers a platform for launching AI apps and services, including agent hosting, analytics, IoT gateways, and a Web3-based open network, alongside an open network for AI Agents that allows for connectivity, transactions, and the formation of dynamic marketplaces, facilitating the deployment and monetization of AI and ML models through agent technology"
-  github_url: ""
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Chatgpt-Promptengineering
-agent:
-  name: "Chatgpt-Promptengineering"
-  description: "This Python script reads an e-book in PDF format, splits the text into prompts, and uses the OpenAI GPT-3 API to generate completions for…"
-  github_url: "https://github.com/ajinkyalahade/ChatGPT-PromptEngineering](https://github.com/ajinkyalahade/ChatGPT-PromptEngineering"
-  
-# Add your configuration here

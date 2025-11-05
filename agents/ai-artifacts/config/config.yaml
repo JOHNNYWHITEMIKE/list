@@ -1,7 +1,0 @@
-# Configuration for ai-artifacts
-agent:
-  name: "ai-artifacts"
-  description: "This project implements Anthropic's Artifacts UI, using E2B's Code Interpreter SDK for secure AI code execution and Claude Sonnet 3.5 for code generation"
-  github_url: "https://github.com/e2b-dev/ai-artifacts](https://github.com/e2b-dev/ai-artifacts"
-  
-# Add your configuration here

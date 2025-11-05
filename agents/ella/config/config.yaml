@@ -1,7 +1,0 @@
-# Configuration for Ella
-agent:
-  name: "Ella"
-  description: "ELLA - Equip Diffusion Models with LLM for Enhanced Semantic Alignment"
-  github_url: "https://github.com/TencentQQGYLab/ELLA](https://github.com/TencentQQGYLab/ELLA"
-  
-# Add your configuration here

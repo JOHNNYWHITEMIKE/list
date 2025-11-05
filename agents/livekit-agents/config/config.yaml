@@ -1,7 +1,0 @@
-# Configuration for LiveKit Agents
-agent:
-  name: "LiveKit Agents"
-  description: "An open-source framework for building real-time, programmable participants that run on servers, enabling easy integration with LiveKit WebRTC sessions for processing or generating audio, video, and data streams"
-  github_url: "https://github.com/livekit/agents](https://github.com/livekit/agents"
-  
-# Add your configuration here

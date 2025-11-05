@@ -1,7 +1,0 @@
-# Configuration for Llm4Vv
-agent:
-  name: "Llm4Vv"
-  description: "Dataset for training LLMs on OpenACC and OpenMP"
-  github_url: "https://github.com/Xachaeus/LLM4vv](https://github.com/Xachaeus/LLM4vv"
-  
-# Add your configuration here

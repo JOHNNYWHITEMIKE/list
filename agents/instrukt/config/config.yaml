@@ -1,7 +1,0 @@
-# Configuration for Instrukt
-agent:
-  name: "Instrukt"
-  description: "Integrated AI environment in the terminal. Build, test and instruct agents."
-  github_url: "https://github.com/blob42/Instrukt](https://github.com/blob42/Instrukt"
-  
-# Add your configuration here

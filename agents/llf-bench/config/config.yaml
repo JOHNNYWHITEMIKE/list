@@ -1,7 +1,0 @@
-# Configuration for Llf-Bench
-agent:
-  name: "Llf-Bench"
-  description: "A benchmark for evaluating learning agents based on just language feedback"
-  github_url: "https://github.com/microsoft/LLF-Bench](https://github.com/microsoft/LLF-Bench"
-  
-# Add your configuration here

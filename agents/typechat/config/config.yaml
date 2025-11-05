@@ -1,7 +1,0 @@
-# Configuration for TypeChat
-agent:
-  name: "TypeChat"
-  description: "TypeChat is a library that facilitates building natural language interfaces by using schema engineering as an alternative to traditional function calling in LLMs, avoiding JSON schema-based constraints"
-  github_url: "https://github.com/microsoft/TypeChat](https://github.com/microsoft/TypeChat"
-  
-# Add your configuration here

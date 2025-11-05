@@ -1,7 +1,0 @@
-# Configuration for Redlite
-agent:
-  name: "Redlite"
-  description: "Opinionated tool for benchmarking Conversational Language Models"
-  github_url: "https://github.com/innodatalabs/redlite](https://github.com/innodatalabs/redlite"
-  
-# Add your configuration here

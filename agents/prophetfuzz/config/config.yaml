@@ -1,7 +1,0 @@
-# Configuration for Prophetfuzz
-agent:
-  name: "Prophetfuzz"
-  description: ""
-  github_url: "https://github.com/NASP-THU/ProphetFuzz](https://github.com/NASP-THU/ProphetFuzz"
-  
-# Add your configuration here

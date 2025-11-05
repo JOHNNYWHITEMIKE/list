@@ -1,7 +1,0 @@
-# Configuration for SWE-agent
-agent:
-  name: "SWE-agent"
-  description: "This open source project introduces SWE-agent, a software engineering agent for LMs like GPT-4, enhancing bug and issue resolution in GitHub repositories with state-of-the-art performance, facilitated by a well-designed Agent-Computer Interface (ACI) and support for OpenAI and Anthropic Claude models"
-  github_url: "https://github.com/princeton-nlp/SWE-agent](https://github.com/princeton-nlp/SWE-agent"
-  
-# Add your configuration here

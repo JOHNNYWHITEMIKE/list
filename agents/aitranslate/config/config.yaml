@@ -1,7 +1,0 @@
-# Configuration for Aitranslate
-agent:
-  name: "Aitranslate"
-  description: "A tool to translate Xcode xcstrings files using ChatGPT AI/LLM"
-  github_url: "https://github.com/pmacro/AITranslate](https://github.com/pmacro/AITranslate"
-  
-# Add your configuration here

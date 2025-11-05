@@ -1,7 +1,0 @@
-# Configuration for Swarmnode-Rust
-agent:
-  name: "Swarmnode-Rust"
-  description: "Deploy and orchestrate serverless AI agents in the cloud."
-  github_url: "https://github.com/swarmnode-ai/swarmnode-rust](https://github.com/swarmnode-ai/swarmnode-rust"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Langfuse
-agent:
-  name: "Langfuse"
-  description: "🪢 Open source LLM engineering platform - LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with Llama…"
-  github_url: "https://github.com/langfuse/langfuse](https://github.com/langfuse/langfuse"
-  
-# Add your configuration here

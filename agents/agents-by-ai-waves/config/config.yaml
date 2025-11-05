@@ -1,7 +1,0 @@
-# Configuration for Agents by AI Waves
-agent:
-  name: "Agents by AI Waves"
-  description: "Agents is an open-source framework for building autonomous language agents with features including long-short term memory, tool usage, web navigation, multi-agent communication, human-agent interaction, and symbolic control, allowing customization through natural language config files and deployment in various interfaces"
-  github_url: "https://github.com/aiwaves-cn/agents](https://github.com/aiwaves-cn/agents"
-  
-# Add your configuration here

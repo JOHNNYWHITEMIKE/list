@@ -1,7 +1,0 @@
-# Configuration for LangChain
-agent:
-  name: "LangChain"
-  description: "LangChain is a framework enabling context-aware reasoning applications with integrated libraries, templates, and developer tools"
-  github_url: "https://github.com/langchain-ai/langchain](https://github.com/langchain-ai/langchain"
-  
-# Add your configuration here

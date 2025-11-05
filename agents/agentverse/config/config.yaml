@@ -1,7 +1,0 @@
-# Configuration for Agentverse
-agent:
-  name: "Agentverse"
-  description: "🤖 AgentVerse 🪐 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides tw…"
-  github_url: "https://github.com/OpenBMB/AgentVerse](https://github.com/OpenBMB/AgentVerse"
-  
-# Add your configuration here

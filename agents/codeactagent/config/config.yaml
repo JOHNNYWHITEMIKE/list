@@ -1,7 +1,0 @@
-# Configuration for CodeActAgent
-agent:
-  name: "CodeActAgent"
-  description: "CodeActAgent, trained on CodeActInstruct, showcases superior performance in both in-domain and out-of-domain tasks, enabling dynamic code execution and multi-turn interactions for more effective LLM agents"
-  github_url: "https://github.com/xingyaoww/code-act](https://github.com/xingyaoww/code-act"
-  
-# Add your configuration here

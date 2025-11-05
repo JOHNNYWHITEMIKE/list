@@ -1,7 +1,0 @@
-# Configuration for Bktask
-agent:
-  name: "Bktask"
-  description: "An asynchronous workflows library for iOS"
-  github_url: "https://github.com/Backelite/BkTask](https://github.com/Backelite/BkTask"
-  
-# Add your configuration here

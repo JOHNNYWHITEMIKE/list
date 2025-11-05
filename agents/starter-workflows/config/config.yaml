@@ -1,7 +1,0 @@
-# Configuration for Starter-Workflows
-agent:
-  name: "Starter-Workflows"
-  description: "Accelerating new GitHub Actions workflows"
-  github_url: "https://github.com/actions/starter-workflows](https://github.com/actions/starter-workflows"
-  
-# Add your configuration here

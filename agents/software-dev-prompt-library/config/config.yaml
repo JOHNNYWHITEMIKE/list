@@ -1,7 +1,0 @@
-# Configuration for Software-Dev-Prompt-Library
-agent:
-  name: "Software-Dev-Prompt-Library"
-  description: "Prompt library containing tested reusable gen AI prompts for common software engineering task"
-  github_url: "https://github.com/codingthefuturewithai/software-dev-prompt-library](https://github.com/codingthefuturewithai/software-dev-prompt-library"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Langchain-Llm-Pdf-Qa
-agent:
-  name: "Langchain-Llm-Pdf-Qa"
-  description: "This open-source project leverages cutting-edge tools and methods to enable seamless interaction with PDF documents. Powered by Langchain…"
-  github_url: "https://github.com/Ayyodeji/Langchain-LLM-PDF-QA](https://github.com/Ayyodeji/Langchain-LLM-PDF-QA"
-  
-# Add your configuration here

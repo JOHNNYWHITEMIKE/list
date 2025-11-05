@@ -1,7 +1,0 @@
-# Configuration for Yahoo-Finance-Llm-Agent
-agent:
-  name: "Yahoo-Finance-Llm-Agent"
-  description: "The Yahoo Finance Agent is an application that combines OpenAI's LLMs, the Yahoo Finance Python library, and LangChain's tools to provide…"
-  github_url: "https://github.com/ojasskapre/yahoo-finance-llm-agent](https://github.com/ojasskapre/yahoo-finance-llm-agent"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Promptagent
-agent:
-  name: "Promptagent"
-  description: "This is the official repo for "PromptAgent - Strategic Planning with Language Models Enables Expert-level Prompt Optimization". PromptAgen…"
-  github_url: "https://github.com/XinyuanWangCS/PromptAgent](https://github.com/XinyuanWangCS/PromptAgent"
-  
-# Add your configuration here

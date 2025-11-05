@@ -1,7 +1,0 @@
-# Configuration for Slack-Ai-Assistant-Vijay
-agent:
-  name: "Slack-Ai-Assistant-Vijay"
-  description: "The Most simple way to deploy AI agent-assitant slack app to your workspace"
-  github_url: "https://github.com/vjvkrm/slack-ai-assistant-vijay](https://github.com/vjvkrm/slack-ai-assistant-vijay"
-  
-# Add your configuration here

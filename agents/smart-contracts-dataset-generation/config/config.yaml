@@ -1,7 +1,0 @@
-# Configuration for Smart-Contracts-Dataset-Generation
-agent:
-  name: "Smart-Contracts-Dataset-Generation"
-  description: "Generating a dataset of smart contracts affected by reentrancy using LLMs"
-  github_url: "https://github.com/matteo-rizzo/smart-contracts-dataset-generation](https://github.com/matteo-rizzo/smart-contracts-dataset-generation"
-  
-# Add your configuration here

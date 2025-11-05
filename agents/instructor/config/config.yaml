@@ -1,7 +1,0 @@
-# Configuration for Instructor
-agent:
-  name: "Instructor"
-  description: "Instructor, a Python library, facilitates working with structured outputs from large language models (LLMs), offering features like response model specification, retry management, validation, and streaming support, primarily aimed at enhancing workflows of AI agents utilizing LLMs"
-  github_url: "https://github.com/jxnl/instructor](https://github.com/jxnl/instructor"
-  
-# Add your configuration here

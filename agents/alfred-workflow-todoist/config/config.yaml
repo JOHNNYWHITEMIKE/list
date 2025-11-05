@@ -1,7 +1,0 @@
-# Configuration for Alfred-Workflow-Todoist
-agent:
-  name: "Alfred-Workflow-Todoist"
-  description: "An Alfred workflow for managing tasks in Todoist"
-  github_url: "https://github.com/moranje/alfred-workflow-todoist](https://github.com/moranje/alfred-workflow-todoist"
-  
-# Add your configuration here

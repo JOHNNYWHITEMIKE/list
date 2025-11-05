@@ -1,7 +1,0 @@
-# Configuration for LiveRecall
-agent:
-  name: "LiveRecall"
-  description: "LiveRecall, an open-source alternative to Microsoft's Recall, utilizes semantic search and encryption to capture and retrieve screen snapshots, enabling AI agents to assist creators in researching and augmenting tasks like journaling or blog post creation based on indexed personal activities"
-  github_url: "https://github.com/VedankPurohit/LiveRecall](https://github.com/VedankPurohit/LiveRecall"
-  
-# Add your configuration here

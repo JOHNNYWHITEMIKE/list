@@ -1,7 +1,0 @@
-# Configuration for Backbone-Boilerplate
-agent:
-  name: "Backbone-Boilerplate"
-  description: "A workflow for building Backbone applications."
-  github_url: "https://github.com/tbranyen/backbone-boilerplate](https://github.com/tbranyen/backbone-boilerplate"
-  
-# Add your configuration here

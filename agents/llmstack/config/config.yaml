@@ -1,7 +1,0 @@
-# Configuration for Llmstack
-agent:
-  name: "Llmstack"
-  description: "No-code multi-agent framework to build LLM Agents, workflows and applications with your data"
-  github_url: "https://github.com/trypromptly/LLMStack](https://github.com/trypromptly/LLMStack"
-  
-# Add your configuration here

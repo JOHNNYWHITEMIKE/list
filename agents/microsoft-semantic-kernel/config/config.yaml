@@ -1,7 +1,0 @@
-# Configuration for Microsoft Semantic Kernel
-agent:
-  name: "Microsoft Semantic Kernel"
-  description: "Integrate cutting-edge LLM technology quickly and easily into your apps."
-  github_url: "https://github.com/microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel"
-  
-# Add your configuration here

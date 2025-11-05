@@ -1,7 +1,0 @@
-# Configuration for Process-Engine.Js
-agent:
-  name: "Process-Engine.Js"
-  description: "Node.js Business Process/Workflow Engine"
-  github_url: "https://github.com/oliverzy/process-engine.js](https://github.com/oliverzy/process-engine.js"
-  
-# Add your configuration here

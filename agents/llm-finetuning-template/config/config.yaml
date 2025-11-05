@@ -1,7 +1,0 @@
-# Configuration for Llm-Finetuning-Template
-agent:
-  name: "Llm-Finetuning-Template"
-  description: "Template Code for working and finetuning a LLM for custom dataset, here a artificially generated dataset ( couldn't find a real one)."
-  github_url: "https://github.com/AusafMo/LLM-Finetuning-Template](https://github.com/AusafMo/LLM-Finetuning-Template"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Agileagents
-agent:
-  name: "Agileagents"
-  description: "Agile Agents (A2) is an open-source framework for the creation and deployment of serverless intelligent agents using public and private c…"
-  github_url: "https://github.com/ruvnet/agileagents](https://github.com/ruvnet/agileagents"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Eidolon
-agent:
-  name: "Eidolon"
-  description: "The first AI Agent Server, Eidolon is a pluggable Agent SDK and enterprise ready, deployment server for Agentic applications"
-  github_url: "https://github.com/eidolon-ai/eidolon](https://github.com/eidolon-ai/eidolon"
-  
-# Add your configuration here

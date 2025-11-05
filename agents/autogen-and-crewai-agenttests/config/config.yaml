@@ -1,7 +1,0 @@
-# Configuration for Autogen-And-Crewai-Agenttests
-agent:
-  name: "Autogen-And-Crewai-Agenttests"
-  description: "No description available"
-  github_url: "https://github.com/TMJ97/AutoGen-and-CrewAI-AgentTests](https://github.com/TMJ97/AutoGen-and-CrewAI-AgentTests"
-  
-# Add your configuration here

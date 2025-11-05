@@ -1,7 +1,0 @@
-# Configuration for Adtestpro
-agent:
-  name: "Adtestpro"
-  description: "Open Source Tool To Preemptively Test Ad Creatives Against Synthetic Target Audiences"
-  github_url: "https://github.com/AnanyaP-WDW/AdTestPro](https://github.com/AnanyaP-WDW/AdTestPro"
-  
-# Add your configuration here

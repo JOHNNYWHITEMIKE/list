@@ -1,7 +1,0 @@
-# Configuration for Macllm
-agent:
-  name: "Macllm"
-  description: "Tool to integrate LLM's like GPT-3 with macOS"
-  github_url: "https://github.com/appenz/macLLM](https://github.com/appenz/macLLM"
-  
-# Add your configuration here

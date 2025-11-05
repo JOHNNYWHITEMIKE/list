@@ -1,7 +1,0 @@
-# Configuration for Keras-Cv
-agent:
-  name: "Keras-Cv"
-  description: "Industry-strength Computer Vision workflows with Keras"
-  github_url: "https://github.com/keras-team/keras-cv](https://github.com/keras-team/keras-cv"
-  
-# Add your configuration here

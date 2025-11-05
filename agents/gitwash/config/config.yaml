@@ -1,7 +1,0 @@
-# Configuration for Gitwash
-agent:
-  name: "Gitwash"
-  description: "Workflow using git"
-  github_url: "https://github.com/matthew-brett/gitwash](https://github.com/matthew-brett/gitwash"
-  
-# Add your configuration here

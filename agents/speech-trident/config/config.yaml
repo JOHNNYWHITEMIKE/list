@@ -1,7 +1,0 @@
-# Configuration for Speech-Trident
-agent:
-  name: "Speech-Trident"
-  description: "Awesome speech/audio LLMs, representation learning, and codec models"
-  github_url: "https://github.com/ga642381/speech-trident](https://github.com/ga642381/speech-trident"
-  
-# Add your configuration here

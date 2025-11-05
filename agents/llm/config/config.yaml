@@ -1,7 +1,0 @@
-# Configuration for Llm
-agent:
-  name: "Llm"
-  description: "prompting, evaluation, models, chains, indexes, vector stores, retrieval types, use of frameworks like langchain, agents with custom tools"
-  github_url: "https://github.com/Joshua-Immanuel/LLM](https://github.com/Joshua-Immanuel/LLM"
-  
-# Add your configuration here

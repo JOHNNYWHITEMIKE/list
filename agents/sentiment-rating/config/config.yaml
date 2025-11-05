@@ -1,7 +1,0 @@
-# Configuration for Sentiment-Rating
-agent:
-  name: "Sentiment-Rating"
-  description: "The purpose of this repo is to run sentiment analysis models, test them for their sensitivity to change in gender and race related attrib…"
-  github_url: "https://github.com/ai4society/sentiment-rating](https://github.com/ai4society/sentiment-rating"
-  
-# Add your configuration here

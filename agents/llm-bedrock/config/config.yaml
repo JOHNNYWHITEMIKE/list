@@ -1,7 +1,0 @@
-# Configuration for Llm-Bedrock
-agent:
-  name: "Llm-Bedrock"
-  description: "Run prompts against models hosted on AWS Bedrock"
-  github_url: "https://github.com/simonw/llm-bedrock](https://github.com/simonw/llm-bedrock"
-  
-# Add your configuration here

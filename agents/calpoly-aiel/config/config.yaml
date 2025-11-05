@@ -1,7 +1,0 @@
-# Configuration for Calpoly-Aiel
-agent:
-  name: "Calpoly-Aiel"
-  description: "A site that hosts the Cal Poly AI Ethics Lab"
-  github_url: "https://github.com/quinthemint/calpoly-aiel](https://github.com/quinthemint/calpoly-aiel"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Kuroko2
-agent:
-  name: "Kuroko2"
-  description: "Kuroko2 is a web-based job scheduler / workflow engine."
-  github_url: "https://github.com/cookpad/kuroko2](https://github.com/cookpad/kuroko2"
-  
-# Add your configuration here

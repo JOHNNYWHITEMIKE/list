@@ -1,7 +1,0 @@
-# Configuration for Awesome-Datasets-For-Llms
-agent:
-  name: "Awesome-Datasets-For-Llms"
-  description: "Awesome training/finetuning datasets for LLMs"
-  github_url: "https://github.com/upbit/awesome-datasets-for-LLMs](https://github.com/upbit/awesome-datasets-for-LLMs"
-  
-# Add your configuration here

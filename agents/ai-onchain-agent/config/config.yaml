@@ -1,7 +1,0 @@
-# Configuration for Ai-Onchain-Agent
-agent:
-  name: "Ai-Onchain-Agent"
-  description: "A powerful tool designed to interact with blockchain networks, specifically tailored for EVM chains. It leverages OpenAI's GPT-4o-mini mo…"
-  github_url: "https://github.com/Patrick-Ehimen/AI-OnChain-Agent](https://github.com/Patrick-Ehimen/AI-OnChain-Agent"
-  
-# Add your configuration here

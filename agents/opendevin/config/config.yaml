@@ -1,7 +1,0 @@
-# Configuration for OpenDevin
-agent:
-  name: "OpenDevin"
-  description: "OpenDevin is an open-source initiative aimed at replicating and enhancing the autonomous AI software engineer Devin, focusing on collaboration and complex task execution in software development, emphasizing its relevance to advancing agentic AI technologies"
-  github_url: "https://github.com/OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin"
-  
-# Add your configuration here

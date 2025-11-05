@@ -1,7 +1,0 @@
-# Configuration for Agentools
-agent:
-  name: "Agentools"
-  description: "Essentials for LLM-based assistants and agents using OpenAI and function tools"
-  github_url: "https://github.com/JoongWonSeo/agentools](https://github.com/JoongWonSeo/agentools"
-  
-# Add your configuration here

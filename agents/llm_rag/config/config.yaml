@@ -1,7 +1,0 @@
-# Configuration for Llm_Rag
-agent:
-  name: "Llm_Rag"
-  description: "This repository implements a Retrieval-Augmented Generation (RAG) system using FAISS for vector-based retrieval and GPT for generative re…"
-  github_url: "https://github.com/dongdongunique/LLM_RAG](https://github.com/dongdongunique/LLM_RAG"
-  
-# Add your configuration here

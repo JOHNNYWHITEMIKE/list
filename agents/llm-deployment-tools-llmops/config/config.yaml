@@ -1,7 +1,0 @@
-# Configuration for Llm-Deployment-Tools-Llmops
-agent:
-  name: "Llm-Deployment-Tools-Llmops"
-  description: "This project empirically studies the challenges and prospects of deploying large language models (LLMs) in real-world applications using …"
-  github_url: "https://github.com/Zamr77/LLM-Deployment-Tools-LLMOps](https://github.com/Zamr77/LLM-Deployment-Tools-LLMOps"
-  
-# Add your configuration here

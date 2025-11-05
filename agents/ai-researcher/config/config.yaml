@@ -1,7 +1,0 @@
-# Configuration for AI Researcher
-agent:
-  name: "AI Researcher"
-  description: "The AI Researcher is an AI agent leveraging Claude 3 and SERPAPI for in-depth topic research, refining subtopic analyses into a comprehensive report, customizable and requiring API keys for functionality"
-  github_url: "https://github.com/mshumer/ai-researcher](https://github.com/mshumer/ai-researcher"
-  
-# Add your configuration here

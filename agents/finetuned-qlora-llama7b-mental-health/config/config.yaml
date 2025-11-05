@@ -1,7 +1,0 @@
-# Configuration for Finetuned-Qlora-Llama7B-Mental-Health
-agent:
-  name: "Finetuned-Qlora-Llama7B-Mental-Health"
-  description: "Finetuning of Llama-7B LLM using QLoRA on Mental Health Conversational Dataset"
-  github_url: "https://github.com/caffeinatedwoof/finetuned-qlora-llama7b-mental-health](https://github.com/caffeinatedwoof/finetuned-qlora-llama7b-mental-health"
-  
-# Add your configuration here

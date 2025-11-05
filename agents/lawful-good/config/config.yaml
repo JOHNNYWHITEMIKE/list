@@ -1,7 +1,0 @@
-# Configuration for Lawful-Good
-agent:
-  name: "Lawful-Good"
-  description: "Benchmark for assessing legal capabilities of LLM agents"
-  github_url: "https://github.com/dluo96/lawful-good](https://github.com/dluo96/lawful-good"
-  
-# Add your configuration here

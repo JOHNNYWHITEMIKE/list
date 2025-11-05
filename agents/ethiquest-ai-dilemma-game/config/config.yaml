@@ -1,7 +1,0 @@
-# Configuration for Ethiquest-Ai-Dilemma-Game
-agent:
-  name: "Ethiquest-Ai-Dilemma-Game"
-  description: "The AI Ethics Dilemma Game is an interactive, educational tool designed to help IT professionals and leaders navigate complex ethical sce…"
-  github_url: "https://github.com/EthiQuest/EthiQuest-AI-Dilemma-Game](https://github.com/EthiQuest/EthiQuest-AI-Dilemma-Game"
-  
-# Add your configuration here

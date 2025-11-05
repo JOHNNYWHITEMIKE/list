@@ -1,7 +1,0 @@
-# Configuration for Multimodal-Llm
-agent:
-  name: "Multimodal-Llm"
-  description: "image processing for unstructured datasets using multimodal model LLM fuyu-8b"
-  github_url: "https://github.com/TheSciPro/Multimodal-LLM](https://github.com/TheSciPro/Multimodal-LLM"
-  
-# Add your configuration here

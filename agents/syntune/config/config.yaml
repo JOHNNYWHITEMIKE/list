@@ -1,7 +1,0 @@
-# Configuration for Syntune
-agent:
-  name: "Syntune"
-  description: "Building LLM finetuning datasets"
-  github_url: "https://github.com/RuairiSpain/SynTune](https://github.com/RuairiSpain/SynTune"
-  
-# Add your configuration here

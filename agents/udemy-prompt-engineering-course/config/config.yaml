@@ -1,7 +1,0 @@
-# Configuration for Udemy-Prompt-Engineering-Course
-agent:
-  name: "Udemy-Prompt-Engineering-Course"
-  description: "Content for the Udemy Prompt Engineering Course"
-  github_url: "https://github.com/BrightPool/udemy-prompt-engineering-course](https://github.com/BrightPool/udemy-prompt-engineering-course"
-  
-# Add your configuration here

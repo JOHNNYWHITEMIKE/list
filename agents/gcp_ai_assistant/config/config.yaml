@@ -1,7 +1,0 @@
-# Configuration for Gcp_Ai_Assistant
-agent:
-  name: "Gcp_Ai_Assistant"
-  description: "Conversational AI Agent using Gemini, with Streamlit UI and deployed on GCP Cloud Run"
-  github_url: "https://github.com/gabrielpreda/gcp_ai_assistant](https://github.com/gabrielpreda/gcp_ai_assistant"
-  
-# Add your configuration here

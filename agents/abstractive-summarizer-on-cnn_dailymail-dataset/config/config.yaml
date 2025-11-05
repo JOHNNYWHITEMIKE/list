@@ -1,7 +1,0 @@
-# Configuration for Abstractive-Summarizer-On-Cnn_Dailymail-Dataset.
-agent:
-  name: "Abstractive-Summarizer-On-Cnn_Dailymail-Dataset."
-  description: "A small T5 LLM finetuned for text summarization."
-  github_url: "https://github.com/pkounoudis/Abstractive-Summarizer-on-cnn_dailymail-dataset.](https://github.com/pkounoudis/Abstractive-Summarizer-on-cnn_dailymail-dataset."
-  
-# Add your configuration here

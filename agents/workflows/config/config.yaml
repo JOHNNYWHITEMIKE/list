@@ -1,7 +1,0 @@
-# Configuration for Workflows
-agent:
-  name: "Workflows"
-  description: "reusable github workflows / actions"
-  github_url: "https://github.com/asottile/workflows](https://github.com/asottile/workflows"
-  
-# Add your configuration here

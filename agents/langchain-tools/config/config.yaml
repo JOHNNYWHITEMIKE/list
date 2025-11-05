@@ -1,7 +1,0 @@
-# Configuration for LangChain Tools
-agent:
-  name: "LangChain Tools"
-  description: "Langchain integrates various providers like Anthropic, AWS, and OpenAI, and offers tools for components such as LLMs, chat models, and data analysis, supporting functionalities from Alpha Vantage to YouTube"
-  github_url: "https://github.com/langchain-ai/langchain/](https://github.com/langchain-ai/langchain/"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Swarmnode-Python
-agent:
-  name: "Swarmnode-Python"
-  description: "Deploy and orchestrate serverless AI agents in the cloud."
-  github_url: "https://github.com/swarmnode-ai/swarmnode-python](https://github.com/swarmnode-ai/swarmnode-python"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Cal.ai
-agent:
-  name: "Cal.ai"
-  description: "Cal.ai is an open-source AI scheduling assistant that manages email communications for booking, rearranging, and inquiring about meetings, leveraging a LangChain Agent Executor and MailParser for efficient scheduling without API key exposure"
-  github_url: ""
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Llama-Pruning
-agent:
-  name: "Llama-Pruning"
-  description: "This project provides tools to load and prune large language models using a structured pruning method."
-  github_url: "https://github.com/MedITSolutionsKurman/llama-pruning](https://github.com/MedITSolutionsKurman/llama-pruning"
-  
-# Add your configuration here

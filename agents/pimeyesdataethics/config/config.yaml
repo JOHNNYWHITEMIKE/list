@@ -1,7 +1,0 @@
-# Configuration for Pimeyesdataethics
-agent:
-  name: "Pimeyesdataethics"
-  description: "Group report on data ethics and governance with relation to AI application PimEyes."
-  github_url: "https://github.com/christianmcb/PimEyesDataEthics](https://github.com/christianmcb/PimEyesDataEthics"
-  
-# Add your configuration here

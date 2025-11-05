@@ -1,7 +1,0 @@
-# Configuration for Atat
-agent:
-  name: "Atat"
-  description: "ATAT is an email client for AI Agents. Deploy dozens of AI agents through a single email address (IMAP/SMTP) using the OpenAI API. Just a…"
-  github_url: "https://github.com/semanticsean/ATAT](https://github.com/semanticsean/ATAT"
-  
-# Add your configuration here

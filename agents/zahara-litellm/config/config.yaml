@@ -1,7 +1,0 @@
-# Configuration for Zahara-Litellm
-agent:
-  name: "Zahara-Litellm"
-  description: "Gen AI tools"
-  github_url: "https://github.com/LiquidAdTech/Zahara-LiteLLM](https://github.com/LiquidAdTech/Zahara-LiteLLM"
-  
-# Add your configuration here

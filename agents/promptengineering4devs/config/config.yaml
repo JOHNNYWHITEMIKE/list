@@ -1,7 +1,0 @@
-# Configuration for Promptengineering4Devs
-agent:
-  name: "Promptengineering4Devs"
-  description: "Prompt Engineering for Developers"
-  github_url: "https://github.com/yandex-datasphere/PromptEngineering4Devs](https://github.com/yandex-datasphere/PromptEngineering4Devs"
-  
-# Add your configuration here

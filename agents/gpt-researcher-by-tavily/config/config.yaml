@@ -1,7 +1,0 @@
-# Configuration for GPT Researcher by Tavily
-agent:
-  name: "GPT Researcher by Tavily"
-  description: "GPT Researcher is an AI-powered autonomous agent designed for efficient and unbiased online research, generating detailed reports by leveraging recent advancements in AI and web scraping, with a focus on speed, reliability, and cost-effectiveness"
-  github_url: "https://github.com/assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher"
-  
-# Add your configuration here

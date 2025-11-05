@@ -1,7 +1,0 @@
-# Configuration for Overcooked_Ai_Llm
-agent:
-  name: "Overcooked_Ai_Llm"
-  description: "Research with LLM multi agent planning on OvercookedAI benchmark."
-  github_url: "https://github.com/bzeng2188/overcooked_ai_llm](https://github.com/bzeng2188/overcooked_ai_llm"
-  
-# Add your configuration here

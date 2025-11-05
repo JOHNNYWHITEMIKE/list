@@ -1,7 +1,0 @@
-# Configuration for Agentictrust
-agent:
-  name: "Agentictrust"
-  description: "Observability, DevTool and Security Platfrom for AI Agents"
-  github_url: "https://github.com/lab101-ai/agentictrust](https://github.com/lab101-ai/agentictrust"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Ab-Agent
-agent:
-  name: "Ab-Agent"
-  description: "AI Agents automating A/B test design and inference"
-  github_url: "https://github.com/bassimeledath/ab-agent](https://github.com/bassimeledath/ab-agent"
-  
-# Add your configuration here

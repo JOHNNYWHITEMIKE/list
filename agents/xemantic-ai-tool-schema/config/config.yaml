@@ -1,7 +1,0 @@
-# Configuration for Xemantic-Ai-Tool-Schema
-agent:
-  name: "Xemantic-Ai-Tool-Schema"
-  description: "Kotlin multiplatform AI/LLM tool use (function calling) JSON Schema generator"
-  github_url: "https://github.com/xemantic/xemantic-ai-tool-schema](https://github.com/xemantic/xemantic-ai-tool-schema"
-  
-# Add your configuration here

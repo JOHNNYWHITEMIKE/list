@@ -1,7 +1,0 @@
-# Configuration for Terraform-With-Circleci-Example
-agent:
-  name: "Terraform-With-Circleci-Example"
-  description: "This is an example of automatic deployments of your infrastructure using terraform and CircleCI 2.0 workflows"
-  github_url: "https://github.com/fedekau/terraform-with-circleci-example](https://github.com/fedekau/terraform-with-circleci-example"
-  
-# Add your configuration here

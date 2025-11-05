@@ -1,7 +1,0 @@
-# Configuration for Backtesteragent
-agent:
-  name: "Backtesteragent"
-  description: "An enterprise-grade AI-powered backtesting framework built on the Swarms framework for automated trading strategy validation and optimiza…"
-  github_url: "https://github.com/The-Swarm-Corporation/BackTesterAgent](https://github.com/The-Swarm-Corporation/BackTesterAgent"
-  
-# Add your configuration here

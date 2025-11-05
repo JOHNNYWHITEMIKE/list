@@ -1,7 +1,0 @@
-# Configuration for Crewai-Examples
-agent:
-  name: "Crewai-Examples"
-  description: "A collection of examples that show how to use CrewAI framework to automate workflows."
-  github_url: "https://github.com/crewAIInc/crewAI-examples](https://github.com/crewAIInc/crewAI-examples"
-  
-# Add your configuration here

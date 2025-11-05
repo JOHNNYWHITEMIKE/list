@@ -1,7 +1,0 @@
-# Configuration for Ai-Ethics-Scenarios
-agent:
-  name: "Ai-Ethics-Scenarios"
-  description: "Three AI ethics cases"
-  github_url: "https://github.com/rharrington31/ai-ethics-scenarios](https://github.com/rharrington31/ai-ethics-scenarios"
-  
-# Add your configuration here

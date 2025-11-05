@@ -1,7 +1,0 @@
-# Configuration for Ai-Wallet-Agent-Test
-agent:
-  name: "Ai-Wallet-Agent-Test"
-  description: "Sample Ai wallet agent using coinbase sdk"
-  github_url: "https://github.com/vish2396/AI-wallet-agent-test](https://github.com/vish2396/AI-wallet-agent-test"
-  
-# Add your configuration here

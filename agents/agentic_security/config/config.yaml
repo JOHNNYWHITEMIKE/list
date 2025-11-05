@@ -1,7 +1,0 @@
-# Configuration for Agentic_Security
-agent:
-  name: "Agentic_Security"
-  description: "Agentic LLM Vulnerability Scanner / AI red teaming kit"
-  github_url: "https://github.com/msoedov/agentic_security](https://github.com/msoedov/agentic_security"
-  
-# Add your configuration here

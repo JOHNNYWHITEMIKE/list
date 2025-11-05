@@ -1,7 +1,0 @@
-# Configuration for Plark_Ai_Public
-agent:
-  name: "Plark_Ai_Public"
-  description: "... provide a basis for more extensive, long-term, and cutting edge research. The test bed can be used as a basis to research the limits of"
-  github_url: "https://github.com/montvieux/plark_ai_public](https://github.com/montvieux/plark_ai_public"
-  
-# Add your configuration here

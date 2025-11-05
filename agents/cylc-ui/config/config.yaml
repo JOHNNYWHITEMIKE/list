@@ -1,7 +1,0 @@
-# Configuration for Cylc-Ui
-agent:
-  name: "Cylc-Ui"
-  description: "Web app for monitoring and controlling Cylc workflows"
-  github_url: "https://github.com/cylc/cylc-ui](https://github.com/cylc/cylc-ui"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Llm-Predictor
-agent:
-  name: "Llm-Predictor"
-  description: "The strategy of material dataset based on Tokens, utilizing LLM to achieve material prediction, discovery, and design."
-  github_url: "https://github.com/dhw059/LLM-predictor](https://github.com/dhw059/LLM-predictor"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Pitagora-Cwl
-agent:
-  name: "Pitagora-Cwl"
-  description: "Common Workflow Language tools and workflows by Pitagora-Network"
-  github_url: "https://github.com/pitagora-network/pitagora-cwl](https://github.com/pitagora-network/pitagora-cwl"
-  
-# Add your configuration here

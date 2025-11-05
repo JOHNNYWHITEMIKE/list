@@ -1,7 +1,0 @@
-# Configuration for Llm-Tools
-agent:
-  name: "Llm-Tools"
-  description: "Scripts for preparing data for LLMs - text extraction, Telegram export processing, and file merging with filtering and stats."
-  github_url: "https://github.com/TheTeslak/LLM-Tools](https://github.com/TheTeslak/LLM-Tools"
-  
-# Add your configuration here

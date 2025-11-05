@@ -1,7 +1,0 @@
-# Configuration for Dolly-Instruction-Tuning
-agent:
-  name: "Dolly-Instruction-Tuning"
-  description: "Experimentation on fine tuning LLM to instruction datasets."
-  github_url: "https://github.com/PavanKumar-Aravapalli/Dolly-Instruction-Tuning](https://github.com/PavanKumar-Aravapalli/Dolly-Instruction-Tuning"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for 3Gpp-Requirements-Tools
-agent:
-  name: "3Gpp-Requirements-Tools"
-  description: "Tools for retrieving 3GPP standards and LLM-powered requirement elicitiation."
-  github_url: "https://github.com/Adrian2901/3gpp-requirements-tools](https://github.com/Adrian2901/3gpp-requirements-tools"
-  
-# Add your configuration here

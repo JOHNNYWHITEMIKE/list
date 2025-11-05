@@ -1,7 +1,0 @@
-# Configuration for D6Tflow
-agent:
-  name: "D6Tflow"
-  description: "Python library for building highly effective data science workflows"
-  github_url: "https://github.com/d6t/d6tflow](https://github.com/d6t/d6tflow"
-  
-# Add your configuration here

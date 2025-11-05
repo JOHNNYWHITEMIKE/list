@@ -1,7 +1,0 @@
-# Configuration for Miranda
-agent:
-  name: "Miranda"
-  description: "Miranda is a platform that simplifies dashboard creation, aiming to be the 'Canva for dashboards'"
-  github_url: ""
-  
-# Add your configuration here

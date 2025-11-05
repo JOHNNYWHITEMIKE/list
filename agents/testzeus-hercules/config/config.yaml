@@ -1,7 +1,0 @@
-# Configuration for Testzeus-Hercules
-agent:
-  name: "Testzeus-Hercules"
-  description: "Welcome to Hercules, the world's first open-source testing agent that's here to lift your testing burdens with the strength of a mytholog…"
-  github_url: "https://github.com/test-zeus-ai/testzeus-hercules](https://github.com/test-zeus-ai/testzeus-hercules"
-  
-# Add your configuration here

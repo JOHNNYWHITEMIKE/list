@@ -1,7 +1,0 @@
-# Configuration for Wasm-Ai
-agent:
-  name: "Wasm-Ai"
-  description: "Vercel and web-llm template to run wasm models directly in the browser."
-  github_url: "https://github.com/hrishioa/wasm-ai](https://github.com/hrishioa/wasm-ai"
-  
-# Add your configuration here

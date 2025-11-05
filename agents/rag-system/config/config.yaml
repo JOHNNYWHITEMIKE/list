@@ -1,7 +1,0 @@
-# Configuration for Rag-System
-agent:
-  name: "Rag-System"
-  description: "Test Project with Replit AI Agent"
-  github_url: "https://github.com/thetom42/rag-system](https://github.com/thetom42/rag-system"
-  
-# Add your configuration here

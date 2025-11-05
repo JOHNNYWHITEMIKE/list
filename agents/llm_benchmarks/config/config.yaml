@@ -1,7 +1,0 @@
-# Configuration for Llm_Benchmarks
-agent:
-  name: "Llm_Benchmarks"
-  description: "A collection of benchmarks and datasets for evaluating LLM."
-  github_url: "https://github.com/leobeeson/llm_benchmarks](https://github.com/leobeeson/llm_benchmarks"
-  
-# Add your configuration here

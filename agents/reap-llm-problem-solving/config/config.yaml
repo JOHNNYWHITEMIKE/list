@@ -1,7 +1,0 @@
-# Configuration for Reap-Llm-Problem-Solving
-agent:
-  name: "Reap-Llm-Problem-Solving"
-  description: "Enhance LLM problem-solving with REAP - Reflection, Explicit Problem Deconstruction, and Advanced Prompting. This repo includes the REAP p…"
-  github_url: "https://github.com/ryanlingo/REAP-LLM-Problem-Solving](https://github.com/ryanlingo/REAP-LLM-Problem-Solving"
-  
-# Add your configuration here

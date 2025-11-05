@@ -1,7 +1,0 @@
-# Configuration for Sdp-Llm-Dataset
-agent:
-  name: "Sdp-Llm-Dataset"
-  description: "Paper scraping from acl anthology with selenium"
-  github_url: "https://github.com/yilmazzey/sdp-llm-dataset](https://github.com/yilmazzey/sdp-llm-dataset"
-  
-# Add your configuration here

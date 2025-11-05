@@ -1,7 +1,0 @@
-# Configuration for Obsidian-Ai-Research-Assistant
-agent:
-  name: "Obsidian-Ai-Research-Assistant"
-  description: "Prompt Engineering Research Tool for AI APIs"
-  github_url: "https://github.com/InterwebAlchemy/obsidian-ai-research-assistant](https://github.com/InterwebAlchemy/obsidian-ai-research-assistant"
-  
-# Add your configuration here

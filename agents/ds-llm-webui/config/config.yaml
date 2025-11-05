@@ -1,7 +1,0 @@
-# Configuration for Ds-Llm-Webui
-agent:
-  name: "Ds-Llm-Webui"
-  description: "A simple tool-use assistant for local LLMs powered by TabbyAPI"
-  github_url: "https://github.com/DocShotgun/ds-llm-webui](https://github.com/DocShotgun/ds-llm-webui"
-  
-# Add your configuration here

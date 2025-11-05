@@ -1,7 +1,0 @@
-# Configuration for Publish-Packages
-agent:
-  name: "Publish-Packages"
-  description: "Use GitHub Actions to publish your project to a Docker image."
-  github_url: "https://github.com/skills/publish-packages](https://github.com/skills/publish-packages"
-  
-# Add your configuration here

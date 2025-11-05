@@ -1,7 +1,0 @@
-# Configuration for Ethicsinai
-agent:
-  name: "Ethicsinai"
-  description: "Research on the impact of ethics on AI technologies throughout history and present day"
-  github_url: "https://github.com/kiragptassist/EthicsinAI](https://github.com/kiragptassist/EthicsinAI"
-  
-# Add your configuration here

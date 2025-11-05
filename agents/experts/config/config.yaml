@@ -1,7 +1,0 @@
-# Configuration for Experts
-agent:
-  name: "Experts"
-  description: "Experts.js is the easiest way to create and deploy OpenAI's Assistants and link them together as Tools to create advanced Multi AI Agent …"
-  github_url: "https://github.com/metaskills/experts](https://github.com/metaskills/experts"
-  
-# Add your configuration here

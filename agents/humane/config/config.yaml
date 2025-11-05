@@ -1,7 +1,0 @@
-# Configuration for Humane
-agent:
-  name: "Humane"
-  description: "AI Pin, a wearable, multi-modal device, enhances ambient computing in the real world, offering a suite of AI digital assistants for various tasks while prioritizing user privacy for a more intuitive, human-centered experience"
-  github_url: ""
-  
-# Add your configuration here

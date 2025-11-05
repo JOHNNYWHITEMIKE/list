@@ -1,7 +1,0 @@
-# Configuration for Aiagents_Test
-agent:
-  name: "Aiagents_Test"
-  description: "Test Playground for AI agents"
-  github_url: "https://github.com/prad-human-007/AIAgents_test](https://github.com/prad-human-007/AIAgents_test"
-  
-# Add your configuration here

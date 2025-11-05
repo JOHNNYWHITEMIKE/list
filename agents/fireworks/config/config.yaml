@@ -1,7 +1,0 @@
-# Configuration for Fireworks
-agent:
-  name: "Fireworks"
-  description: "The Fireworks Workflow Management Repo."
-  github_url: "https://github.com/materialsproject/fireworks](https://github.com/materialsproject/fireworks"
-  
-# Add your configuration here

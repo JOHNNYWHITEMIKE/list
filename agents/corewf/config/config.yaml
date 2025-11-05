@@ -1,7 +1,0 @@
-# Configuration for Corewf
-agent:
-  name: "Corewf"
-  description: "WF runtime ported to work on .NET 6"
-  github_url: "https://github.com/UiPath/CoreWF](https://github.com/UiPath/CoreWF"
-  
-# Add your configuration here

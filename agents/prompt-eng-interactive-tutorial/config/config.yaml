@@ -1,7 +1,0 @@
-# Configuration for Prompt-Eng-Interactive-Tutorial
-agent:
-  name: "Prompt-Eng-Interactive-Tutorial"
-  description: "Anthropic's Interactive Prompt Engineering Tutorial"
-  github_url: "https://github.com/anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial"
-  
-# Add your configuration here

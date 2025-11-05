@@ -1,7 +1,0 @@
-# Configuration for Init-Eliza
-agent:
-  name: "Init-Eliza"
-  description: "A powerful CLI tool for building, managing, and deploying AI agents with multiple provider integrations."
-  github_url: "https://github.com/W3bbieLabs/init-eliza](https://github.com/W3bbieLabs/init-eliza"
-  
-# Add your configuration here

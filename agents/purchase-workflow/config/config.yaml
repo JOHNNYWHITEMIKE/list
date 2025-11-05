@@ -1,7 +1,0 @@
-# Configuration for Purchase-Workflow
-agent:
-  name: "Purchase-Workflow"
-  description: "Odoo Purchases, Workflow and Organization"
-  github_url: "https://github.com/OCA/purchase-workflow](https://github.com/OCA/purchase-workflow"
-  
-# Add your configuration here

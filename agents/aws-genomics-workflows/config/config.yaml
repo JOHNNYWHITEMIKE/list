@@ -1,7 +1,0 @@
-# Configuration for Aws-Genomics-Workflows
-agent:
-  name: "Aws-Genomics-Workflows"
-  description: "Genomics Workflows on AWS"
-  github_url: "https://github.com/aws-samples/aws-genomics-workflows](https://github.com/aws-samples/aws-genomics-workflows"
-  
-# Add your configuration here

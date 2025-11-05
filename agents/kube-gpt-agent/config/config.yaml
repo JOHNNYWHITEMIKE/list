@@ -1,7 +1,0 @@
-# Configuration for Kube-Gpt-Agent
-agent:
-  name: "Kube-Gpt-Agent"
-  description: "Use an AI agent to get information about your Kubernetes deployments!"
-  github_url: "https://github.com/srimoyee1212/Kube-GPT-Agent](https://github.com/srimoyee1212/Kube-GPT-Agent"
-  
-# Add your configuration here

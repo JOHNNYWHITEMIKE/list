@@ -1,7 +1,0 @@
-# Configuration for Tools by Taskade
-agent:
-  name: "Tools by Taskade"
-  description: "Enable your agents with the right set of tools to get the job done: web search (allow the agent to browse the web), WolframAlpha (enhance the agent's computational skills), add-ons (enable additional tools and extensions)"
-  github_url: ""
-  
-# Add your configuration here

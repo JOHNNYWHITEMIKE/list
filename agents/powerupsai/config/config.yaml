@@ -1,7 +1,0 @@
-# Configuration for Powerups.Ai
-agent:
-  name: "Powerups.Ai"
-  description: "Deploy AI Agent-Powered APIs in Minutes"
-  github_url: "https://github.com/muzetv/powerups.ai](https://github.com/muzetv/powerups.ai"
-  
-# Add your configuration here

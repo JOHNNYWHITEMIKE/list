@@ -1,7 +1,0 @@
-# Configuration for AI Studio by Azure
-agent:
-  name: "AI Studio by Azure"
-  description: "Azure AI Studio offers a platform for developing generative AI applications and custom copilots, featuring prebuilt models, training capabilities, free Azure Cosmos DB access for 90 days, and built-in security with no extra charge during preview"
-  github_url: ""
-  
-# Add your configuration here

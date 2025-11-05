@@ -1,7 +1,0 @@
-# Configuration for Claude-Html-Test
-agent:
-  name: "Claude-Html-Test"
-  description: "A repository showcasing information about AI Agents"
-  github_url: "https://github.com/SivaramAdi/claude-html-test](https://github.com/SivaramAdi/claude-html-test"
-  
-# Add your configuration here

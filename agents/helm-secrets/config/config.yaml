@@ -1,7 +1,0 @@
-# Configuration for Helm-Secrets
-agent:
-  name: "Helm-Secrets"
-  description: "A helm plugin that help manage secrets with Git workflow and store them anywhere"
-  github_url: "https://github.com/jkroepke/helm-secrets](https://github.com/jkroepke/helm-secrets"
-  
-# Add your configuration here

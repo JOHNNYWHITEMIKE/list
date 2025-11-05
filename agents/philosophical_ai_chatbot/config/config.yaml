@@ -1,7 +1,0 @@
-# Configuration for Philosophical_Ai_Chatbot
-agent:
-  name: "Philosophical_Ai_Chatbot"
-  description: "Sogang Univ, 2023_1st semester, PHI4061, Artificial Intelligence and Ethics Practice"
-  github_url: "https://github.com/namkidong98/Philosophical_AI_ChatBot](https://github.com/namkidong98/Philosophical_AI_ChatBot"
-  
-# Add your configuration here

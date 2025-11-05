@@ -1,7 +1,0 @@
-# Configuration for Autonomous-Ai-Team
-agent:
-  name: "Autonomous-Ai-Team"
-  description: "A project that aims to develop and deploy autonomous AI agents that can collaborate and communicate with each other and humans."
-  github_url: "https://github.com/mikirinkode/autonomous-ai-team](https://github.com/mikirinkode/autonomous-ai-team"
-  
-# Add your configuration here

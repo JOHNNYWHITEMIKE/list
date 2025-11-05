@@ -1,7 +1,0 @@
-# Configuration for Eduscribe-Llm-Backend
-agent:
-  name: "Eduscribe-Llm-Backend"
-  description: "Pythonic dataset processing for fine-tuning LLMs. Used for a CalHacks 2023 award winning project."
-  github_url: "https://github.com/TanGentleman/EduScribe-LLM-Backend](https://github.com/TanGentleman/EduScribe-LLM-Backend"
-  
-# Add your configuration here

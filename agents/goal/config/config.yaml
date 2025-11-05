@@ -1,7 +1,0 @@
-# Configuration for Goal
-agent:
-  name: "Goal"
-  description: "Creating a community for turning Valiant's and Rényi's vision into an AI model"
-  github_url: "https://github.com/schizyfos/Goal](https://github.com/schizyfos/Goal"
-  
-# Add your configuration here

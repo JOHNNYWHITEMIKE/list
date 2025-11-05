@@ -1,7 +1,0 @@
-# Configuration for Comfyui-Llm-Tools
-agent:
-  name: "Comfyui-Llm-Tools"
-  description: "Helpful nodes for working with LLMs inside of ComfyUI"
-  github_url: "https://github.com/pridkett/ComfyUI-llm-tools](https://github.com/pridkett/ComfyUI-llm-tools"
-  
-# Add your configuration here

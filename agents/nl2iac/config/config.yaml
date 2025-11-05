@@ -1,7 +1,0 @@
-# Configuration for Nl2Iac
-agent:
-  name: "Nl2Iac"
-  description: "AI agent for IaC deployments"
-  github_url: "https://github.com/ramonbgc/nl2iac](https://github.com/ramonbgc/nl2iac"
-  
-# Add your configuration here

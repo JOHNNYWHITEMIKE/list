@@ -1,7 +1,0 @@
-# Configuration for Aix
-agent:
-  name: "Aix"
-  description: "AIx is a cli tool to interact with Large Language Models (LLM) APIs."
-  github_url: "https://github.com/projectdiscovery/aix](https://github.com/projectdiscovery/aix"
-  
-# Add your configuration here

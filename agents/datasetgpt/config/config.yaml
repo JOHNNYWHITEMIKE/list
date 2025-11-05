@@ -1,7 +1,0 @@
-# Configuration for Datasetgpt
-agent:
-  name: "Datasetgpt"
-  description: "A command-line interface to generate textual and conversational datasets with LLMs."
-  github_url: "https://github.com/radi-cho/datasetGPT](https://github.com/radi-cho/datasetGPT"
-  
-# Add your configuration here

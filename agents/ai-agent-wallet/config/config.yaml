@@ -1,7 +1,0 @@
-# Configuration for Ai-Agent-Wallet
-agent:
-  name: "Ai-Agent-Wallet"
-  description: "This framework provides a secure, headless wallet solution designed for integration with frontend applications. It prioritizes security b…"
-  github_url: "https://github.com/0xcrypto2024/ai-agent-wallet](https://github.com/0xcrypto2024/ai-agent-wallet"
-  
-# Add your configuration here

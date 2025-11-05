@@ -1,7 +1,0 @@
-# Configuration for Swarmsxgcp
-agent:
-  name: "Swarmsxgcp"
-  description: "Deploy your agents on Cloud Run!"
-  github_url: "https://github.com/The-Swarm-Corporation/SwarmsXGCP](https://github.com/The-Swarm-Corporation/SwarmsXGCP"
-  
-# Add your configuration here

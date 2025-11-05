@@ -1,7 +1,0 @@
-# Configuration for Llm_Api_Price_Comparator_Web
-agent:
-  name: "Llm_Api_Price_Comparator_Web"
-  description: "LLM API Price Comparator Web 是一个在线工具，帮助用户便捷地比较不同LLM API服务商在指定输入输出下调用同一种模型的价格。 它会自动获取美元/人民币汇率，允许用户输入服务商的余额、调用定价信息，并计算、比较相对于输入输出Token的成本。 该…"
-  github_url: "https://github.com/CookSleep/LLM_API_Price_Comparator_Web](https://github.com/CookSleep/LLM_API_Price_Comparator_Web"
-  
-# Add your configuration here

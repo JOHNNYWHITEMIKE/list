@@ -1,7 +1,0 @@
-# Configuration for Flyte
-agent:
-  name: "Flyte"
-  description: "Flyte binds together the tools you use into easily defined, automated workflows"
-  github_url: "https://github.com/ExpediaGroup/flyte](https://github.com/ExpediaGroup/flyte"
-  
-# Add your configuration here

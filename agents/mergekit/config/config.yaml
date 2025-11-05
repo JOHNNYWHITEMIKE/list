@@ -1,7 +1,0 @@
-# Configuration for Mergekit
-agent:
-  name: "Mergekit"
-  description: "Tools for merging pretrained large language models."
-  github_url: "https://github.com/arcee-ai/mergekit](https://github.com/arcee-ai/mergekit"
-  
-# Add your configuration here

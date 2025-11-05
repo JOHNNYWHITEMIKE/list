@@ -1,7 +1,0 @@
-# Configuration for Python-Aiagent
-agent:
-  name: "Python-Aiagent"
-  description: "📈 Python AIAgent application development, integration with OpenAI's GPT model, use of the CrewAI framework, creation of an agent for cons…"
-  github_url: "https://github.com/osvaldokalvaitir/python-aiagent](https://github.com/osvaldokalvaitir/python-aiagent"
-  
-# Add your configuration here

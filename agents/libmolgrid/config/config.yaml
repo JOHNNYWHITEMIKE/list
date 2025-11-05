@@ -1,7 +1,0 @@
-# Configuration for Libmolgrid
-agent:
-  name: "Libmolgrid"
-  description: "Comprehensive library for fast, GPU accelerated molecular gridding for deep learning workflows"
-  github_url: "https://github.com/gnina/libmolgrid](https://github.com/gnina/libmolgrid"
-  
-# Add your configuration here

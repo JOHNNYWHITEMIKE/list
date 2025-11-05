@@ -1,7 +1,0 @@
-# Configuration for Llm-Next-Item-Rec
-agent:
-  name: "Llm-Next-Item-Rec"
-  description: "Code for the Paper "Zero-Shot Next-Item Recommendation using Large Pretrained Language Models""
-  github_url: "https://github.com/AGI-Edgerunners/LLM-Next-Item-Rec](https://github.com/AGI-Edgerunners/LLM-Next-Item-Rec"
-  
-# Add your configuration here

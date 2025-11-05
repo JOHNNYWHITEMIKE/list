@@ -1,7 +1,0 @@
-# Configuration for Astro-Sdk
-agent:
-  name: "Astro-Sdk"
-  description: "Astro SDK allows rapid and clean development of {Extract, Load, Transform} workflows using Python and SQL, powered by Apache Airflow."
-  github_url: "https://github.com/astronomer/astro-sdk](https://github.com/astronomer/astro-sdk"
-  
-# Add your configuration here

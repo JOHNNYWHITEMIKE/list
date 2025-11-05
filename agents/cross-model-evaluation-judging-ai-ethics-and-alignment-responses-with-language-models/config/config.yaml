@@ -1,7 +1,0 @@
-# Configuration for Cross-Model-Evaluation-Judging-Ai-Ethics-And-Alignment-Responses-With-Language-Models
-agent:
-  name: "Cross-Model-Evaluation-Judging-Ai-Ethics-And-Alignment-Responses-With-Language-Models"
-  description: "This study aims to evaluate the quality of previously generated responses using various large language models (LLMs) as evaluators."
-  github_url: "https://github.com/sultanrafeed/Cross-Model-Evaluation-Judging-AI-Ethics-and-Alignment-Responses-with-Language-Models](https://github.com/sultanrafeed/Cross-Model-Evaluation-Judging-AI-Ethics-and-Alignment-Responses-with-Language-Models"
-  
-# Add your configuration here

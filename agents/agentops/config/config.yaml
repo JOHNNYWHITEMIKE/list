@@ -1,7 +1,0 @@
-# Configuration for Agentops
-agent:
-  name: "Agentops"
-  description: "Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks like CrewAI…"
-  github_url: "https://github.com/AgentOps-AI/agentops](https://github.com/AgentOps-AI/agentops"
-  
-# Add your configuration here

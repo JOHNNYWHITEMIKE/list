@@ -1,7 +1,0 @@
-# Configuration for Zep
-agent:
-  name: "Zep"
-  description: "Zep is a long-term memory service for AI assistants that enhances recall, understanding, and data extraction from chat histories to power personalized AI experiences"
-  github_url: ""
-  
-# Add your configuration here

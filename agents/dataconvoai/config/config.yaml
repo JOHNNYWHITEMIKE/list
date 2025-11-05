@@ -1,7 +1,0 @@
-# Configuration for Dataconvoai
-agent:
-  name: "Dataconvoai"
-  description: "LLM Based Chatbot to interact with custom dataset"
-  github_url: "https://github.com/jainut20/DataConvoAI](https://github.com/jainut20/DataConvoAI"
-  
-# Add your configuration here

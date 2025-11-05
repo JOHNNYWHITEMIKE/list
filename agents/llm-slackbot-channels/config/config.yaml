@@ -1,7 +1,0 @@
-# Configuration for Llm-Slackbot-Channels
-agent:
-  name: "Llm-Slackbot-Channels"
-  description: "A user-customized bot for your slack channels using LLMs, Tools and Documents"
-  github_url: "https://github.com/Vokturz/LLM-slackbot-channels](https://github.com/Vokturz/LLM-slackbot-channels"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Tapir
-agent:
-  name: "Tapir"
-  description: "Some llm tools"
-  github_url: "https://github.com/ephes/tapir](https://github.com/ephes/tapir"
-  
-# Add your configuration here

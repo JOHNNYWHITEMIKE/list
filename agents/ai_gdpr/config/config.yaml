@@ -1,7 +1,0 @@
-# Configuration for Ai_Gdpr
-agent:
-  name: "Ai_Gdpr"
-  description: "A brief report exploring the impact of AI technologies on European citizens and the compliance challenges posed by the General Data Prote…"
-  github_url: "https://github.com/dimits-ts/ai_gdpr](https://github.com/dimits-ts/ai_gdpr"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Job-Webscraper
-agent:
-  name: "Job-Webscraper"
-  description: "LLM API-Powered Job Listings Data Cleaning Tool - Showcase for Data Scientists"
-  github_url: "https://github.com/Prvargas/job-webscraper](https://github.com/Prvargas/job-webscraper"
-  
-# Add your configuration here

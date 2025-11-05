@@ -1,7 +1,0 @@
-# Configuration for N8Ntest
-agent:
-  name: "N8Ntest"
-  description: "This repo is for testing n8n AI agent"
-  github_url: "https://github.com/habib-049/n8nTest](https://github.com/habib-049/n8nTest"
-  
-# Add your configuration here

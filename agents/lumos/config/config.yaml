@@ -1,7 +1,0 @@
-# Configuration for Lumos
-agent:
-  name: "Lumos"
-  description: "Lumos introduces a modular, open-source language agent framework with unified data formats that competes with or outperforms GPT-series and larger agents across various complex interactive tasks"
-  github_url: "https://github.com/allenai/lumos](https://github.com/allenai/lumos"
-  
-# Add your configuration here

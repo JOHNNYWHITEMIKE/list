@@ -1,7 +1,0 @@
-# Configuration for TogetherAI
-agent:
-  name: "TogetherAI"
-  description: "TogetherAI is a platform that facilitates efficient and accurate summarization of text using advanced AI algorithms and user-friendly tools"
-  github_url: ""
-  
-# Add your configuration here

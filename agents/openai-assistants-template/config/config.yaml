@@ -1,7 +1,0 @@
-# Configuration for Openai-Assistants-Template
-agent:
-  name: "Openai-Assistants-Template"
-  description: "Build and deploy AI-driven assistants with our OpenAI Assistants Template. This tutorial provides a hands-on approach to using OpenAI's A…"
-  github_url: "https://github.com/pranavgupta2603/OpenAI-Assistants-Template](https://github.com/pranavgupta2603/OpenAI-Assistants-Template"
-  
-# Add your configuration here

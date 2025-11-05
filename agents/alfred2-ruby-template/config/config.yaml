@@ -1,7 +1,0 @@
-# Configuration for Alfred2-Ruby-Template
-agent:
-  name: "Alfred2-Ruby-Template"
-  description: "Alfred 2 Workflow Ruby Template"
-  github_url: "https://github.com/zhaocai/alfred2-ruby-template](https://github.com/zhaocai/alfred2-ruby-template"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Raven-Test-Ai
-agent:
-  name: "Raven-Test-Ai"
-  description: "An AI agent that can solve Raven Tests, visual iq tests"
-  github_url: "https://github.com/dhurng/Raven-Test-AI](https://github.com/dhurng/Raven-Test-AI"
-  
-# Add your configuration here

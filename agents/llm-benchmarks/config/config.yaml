@@ -1,7 +1,0 @@
-# Configuration for Llm-Benchmarks
-agent:
-  name: "Llm-Benchmarks"
-  description: "LLM benchmark tools for LMDeploy, vLLM, and TensorRT-LLM."
-  github_url: "https://github.com/wanzhenchn/llm-benchmarks](https://github.com/wanzhenchn/llm-benchmarks"
-  
-# Add your configuration here

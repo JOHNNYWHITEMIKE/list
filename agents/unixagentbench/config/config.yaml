@@ -1,7 +1,0 @@
-# Configuration for Unixagentbench
-agent:
-  name: "Unixagentbench"
-  description: "benchmarking LLM-agents performing tasks on Unix"
-  github_url: "https://github.com/kmrasmussen/unixagentbench](https://github.com/kmrasmussen/unixagentbench"
-  
-# Add your configuration here

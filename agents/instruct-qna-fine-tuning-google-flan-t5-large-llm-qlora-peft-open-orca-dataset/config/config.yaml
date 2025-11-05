@@ -1,7 +1,0 @@
-# Configuration for Instruct-Qna-Fine-Tuning-Google-Flan-T5-Large-Llm-Qlora-Peft-Open-Orca-Dataset
-agent:
-  name: "Instruct-Qna-Fine-Tuning-Google-Flan-T5-Large-Llm-Qlora-Peft-Open-Orca-Dataset"
-  description: "The Open Orca dataset serves as the foundation for this project. It provides a wide array of question types, including multiple-choice, reasoning, question-and-answer, one-word answers, translation, grammar correction, and math word problems"
-  github_url: "https://github.com/shirsh10mall/Instruct-QnA-Fine-Tuning-Google-Flan-T5-Large-LLM-QLoRA-PEFT-Open-Orca-Dataset](https://github.com/shirsh10mall/Instruct-QnA-Fine-Tuning-Google-Flan-T5-Large-LLM-QLoRA-PEFT-Open-Orca-Dataset"
-  
-# Add your configuration here

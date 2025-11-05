@@ -1,7 +1,0 @@
-# Configuration for Multimodal-Llm-Agent
-agent:
-  name: "Multimodal-Llm-Agent"
-  description: "Deploy Multimodal-LLM Agent to solve complicated AI tasks with language serving as a generic interface"
-  github_url: "https://github.com/HuHK-Private/multimodal-llm-agent](https://github.com/HuHK-Private/multimodal-llm-agent"
-  
-# Add your configuration here

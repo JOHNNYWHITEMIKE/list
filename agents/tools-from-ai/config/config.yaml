@@ -1,7 +1,0 @@
-# Configuration for Tools-From-Ai
-agent:
-  name: "Tools-From-Ai"
-  description: "# This tool is designed to detect whether the email exists on the target site by trying to guess using different methods. # Make sure the…"
-  github_url: "https://github.com/sb3ly/tools-from-AI](https://github.com/sb3ly/tools-from-AI"
-  
-# Add your configuration here

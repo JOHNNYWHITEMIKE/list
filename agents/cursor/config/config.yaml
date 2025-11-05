@@ -1,7 +1,0 @@
-# Configuration for Cursor
-agent:
-  name: "Cursor"
-  description: "Cursor is an AI-enhanced programming editor focusing on code discussion, editing, and debugging, with plans for advanced features like repository healing and AI-generated documentation"
-  github_url: "https://github.com/getcursor/cursor/issues](https://github.com/getcursor/cursor/issues"
-  
-# Add your configuration here

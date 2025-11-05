@@ -1,7 +1,0 @@
-# Configuration for Emergent
-agent:
-  name: "Emergent"
-  description: "An implementation of long term memory and external tools for LLMs"
-  github_url: "https://github.com/kyb3r/emergent](https://github.com/kyb3r/emergent"
-  
-# Add your configuration here

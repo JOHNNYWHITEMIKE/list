@@ -1,7 +1,0 @@
-# Configuration for Llm-Text-Completion-Finetune
-agent:
-  name: "Llm-Text-Completion-Finetune"
-  description: "Guide on text completion large language model fine-tuning, including example scripts and training data acquiring."
-  github_url: "https://github.com/molbal/llm-text-completion-finetune](https://github.com/molbal/llm-text-completion-finetune"
-  
-# Add your configuration here

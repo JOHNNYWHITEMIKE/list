@@ -1,7 +1,0 @@
-# Configuration for Agent-
-agent:
-  name: "Agent-"
-  description: "Create, deploy, and manage AI agents on Solana using our decentralized platform. Powered by Rig, Rust, and ARC tokens."
-  github_url: "https://github.com/drraghavendra/Agent-](https://github.com/drraghavendra/Agent-"
-  
-# Add your configuration here

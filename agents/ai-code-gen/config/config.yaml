@@ -1,7 +1,0 @@
-# Configuration for Ai-Code-Gen
-agent:
-  name: "Ai-Code-Gen"
-  description: "An ai agent to generate python unit test"
-  github_url: "https://github.com/Farelart/Ai-code-gen](https://github.com/Farelart/Ai-code-gen"
-  
-# Add your configuration here

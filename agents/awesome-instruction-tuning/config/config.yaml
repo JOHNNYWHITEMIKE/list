@@ -1,7 +1,0 @@
-# Configuration for Awesome-Instruction-Tuning
-agent:
-  name: "Awesome-Instruction-Tuning"
-  description: "A curated list of awesome instruction tuning datasets, models, papers and repositories."
-  github_url: "https://github.com/zhilizju/Awesome-instruction-tuning](https://github.com/zhilizju/Awesome-instruction-tuning"
-  
-# Add your configuration here

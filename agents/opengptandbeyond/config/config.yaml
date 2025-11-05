@@ -1,7 +1,0 @@
-# Configuration for Opengptandbeyond
-agent:
-  name: "Opengptandbeyond"
-  description: "Open efforts to implement ChatGPT-like models and beyond."
-  github_url: "https://github.com/SunLemuria/OpenGPTAndBeyond](https://github.com/SunLemuria/OpenGPTAndBeyond"
-  
-# Add your configuration here

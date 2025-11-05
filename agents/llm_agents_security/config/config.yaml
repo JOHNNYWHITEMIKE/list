@@ -1,7 +1,0 @@
-# Configuration for Llm_Agents_Security
-agent:
-  name: "Llm_Agents_Security"
-  description: "This LLM agents deals with establishing AI security and safety."
-  github_url: "https://github.com/johnny22245/llm_agents_security](https://github.com/johnny22245/llm_agents_security"
-  
-# Add your configuration here

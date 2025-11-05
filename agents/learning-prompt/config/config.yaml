@@ -1,7 +1,0 @@
-# Configuration for Learning-Prompt
-agent:
-  name: "Learning-Prompt"
-  description: "Free prompt engineering online course. ChatGPT and Midjourney tutorials are now included!"
-  github_url: "https://github.com/thinkingjimmy/Learning-Prompt](https://github.com/thinkingjimmy/Learning-Prompt"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Mcts-Agent-Python
-agent:
-  name: "Mcts-Agent-Python"
-  description: "Monte Carlo Tree Search (MCTS) is a method for finding optimal decisions in a given domain by taking random samples in the decision space…"
-  github_url: "https://github.com/masouduut94/MCTS-agent-python](https://github.com/masouduut94/MCTS-agent-python"
-  
-# Add your configuration here

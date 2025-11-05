@@ -1,7 +1,0 @@
-# Configuration for Alfred-Calculate-Anything
-agent:
-  name: "Alfred-Calculate-Anything"
-  description: "Alfred Workflow to calculate anything with natural language"
-  github_url: "https://github.com/biati-digital/alfred-calculate-anything](https://github.com/biati-digital/alfred-calculate-anything"
-  
-# Add your configuration here

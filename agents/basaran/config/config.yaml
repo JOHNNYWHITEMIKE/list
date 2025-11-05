@@ -1,7 +1,0 @@
-# Configuration for Basaran
-agent:
-  name: "Basaran"
-  description: "Basaran is an open-source alternative to the OpenAI text completion API. It provides a compatible streaming API for your Hugging Face Tra…"
-  github_url: "https://github.com/hyperonym/basaran](https://github.com/hyperonym/basaran"
-  
-# Add your configuration here

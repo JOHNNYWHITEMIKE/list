@@ -1,7 +1,0 @@
-# Configuration for Llm-Tpu
-agent:
-  name: "Llm-Tpu"
-  description: "Run generative AI models in sophgo BM1684X"
-  github_url: "https://github.com/sophgo/LLM-TPU](https://github.com/sophgo/LLM-TPU"
-  
-# Add your configuration here

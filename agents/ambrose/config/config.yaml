@@ -1,7 +1,0 @@
-# Configuration for Ambrose
-agent:
-  name: "Ambrose"
-  description: "A platform for visualization and real-time monitoring of data workflows"
-  github_url: "https://github.com/twitter-archive/ambrose](https://github.com/twitter-archive/ambrose"
-  
-# Add your configuration here

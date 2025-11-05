@@ -1,7 +1,0 @@
-# Configuration for Llm-Adapters
-agent:
-  name: "Llm-Adapters"
-  description: "Code for our EMNLP 2023 Paper - "LLM-Adapters - An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models""
-  github_url: "https://github.com/AGI-Edgerunners/LLM-Adapters](https://github.com/AGI-Edgerunners/LLM-Adapters"
-  
-# Add your configuration here

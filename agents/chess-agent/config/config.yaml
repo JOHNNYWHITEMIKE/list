@@ -1,7 +1,0 @@
-# Configuration for Chess-Agent
-agent:
-  name: "Chess-Agent"
-  description: "An AI chess agent capable of teaching others and also deployed on a robot in real life"
-  github_url: "https://github.com/gabrielzencha/Chess-Agent](https://github.com/gabrielzencha/Chess-Agent"
-  
-# Add your configuration here

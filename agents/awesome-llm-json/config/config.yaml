@@ -1,7 +1,0 @@
-# Configuration for Awesome-Llm-Json
-agent:
-  name: "Awesome-Llm-Json"
-  description: "Resource list for generating JSON using LLMs via function calling, tools, CFG. Libraries, Models, Notebooks, etc."
-  github_url: "https://github.com/imaurer/awesome-llm-json](https://github.com/imaurer/awesome-llm-json"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Startyourjourney
-agent:
-  name: "Startyourjourney"
-  description: "Starting place to become a Reality Engineer - 3D, XR, AI, Ethics"
-  github_url: "https://github.com/metaversityfoundation/StartYourJourney](https://github.com/metaversityfoundation/StartYourJourney"
-  
-# Add your configuration here

@@ -1,7 +1,0 @@
-# Configuration for Agent-Repoguardian
-agent:
-  name: "Agent-Repoguardian"
-  description: "An AI agent that does security scans and vulnerability analysis of code"
-  github_url: "https://github.com/flexigpt/agent-repoguardian](https://github.com/flexigpt/agent-repoguardian"
-  
-# Add your configuration here

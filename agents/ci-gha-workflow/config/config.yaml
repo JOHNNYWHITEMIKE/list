@@ -1,7 +1,0 @@
-# Configuration for Ci-Gha-Workflow
-agent:
-  name: "Ci-Gha-Workflow"
-  description: "GitHub Actions workflows for OpenCV project"
-  github_url: "https://github.com/opencv/ci-gha-workflow](https://github.com/opencv/ci-gha-workflow"
-  
-# Add your configuration here

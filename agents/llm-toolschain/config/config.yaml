@@ -1,7 +1,0 @@
-# Configuration for Llm-Toolschain
-agent:
-  name: "Llm-Toolschain"
-  description: "A LangChain-like framework centered around the use of tools and planning. Useful for agents creation"
-  github_url: "https://github.com/Viagounet/LLM-ToolsChain](https://github.com/Viagounet/LLM-ToolsChain"
-  
-# Add your configuration here

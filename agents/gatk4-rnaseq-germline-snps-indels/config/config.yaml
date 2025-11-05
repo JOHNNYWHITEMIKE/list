@@ -1,7 +1,0 @@
-# Configuration for Gatk4-Rnaseq-Germline-Snps-Indels
-agent:
-  name: "Gatk4-Rnaseq-Germline-Snps-Indels"
-  description: "Workflows for processing RNA data for germline short variant discovery with GATK v4 and related tools"
-  github_url: "https://github.com/gatk-workflows/gatk4-rnaseq-germline-snps-indels](https://github.com/gatk-workflows/gatk4-rnaseq-germline-snps-indels"
-  
-# Add your configuration here

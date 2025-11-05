@@ -1,7 +1,0 @@
-# Configuration for Llm-Transparency-Tool
-agent:
-  name: "Llm-Transparency-Tool"
-  description: "LLM Transparency Tool (LLM-TT), an open-source interactive toolkit for analyzing internal workings of Transformer-based language models. …"
-  github_url: "https://github.com/facebookresearch/llm-transparency-tool](https://github.com/facebookresearch/llm-transparency-tool"
-  
-# Add your configuration here

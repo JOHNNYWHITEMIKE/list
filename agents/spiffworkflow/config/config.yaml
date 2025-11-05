@@ -1,7 +1,0 @@
-# Configuration for Spiffworkflow
-agent:
-  name: "Spiffworkflow"
-  description: "A powerful workflow engine implemented in pure Python"
-  github_url: "https://github.com/sartography/SpiffWorkflow](https://github.com/sartography/SpiffWorkflow"
-  
-# Add your configuration here

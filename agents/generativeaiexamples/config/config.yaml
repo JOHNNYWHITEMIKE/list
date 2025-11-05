@@ -1,7 +1,0 @@
-# Configuration for Generativeaiexamples
-agent:
-  name: "Generativeaiexamples"
-  description: "Generative AI reference workflows optimized for accelerated infrastructure and microservice architecture."
-  github_url: "https://github.com/NVIDIA/GenerativeAIExamples](https://github.com/NVIDIA/GenerativeAIExamples"
-  
-# Add your configuration here

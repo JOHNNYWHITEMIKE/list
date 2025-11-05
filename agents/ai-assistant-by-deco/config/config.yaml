@@ -1,7 +1,0 @@
-# Configuration for AI Assistant by Deco
-agent:
-  name: "AI Assistant by Deco"
-  description: "Deco provides a GPT-powered, multilingual AI Sales Assistant designed to personalize and automate the shopping experience, boost sales, and increase operational efficiency for online stores"
-  github_url: ""
-  
-# Add your configuration here

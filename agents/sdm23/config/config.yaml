@@ -1,7 +1,0 @@
-# Configuration for Sdm23
-agent:
-  name: "Sdm23"
-  description: "SDM2023 Tutorial - When Mining Healthcare Data Meets AI Ethics - Towards Privacy-preservation, Fairness and Trustworthy"
-  github_url: "https://github.com/DATA-Transpose/sdm23](https://github.com/DATA-Transpose/sdm23"
-  
-# Add your configuration here

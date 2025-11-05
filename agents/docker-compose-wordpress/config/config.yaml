@@ -1,7 +1,0 @@
-# Configuration for Docker-Compose-Wordpress
-agent:
-  name: "Docker-Compose-Wordpress"
-  description: "A docker-compose workflow for local WordPress development"
-  github_url: "https://github.com/aschmelyun/docker-compose-wordpress](https://github.com/aschmelyun/docker-compose-wordpress"
-  
-# Add your configuration here

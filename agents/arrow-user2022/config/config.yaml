@@ -1,7 +1,0 @@
-# Configuration for Arrow-User2022
-agent:
-  name: "Arrow-User2022"
-  description: "Larger-Than-Memory Data Workflows with Apache Arrow"
-  github_url: "https://github.com/djnavarro/arrow-user2022](https://github.com/djnavarro/arrow-user2022"
-  
-# Add your configuration here

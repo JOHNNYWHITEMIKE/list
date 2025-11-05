@@ -1,7 +1,0 @@
-# Configuration for Git-Smart
-agent:
-  name: "Git-Smart"
-  description: "Add some smarts to your git workflow"
-  github_url: "https://github.com/geelen/git-smart](https://github.com/geelen/git-smart"
-  
-# Add your configuration here

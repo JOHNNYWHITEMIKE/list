@@ -1,7 +1,0 @@
-# Configuration for Evolutionary Model Merge
-agent:
-  name: "Evolutionary Model Merge"
-  description: "Sakana AI's evolutionary model merge (EMM) combines 500,000 open-source models using evolutionary techniques to create new foundation models, achieving groundbreaking results without being explicitly optimized for specific benchmarks, marking a significant step toward AGI by empowering AI with combined knowledge akin to Retrieval Augmented Generation"
-  github_url: ""
-  
-# Add your configuration here

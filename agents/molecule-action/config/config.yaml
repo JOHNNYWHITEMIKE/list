@@ -1,7 +1,0 @@
-# Configuration for Molecule-Action
-agent:
-  name: "Molecule-Action"
-  description: "GitHub Action for running molecule as part of your workflows!"
-  github_url: "https://github.com/gofrolist/molecule-action](https://github.com/gofrolist/molecule-action"
-  
-# Add your configuration here

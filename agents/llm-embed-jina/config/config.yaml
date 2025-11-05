@@ -1,7 +1,0 @@
-# Configuration for Llm-Embed-Jina
-agent:
-  name: "Llm-Embed-Jina"
-  description: "Embedding models from Jina AI"
-  github_url: "https://github.com/simonw/llm-embed-jina](https://github.com/simonw/llm-embed-jina"
-  
-# Add your configuration here

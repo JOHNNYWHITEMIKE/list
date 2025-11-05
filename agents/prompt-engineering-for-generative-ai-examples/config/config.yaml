@@ -1,7 +1,0 @@
-# Configuration for Prompt-Engineering-For-Generative-Ai-Examples
-agent:
-  name: "Prompt-Engineering-For-Generative-Ai-Examples"
-  description: "the O'Reilley book"
-  github_url: "https://github.com/BrightPool/prompt-engineering-for-generative-ai-examples](https://github.com/BrightPool/prompt-engineering-for-generative-ai-examples"
-  
-# Add your configuration here

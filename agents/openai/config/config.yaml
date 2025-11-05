@@ -1,7 +1,0 @@
-# Configuration for OpenAI
-agent:
-  name: "OpenAI"
-  description: "OpenAI's GPT models, including GPT-3 and GPT-4, are large language models that can be used to summarize text in a concise and accurate manner, though the quality of the summaries may vary depending on the complexity and length of the input text"
-  github_url: ""
-  
-# Add your configuration here

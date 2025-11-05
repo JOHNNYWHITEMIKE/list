@@ -1,7 +1,0 @@
-# Configuration for Llm-Derived-Tvshowguess-Dataset
-agent:
-  name: "Llm-Derived-Tvshowguess-Dataset"
-  description: "TVShowGuess was proposed in benchmarking language models' skill of understanding fictional characters in narrative stories."
-  github_url: "https://github.com/Oaklight/LLM-derived-TVShowGuess-Dataset](https://github.com/Oaklight/LLM-derived-TVShowGuess-Dataset"
-  
-# Add your configuration here

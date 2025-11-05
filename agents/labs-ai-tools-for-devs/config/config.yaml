@@ -1,7 +1,0 @@
-# Configuration for Labs-Ai-Tools-For-Devs
-agent:
-  name: "Labs-Ai-Tools-For-Devs"
-  description: ""
-  github_url: "https://github.com/docker/labs-ai-tools-for-devs](https://github.com/docker/labs-ai-tools-for-devs"
-  
-# Add your configuration here

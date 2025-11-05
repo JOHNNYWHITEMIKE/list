@@ -1,7 +1,0 @@
-# Configuration for Llm-Interest
-agent:
-  name: "Llm-Interest"
-  description: "Tool to collect LLM eval topics"
-  github_url: "https://github.com/hamelsmu/llm-interest](https://github.com/hamelsmu/llm-interest"
-  
-# Add your configuration here

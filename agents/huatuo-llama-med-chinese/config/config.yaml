@@ -1,7 +1,0 @@
-# Configuration for Huatuo-Llama-Med-Chinese
-agent:
-  name: "Huatuo-Llama-Med-Chinese"
-  description: "Repo for BenTsao"
-  github_url: "https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese"
-  
-# Add your configuration here

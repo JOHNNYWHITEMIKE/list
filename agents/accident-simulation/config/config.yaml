@@ -1,7 +1,0 @@
-# Configuration for Accident-Simulation
-agent:
-  name: "Accident-Simulation"
-  description: "Allocating resources to a accident scenario in real-time is a difficult challenge. This project aims to create a simulation playground wh…"
-  github_url: "https://github.com/chuajiesheng/accident-simulation](https://github.com/chuajiesheng/accident-simulation"
-  
-# Add your configuration here

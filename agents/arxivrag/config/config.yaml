@@ -1,7 +1,0 @@
-# Configuration for Arxivrag
-agent:
-  name: "Arxivrag"
-  description: "A comprehensive tool designed to enhance the retrieval and generation of academic content from the arXiv database, leveraging advanced Re…"
-  github_url: "https://github.com/phitrann/arXivRAG](https://github.com/phitrann/arXivRAG"
-  
-# Add your configuration here

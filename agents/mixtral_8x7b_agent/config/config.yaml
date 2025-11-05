@@ -1,7 +1,0 @@
-# Configuration for Mixtral_8X7B_Agent
-agent:
-  name: "Mixtral_8X7B_Agent"
-  description: "Deploying an open source AI Agent with Mixtral 8X7B"
-  github_url: "https://github.com/svngoku/Mixtral_8X7B_Agent](https://github.com/svngoku/Mixtral_8X7B_Agent"
-  
-# Add your configuration here

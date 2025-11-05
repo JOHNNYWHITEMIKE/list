@@ -1,7 +1,0 @@
-# Configuration for Trailblazer-Activity
-agent:
-  name: "Trailblazer-Activity"
-  description: "Model business workflows and run them."
-  github_url: "https://github.com/trailblazer/trailblazer-activity](https://github.com/trailblazer/trailblazer-activity"
-  
-# Add your configuration here

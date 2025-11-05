@@ -1,7 +1,0 @@
-# Configuration for Awesome-Prompting-On-Vision-Language-Model
-agent:
-  name: "Awesome-Prompting-On-Vision-Language-Model"
-  description: "This repo lists relevant papers summarized in our survey paper - A Systematic Survey of Prompt Engineering on Vision-Language Foundation M…"
-  github_url: "https://github.com/JindongGu/Awesome-Prompting-on-Vision-Language-Model](https://github.com/JindongGu/Awesome-Prompting-on-Vision-Language-Model"
-  
-# Add your configuration here

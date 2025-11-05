@@ -1,7 +1,0 @@
-# Configuration for Megaminer-Tinyarena
-agent:
-  name: "Megaminer-Tinyarena"
-  description: "A tiny arena for testing Megaminer AI agents"
-  github_url: "https://github.com/drusepth/Megaminer-Tinyarena](https://github.com/drusepth/Megaminer-Tinyarena"
-  
-# Add your configuration here

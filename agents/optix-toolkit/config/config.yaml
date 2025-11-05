@@ -1,7 +1,0 @@
-# Configuration for Optix-Toolkit
-agent:
-  name: "Optix-Toolkit"
-  description: "Set of utilities supporting workflows common in GPU raytracing applications"
-  github_url: "https://github.com/NVIDIA/optix-toolkit](https://github.com/NVIDIA/optix-toolkit"
-  
-# Add your configuration here

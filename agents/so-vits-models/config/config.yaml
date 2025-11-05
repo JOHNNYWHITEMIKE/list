@@ -1,7 +1,0 @@
-# Configuration for So-Vits-Models
-agent:
-  name: "So-Vits-Models"
-  description: "收集有关so-vits-svc、TTS、SD、LLMs的各种模型、应用以及文字、声音、图片、视频有关的model。"
-  github_url: "https://github.com/sekift/so-vits-models](https://github.com/sekift/so-vits-models"
-  
-# Add your configuration here
