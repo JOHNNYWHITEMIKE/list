@@ -1,0 +1,7 @@
+# Configuration for Monocle
+agent:
+  name: "Monocle"
+  description: "Tooling backed by an LLM for performing natural language searches against compiled target binaries. Search for encryption code, password …"
+  github_url: "https://github.com/arphanetx/Monocle](https://github.com/arphanetx/Monocle"
+  
+# Add your configuration here

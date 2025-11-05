@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  multimodal-llm-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: multimodal-llm-agent
+    environment:
+      - AGENT_NAME=Multimodal-Llm-Agent
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

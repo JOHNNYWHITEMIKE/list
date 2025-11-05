@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  howtofinetunellama31:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: howtofinetunellama31
+    environment:
+      - AGENT_NAME=Howtofinetunellama3.1
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

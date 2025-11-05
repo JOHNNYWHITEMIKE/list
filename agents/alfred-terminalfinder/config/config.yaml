@@ -1,0 +1,7 @@
+# Configuration for Alfred-Terminalfinder
+agent:
+  name: "Alfred-Terminalfinder"
+  description: "Alfred workflow to open current Finder window in Terminal/iTerm and vice versa."
+  github_url: "https://github.com/LeEnno/alfred-terminalfinder](https://github.com/LeEnno/alfred-terminalfinder"
+  
+# Add your configuration here

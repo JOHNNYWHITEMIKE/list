@@ -1,0 +1,7 @@
+# Configuration for Gatk4-Somatic-Cnvs
+agent:
+  name: "Gatk4-Somatic-Cnvs"
+  description: "This repo is archived, these workflows will be housed in the GATK repository under the scripts directory. These workflows are also organi…"
+  github_url: "https://github.com/gatk-workflows/gatk4-somatic-cnvs](https://github.com/gatk-workflows/gatk4-somatic-cnvs"
+  
+# Add your configuration here

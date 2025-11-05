@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ai-artifacts:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai-artifacts
+    environment:
+      - AGENT_NAME=ai-artifacts
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

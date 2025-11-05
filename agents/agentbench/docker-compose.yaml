@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  agentbench:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agentbench
+    environment:
+      - AGENT_NAME=Agentbench
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

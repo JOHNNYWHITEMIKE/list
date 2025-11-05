@@ -1,0 +1,7 @@
+# Configuration for Docgenie
+agent:
+  name: "Docgenie"
+  description: "Docgenie is a command-line tool that leverages the power of large language models (LLMs) to automatically generate comprehensive document…"
+  github_url: "https://github.com/we-festify/docgenie](https://github.com/we-festify/docgenie"
+  
+# Add your configuration here

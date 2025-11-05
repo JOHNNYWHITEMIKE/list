@@ -1,0 +1,7 @@
+# Configuration for Shortcutsbench
+agent:
+  name: "Shortcutsbench"
+  description: "ShortcutsBench - A Large-Scale Real-World Benchmark for API-Based Agents"
+  github_url: "https://github.com/EachSheep/ShortcutsBench](https://github.com/EachSheep/ShortcutsBench"
+  
+# Add your configuration here

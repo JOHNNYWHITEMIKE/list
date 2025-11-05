@@ -1,0 +1,7 @@
+# Configuration for Crewaiknowledgetest
+agent:
+  name: "Crewaiknowledgetest"
+  description: "CrewAI新版本支持使用Knowledge属性将txt、PDF、CSV、Excel、JSON等多种数据格式内容及多文件混合作为知识增强知识库提供给Crew中的Agent使用"
+  github_url: "https://github.com/NanGePlus/CrewAIKnowledgeTest](https://github.com/NanGePlus/CrewAIKnowledgeTest"
+  
+# Add your configuration here

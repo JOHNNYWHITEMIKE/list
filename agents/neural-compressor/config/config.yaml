@@ -1,0 +1,7 @@
+# Configuration for Neural-Compressor
+agent:
+  name: "Neural-Compressor"
+  description: "SOTA low-bit LLM quantization (INT8/FP8/INT4/FP4/NF4) & sparsity; leading model compression techniques on TensorFlow, PyTorch, and ONNX R…"
+  github_url: "https://github.com/intel/neural-compressor](https://github.com/intel/neural-compressor"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Agentos
+agent:
+  name: "Agentos"
+  description: "AgentOS implements a comprehensive security architecture leveraging containerization, orchestration, and multi-layer isolation to ensure …"
+  github_url: "https://github.com/The-Swarm-Corporation/AgentOS](https://github.com/The-Swarm-Corporation/AgentOS"
+  
+# Add your configuration here

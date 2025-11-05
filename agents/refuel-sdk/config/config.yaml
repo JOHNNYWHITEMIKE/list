@@ -1,0 +1,7 @@
+# Configuration for Refuel-Sdk
+agent:
+  name: "Refuel-Sdk"
+  description: "Label, clean and enrich text datasets with LLMs"
+  github_url: "https://github.com/refuel-ai/refuel-sdk](https://github.com/refuel-ai/refuel-sdk"
+  
+# Add your configuration here

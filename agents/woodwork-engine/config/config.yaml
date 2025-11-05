@@ -1,0 +1,7 @@
+# Configuration for Woodwork-Engine
+agent:
+  name: "Woodwork-Engine"
+  description: "An AI Agent IaC tool that aims to make developing and deploying AI Agents easier."
+  github_url: "https://github.com/willwoodward/woodwork-engine](https://github.com/willwoodward/woodwork-engine"
+  
+# Add your configuration here

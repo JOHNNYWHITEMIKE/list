@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ai_security_agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai_security_agent
+    environment:
+      - AGENT_NAME=Ai_Security_Agent
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

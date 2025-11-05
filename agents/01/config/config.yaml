@@ -1,0 +1,7 @@
+# Configuration for 01
+agent:
+  name: "01"
+  description: "The '01 Project' by Open Interpreter is an open-source initiative focused on creating an ecosystem for AI devices, aiming to become the GNU/Linux in this domain, with details on its experimental status, software, hardware, and a speech-to-speech interface based on a code-interpreting language model for dynamic interactions"
+  github_url: ""
+  
+# Add your configuration here

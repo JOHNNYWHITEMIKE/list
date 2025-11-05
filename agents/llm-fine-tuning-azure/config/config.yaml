@@ -1,0 +1,7 @@
+# Configuration for Llm-Fine-Tuning-Azure
+agent:
+  name: "Llm-Fine-Tuning-Azure"
+  description: "A fine-tuning guide for both OpenAI and Open-Source Large Language Models on Azure."
+  github_url: "https://github.com/HeZhang33/LLM-Fine-Tuning-Azure](https://github.com/HeZhang33/LLM-Fine-Tuning-Azure"
+  
+# Add your configuration here

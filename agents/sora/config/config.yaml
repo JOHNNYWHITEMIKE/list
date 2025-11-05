@@ -1,0 +1,7 @@
+# Configuration for Sora
+agent:
+  name: "Sora"
+  description: "Sora is a hypothetical synth, which follows the ethics of the AI Now project."
+  github_url: "https://github.com/AI-Now/Sora](https://github.com/AI-Now/Sora"
+  
+# Add your configuration here

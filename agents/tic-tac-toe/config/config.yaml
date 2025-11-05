@@ -1,0 +1,7 @@
+# Configuration for Tic-Tac-Toe
+agent:
+  name: "Tic-Tac-Toe"
+  description: "Search and AI algorithms testing game. Big Tic Tac Toe"
+  github_url: "https://github.com/OmerCinal/Tic-Tac-Toe](https://github.com/OmerCinal/Tic-Tac-Toe"
+  
+# Add your configuration here

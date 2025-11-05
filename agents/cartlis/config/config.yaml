@@ -1,0 +1,7 @@
+# Configuration for Cartlis
+agent:
+  name: "Cartlis"
+  description: "The AI-Powered API Governance Agent enforces rules in real-time, seamlessly integrating with infrastructures and auto-patching violations…"
+  github_url: "https://github.com/Theneo-Inc/Cartlis](https://github.com/Theneo-Inc/Cartlis"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Code-Interpreter-Api
+agent:
+  name: "Code-Interpreter-Api"
+  description: "Committed to being the best code interpreter in the world."
+  github_url: "https://github.com/leezhuuuuu/Code-Interpreter-Api](https://github.com/leezhuuuuu/Code-Interpreter-Api"
+  
+# Add your configuration here

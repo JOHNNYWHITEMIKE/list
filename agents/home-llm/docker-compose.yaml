@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  home-llm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: home-llm
+    environment:
+      - AGENT_NAME=Home-Llm
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

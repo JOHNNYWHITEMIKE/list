@@ -1,0 +1,7 @@
+# Configuration for Groma
+agent:
+  name: "Groma"
+  description: ""
+  github_url: "https://github.com/FoundationVision/Groma](https://github.com/FoundationVision/Groma"
+  
+# Add your configuration here

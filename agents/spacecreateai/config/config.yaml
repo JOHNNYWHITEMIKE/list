@@ -1,0 +1,7 @@
+# Configuration for Spacecreateai
+agent:
+  name: "Spacecreateai"
+  description: "This repository contains the first Solana agent built with the SEND AI technology https://github.com/sendaifun/solana-agent-kit that auto…"
+  github_url: "https://github.com/sendaifun/solana-agent-kit that auto…"
+  
+# Add your configuration here

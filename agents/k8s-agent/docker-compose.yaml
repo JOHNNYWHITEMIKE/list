@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  k8s-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: k8s-agent
+    environment:
+      - AGENT_NAME=K8S-Agent
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

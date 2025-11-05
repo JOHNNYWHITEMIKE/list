@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  awesome-ai-ethics:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: awesome-ai-ethics
+    environment:
+      - AGENT_NAME=Awesome-Ai-Ethics
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Fullstack-Nextjs-App-Generator
+agent:
+  name: "Fullstack-Nextjs-App-Generator"
+  description: "Fullstack Next.js Application Builder that uses a Spark Engine AI multi-agent system project for generation, Supabase and Vercel for depl…"
+  github_url: "https://github.com/spark-engine-opensource-projects/fullstack-nextjs-app-generator](https://github.com/spark-engine-opensource-projects/fullstack-nextjs-app-generator"
+  
+# Add your configuration here

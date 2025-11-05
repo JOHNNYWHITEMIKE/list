@@ -1,0 +1,7 @@
+# Configuration for Airflow
+agent:
+  name: "Airflow"
+  description: "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows"
+  github_url: "https://github.com/apache/airflow](https://github.com/apache/airflow"
+  
+# Add your configuration here

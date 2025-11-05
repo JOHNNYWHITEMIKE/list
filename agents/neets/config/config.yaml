@@ -1,0 +1,7 @@
+# Configuration for Neets
+agent:
+  name: "Neets"
+  description: "Neets.ai is a text-to-speech (TTS) API that offers a wide range of voices and languages, allowing users to easily integrate TTS capabilities into their applications"
+  github_url: ""
+  
+# Add your configuration here

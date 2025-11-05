@@ -1,0 +1,7 @@
+# Configuration for Tutorteach.Ai
+agent:
+  name: "Tutorteach.Ai"
+  description: "TutorTeach.ai is an AI-powered learning platform offering personalized video lessons, text summaries, assignments, and score predictions.…"
+  github_url: "https://github.com/JMadhan1/Tutorteach.ai](https://github.com/JMadhan1/Tutorteach.ai"
+  
+# Add your configuration here

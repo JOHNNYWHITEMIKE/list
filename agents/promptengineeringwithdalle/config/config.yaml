@@ -1,0 +1,7 @@
+# Configuration for Promptengineeringwithdalle
+agent:
+  name: "Promptengineeringwithdalle"
+  description: "Learn prompt engineering by iterating over image prompts with the DALL-E model."
+  github_url: "https://github.com/jennifermarsman/PromptEngineeringWithDalle](https://github.com/jennifermarsman/PromptEngineeringWithDalle"
+  
+# Add your configuration here

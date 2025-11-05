@@ -1,0 +1,7 @@
+# Configuration for Safeagentbench
+agent:
+  name: "Safeagentbench"
+  description: "Codes for paper "SafeAgentBench - A Benchmark for Safe Task Planning of \\ Embodied LLM Agents""
+  github_url: "https://github.com/shengyin1224/SafeAgentBench](https://github.com/shengyin1224/SafeAgentBench"
+  
+# Add your configuration here

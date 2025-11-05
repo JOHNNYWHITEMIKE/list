@@ -1,0 +1,7 @@
+# Configuration for Curategpt
+agent:
+  name: "Curategpt"
+  description: "LLM-driven curation assist tool"
+  github_url: "https://github.com/monarch-initiative/curategpt](https://github.com/monarch-initiative/curategpt"
+  
+# Add your configuration here

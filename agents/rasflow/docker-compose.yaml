@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  rasflow:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rasflow
+    environment:
+      - AGENT_NAME=Rasflow
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

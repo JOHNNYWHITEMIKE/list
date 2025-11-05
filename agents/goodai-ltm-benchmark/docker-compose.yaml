@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  goodai-ltm-benchmark:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: goodai-ltm-benchmark
+    environment:
+      - AGENT_NAME=Goodai-Ltm-Benchmark
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Data Questionnaire Agent
+agent:
+  name: "Data Questionnaire Agent"
+  description: "A chatbot designed to query users on data integration practices, offering advice based on responses, utilizing a modified Chainlit library for operation"
+  github_url: "https://github.com/onepointconsulting/data-questionnaire-agent](https://github.com/onepointconsulting/data-questionnaire-agent"
+  
+# Add your configuration here

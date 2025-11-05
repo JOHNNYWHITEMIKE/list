@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  prompt-optimizer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: prompt-optimizer
+    environment:
+      - AGENT_NAME=Prompt-Optimizer
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

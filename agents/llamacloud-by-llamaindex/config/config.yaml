@@ -1,0 +1,7 @@
+# Configuration for LlamaCloud by LlamaIndex
+agent:
+  name: "LlamaCloud by LlamaIndex"
+  description: "LlamaCloud by LlamaIndex streamlines AI development by enabling developers to minimize infrastructure management and parameter tuning, focusing instead on creating AI products, with features for proprietary parsing of complex documents, easy data ingestion and storage, and advanced data retrieval"
+  github_url: ""
+  
+# Add your configuration here

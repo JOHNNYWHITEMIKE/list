@@ -1,0 +1,7 @@
+# Configuration for Philosophy-And-Ethics
+agent:
+  name: "Philosophy-And-Ethics"
+  description: "This section should include only a brief summary of another article. See Wikipedia:Summary style for information on how to properly incor…"
+  github_url: "https://github.com/Aryia-Behroziuan/Philosophy-and-ethics](https://github.com/Aryia-Behroziuan/Philosophy-and-ethics"
+  
+# Add your configuration here

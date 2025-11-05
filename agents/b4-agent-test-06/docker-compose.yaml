@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  b4-agent-test-06:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: b4-agent-test-06
+    environment:
+      - AGENT_NAME=B4-Agent-Test-06
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

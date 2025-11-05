@@ -1,0 +1,7 @@
+# Configuration for Bananalyzer by Reworkd
+agent:
+  name: "Bananalyzer by Reworkd"
+  description: "Bananalyzer is a framework for evaluating AI agents on web tasks, utilizing Playwright for creating diverse datasets of website snapshots for reliable and varied web task assessments"
+  github_url: ""
+  
+# Add your configuration here

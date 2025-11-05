@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  psychological_ai_research:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: psychological_ai_research
+    environment:
+      - AGENT_NAME=Psychological_Ai_Research
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

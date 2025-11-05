@@ -1,0 +1,7 @@
+# Configuration for Voice_Agent
+agent:
+  name: "Voice_Agent"
+  description: "Test app for the AI Voice Agent Project"
+  github_url: "https://github.com/drhammed/voice_agent](https://github.com/drhammed/voice_agent"
+  
+# Add your configuration here

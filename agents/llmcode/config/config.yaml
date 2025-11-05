@@ -1,0 +1,7 @@
+# Configuration for Llmcode
+agent:
+  name: "Llmcode"
+  description: "LLMCode is a tool designed to streamline code documentation using Language Models (LLMs)."
+  github_url: "https://github.com/javierganan99/LLMCode](https://github.com/javierganan99/LLMCode"
+  
+# Add your configuration here

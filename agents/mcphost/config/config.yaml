@@ -1,0 +1,7 @@
+# Configuration for Mcphost
+agent:
+  name: "Mcphost"
+  description: "A CLI host application that enables Large Language Models (LLMs) to interact with external tools through the Model Context Protocol (MCP)."
+  github_url: "https://github.com/mark3labs/mcphost](https://github.com/mark3labs/mcphost"
+  
+# Add your configuration here

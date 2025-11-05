@@ -1,0 +1,7 @@
+# Configuration for Fastmcp
+agent:
+  name: "Fastmcp"
+  description: "The fast, Pythonic way to build Model Context Protocol servers 🚀"
+  github_url: "https://github.com/jlowin/fastmcp](https://github.com/jlowin/fastmcp"
+  
+# Add your configuration here

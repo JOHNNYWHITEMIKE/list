@@ -1,0 +1,7 @@
+# Configuration for Gaia-Meme-Coin-Generator
+agent:
+  name: "Gaia-Meme-Coin-Generator"
+  description: "Generate and deploy meme tokens automatically using Gaia's AI Agent for creative naming and tokenomics!"
+  github_url: "https://github.com/harishkotra/gaia-meme-coin-generator](https://github.com/harishkotra/gaia-meme-coin-generator"
+  
+# Add your configuration here

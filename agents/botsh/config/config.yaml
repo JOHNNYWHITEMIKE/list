@@ -1,0 +1,7 @@
+# Configuration for Botsh
+agent:
+  name: "Botsh"
+  description: "An LLM-based agent that will install the tools it needs."
+  github_url: "https://github.com/jamsocket/botsh](https://github.com/jamsocket/botsh"
+  
+# Add your configuration here

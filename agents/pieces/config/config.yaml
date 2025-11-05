@@ -1,0 +1,7 @@
+# Configuration for Pieces
+agent:
+  name: "Pieces"
+  description: "Pieces is an AI-powered productivity tool for developers that enhances efficiency through a unified toolchain, offering on-device workflow assistance, intelligent code snippet management, and seamless integration with development tools and plugins"
+  github_url: ""
+  
+# Add your configuration here

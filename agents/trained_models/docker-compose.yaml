@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  trained_models:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: trained_models
+    environment:
+      - AGENT_NAME=Trained_Models
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

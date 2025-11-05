@@ -1,0 +1,7 @@
+# Configuration for Configs
+agent:
+  name: "Configs"
+  description: "Config files used to define parameters specific to compute environments at different Institutions"
+  github_url: "https://github.com/nf-core/configs](https://github.com/nf-core/configs"
+  
+# Add your configuration here

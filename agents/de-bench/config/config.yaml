@@ -1,0 +1,7 @@
+# Configuration for De-Bench
+agent:
+  name: "De-Bench"
+  description: "DE Bench: Can Agents Solve Real-World Data Engineering Problems? Built to test Ardent's AI Data Engineer"
+  github_url: "https://github.com/ArdentAI1/DE-Bench](https://github.com/ArdentAI1/DE-Bench"
+  
+# Add your configuration here

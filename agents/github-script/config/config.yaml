@@ -1,0 +1,7 @@
+# Configuration for Github-Script
+agent:
+  name: "Github-Script"
+  description: "Write workflows scripting the GitHub API in JavaScript"
+  github_url: "https://github.com/actions/github-script](https://github.com/actions/github-script"
+  
+# Add your configuration here

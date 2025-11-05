@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  calai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: calai
+    environment:
+      - AGENT_NAME=Cal.ai
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

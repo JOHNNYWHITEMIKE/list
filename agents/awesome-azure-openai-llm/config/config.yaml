@@ -1,0 +1,7 @@
+# Configuration for Awesome-Azure-Openai-Llm
+agent:
+  name: "Awesome-Azure-Openai-Llm"
+  description: "a curated list of 🌌 Azure OpenAI, 🦙Large Language Models, and references with notes."
+  github_url: "https://github.com/kimtth/awesome-azure-openai-llm](https://github.com/kimtth/awesome-azure-openai-llm"
+  
+# Add your configuration here

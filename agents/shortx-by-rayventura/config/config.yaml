@@ -1,0 +1,7 @@
+# Configuration for ShortX by RayVentura
+agent:
+  name: "ShortX by RayVentura"
+  description: "ShortX is a AI-powered video automation platform for YouTube Shorts, Instagram Reels, TikTok, and Snapchat, offering customizable templates, AI services, and a subscription model with an affiliate program and user testimonials"
+  github_url: ""
+  
+# Add your configuration here

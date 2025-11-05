@@ -1,0 +1,7 @@
+# Configuration for Level-Navi-Agent-Search
+agent:
+  name: "Level-Navi-Agent-Search"
+  description: "The Level-Navi Agent, a framework that requires no training and utilizes large language models for deep query understanding and precise s…"
+  github_url: "https://github.com/chuanruihu/Level-Navi-Agent-Search](https://github.com/chuanruihu/Level-Navi-Agent-Search"
+  
+# Add your configuration here

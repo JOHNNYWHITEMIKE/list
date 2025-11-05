@@ -1,0 +1,7 @@
+# Configuration for Llm-Audio-Dataset-Process
+agent:
+  name: "Llm-Audio-Dataset-Process"
+  description: "many scripts for audio dataset processing"
+  github_url: "https://github.com/zhihengAI/LLM-Audio-dataset-process](https://github.com/zhihengAI/LLM-Audio-dataset-process"
+  
+# Add your configuration here

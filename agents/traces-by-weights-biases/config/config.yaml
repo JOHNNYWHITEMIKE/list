@@ -1,0 +1,7 @@
+# Configuration for Traces by Weights & Biases
+agent:
+  name: "Traces by Weights & Biases"
+  description: "W&B Traces enhances AI agent observability by providing intuitive visualizations for debugging LLMs, allowing practitioners to review past results, debug errors, and gain insights into model behavior"
+  github_url: ""
+  
+# Add your configuration here

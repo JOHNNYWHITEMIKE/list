@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  clin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clin
+    environment:
+      - AGENT_NAME=CLIN
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

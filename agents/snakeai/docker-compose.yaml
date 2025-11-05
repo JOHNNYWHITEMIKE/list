@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  snakeai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: snakeai
+    environment:
+      - AGENT_NAME=Snakeai
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

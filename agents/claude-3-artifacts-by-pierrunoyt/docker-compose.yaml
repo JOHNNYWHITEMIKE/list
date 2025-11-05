@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  claude-3-artifacts-by-pierrunoyt:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: claude-3-artifacts-by-pierrunoyt
+    environment:
+      - AGENT_NAME=Claude 3 Artifacts by PierrunoYT
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

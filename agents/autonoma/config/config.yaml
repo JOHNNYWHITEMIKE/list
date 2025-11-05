@@ -1,0 +1,7 @@
+# Configuration for Autonoma
+agent:
+  name: "Autonoma"
+  description: "Autonoma: Agentic AI-powered framework for autonomous code modification, analysis, and testing, streamlining software development workflo…"
+  github_url: "https://github.com/Sebasbo/Autonoma](https://github.com/Sebasbo/Autonoma"
+  
+# Add your configuration here

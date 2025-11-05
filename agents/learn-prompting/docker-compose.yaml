@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  learn-prompting:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: learn-prompting
+    environment:
+      - AGENT_NAME=Learn-Prompting
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

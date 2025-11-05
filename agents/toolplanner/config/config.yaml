@@ -1,0 +1,7 @@
+# Configuration for Toolplanner
+agent:
+  name: "Toolplanner"
+  description: "ToolPlanner - A Tool Augmented LLM for Multi Granularity Instructions with Path Planning and Feedback"
+  github_url: "https://github.com/XiaoMi/toolplanner](https://github.com/XiaoMi/toolplanner"
+  
+# Add your configuration here

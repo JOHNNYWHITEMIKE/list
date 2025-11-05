@@ -1,0 +1,7 @@
+# Configuration for Rag-On-Gcp-With-Vertexai
+agent:
+  name: "Rag-On-Gcp-With-Vertexai"
+  description: "Create a Chatbot app on your own data with GCP tools"
+  github_url: "https://github.com/BastinFlorian/RAG-on-GCP-with-VertexAI](https://github.com/BastinFlorian/RAG-on-GCP-with-VertexAI"
+  
+# Add your configuration here

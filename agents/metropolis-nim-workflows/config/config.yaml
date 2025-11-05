@@ -1,0 +1,7 @@
+# Configuration for Metropolis-Nim-Workflows
+agent:
+  name: "Metropolis-Nim-Workflows"
+  description: "Collection of reference workflows for building intelligent agents with NIMs"
+  github_url: "https://github.com/NVIDIA/metropolis-nim-workflows](https://github.com/NVIDIA/metropolis-nim-workflows"
+  
+# Add your configuration here

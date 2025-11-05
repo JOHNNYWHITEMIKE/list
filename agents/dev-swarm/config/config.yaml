@@ -1,0 +1,7 @@
+# Configuration for Dev-Swarm
+agent:
+  name: "Dev-Swarm"
+  description: "A swarm of LLM agents that will help you test, document, and productionize your code!"
+  github_url: "https://github.com/kyegomez/dev-swarm](https://github.com/kyegomez/dev-swarm"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Awesome-Llm-Human-Preference-Datasets
+agent:
+  name: "Awesome-Llm-Human-Preference-Datasets"
+  description: "A curated list of Human Preference Datasets for LLM fine-tuning, RLHF, and eval."
+  github_url: "https://github.com/glgh/awesome-llm-human-preference-datasets](https://github.com/glgh/awesome-llm-human-preference-datasets"
+  
+# Add your configuration here

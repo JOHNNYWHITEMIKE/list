@@ -1,0 +1,7 @@
+# Configuration for Ethics-In-Ai
+agent:
+  name: "Ethics-In-Ai"
+  description: "Ethical issues existing in the AI systems."
+  github_url: "https://github.com/tilwani/Ethics-in-AI](https://github.com/tilwani/Ethics-in-AI"
+  
+# Add your configuration here

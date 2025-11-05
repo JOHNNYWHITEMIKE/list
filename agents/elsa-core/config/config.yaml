@@ -1,0 +1,7 @@
+# Configuration for Elsa-Core
+agent:
+  name: "Elsa-Core"
+  description: "A .NET workflows library"
+  github_url: "https://github.com/elsa-workflows/elsa-core](https://github.com/elsa-workflows/elsa-core"
+  
+# Add your configuration here

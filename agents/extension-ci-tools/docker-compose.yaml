@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  extension-ci-tools:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: extension-ci-tools
+    environment:
+      - AGENT_NAME=Extension-Ci-Tools
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

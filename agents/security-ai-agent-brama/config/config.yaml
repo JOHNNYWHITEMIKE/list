@@ -1,0 +1,7 @@
+# Configuration for Security-Ai-Agent-Brama
+agent:
+  name: "Security-Ai-Agent-Brama"
+  description: "No description available"
+  github_url: "https://github.com/oborys/security-ai-agent-brama](https://github.com/oborys/security-ai-agent-brama"
+  
+# Add your configuration here

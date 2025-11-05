@@ -1,0 +1,7 @@
+# Configuration for Devin by Cognition
+agent:
+  name: "Devin by Cognition"
+  description: "Devin is a fully autonomous AI software engineer, revolutionizing coding with advanced reasoning and planning capabilities"
+  github_url: ""
+  
+# Add your configuration here

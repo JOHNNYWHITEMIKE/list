@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  graphrag-visualizer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: graphrag-visualizer
+    environment:
+      - AGENT_NAME=Graphrag-Visualizer
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

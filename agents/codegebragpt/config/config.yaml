@@ -1,0 +1,7 @@
+# Configuration for Codegebragpt
+agent:
+  name: "Codegebragpt"
+  description: "Finetuning multimodal LLMs on STEM datasets"
+  github_url: "https://github.com/sr5434/CodegebraGPT](https://github.com/sr5434/CodegebraGPT"
+  
+# Add your configuration here

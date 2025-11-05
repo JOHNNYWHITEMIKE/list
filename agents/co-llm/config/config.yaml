@@ -1,0 +1,7 @@
+# Configuration for Co-Llm
+agent:
+  name: "Co-Llm"
+  description: "Co-LLM - Learning to Decode Collaboratively with Multiple Language Models"
+  github_url: "https://github.com/clinicalml/co-llm](https://github.com/clinicalml/co-llm"
+  
+# Add your configuration here

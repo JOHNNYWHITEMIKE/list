@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  mb-nothing:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mb-nothing
+    environment:
+      - AGENT_NAME=Mb-Nothing
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

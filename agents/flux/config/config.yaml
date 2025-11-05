@@ -1,0 +1,7 @@
+# Configuration for Flux
+agent:
+  name: "Flux"
+  description: "Graph-based LLM power tool for exploring many completions in parallel."
+  github_url: "https://github.com/paradigmxyz/flux](https://github.com/paradigmxyz/flux"
+  
+# Add your configuration here

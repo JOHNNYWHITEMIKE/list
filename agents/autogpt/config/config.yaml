@@ -1,0 +1,7 @@
+# Configuration for AutoGPT
+agent:
+  name: "AutoGPT"
+  description: "AutoGPT provides accessible AI tools for building and using AI agents, offering a comprehensive framework including Forge for agent creation, agbenchmark for performance evaluation, a leaderboard for competition, a user-friendly UI, and CLI for seamless integration and management"
+  github_url: "https://github.com/Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT"
+  
+# Add your configuration here

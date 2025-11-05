@@ -1,0 +1,7 @@
+# Configuration for Towards_Certified_Ethical_Ai
+agent:
+  name: "Towards_Certified_Ethical_Ai"
+  description: "This repository is about a proposal to allow the definition of ethical artificial intelligences for which ethics can be certified. The pr…"
+  github_url: "https://github.com/stuenofotso/Towards_Certified_Ethical_AI](https://github.com/stuenofotso/Towards_Certified_Ethical_AI"
+  
+# Add your configuration here

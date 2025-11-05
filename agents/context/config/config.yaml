@@ -1,0 +1,7 @@
+# Configuration for Context
+agent:
+  name: "Context"
+  description: "Context.ai is a tool for evaluating and analyzing products with LLMs, aiming to improve user experience and performance"
+  github_url: ""
+  
+# Add your configuration here

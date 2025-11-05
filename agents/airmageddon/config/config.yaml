@@ -1,0 +1,7 @@
+# Configuration for Airmageddon
+agent:
+  name: "Airmageddon"
+  description: "AIrmageddon is a home security AI Agent"
+  github_url: "https://github.com/RamonBeast/airmageddon](https://github.com/RamonBeast/airmageddon"
+  
+# Add your configuration here

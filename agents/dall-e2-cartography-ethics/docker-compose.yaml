@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  dall-e2-cartography-ethics:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dall-e2-cartography-ethics
+    environment:
+      - AGENT_NAME=Dall-E2-Cartography-Ethics
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

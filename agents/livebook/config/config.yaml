@@ -1,0 +1,7 @@
+# Configuration for Livebook
+agent:
+  name: "Livebook"
+  description: "Automate code & data workflows with interactive Elixir notebooks"
+  github_url: "https://github.com/livebook-dev/livebook](https://github.com/livebook-dev/livebook"
+  
+# Add your configuration here

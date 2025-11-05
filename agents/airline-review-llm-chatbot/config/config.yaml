@@ -1,0 +1,7 @@
+# Configuration for Airline-Review-Llm-Chatbot
+agent:
+  name: "Airline-Review-Llm-Chatbot"
+  description: "Using a Large Language Model (LLM) to develop a chatbot that gives insights about this dataset - https://www.kaggle.com/datasets/juhibhoja…"
+  github_url: "https://github.com/rohan-deswal/airline-review-llm-chatbot](https://github.com/rohan-deswal/airline-review-llm-chatbot"
+  
+# Add your configuration here

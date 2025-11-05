@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  github-action-gitflow-release-workflow:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: github-action-gitflow-release-workflow
+    environment:
+      - AGENT_NAME=Github-Action-Gitflow-Release-Workflow
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Mql
+agent:
+  name: "Mql"
+  description: "MQL tool is designed to generate SQL queries directly from natural language inputs."
+  github_url: "https://github.com/shurutech/mql](https://github.com/shurutech/mql"
+  
+# Add your configuration here

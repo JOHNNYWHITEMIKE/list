@@ -1,0 +1,7 @@
+# Configuration for Ai_For_Efficient_Programming
+agent:
+  name: "Ai_For_Efficient_Programming"
+  description: "This course on AI for software development explores the use of AI large language models (ChatGPT, Bard, etc) and their potential benefits…"
+  github_url: "https://github.com/fhdsl/AI_for_Efficient_Programming](https://github.com/fhdsl/AI_for_Efficient_Programming"
+  
+# Add your configuration here

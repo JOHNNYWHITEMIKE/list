@@ -1,0 +1,7 @@
+# Configuration for Mendable
+agent:
+  name: "Mendable"
+  description: "Mendable offers an AI chatbot solution that enables companies to build and deploy technical assistants trained on their specific documentation and resources, aiming to improve customer and employee support, with features including enterprise-grade security, continuous model training, and integration with a wide range of data sources and APIs"
+  github_url: ""
+  
+# Add your configuration here

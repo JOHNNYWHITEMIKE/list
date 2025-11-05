@@ -1,0 +1,7 @@
+# Configuration for Llm-Chatbot
+agent:
+  name: "Llm-Chatbot"
+  description: "A mini project for using an existing Dataset to create a chatbot"
+  github_url: "https://github.com/Amir-Shokrzadeh/LLM-Chatbot](https://github.com/Amir-Shokrzadeh/LLM-Chatbot"
+  
+# Add your configuration here

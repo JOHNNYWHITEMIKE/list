@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  gaia-meme-coin-generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gaia-meme-coin-generator
+    environment:
+      - AGENT_NAME=Gaia-Meme-Coin-Generator
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

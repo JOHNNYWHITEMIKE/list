@@ -1,0 +1,7 @@
+# Configuration for Ml-Research-Agent-Tasks
+agent:
+  name: "Ml-Research-Agent-Tasks"
+  description: "Tasks for ML Research Benchmark, a benchmark designed to evaluate the capabilities of AI agents in accelerating AI research and development."
+  github_url: "https://github.com/AlgorithmicResearchGroup/ML-Research-Agent-Tasks](https://github.com/AlgorithmicResearchGroup/ML-Research-Agent-Tasks"
+  
+# Add your configuration here

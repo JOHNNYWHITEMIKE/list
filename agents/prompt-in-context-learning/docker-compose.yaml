@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  prompt-in-context-learning:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: prompt-in-context-learning
+    environment:
+      - AGENT_NAME=Prompt-In-Context-Learning
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

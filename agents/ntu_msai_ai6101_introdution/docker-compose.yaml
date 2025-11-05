@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ntu_msai_ai6101_introdution:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ntu_msai_ai6101_introdution
+    environment:
+      - AGENT_NAME=Ntu_Msai_Ai6101_Introdution
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

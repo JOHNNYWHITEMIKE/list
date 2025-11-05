@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  botpress:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: botpress
+    environment:
+      - AGENT_NAME=Botpress
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

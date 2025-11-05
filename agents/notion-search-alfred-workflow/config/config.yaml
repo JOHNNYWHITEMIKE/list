@@ -1,0 +1,7 @@
+# Configuration for Notion-Search-Alfred-Workflow
+agent:
+  name: "Notion-Search-Alfred-Workflow"
+  description: "An Alfred workflow to search Notion with instant results"
+  github_url: "https://github.com/wrjlewis/notion-search-alfred-workflow](https://github.com/wrjlewis/notion-search-alfred-workflow"
+  
+# Add your configuration here

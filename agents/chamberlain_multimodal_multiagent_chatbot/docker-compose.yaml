@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  chamberlain_multimodal_multiagent_chatbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: chamberlain_multimodal_multiagent_chatbot
+    environment:
+      - AGENT_NAME=Chamberlain_Multimodal_Multiagent_Chatbot
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

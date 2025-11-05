@@ -1,0 +1,7 @@
+# Configuration for Waterlily
+agent:
+  name: "Waterlily"
+  description: "A project bringing ethics back to AI"
+  github_url: "https://github.com/Lilypad-Tech/Waterlily](https://github.com/Lilypad-Tech/Waterlily"
+  
+# Add your configuration here

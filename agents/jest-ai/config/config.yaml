@@ -1,0 +1,7 @@
+# Configuration for Jest-Ai
+agent:
+  name: "Jest-Ai"
+  description: "AI Agent testing suites"
+  github_url: "https://github.com/dreamcatcher-tech/jest-ai](https://github.com/dreamcatcher-tech/jest-ai"
+  
+# Add your configuration here

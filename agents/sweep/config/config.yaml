@@ -1,0 +1,7 @@
+# Configuration for Sweep
+agent:
+  name: "Sweep"
+  description: "Sweep is an AI tool that automates the transformation of GitHub issues into pull requests, streamlining code improvements and bug fixes, supported by a suite of features like codebase understanding, test running, and a developer-friendly interface for installation and usage"
+  github_url: "https://github.com/sweepai/sweep](https://github.com/sweepai/sweep"
+  
+# Add your configuration here

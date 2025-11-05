@@ -1,0 +1,7 @@
+# Configuration for Flow-Prompt
+agent:
+  name: "Flow-Prompt"
+  description: "Open source library for production prompt engineering and load balancing of AI Models"
+  github_url: "https://github.com/LamoomAI/flow-prompt](https://github.com/LamoomAI/flow-prompt"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Lm-Expansions
+agent:
+  name: "Lm-Expansions"
+  description: "When do Generative Query and Document Expansions Fail? A Comprehensive Study Across Methods, Retrievers, and Datasets"
+  github_url: "https://github.com/orionw/LM-expansions](https://github.com/orionw/LM-expansions"
+  
+# Add your configuration here

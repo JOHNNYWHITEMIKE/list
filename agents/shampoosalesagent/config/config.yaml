@@ -1,0 +1,7 @@
+# Configuration for Shampoosalesagent
+agent:
+  name: "Shampoosalesagent"
+  description: "A minimal LLM sales agent framework for sales agent fast deployment and benchmark. Support OpenAI models, Claude, HuggingFace models, Gem…"
+  github_url: "https://github.com/jackfsuia/ShampooSalesAgent](https://github.com/jackfsuia/ShampooSalesAgent"
+  
+# Add your configuration here

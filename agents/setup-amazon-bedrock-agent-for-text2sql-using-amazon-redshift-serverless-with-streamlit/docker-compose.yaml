@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  setup-amazon-bedrock-agent-for-text2sql-using-amazon-redshift-serverless-with-streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: setup-amazon-bedrock-agent-for-text2sql-using-amazon-redshift-serverless-with-streamlit
+    environment:
+      - AGENT_NAME=Setup-Amazon-Bedrock-Agent-For-Text2Sql-Using-Amazon-Redshift-Serverless-With-Streamlit
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

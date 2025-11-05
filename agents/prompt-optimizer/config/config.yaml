@@ -1,0 +1,7 @@
+# Configuration for Prompt-Optimizer
+agent:
+  name: "Prompt-Optimizer"
+  description: "Minimize LLM token complexity to save API costs and model computations."
+  github_url: "https://github.com/vaibkumr/prompt-optimizer](https://github.com/vaibkumr/prompt-optimizer"
+  
+# Add your configuration here

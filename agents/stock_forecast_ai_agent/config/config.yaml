@@ -1,0 +1,7 @@
+# Configuration for Stock_Forecast_Ai_Agent
+agent:
+  name: "Stock_Forecast_Ai_Agent"
+  description: "This is a small app to test the AI Agents functionallity for forecasting purposes. Mainly focusing on function calling."
+  github_url: "https://github.com/john2408/stock_forecast_ai_agent](https://github.com/john2408/stock_forecast_ai_agent"
+  
+# Add your configuration here

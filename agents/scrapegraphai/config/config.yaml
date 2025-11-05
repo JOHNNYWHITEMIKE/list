@@ -1,0 +1,7 @@
+# Configuration for ScrapeGraphAI
+agent:
+  name: "ScrapeGraphAI"
+  description: "ScrapeGraph AI provides a tool for creating AI agents that can automate web scraping tasks efficiently, enhancing data extraction capabilities through the use of LangGraph, function calls, and web scraping techniques"
+  github_url: "https://github.com/VinciGit00/Scrapegraph-ai](https://github.com/VinciGit00/Scrapegraph-ai"
+  
+# Add your configuration here

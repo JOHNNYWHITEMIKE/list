@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ai_agent_computer_vision:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai_agent_computer_vision
+    environment:
+      - AGENT_NAME=Ai_Agent_Computer_Vision
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

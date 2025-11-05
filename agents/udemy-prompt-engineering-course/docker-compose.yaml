@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  udemy-prompt-engineering-course:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: udemy-prompt-engineering-course
+    environment:
+      - AGENT_NAME=Udemy-Prompt-Engineering-Course
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

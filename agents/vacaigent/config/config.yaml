@@ -1,0 +1,7 @@
+# Configuration for VacAIgent
+agent:
+  name: "VacAIgent"
+  description: "VacAIgent is a Streamlit-integrated, CrewAI framework-based AI application (Trip Planner Agent) that automates and enhances trip planning through a user-friendly interface, demonstrating collaborative AI agent task execution and offering an interactive web app experience for tailoring travel plans"
+  github_url: "https://github.com/tonykipkemboi/trip_planner_agent](https://github.com/tonykipkemboi/trip_planner_agent"
+  
+# Add your configuration here

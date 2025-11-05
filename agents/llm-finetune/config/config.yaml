@@ -1,0 +1,7 @@
+# Configuration for Llm-Finetune
+agent:
+  name: "Llm-Finetune"
+  description: "The framework of training large language models，support lora, full parameters fine tune etc, define yaml to start training/fine tune of y…"
+  github_url: "https://github.com/OpenCSGs/llm-finetune](https://github.com/OpenCSGs/llm-finetune"
+  
+# Add your configuration here

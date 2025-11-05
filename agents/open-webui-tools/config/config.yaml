@@ -1,0 +1,7 @@
+# Configuration for Open-Webui-Tools
+agent:
+  name: "Open-Webui-Tools"
+  description: "a Repository of Open-WebUI tools to use with your favourite LLMs"
+  github_url: "https://github.com/Haervwe/open-webui-tools](https://github.com/Haervwe/open-webui-tools"
+  
+# Add your configuration here

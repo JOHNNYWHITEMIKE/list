@@ -1,0 +1,7 @@
+# Configuration for Argo-Workflows
+agent:
+  name: "Argo-Workflows"
+  description: "Workflow Engine for Kubernetes"
+  github_url: "https://github.com/argoproj/argo-workflows](https://github.com/argoproj/argo-workflows"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Classifai
+agent:
+  name: "Classifai"
+  description: "Supercharge WordPress Content Workflows and Engagement with Artificial Intelligence."
+  github_url: "https://github.com/10up/classifai](https://github.com/10up/classifai"
+  
+# Add your configuration here

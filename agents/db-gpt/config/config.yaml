@@ -1,0 +1,7 @@
+# Configuration for Db-Gpt
+agent:
+  name: "Db-Gpt"
+  description: "AI Native Data App Development framework with AWEL(Agentic Workflow Expression Language) and Agents"
+  github_url: "https://github.com/eosphoros-ai/DB-GPT](https://github.com/eosphoros-ai/DB-GPT"
+  
+# Add your configuration here

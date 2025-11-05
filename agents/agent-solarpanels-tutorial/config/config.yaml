@@ -1,0 +1,7 @@
+# Configuration for Agent-Solarpanels-Tutorial
+agent:
+  name: "Agent-Solarpanels-Tutorial"
+  description: "This repository contains an AI agent built with LangGraph to calculate energy savings for solar panels. The project is designed for use w…"
+  github_url: "https://github.com/Pairrot-Lore/agent-solarpanels-tutorial](https://github.com/Pairrot-Lore/agent-solarpanels-tutorial"
+  
+# Add your configuration here

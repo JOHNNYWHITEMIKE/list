@@ -1,0 +1,7 @@
+# Configuration for Worldwide_Ai-Ethics
+agent:
+  name: "Worldwide_Ai-Ethics"
+  description: "Worldwide AI Ethics (WAIE) is a systematic literature review done by AIRES researchers at PUCRS."
+  github_url: "https://github.com/Nkluge-correa/worldwide_AI-ethics](https://github.com/Nkluge-correa/worldwide_AI-ethics"
+  
+# Add your configuration here

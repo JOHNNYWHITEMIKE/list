@@ -1,0 +1,7 @@
+# Configuration for Nomiracl
+agent:
+  name: "Nomiracl"
+  description: "NoMIRACL - A multilingual hallucination evaluation dataset to evaluate LLM robustness in RAG against first-stage retrieval errors on 18 la…"
+  github_url: "https://github.com/project-miracl/nomiracl](https://github.com/project-miracl/nomiracl"
+  
+# Add your configuration here

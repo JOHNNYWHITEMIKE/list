@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  kaggle-courses-intro-to-ai-ethics:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kaggle-courses-intro-to-ai-ethics
+    environment:
+      - AGENT_NAME=Kaggle-Courses-Intro-To-Ai-Ethics
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

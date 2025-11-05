@@ -1,0 +1,7 @@
+# Configuration for Finetuning_Llm
+agent:
+  name: "Finetuning_Llm"
+  description: "Fine-tuning Meta Llama 2 7B Model on Healthcare Dataset using SageMaker"
+  github_url: "https://github.com/olumyk/finetuning_llm](https://github.com/olumyk/finetuning_llm"
+  
+# Add your configuration here

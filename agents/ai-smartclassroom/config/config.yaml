@@ -1,0 +1,7 @@
+# Configuration for Ai-Smartclassroom
+agent:
+  name: "Ai-Smartclassroom"
+  description: "Undergrad Final Year Project. A step up from Google Classroom by integrating Agentic AI, RAG, Reinforcement Learning and advance concepts…"
+  github_url: "https://github.com/adv-11/AI-SmartClassroom](https://github.com/adv-11/AI-SmartClassroom"
+  
+# Add your configuration here

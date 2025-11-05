@@ -1,0 +1,7 @@
+# Configuration for Ruote-Kit
+agent:
+  name: "Ruote-Kit"
+  description: "RESTish wrapper for ruote workflow engine"
+  github_url: "https://github.com/kennethkalmer/ruote-kit](https://github.com/kennethkalmer/ruote-kit"
+  
+# Add your configuration here

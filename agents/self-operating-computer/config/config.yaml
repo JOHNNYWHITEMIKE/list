@@ -1,0 +1,7 @@
+# Configuration for Self Operating Computer
+agent:
+  name: "Self Operating Computer"
+  description: "Self Operating Computer (SOC) enables multimodal models to autonomously interact with a computer using human-like inputs and outputs, including controlling the keyboard and mouse. It is compatible with various models and under ongoing development for more accurate functionalities"
+  github_url: ""
+  
+# Add your configuration here

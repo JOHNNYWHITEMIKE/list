@@ -1,0 +1,7 @@
+# Configuration for Prompt-In-Context-Learning
+agent:
+  name: "Prompt-In-Context-Learning"
+  description: "Awesome resources for in-context learning and prompt engineering - Mastery of the LLMs such as ChatGPT, GPT-3, and FlanT5, with up-to-date…"
+  github_url: "https://github.com/EgoAlpha/prompt-in-context-learning](https://github.com/EgoAlpha/prompt-in-context-learning"
+  
+# Add your configuration here

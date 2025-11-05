@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  reusable-workflows:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: reusable-workflows
+    environment:
+      - AGENT_NAME=Reusable-Workflows
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

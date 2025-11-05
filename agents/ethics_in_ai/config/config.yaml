@@ -1,0 +1,7 @@
+# Configuration for Ethics_In_Ai
+agent:
+  name: "Ethics_In_Ai"
+  description: "This is reflection piece on Michal Kosinski's talk https://www.youtube.com/watch?v=NesTWiKfpD0 and a discussion of the state of privacy a…"
+  github_url: "https://github.com/heathervant/ethics_in_AI](https://github.com/heathervant/ethics_in_AI"
+  
+# Add your configuration here

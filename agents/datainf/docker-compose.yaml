@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  datainf:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: datainf
+    environment:
+      - AGENT_NAME=Datainf
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

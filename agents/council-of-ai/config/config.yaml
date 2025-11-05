@@ -1,0 +1,7 @@
+# Configuration for Council-Of-Ai
+agent:
+  name: "Council-Of-Ai"
+  description: "Security measure for agentic LLMs using a council of AIs moderted by a veto system. The council judges an agent's actions outputs based o…"
+  github_url: "https://github.com/seanpixel/council-of-ai](https://github.com/seanpixel/council-of-ai"
+  
+# Add your configuration here

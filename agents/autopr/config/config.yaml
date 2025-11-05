@@ -1,0 +1,7 @@
+# Configuration for Autopr
+agent:
+  name: "Autopr"
+  description: "Run AI-powered workflows over your codebase"
+  github_url: "https://github.com/irgolic/AutoPR](https://github.com/irgolic/AutoPR"
+  
+# Add your configuration here

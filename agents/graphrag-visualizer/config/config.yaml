@@ -1,0 +1,7 @@
+# Configuration for Graphrag-Visualizer
+agent:
+  name: "Graphrag-Visualizer"
+  description: "A web-based tool for visualizing and exploring artifacts from Microsoft's GraphRAG."
+  github_url: "https://github.com/noworneverev/graphrag-visualizer](https://github.com/noworneverev/graphrag-visualizer"
+  
+# Add your configuration here

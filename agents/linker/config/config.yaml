@@ -1,0 +1,7 @@
+# Configuration for Linker
+agent:
+  name: "Linker"
+  description: "workflow editor library"
+  github_url: "https://github.com/m-reda/linker](https://github.com/m-reda/linker"
+  
+# Add your configuration here

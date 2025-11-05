@@ -1,0 +1,7 @@
+# Configuration for Git-Practice
+agent:
+  name: "Git-Practice"
+  description: "Practice about Git workflow"
+  github_url: "https://github.com/awesome-academy/git-practice](https://github.com/awesome-academy/git-practice"
+  
+# Add your configuration here

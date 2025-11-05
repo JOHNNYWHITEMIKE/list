@@ -1,0 +1,7 @@
+# Configuration for Agent Tools
+agent:
+  name: "Agent Tools"
+  description: "Typescript tools for Bitcoin/Stacks blockchain interaction, utilizing Bun.js and Stacks.js, with a focus on AI integration"
+  github_url: "https://github.com/aibtcdev/agent-tools-ts](https://github.com/aibtcdev/agent-tools-ts"
+  
+# Add your configuration here

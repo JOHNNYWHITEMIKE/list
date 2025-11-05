@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  deploy-pages:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: deploy-pages
+    environment:
+      - AGENT_NAME=Deploy-Pages
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

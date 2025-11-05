@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  mlx-vlm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mlx-vlm
+    environment:
+      - AGENT_NAME=Mlx-Vlm
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

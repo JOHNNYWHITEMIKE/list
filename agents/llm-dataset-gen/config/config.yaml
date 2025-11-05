@@ -1,0 +1,7 @@
+# Configuration for Llm-Dataset-Gen
+agent:
+  name: "Llm-Dataset-Gen"
+  description: "Using LLMs (OpenAI API) to generate and add data to datasets"
+  github_url: "https://github.com/Brandon82/llm-dataset-gen](https://github.com/Brandon82/llm-dataset-gen"
+  
+# Add your configuration here

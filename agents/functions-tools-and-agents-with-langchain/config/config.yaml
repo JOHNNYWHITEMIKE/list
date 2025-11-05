@@ -1,0 +1,7 @@
+# Configuration for Functions-Tools-And-Agents-With-Langchain
+agent:
+  name: "Functions-Tools-And-Agents-With-Langchain"
+  description: "You’ll explore new advancements like ChatGPT’s function calling capability, and build a conversational agent using a new syntax called La…"
+  github_url: "https://github.com/Ryota-Kawamura/Functions-Tools-and-Agents-with-LangChain](https://github.com/Ryota-Kawamura/Functions-Tools-and-Agents-with-LangChain"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Azure Speech Service
+agent:
+  name: "Azure Speech Service"
+  description: "The Azure Speech service supports a wide range of languages and locales, with over 400 neural voices available in more than 140 languages and locales, including multilingual voices that can speak multiple languages"
+  github_url: ""
+  
+# Add your configuration here

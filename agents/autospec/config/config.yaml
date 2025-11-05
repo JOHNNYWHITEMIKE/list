@@ -1,0 +1,7 @@
+# Configuration for Autospec
+agent:
+  name: "Autospec"
+  description: "Autospec is an open-source AI agent that takes a web app URL and autonomously QAs it, and saves its passing specs as E2E test code"
+  github_url: "https://github.com/zachblume/autospec](https://github.com/zachblume/autospec"
+  
+# Add your configuration here

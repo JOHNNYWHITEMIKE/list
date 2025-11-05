@@ -1,0 +1,7 @@
+# Configuration for Llm-As-Function
+agent:
+  name: "Llm-As-Function"
+  description: "Embed your LLM into a python function"
+  github_url: "https://github.com/gusye1234/llm-as-function](https://github.com/gusye1234/llm-as-function"
+  
+# Add your configuration here

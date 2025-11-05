@@ -1,0 +1,7 @@
+# Configuration for Dravid
+agent:
+  name: "Dravid"
+  description: "AI powered cli coding agent that monitors your dev/test server and fixes errors and adds features"
+  github_url: "https://github.com/vysakh0/dravid](https://github.com/vysakh0/dravid"
+  
+# Add your configuration here

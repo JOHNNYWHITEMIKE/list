@@ -1,0 +1,7 @@
+# Configuration for Ethicsforais
+agent:
+  name: "Ethicsforais"
+  description: "Here are ethical principles for AI's to read."
+  github_url: "https://github.com/Wowo51/EthicsForAIs](https://github.com/Wowo51/EthicsForAIs"
+  
+# Add your configuration here

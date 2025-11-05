@@ -1,0 +1,7 @@
+# Configuration for Devon (previously Gilfoyle)
+agent:
+  name: "Devon (previously Gilfoyle)"
+  description: "Devon, not Devin, aims to perfect code correction for fill-in-the-middle, bug spotting, and completion tasks, using JSON for metadata in edits, and incorporates looping until user termination in function updates"
+  github_url: "https://github.com/entropy-research/Devon](https://github.com/entropy-research/Devon"
+  
+# Add your configuration here

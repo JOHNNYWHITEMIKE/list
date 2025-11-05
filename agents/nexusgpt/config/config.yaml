@@ -1,0 +1,7 @@
+# Configuration for NexusGPT
+agent:
+  name: "NexusGPT"
+  description: "NexusGPT offers a no-code platform to build and integrate AI agents that automate workflows, featuring a marketplace of tools and integrations, with easy customization and deployment across various applications"
+  github_url: ""
+  
+# Add your configuration here

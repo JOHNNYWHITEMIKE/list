@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  laraadmin-crm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: laraadmin-crm
+    environment:
+      - AGENT_NAME=Laraadmin-Crm
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Ai-Agent-Test
+agent:
+  name: "Ai-Agent-Test"
+  description: "A test repository for AI agent interactions"
+  github_url: "https://github.com/sfelkner/ai-agent-test](https://github.com/sfelkner/ai-agent-test"
+  
+# Add your configuration here

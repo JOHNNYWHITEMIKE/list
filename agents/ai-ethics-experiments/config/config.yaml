@@ -1,0 +1,7 @@
+# Configuration for Ai-Ethics-Experiments
+agent:
+  name: "Ai-Ethics-Experiments"
+  description: "Analyzing AI's Responses To Ethical Dilemmas"
+  github_url: "https://github.com/jtrugman/ai-ethics-experiments](https://github.com/jtrugman/ai-ethics-experiments"
+  
+# Add your configuration here

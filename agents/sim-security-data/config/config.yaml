@@ -1,0 +1,7 @@
+# Configuration for Sim-Security-Data
+agent:
+  name: "Sim-Security-Data"
+  description: "Where I collect and process data for AI agents"
+  github_url: "https://github.com/Sim-Security/Sim-Security-Data](https://github.com/Sim-Security/Sim-Security-Data"
+  
+# Add your configuration here

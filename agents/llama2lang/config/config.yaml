@@ -1,0 +1,7 @@
+# Configuration for Llama2Lang
+agent:
+  name: "Llama2Lang"
+  description: "Convenience scripts to finetune (chat-)LLaMa3 and other models for any language"
+  github_url: "https://github.com/AI-Commandos/LLaMa2lang](https://github.com/AI-Commandos/LLaMa2lang"
+  
+# Add your configuration here

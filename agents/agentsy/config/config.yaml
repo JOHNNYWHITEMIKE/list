@@ -1,0 +1,7 @@
+# Configuration for Agentsy
+agent:
+  name: "Agentsy"
+  description: "Agentsy is an AI-driven platform designed to double team capacity by enhancing efficiency and creativity, starting with operations use cases like real estate"
+  github_url: ""
+  
+# Add your configuration here

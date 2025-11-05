@@ -1,0 +1,7 @@
+# Configuration for Tinyllm
+agent:
+  name: "Tinyllm"
+  description: "LLM implementations on small scale dataset"
+  github_url: "https://github.com/meet-minimalist/TinyLLM](https://github.com/meet-minimalist/TinyLLM"
+  
+# Add your configuration here

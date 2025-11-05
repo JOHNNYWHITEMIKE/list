@@ -1,0 +1,7 @@
+# Configuration for Home-Llm
+agent:
+  name: "Home-Llm"
+  description: "A Home Assistant integration & Model to control your smart home using a Local LLM"
+  github_url: "https://github.com/acon96/home-llm](https://github.com/acon96/home-llm"
+  
+# Add your configuration here

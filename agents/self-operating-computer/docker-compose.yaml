@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  self-operating-computer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: self-operating-computer
+    environment:
+      - AGENT_NAME=Self Operating Computer
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

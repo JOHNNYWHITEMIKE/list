@@ -1,0 +1,7 @@
+# Configuration for Biobakery_Workflows
+agent:
+  name: "Biobakery_Workflows"
+  description: "bioBakery workflows is a collection of workflows and tasks for executing common microbial community analyses using standardized, validate…"
+  github_url: "https://github.com/biobakery/biobakery_workflows](https://github.com/biobakery/biobakery_workflows"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llm_evaluation_for_gene_set_interpretation:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm_evaluation_for_gene_set_interpretation
+    environment:
+      - AGENT_NAME=Llm_Evaluation_For_Gene_Set_Interpretation
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  solution_to_ethical_issue_in_ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: solution_to_ethical_issue_in_ai
+    environment:
+      - AGENT_NAME=Solution_To_Ethical_Issue_In_Ai
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

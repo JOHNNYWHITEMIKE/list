@@ -1,0 +1,7 @@
+# Configuration for Smriprep
+agent:
+  name: "Smriprep"
+  description: "Structural MRI PREProcessing (sMRIPrep) workflows for NIPreps (NeuroImaging PREProcessing tools)"
+  github_url: "https://github.com/nipreps/smriprep](https://github.com/nipreps/smriprep"
+  
+# Add your configuration here

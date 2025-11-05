@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  machine-learning-guide:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: machine-learning-guide
+    environment:
+      - AGENT_NAME=Machine-Learning-Guide
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

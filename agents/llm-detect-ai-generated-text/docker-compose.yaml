@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llm-detect-ai-generated-text:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm-detect-ai-generated-text
+    environment:
+      - AGENT_NAME=Llm---Detect-Ai-Generated-Text
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  vue-vscode-snippets:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vue-vscode-snippets
+    environment:
+      - AGENT_NAME=Vue-Vscode-Snippets
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

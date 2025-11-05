@@ -1,0 +1,7 @@
+# Configuration for Botpress
+agent:
+  name: "Botpress"
+  description: "The open-source hub to build & deploy GPT/LLM Agents ⚡️"
+  github_url: "https://github.com/botpress/botpress](https://github.com/botpress/botpress"
+  
+# Add your configuration here

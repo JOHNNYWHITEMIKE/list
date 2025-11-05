@@ -1,0 +1,7 @@
+# Configuration for Theagentsgameai
+agent:
+  name: "Theagentsgameai"
+  description: "AI testing system for The Agents Game logic, using decision tree."
+  github_url: "https://github.com/ZelunGlenn/TheAgentsGameAI](https://github.com/ZelunGlenn/TheAgentsGameAI"
+  
+# Add your configuration here

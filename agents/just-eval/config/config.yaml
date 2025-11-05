@@ -1,0 +1,7 @@
+# Configuration for Just-Eval
+agent:
+  name: "Just-Eval"
+  description: "A simple GPT-based evaluation tool for multi-aspect, interpretable assessment of LLMs."
+  github_url: "https://github.com/Re-Align/just-eval](https://github.com/Re-Align/just-eval"
+  
+# Add your configuration here

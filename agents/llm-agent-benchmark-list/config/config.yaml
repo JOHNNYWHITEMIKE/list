@@ -1,0 +1,7 @@
+# Configuration for Llm-Agent-Benchmark-List
+agent:
+  name: "Llm-Agent-Benchmark-List"
+  description: "A banchmark list for evaluation of large language models."
+  github_url: "https://github.com/zhangxjohn/LLM-Agent-Benchmark-List](https://github.com/zhangxjohn/LLM-Agent-Benchmark-List"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Agent-Smith-E2E-Test
+agent:
+  name: "Agent-Smith-E2E-Test"
+  description: "AI-powered E2E testing tool"
+  github_url: "https://github.com/dangoddard-trilogy/agent-smith-e2e-test](https://github.com/dangoddard-trilogy/agent-smith-e2e-test"
+  
+# Add your configuration here

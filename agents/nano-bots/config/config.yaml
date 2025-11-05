@@ -1,0 +1,7 @@
+# Configuration for Nano-Bots
+agent:
+  name: "Nano-Bots"
+  description: "Repository for Nano Bots' Cartridges - small, AI-powered bots that can be easily shared as a single file, designed to support multiple pro…"
+  github_url: "https://github.com/icebaker/nano-bots](https://github.com/icebaker/nano-bots"
+  
+# Add your configuration here

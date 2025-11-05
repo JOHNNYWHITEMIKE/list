@@ -1,0 +1,7 @@
+# Configuration for Devika
+agent:
+  name: "Devika"
+  description: "Devika is an open-source AI software engineer designed to understand and execute high-level coding tasks by researching, planning, and writing code, aiming to be a competitive alternative to Cognition AI's Devin"
+  github_url: "https://github.com/stitionai/devika](https://github.com/stitionai/devika"
+  
+# Add your configuration here

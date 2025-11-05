@@ -1,0 +1,7 @@
+# Configuration for Ai-Writing-Survey
+agent:
+  name: "Ai-Writing-Survey"
+  description: "This repository contains the results of a survey about the use of AI for academic writing. The survey includes responses from 24 particip…"
+  github_url: "https://github.com/ahdediu/AI-Writing-Survey](https://github.com/ahdediu/AI-Writing-Survey"
+  
+# Add your configuration here

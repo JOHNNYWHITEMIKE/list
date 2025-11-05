@@ -1,0 +1,7 @@
+# Configuration for Chatglm-6B-Engineering
+agent:
+  name: "Chatglm-6B-Engineering"
+  description: "ChatGLM-6B Prompt Engineering Project"
+  github_url: "https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering](https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering"
+  
+# Add your configuration here

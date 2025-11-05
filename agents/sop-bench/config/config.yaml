@@ -1,0 +1,7 @@
+# Configuration for Sop-Bench
+agent:
+  name: "Sop-Bench"
+  description: "Benchmark for evaluating llm agents to solve real-world standard operating procedures"
+  github_url: "https://github.com/Norditech-AB/SOP-bench](https://github.com/Norditech-AB/SOP-bench"
+  
+# Add your configuration here

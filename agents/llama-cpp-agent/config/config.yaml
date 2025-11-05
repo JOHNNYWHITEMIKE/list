@@ -1,0 +1,7 @@
+# Configuration for Llama-Cpp-Agent
+agent:
+  name: "Llama-Cpp-Agent"
+  description: "The llama-cpp-agent framework is a tool designed for easy interaction with Large Language Models (LLMs). Allowing users to chat with LLM …"
+  github_url: "https://github.com/Maximilian-Winter/llama-cpp-agent](https://github.com/Maximilian-Winter/llama-cpp-agent"
+  
+# Add your configuration here

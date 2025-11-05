@@ -1,0 +1,7 @@
+# Configuration for Llm-Api
+agent:
+  name: "Llm-Api"
+  description: "Run any Large Language Model behind a unified API"
+  github_url: "https://github.com/1b5d/llm-api](https://github.com/1b5d/llm-api"
+  
+# Add your configuration here

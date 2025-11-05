@@ -1,0 +1,7 @@
+# Configuration for Ai_Brainstorming_Team_Agents
+agent:
+  name: "Ai_Brainstorming_Team_Agents"
+  description: "Test your ideas by consulting a series of experts"
+  github_url: "https://github.com/jkalonji/AI_Brainstorming_Team_Agents](https://github.com/jkalonji/AI_Brainstorming_Team_Agents"
+  
+# Add your configuration here

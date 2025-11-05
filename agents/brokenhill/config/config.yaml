@@ -1,0 +1,7 @@
+# Configuration for Brokenhill
+agent:
+  name: "Brokenhill"
+  description: "A productionized greedy coordinate gradient (GCG) attack tool for large language models (LLMs)"
+  github_url: "https://github.com/BishopFox/BrokenHill](https://github.com/BishopFox/BrokenHill"
+  
+# Add your configuration here

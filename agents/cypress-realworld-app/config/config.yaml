@@ -1,0 +1,7 @@
+# Configuration for Cypress-Realworld-App
+agent:
+  name: "Cypress-Realworld-App"
+  description: "A payment application to demonstrate real-world usage of Cypress testing methods, patterns, and workflows."
+  github_url: "https://github.com/cypress-io/cypress-realworld-app](https://github.com/cypress-io/cypress-realworld-app"
+  
+# Add your configuration here

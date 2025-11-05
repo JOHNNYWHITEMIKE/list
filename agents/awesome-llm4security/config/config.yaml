@@ -1,0 +1,7 @@
+# Configuration for Awesome-Llm4Security
+agent:
+  name: "Awesome-Llm4Security"
+  description: "This project aims to consolidate and share high-quality resources and tools across the cybersecurity domain."
+  github_url: "https://github.com/liu673/Awesome-LLM4Security](https://github.com/liu673/Awesome-LLM4Security"
+  
+# Add your configuration here

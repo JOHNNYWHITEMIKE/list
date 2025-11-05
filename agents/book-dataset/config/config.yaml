@@ -1,0 +1,7 @@
+# Configuration for Book-Dataset
+agent:
+  name: "Book-Dataset"
+  description: "A simple dataset for pre-training little LLMs."
+  github_url: "https://github.com/mahiatlinux/Book-Dataset](https://github.com/mahiatlinux/Book-Dataset"
+  
+# Add your configuration here

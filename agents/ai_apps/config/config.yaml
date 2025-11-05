@@ -1,0 +1,7 @@
+# Configuration for Ai_Apps
+agent:
+  name: "Ai_Apps"
+  description: "AI Agent Test with CrewAI framework"
+  github_url: "https://github.com/huneyk/AI_Apps](https://github.com/huneyk/AI_Apps"
+  
+# Add your configuration here

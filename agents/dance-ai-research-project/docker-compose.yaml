@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  dance-ai-research-project:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dance-ai-research-project
+    environment:
+      - AGENT_NAME=Dance-Ai-Research-Project
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Tabby
+agent:
+  name: "Tabby"
+  description: "Tabby is a self-hosted, open-source AI coding assistant similar to GitHub Copilot, featuring a self-contained setup with no DBMS/cloud dependency, OpenAPI for easy integration, consumer-grade GPU support, and a full-feature admin UI in its latest release"
+  github_url: "https://github.com/TabbyML/tabby](https://github.com/TabbyML/tabby"
+  
+# Add your configuration here

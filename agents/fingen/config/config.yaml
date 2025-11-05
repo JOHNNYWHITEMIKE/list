@@ -1,0 +1,7 @@
+# Configuration for FinGen
+agent:
+  name: "FinGen"
+  description: "FinGen is a financial analysis agent using RSC, LangChain, and Polygon finance API, emphasizing it's not financial advice and requires API keys for use"
+  github_url: ""
+  
+# Add your configuration here

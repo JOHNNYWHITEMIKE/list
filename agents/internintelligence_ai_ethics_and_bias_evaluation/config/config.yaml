@@ -1,0 +1,7 @@
+# Configuration for Internintelligence_Ai_Ethics_And_Bias_Evaluation
+agent:
+  name: "Internintelligence_Ai_Ethics_And_Bias_Evaluation"
+  description: "This project evaluates the fairness of a machine learning model trained on the Adult Income Dataset to predict income. Using metrics like…"
+  github_url: "https://github.com/Abedini81/InternIntelligence_AI_Ethics_and_Bias_Evaluation](https://github.com/Abedini81/InternIntelligence_AI_Ethics_and_Bias_Evaluation"
+  
+# Add your configuration here

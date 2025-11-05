@@ -1,0 +1,7 @@
+# Configuration for Prompt-Engineering-Notebook
+agent:
+  name: "Prompt-Engineering-Notebook"
+  description: "ChatGPT Prompt Engineering for Developers Jupyter Notebook. 《给开发者的 ChatGPT 提示工程》学习笔记。 #ChatGPT #Prompt #Prompts #Prompt-Engineering #Prompts"
+  github_url: "https://github.com/madroidmaq/prompt-engineering-notebook](https://github.com/madroidmaq/prompt-engineering-notebook"
+  
+# Add your configuration here

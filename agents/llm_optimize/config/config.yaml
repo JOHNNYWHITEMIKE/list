@@ -1,0 +1,7 @@
+# Configuration for Llm_Optimize
+agent:
+  name: "Llm_Optimize"
+  description: "LLM Optimize is a proof-of-concept library for doing LLM (large language model) guided blackbox optimization."
+  github_url: "https://github.com/sshh12/llm_optimize](https://github.com/sshh12/llm_optimize"
+  
+# Add your configuration here

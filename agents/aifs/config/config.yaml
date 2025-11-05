@@ -1,0 +1,7 @@
+# Configuration for aifs
+agent:
+  name: "aifs"
+  description: "AIFS offers a simple and efficient local semantic search capability for folders, leveraging Unstructured.IO for advanced data processing and ChromaDB for fast, similarity-based searching of embeddings"
+  github_url: "https://github.com/OpenInterpreter/aifs](https://github.com/OpenInterpreter/aifs"
+  
+# Add your configuration here

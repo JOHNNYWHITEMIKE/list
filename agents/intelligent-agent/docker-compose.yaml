@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  intelligent-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: intelligent-agent
+    environment:
+      - AGENT_NAME=Intelligent-Agent
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

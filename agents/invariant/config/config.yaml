@@ -1,0 +1,7 @@
+# Configuration for Invariant
+agent:
+  name: "Invariant"
+  description: "Helps you build better AI agents through debuggable unit testing"
+  github_url: "https://github.com/invariantlabs-ai/invariant](https://github.com/invariantlabs-ai/invariant"
+  
+# Add your configuration here

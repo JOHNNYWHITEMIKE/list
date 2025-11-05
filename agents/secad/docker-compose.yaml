@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  secad:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: secad
+    environment:
+      - AGENT_NAME=Secad
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

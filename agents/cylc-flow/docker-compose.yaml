@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  cylc-flow:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cylc-flow
+    environment:
+      - AGENT_NAME=Cylc-Flow
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

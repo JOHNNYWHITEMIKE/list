@@ -1,0 +1,7 @@
+# Configuration for Prompt-Engineering-Note
+agent:
+  name: "Prompt-Engineering-Note"
+  description: "🔥🔔prompt-engineering-note🔔🔥"
+  github_url: "https://github.com/isLinXu/prompt-engineering-note](https://github.com/isLinXu/prompt-engineering-note"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  parsee-datasets:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: parsee-datasets
+    environment:
+      - AGENT_NAME=Parsee-Datasets
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

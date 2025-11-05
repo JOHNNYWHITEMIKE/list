@@ -1,0 +1,7 @@
+# Configuration for Ai_Ethics_Bookclub
+agent:
+  name: "Ai_Ethics_Bookclub"
+  description: "This repository has details regarding books read and to be read by the AICN Ethics Bookclub"
+  github_url: "https://github.com/ofchurches/AI_ethics_bookclub](https://github.com/ofchurches/AI_ethics_bookclub"
+  
+# Add your configuration here

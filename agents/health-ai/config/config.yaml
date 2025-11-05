@@ -1,0 +1,7 @@
+# Configuration for Health-Ai
+agent:
+  name: "Health-Ai"
+  description: "Testing grounds for health ai agent"
+  github_url: "https://github.com/sj-data/health-ai](https://github.com/sj-data/health-ai"
+  
+# Add your configuration here

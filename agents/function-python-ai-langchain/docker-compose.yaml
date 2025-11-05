@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  function-python-ai-langchain:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: function-python-ai-langchain
+    environment:
+      - AGENT_NAME=Function-Python-Ai-Langchain
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

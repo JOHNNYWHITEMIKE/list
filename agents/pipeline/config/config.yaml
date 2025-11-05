@@ -1,0 +1,7 @@
+# Configuration for Pipeline
+agent:
+  name: "Pipeline"
+  description: "Pipeline is a package to build multi-staged concurrent workflows with a centralized logging output."
+  github_url: "https://github.com/myntra/pipeline](https://github.com/myntra/pipeline"
+  
+# Add your configuration here

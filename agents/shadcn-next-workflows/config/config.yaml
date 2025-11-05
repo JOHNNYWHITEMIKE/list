@@ -1,0 +1,7 @@
+# Configuration for Shadcn-Next-Workflows
+agent:
+  name: "Shadcn-Next-Workflows"
+  description: "Interactive workflow builder using React Flows, Next.js, and Shadcnui. Create, connect, and validate custom nodes easily."
+  github_url: "https://github.com/nobruf/shadcn-next-workflows](https://github.com/nobruf/shadcn-next-workflows"
+  
+# Add your configuration here

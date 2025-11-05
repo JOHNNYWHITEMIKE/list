@@ -1,0 +1,7 @@
+# Configuration for Awesome-Llm4Tool
+agent:
+  name: "Awesome-Llm4Tool"
+  description: "A curated list of the papers, repositories, tutorials, and anythings related to the large language models for tools"
+  github_url: "https://github.com/OpenGVLab/Awesome-LLM4Tool](https://github.com/OpenGVLab/Awesome-LLM4Tool"
+  
+# Add your configuration here

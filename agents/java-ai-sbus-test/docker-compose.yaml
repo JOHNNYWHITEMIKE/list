@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  java-ai-sbus-test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: java-ai-sbus-test
+    environment:
+      - AGENT_NAME=Java-Ai-Sbus-Test
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

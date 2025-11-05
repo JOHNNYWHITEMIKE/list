@@ -1,0 +1,7 @@
+# Configuration for Csc2541-F19
+agent:
+  name: "Csc2541-F19"
+  description: "CSC 2541F - AI and Ethics - Mathematical Foundations and Algorithms Fall, 2019"
+  github_url: "https://github.com/johntiger1/csc2541-f19](https://github.com/johntiger1/csc2541-f19"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Guardrails
+agent:
+  name: "Guardrails"
+  description: "Guardrails is a Python framework for building reliable AI applications, offering Input/Output Guards to detect and mitigate risks, along with structured data generation from large language models (LLMs)"
+  github_url: "https://github.com/guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails"
+  
+# Add your configuration here

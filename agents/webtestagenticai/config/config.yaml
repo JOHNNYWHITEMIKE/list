@@ -1,0 +1,7 @@
+# Configuration for Webtestagenticai
+agent:
+  name: "Webtestagenticai"
+  description: "Web test Agent AI"
+  github_url: "https://github.com/tvalentius/WebTestAgenticAI](https://github.com/tvalentius/WebTestAgenticAI"
+  
+# Add your configuration here

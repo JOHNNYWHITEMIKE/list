@@ -1,0 +1,7 @@
+# Configuration for Ai-Ethics-Fairness-And-Bias
+agent:
+  name: "Ai-Ethics-Fairness-And-Bias"
+  description: "Sample project using IBM's AI Fairness 360 is an open source toolkit for determining, examining, and mitigating discrimination and bias i…"
+  github_url: "https://github.com/jolares/ai-ethics-fairness-and-bias](https://github.com/jolares/ai-ethics-fairness-and-bias"
+  
+# Add your configuration here

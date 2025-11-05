@@ -1,0 +1,7 @@
+# Configuration for Dance-Ai-Research-Project
+agent:
+  name: "Dance-Ai-Research-Project"
+  description: "The main repository for managing the research towards developing and deploying an interactive dance AI agent to research ML techniques an…"
+  github_url: "https://github.com/jzho987/dance-ai-research-project](https://github.com/jzho987/dance-ai-research-project"
+  
+# Add your configuration here

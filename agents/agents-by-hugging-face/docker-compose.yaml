@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  agents-by-hugging-face:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agents-by-hugging-face
+    environment:
+      - AGENT_NAME=Agents by Hugging Face
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Ai_Agent_Crewai
+agent:
+  name: "Ai_Agent_Crewai"
+  description: "testing CrewAI"
+  github_url: "https://github.com/Ronin-117/Ai_Agent_CrewAI](https://github.com/Ronin-117/Ai_Agent_CrewAI"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Inker
+agent:
+  name: "Inker"
+  description: "Evolved email development & delivery workflow"
+  github_url: "https://github.com/posabsolute/inker](https://github.com/posabsolute/inker"
+  
+# Add your configuration here

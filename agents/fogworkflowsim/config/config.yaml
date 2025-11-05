@@ -1,0 +1,7 @@
+# Configuration for Fogworkflowsim
+agent:
+  name: "Fogworkflowsim"
+  description: "An Environment for Simulation and Performance Evaluation of Workflows in Fog Computing"
+  github_url: "https://github.com/ISEC-AHU/FogWorkflowSim](https://github.com/ISEC-AHU/FogWorkflowSim"
+  
+# Add your configuration here

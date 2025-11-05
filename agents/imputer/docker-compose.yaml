@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  imputer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: imputer
+    environment:
+      - AGENT_NAME=Imputer
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

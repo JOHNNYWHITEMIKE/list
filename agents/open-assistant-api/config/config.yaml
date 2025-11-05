@@ -1,0 +1,7 @@
+# Configuration for Open Assistant API
+agent:
+  name: "Open Assistant API"
+  description: "The Open Assistant API is a self-hosted, open-source framework that enables the creation of customized AI assistants, supporting integration with OpenAI's LLM and LangChain SDK, and is compatible with OpenAI's Assistants API, allowing for seamless orchestration and extension capabilities"
+  github_url: "https://github.com/MLT-OSS/open-assistant-api](https://github.com/MLT-OSS/open-assistant-api"
+  
+# Add your configuration here

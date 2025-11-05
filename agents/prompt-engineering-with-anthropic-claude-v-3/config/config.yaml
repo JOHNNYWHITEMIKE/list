@@ -1,0 +1,7 @@
+# Configuration for Prompt-Engineering-With-Anthropic-Claude-V-3
+agent:
+  name: "Prompt-Engineering-With-Anthropic-Claude-V-3"
+  description: "This course is intended to provide you with a comprehensive step-by-step understanding of how to engineer optimal prompts within Claude, using Bedrock."
+  github_url: "https://github.com/aws-samples/prompt-engineering-with-anthropic-claude-v-3](https://github.com/aws-samples/prompt-engineering-with-anthropic-claude-v-3"
+  
+# Add your configuration here

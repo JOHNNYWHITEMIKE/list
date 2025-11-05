@@ -1,0 +1,7 @@
+# Configuration for Ai-Agents
+agent:
+  name: "Ai-Agents"
+  description: "This repo is for learning how to deploy ai agent with langgraph on langgraph cloud."
+  github_url: "https://github.com/Bilalkhan4086/ai-agents](https://github.com/Bilalkhan4086/ai-agents"
+  
+# Add your configuration here

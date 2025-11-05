@@ -1,0 +1,7 @@
+# Configuration for Llm_Finetune
+agent:
+  name: "Llm_Finetune"
+  description: "synthetic dataset gneration and fine tune"
+  github_url: "https://github.com/TalhaUsuf/LLM_finetune](https://github.com/TalhaUsuf/LLM_finetune"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Command R+ by Cohere
+agent:
+  name: "Command R+ by Cohere"
+  description: "Cohere introduces Command R+, an advanced, scalable LLM optimized for enterprise needs with advanced RAG, multilingual support, and sophisticated tool-use capabilities for automating complex business workflows, available first on Microsoft Azure"
+  github_url: ""
+  
+# Add your configuration here

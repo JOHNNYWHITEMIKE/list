@@ -1,0 +1,7 @@
+# Configuration for Ai4All-
+agent:
+  name: "Ai4All-"
+  description: "Ethics and Machine Learning"
+  github_url: "https://github.com/bnam2103/AI4ALL-](https://github.com/bnam2103/AI4ALL-"
+  
+# Add your configuration here

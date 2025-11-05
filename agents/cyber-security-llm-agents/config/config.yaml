@@ -1,0 +1,7 @@
+# Configuration for Cyber-Security-Llm-Agents
+agent:
+  name: "Cyber-Security-Llm-Agents"
+  description: "A collection of agents that use Large Language Models (LLMs) to perform tasks common on our day to day jobs in cyber security."
+  github_url: "https://github.com/NVISOsecurity/cyber-security-llm-agents](https://github.com/NVISOsecurity/cyber-security-llm-agents"
+  
+# Add your configuration here

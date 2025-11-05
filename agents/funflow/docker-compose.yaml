@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  funflow:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: funflow
+    environment:
+      - AGENT_NAME=Funflow
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

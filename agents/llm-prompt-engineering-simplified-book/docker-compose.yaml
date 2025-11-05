@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llm-prompt-engineering-simplified-book:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm-prompt-engineering-simplified-book
+    environment:
+      - AGENT_NAME=Llm-Prompt-Engineering-Simplified-Book
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

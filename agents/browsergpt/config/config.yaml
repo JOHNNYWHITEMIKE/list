@@ -1,0 +1,7 @@
+# Configuration for BrowserGPT
+agent:
+  name: "BrowserGPT"
+  description: "BrowserGPT is a project that combines OpenAI's GPT-4 and the Playwright library to control browsers via natural language, enabling code snippet generation for browser tasks"
+  github_url: "https://github.com/mayt/BrowserGPT](https://github.com/mayt/BrowserGPT"
+  
+# Add your configuration here

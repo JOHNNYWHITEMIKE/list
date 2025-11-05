@@ -1,0 +1,7 @@
+# Configuration for Chatgpt-Prompt-Engineering-Deeplearningai
+agent:
+  name: "Chatgpt-Prompt-Engineering-Deeplearningai"
+  description: "ChatGPT Prompt Engineering for Developers Crash & Free Course by DeepLearning.AI"
+  github_url: "https://github.com/afondiel/ChatGPT-Prompt-Engineering-DeepLearningAI](https://github.com/afondiel/ChatGPT-Prompt-Engineering-DeepLearningAI"
+  
+# Add your configuration here

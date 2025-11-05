@@ -1,0 +1,7 @@
+# Configuration for OpenAI Swarm
+agent:
+  name: "OpenAI Swarm"
+  description: "Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team."
+  github_url: "https://github.com/openai/swarm](https://github.com/openai/swarm"
+  
+# Add your configuration here

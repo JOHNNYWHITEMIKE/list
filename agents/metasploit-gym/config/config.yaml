@@ -1,0 +1,7 @@
+# Configuration for Metasploit-Gym
+agent:
+  name: "Metasploit-Gym"
+  description: "An environment for testing AI agents against networks using Metasploit."
+  github_url: "https://github.com/phreakAI/metasploit-gym](https://github.com/phreakAI/metasploit-gym"
+  
+# Add your configuration here

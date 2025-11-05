@@ -1,0 +1,7 @@
+# Configuration for Llmdataforge
+agent:
+  name: "Llmdataforge"
+  description: "A framework for generating synthetic datasets tailored for large language models (LLMs)"
+  github_url: "https://github.com/saucam/llmdataforge](https://github.com/saucam/llmdataforge"
+  
+# Add your configuration here

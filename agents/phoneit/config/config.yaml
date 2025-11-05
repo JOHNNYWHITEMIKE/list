@@ -1,0 +1,7 @@
+# Configuration for Phoneit
+agent:
+  name: "Phoneit"
+  description: "An application that when deployed can establish a call service, where an AI agent can solve any query of the users using a established RA…"
+  github_url: "https://github.com/bhuvanmdev/PhoneIT](https://github.com/bhuvanmdev/PhoneIT"
+  
+# Add your configuration here

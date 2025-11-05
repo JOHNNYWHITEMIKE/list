@@ -1,0 +1,7 @@
+# Configuration for IvyCheck
+agent:
+  name: "IvyCheck"
+  description: "IvyCheck offers an API for real-time AI application safety checks, preventing prompt injection attacks, PII data leakage, and hallucinations in agentic AI development"
+  github_url: "https://github.com/ivycheck/ivycheck-python-sdk](https://github.com/ivycheck/ivycheck-python-sdk"
+  
+# Add your configuration here

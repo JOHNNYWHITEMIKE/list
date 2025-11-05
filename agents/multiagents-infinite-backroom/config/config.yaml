@@ -1,0 +1,7 @@
+# Configuration for Multiagents-Infinite-Backroom
+agent:
+  name: "Multiagents-Infinite-Backroom"
+  description: "Claude AI Multi agents having conversations without human intervention. Inspired from The Truth Terminal contains deployed Vercel app and…"
+  github_url: "https://github.com/AGAMPANDEYY/MultiAgents-infinite-backroom](https://github.com/AGAMPANDEYY/MultiAgents-infinite-backroom"
+  
+# Add your configuration here

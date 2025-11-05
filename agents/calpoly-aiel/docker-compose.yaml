@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  calpoly-aiel:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: calpoly-aiel
+    environment:
+      - AGENT_NAME=Calpoly-Aiel
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

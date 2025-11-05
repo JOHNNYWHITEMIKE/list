@@ -1,0 +1,7 @@
+# Configuration for Local-Rag
+agent:
+  name: "Local-Rag"
+  description: "Ingest files for retrieval augmented generation (RAG) with open-source Large Language Models (LLMs), all without 3rd parties or sensitive…"
+  github_url: "https://github.com/jonfairbanks/local-rag](https://github.com/jonfairbanks/local-rag"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Markdown_Llm
+agent:
+  name: "Markdown_Llm"
+  description: "A tool for interacting with an LLM in a markdown document"
+  github_url: "https://github.com/matweldon/markdown_llm](https://github.com/matweldon/markdown_llm"
+  
+# Add your configuration here

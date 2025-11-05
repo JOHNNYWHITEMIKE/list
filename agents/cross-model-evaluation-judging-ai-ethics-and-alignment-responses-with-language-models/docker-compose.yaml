@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  cross-model-evaluation-judging-ai-ethics-and-alignment-responses-with-language-models:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cross-model-evaluation-judging-ai-ethics-and-alignment-responses-with-language-models
+    environment:
+      - AGENT_NAME=Cross-Model-Evaluation-Judging-Ai-Ethics-And-Alignment-Responses-With-Language-Models
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

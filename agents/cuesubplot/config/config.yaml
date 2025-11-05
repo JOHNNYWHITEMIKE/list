@@ -1,0 +1,7 @@
+# Configuration for Cuesubplot
+agent:
+  name: "Cuesubplot"
+  description: "procedural ai prompts and results"
+  github_url: "https://github.com/kleer001/cuesubplot](https://github.com/kleer001/cuesubplot"
+  
+# Add your configuration here

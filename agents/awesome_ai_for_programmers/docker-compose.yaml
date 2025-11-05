@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  awesome_ai_for_programmers:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: awesome_ai_for_programmers
+    environment:
+      - AGENT_NAME=Awesome_Ai_For_Programmers
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

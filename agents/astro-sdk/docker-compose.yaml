@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  astro-sdk:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: astro-sdk
+    environment:
+      - AGENT_NAME=Astro-Sdk
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

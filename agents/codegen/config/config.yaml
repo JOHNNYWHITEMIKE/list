@@ -1,0 +1,7 @@
+# Configuration for Codegen
+agent:
+  name: "Codegen"
+  description: "CodeGen is a family of open-source model for program synthesis. Trained on TPU-v4. Competitive with OpenAI Codex."
+  github_url: "https://github.com/salesforce/CodeGen](https://github.com/salesforce/CodeGen"
+  
+# Add your configuration here

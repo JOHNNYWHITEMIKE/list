@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  csc2541-f19:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: csc2541-f19
+    environment:
+      - AGENT_NAME=Csc2541-F19
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

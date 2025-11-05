@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  aws-mwaa-local-runner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aws-mwaa-local-runner
+    environment:
+      - AGENT_NAME=Aws-Mwaa-Local-Runner
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Llm---Detect-Ai-Generated-Text
+agent:
+  name: "Llm---Detect-Ai-Generated-Text"
+  description: "Demo code and dataset for offline debugging"
+  github_url: "https://github.com/pinskyrobin/LLM---Detect-AI-Generated-Text](https://github.com/pinskyrobin/LLM---Detect-AI-Generated-Text"
+  
+# Add your configuration here

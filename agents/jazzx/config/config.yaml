@@ -1,0 +1,7 @@
+# Configuration for Jazzx
+agent:
+  name: "Jazzx"
+  description: "JazzX aims to create an enterprise GenAI-first platform to deploy and manage GenAI agents/apps. This enterprise cloud platform will use d…"
+  github_url: "https://github.com/kunal-nitor/JazzX](https://github.com/kunal-nitor/JazzX"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for LangChain JS
+agent:
+  name: "LangChain JS"
+  description: "LangChain JS is a framework for developing applications powered by language models, enabling context-aware and reasoning-based applications through composable tools and off-the-shelf chains, with seamless integration with the LangChain Python package"
+  github_url: "https://github.com/langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs"
+  
+# Add your configuration here

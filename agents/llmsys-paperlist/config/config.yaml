@@ -1,0 +1,7 @@
+# Configuration for Llmsys-Paperlist
+agent:
+  name: "Llmsys-Paperlist"
+  description: "Large Language Model (LLM) Systems Paper List"
+  github_url: "https://github.com/AmberLJC/LLMSys-PaperList](https://github.com/AmberLJC/LLMSys-PaperList"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  arrow-user2022:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: arrow-user2022
+    environment:
+      - AGENT_NAME=Arrow-User2022
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

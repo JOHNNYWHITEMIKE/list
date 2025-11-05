@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  abstractive-summarizer-on-cnn_dailymail-dataset:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: abstractive-summarizer-on-cnn_dailymail-dataset
+    environment:
+      - AGENT_NAME=Abstractive-Summarizer-On-Cnn_Dailymail-Dataset.
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

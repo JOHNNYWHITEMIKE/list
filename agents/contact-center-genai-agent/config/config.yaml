@@ -1,0 +1,7 @@
+# Configuration for Contact-Center-Genai-Agent
+agent:
+  name: "Contact-Center-Genai-Agent"
+  description: "Deploy generative AI agents in your contact center for voice and chat using Amazon Connect, Amazon Lex, and Amazon Bedrock Knowledge Bases"
+  github_url: "https://github.com/aws-samples/contact-center-genai-agent](https://github.com/aws-samples/contact-center-genai-agent"
+  
+# Add your configuration here

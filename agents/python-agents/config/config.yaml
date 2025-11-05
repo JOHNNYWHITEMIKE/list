@@ -1,0 +1,7 @@
+# Configuration for Python-Agents
+agent:
+  name: "Python-Agents"
+  description: "AI agent that independently creates, deploys, and optimizes autonomous projects."
+  github_url: "https://github.com/clarisseIO/python-agents](https://github.com/clarisseIO/python-agents"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Kevlar-Anti-Leak-System-Prompts
+agent:
+  name: "Kevlar-Anti-Leak-System-Prompts"
+  description: "Bullet-proof your custom GPT system prompt security with KEVLAR, the ultimate prompt protector against rules extraction, prompt injection…"
+  github_url: "https://github.com/CyberAlbSecOP/KEVLAR-Anti-Leak-System-Prompts](https://github.com/CyberAlbSecOP/KEVLAR-Anti-Leak-System-Prompts"
+  
+# Add your configuration here

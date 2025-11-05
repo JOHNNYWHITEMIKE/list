@@ -1,0 +1,7 @@
+# Configuration for Letta-Deepseek
+agent:
+  name: "Letta-Deepseek"
+  description: "Advanced multi-agent system built with Letta AI and DeepSeek, featuring memory optimization and Lightning AI deployment."
+  github_url: "https://github.com/mahawi1992/letta-deepseek](https://github.com/mahawi1992/letta-deepseek"
+  
+# Add your configuration here

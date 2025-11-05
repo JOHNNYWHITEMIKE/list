@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  awesome_role_of_small_models:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: awesome_role_of_small_models
+    environment:
+      - AGENT_NAME=Awesome_Role_Of_Small_Models
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

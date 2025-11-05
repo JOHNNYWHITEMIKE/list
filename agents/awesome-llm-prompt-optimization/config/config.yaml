@@ -1,0 +1,7 @@
+# Configuration for Awesome-Llm-Prompt-Optimization
+agent:
+  name: "Awesome-Llm-Prompt-Optimization"
+  description: "Awesome-LLM-Prompt-Optimization - a curated list of advanced prompt optimization and tuning methods in Large Language Models"
+  github_url: "https://github.com/jxzhangjhu/Awesome-LLM-Prompt-Optimization](https://github.com/jxzhangjhu/Awesome-LLM-Prompt-Optimization"
+  
+# Add your configuration here

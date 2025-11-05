@@ -1,0 +1,7 @@
+# Configuration for Anythingllm_Agentsample
+agent:
+  name: "Anythingllm_Agentsample"
+  description: "test the AnythignLLM custom agent"
+  github_url: "https://github.com/stoneskin/AnythingLLM_AgentSample](https://github.com/stoneskin/AnythingLLM_AgentSample"
+  
+# Add your configuration here

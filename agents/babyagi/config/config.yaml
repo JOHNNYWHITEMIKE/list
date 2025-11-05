@@ -1,0 +1,7 @@
+# Configuration for BabyAGI
+agent:
+  name: "BabyAGI"
+  description: "BabyAGI exemplifies an AI-powered task management system utilizing OpenAI and vector databases like Chroma or Weaviate, creating, prioritizing, and executing tasks based on previous outcomes and predefined objectives, with the main function involving an infinite loop where tasks are processed, enriched, and stored using OpenAI's NLP capabilities and Chroma/Weaviate, inspired by the Task-Driven Autonomous Agent concept"
+  github_url: "https://github.com/yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi"
+  
+# Add your configuration here

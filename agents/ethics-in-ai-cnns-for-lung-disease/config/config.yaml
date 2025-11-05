@@ -1,0 +1,7 @@
+# Configuration for Ethics-In-Ai-Cnns-For-Lung-Disease
+agent:
+  name: "Ethics-In-Ai-Cnns-For-Lung-Disease"
+  description: "Exploring CNNs and autoencoders for lung disease detection, with a focus on ethical implications in medical applications, including COVID…"
+  github_url: "https://github.com/matthewivan/Ethics-in-AI-CNNs-for-Lung-Disease](https://github.com/matthewivan/Ethics-in-AI-CNNs-for-Lung-Disease"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Kagentic
+agent:
+  name: "Kagentic"
+  description: "Flask-based agentic AI chat assistant using OpenAI's GPT-4. Supports tool registration and management for dynamic responses. Deployed on …"
+  github_url: "https://github.com/aiadvocat/kagentic](https://github.com/aiadvocat/kagentic"
+  
+# Add your configuration here

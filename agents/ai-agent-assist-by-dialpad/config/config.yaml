@@ -1,0 +1,7 @@
+# Configuration for AI Agent Assist by DialPad
+agent:
+  name: "AI Agent Assist by DialPad"
+  description: "Dialpad introduces Ai Agent Assist, offering real-time, Ai-powered answers to enhance customer service through deep integrations, reducing agent ramp time, and providing actionable insights with out-of-the-box productivity"
+  github_url: ""
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Ephemeris
+agent:
+  name: "Ephemeris"
+  description: "Library for managing Galaxy plugins - tools, index data, and workflows."
+  github_url: "https://github.com/galaxyproject/ephemeris](https://github.com/galaxyproject/ephemeris"
+  
+# Add your configuration here

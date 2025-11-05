@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  earth2studio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: earth2studio
+    environment:
+      - AGENT_NAME=Earth2Studio
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

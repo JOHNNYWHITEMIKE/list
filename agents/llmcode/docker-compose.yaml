@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llmcode:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llmcode
+    environment:
+      - AGENT_NAME=Llmcode
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

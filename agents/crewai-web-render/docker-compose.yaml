@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  crewai-web-render:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: crewai-web-render
+    environment:
+      - AGENT_NAME=Crewai-Web-Render
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

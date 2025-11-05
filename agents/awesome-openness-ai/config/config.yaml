@@ -1,0 +1,7 @@
+# Configuration for Awesome-Openness-Ai
+agent:
+  name: "Awesome-Openness-Ai"
+  description: "Curated list of papers or contents about openness in AI, in particular, in the context of AI ethics"
+  github_url: "https://github.com/tamaraaPrs/awesome-openness-AI](https://github.com/tamaraaPrs/awesome-openness-AI"
+  
+# Add your configuration here

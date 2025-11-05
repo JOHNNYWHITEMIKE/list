@@ -1,0 +1,7 @@
+# Configuration for Dbt-Llm-Tools
+agent:
+  name: "Dbt-Llm-Tools"
+  description: "RAG based LLM chatbot for dbt projects"
+  github_url: "https://github.com/pragunbhutani/dbt-llm-tools](https://github.com/pragunbhutani/dbt-llm-tools"
+  
+# Add your configuration here

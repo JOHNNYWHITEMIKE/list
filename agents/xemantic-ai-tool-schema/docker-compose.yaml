@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  xemantic-ai-tool-schema:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: xemantic-ai-tool-schema
+    environment:
+      - AGENT_NAME=Xemantic-Ai-Tool-Schema
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

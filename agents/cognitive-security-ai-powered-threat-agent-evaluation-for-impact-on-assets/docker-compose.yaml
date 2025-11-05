@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  cognitive-security-ai-powered-threat-agent-evaluation-for-impact-on-assets:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cognitive-security-ai-powered-threat-agent-evaluation-for-impact-on-assets
+    environment:
+      - AGENT_NAME=Cognitive-Security-Ai-Powered-Threat-Agent-Evaluation-For-Impact-On-Assets.
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

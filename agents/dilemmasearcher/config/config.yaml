@@ -1,0 +1,7 @@
+# Configuration for Dilemmasearcher
+agent:
+  name: "Dilemmasearcher"
+  description: "Project in INFO381 - Advanced Topics in Artificial Intelligence - Moral and Ethics in AI, Spring 2017"
+  github_url: "https://github.com/eddiman/DilemmaSearcher](https://github.com/eddiman/DilemmaSearcher"
+  
+# Add your configuration here

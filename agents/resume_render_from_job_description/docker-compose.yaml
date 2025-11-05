@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  resume_render_from_job_description:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: resume_render_from_job_description
+    environment:
+      - AGENT_NAME=Resume_Render_From_Job_Description
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

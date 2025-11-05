@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  dataset-creator-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dataset-creator-server
+    environment:
+      - AGENT_NAME=Dataset-Creator-Server
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

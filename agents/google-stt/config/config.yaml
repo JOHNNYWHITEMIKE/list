@@ -1,0 +1,7 @@
+# Configuration for Google STT
+agent:
+  name: "Google STT"
+  description: "Google Cloud Speech-to-Text is a comprehensive speech recognition service that leverages Google's years of research in automatic speech recognition and transcription technology to provide developers with a high-quality, easy-to-use speech-to-text API"
+  github_url: ""
+  
+# Add your configuration here

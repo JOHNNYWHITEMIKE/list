@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  airportagentsimulation-security:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: airportagentsimulation-security
+    environment:
+      - AGENT_NAME=Airportagentsimulation-Security
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

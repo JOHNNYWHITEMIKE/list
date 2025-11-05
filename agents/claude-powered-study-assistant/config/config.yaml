@@ -1,0 +1,7 @@
+# Configuration for Claude-Powered-Study-Assistant
+agent:
+  name: "Claude-Powered-Study-Assistant"
+  description: "A study assistant powered by Claude Opus. It provides various tools to assist with different tasks, such as researching,coding,note-takin…"
+  github_url: "https://github.com/g-hano/Claude-Powered-Study-Assistant](https://github.com/g-hano/Claude-Powered-Study-Assistant"
+  
+# Add your configuration here

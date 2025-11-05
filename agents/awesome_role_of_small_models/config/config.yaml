@@ -1,0 +1,7 @@
+# Configuration for Awesome_Role_Of_Small_Models
+agent:
+  name: "Awesome_Role_Of_Small_Models"
+  description: "a curated list of the role of small models in the LLM era"
+  github_url: "https://github.com/tigerchen52/awesome_role_of_small_models](https://github.com/tigerchen52/awesome_role_of_small_models"
+  
+# Add your configuration here

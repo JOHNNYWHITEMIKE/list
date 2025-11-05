@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llm-content-mod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm-content-mod
+    environment:
+      - AGENT_NAME=Llm-Content-Mod
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

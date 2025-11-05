@@ -1,0 +1,7 @@
+# Configuration for Mg-3-Aiethics
+agent:
+  name: "Mg-3-Aiethics"
+  description: "AI Ethics - AI Learning Mini-Game 3"
+  github_url: "https://github.com/empower-lab-dartmouth/mg-3-AIEthics](https://github.com/empower-lab-dartmouth/mg-3-AIEthics"
+  
+# Add your configuration here

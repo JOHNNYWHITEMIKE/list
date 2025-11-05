@@ -1,0 +1,7 @@
+# Configuration for Llmdataparser
+agent:
+  name: "Llmdataparser"
+  description: "LLMDataParser is a Python library that provides a collection of parsers for various benchmark datasets used in the evaluation of Large La…"
+  github_url: "https://github.com/jeff52415/LLMDataParser](https://github.com/jeff52415/LLMDataParser"
+  
+# Add your configuration here

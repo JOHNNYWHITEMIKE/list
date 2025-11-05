@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  eduscribe-llm-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: eduscribe-llm-backend
+    environment:
+      - AGENT_NAME=Eduscribe-Llm-Backend
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

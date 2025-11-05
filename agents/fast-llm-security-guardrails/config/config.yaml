@@ -1,0 +1,7 @@
+# Configuration for Fast-Llm-Security-Guardrails
+agent:
+  name: "Fast-Llm-Security-Guardrails"
+  description: "The fastest && easiest LLM security guardrails for AI Agents and applications."
+  github_url: "https://github.com/ZenGuard-AI/fast-llm-security-guardrails](https://github.com/ZenGuard-AI/fast-llm-security-guardrails"
+  
+# Add your configuration here

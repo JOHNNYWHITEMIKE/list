@@ -1,0 +1,7 @@
+# Configuration for Workflow-Dispatch
+agent:
+  name: "Workflow-Dispatch"
+  description: "A GitHub Action for triggering workflows, using the `workflow_dispatch` event"
+  github_url: "https://github.com/benc-uk/workflow-dispatch](https://github.com/benc-uk/workflow-dispatch"
+  
+# Add your configuration here

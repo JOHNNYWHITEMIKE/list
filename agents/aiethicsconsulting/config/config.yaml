@@ -1,0 +1,7 @@
+# Configuration for Aiethicsconsulting
+agent:
+  name: "Aiethicsconsulting"
+  description: "Provides expert consulting services on AI ethics, helping organizations navigate complex ethical issues in AI."
+  github_url: "https://github.com/rdmusrname/aiethicsconsulting](https://github.com/rdmusrname/aiethicsconsulting"
+  
+# Add your configuration here

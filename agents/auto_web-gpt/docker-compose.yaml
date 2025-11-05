@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  auto_web-gpt:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: auto_web-gpt
+    environment:
+      - AGENT_NAME=Auto_Web-Gpt
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

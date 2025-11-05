@@ -1,0 +1,7 @@
+# Configuration for ChatDev
+agent:
+  name: "ChatDev"
+  description: "ChatDev is a virtual software company utilizing intelligent agents to revolutionize the digital world through programming, offering a highly customizable framework and integrating innovative approaches like Experiential Co-Learning, Docker support, Git management, and Human-Agent Interaction"
+  github_url: "https://github.com/OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev"
+  
+# Add your configuration here

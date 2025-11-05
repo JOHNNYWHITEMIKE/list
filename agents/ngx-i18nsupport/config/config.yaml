@@ -1,0 +1,7 @@
+# Configuration for Ngx-I18Nsupport
+agent:
+  name: "Ngx-I18Nsupport"
+  description: "Some tooling to be used for Angular i18n workflows"
+  github_url: "https://github.com/martinroob/ngx-i18nsupport](https://github.com/martinroob/ngx-i18nsupport"
+  
+# Add your configuration here

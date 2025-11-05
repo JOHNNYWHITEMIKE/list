@@ -1,0 +1,7 @@
+# Configuration for Datainf
+agent:
+  name: "Datainf"
+  description: "DataInf - Efficiently Estimating Data Influence in LoRA-tuned LLMs and Diffusion Models (ICLR 2024)"
+  github_url: "https://github.com/ykwon0407/DataInf](https://github.com/ykwon0407/DataInf"
+  
+# Add your configuration here

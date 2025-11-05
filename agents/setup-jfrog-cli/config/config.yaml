@@ -1,0 +1,7 @@
+# Configuration for Setup-Jfrog-Cli
+agent:
+  name: "Setup-Jfrog-Cli"
+  description: "Set up JFrog CLI in your GitHub Actions workflow"
+  github_url: "https://github.com/jfrog/setup-jfrog-cli](https://github.com/jfrog/setup-jfrog-cli"
+  
+# Add your configuration here

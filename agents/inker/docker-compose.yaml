@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  inker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: inker
+    environment:
+      - AGENT_NAME=Inker
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

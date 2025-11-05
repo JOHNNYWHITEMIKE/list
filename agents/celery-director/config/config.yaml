@@ -1,0 +1,7 @@
+# Configuration for Celery-Director
+agent:
+  name: "Celery-Director"
+  description: "Simple and rapid framework to build workflows with Celery"
+  github_url: "https://github.com/ovh/celery-director](https://github.com/ovh/celery-director"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  gatk4-somatic-cnvs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gatk4-somatic-cnvs
+    environment:
+      - AGENT_NAME=Gatk4-Somatic-Cnvs
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  visualwebarena:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: visualwebarena
+    environment:
+      - AGENT_NAME=Visualwebarena
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Gdoc-Downloader
+agent:
+  name: "Gdoc-Downloader"
+  description: "Downloads Google Docs as text files, which enables workflows such as simultaneous LaTeX editing"
+  github_url: "https://github.com/uid/gdoc-downloader](https://github.com/uid/gdoc-downloader"
+  
+# Add your configuration here

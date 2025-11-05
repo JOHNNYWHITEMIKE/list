@@ -1,0 +1,7 @@
+# Configuration for AutoGen by Microsoft
+agent:
+  name: "AutoGen by Microsoft"
+  description: "AutoGen is a multi-agent conversation framework facilitating the development of next-gen LLM applications, highlighted by various accomplishments and offering enhanced LLM inferences, customizable agents, and comprehensive documentation"
+  github_url: "https://github.com/microsoft/autogen](https://github.com/microsoft/autogen"
+  
+# Add your configuration here

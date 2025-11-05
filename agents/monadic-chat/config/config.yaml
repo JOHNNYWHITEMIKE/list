@@ -1,0 +1,7 @@
+# Configuration for Monadic-Chat
+agent:
+  name: "Monadic-Chat"
+  description: "🤖 + 🐳 + 🐧 Monadic Chat is a locally hosted web app for creating intelligent chatbots, available for Mac, Windows, and Linux. It offers a …"
+  github_url: "https://github.com/yohasebe/monadic-chat](https://github.com/yohasebe/monadic-chat"
+  
+# Add your configuration here

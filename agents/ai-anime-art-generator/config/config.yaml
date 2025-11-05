@@ -1,0 +1,7 @@
+# Configuration for Ai-Anime-Art-Generator
+agent:
+  name: "Ai-Anime-Art-Generator"
+  description: "AI-driven cutting-edge tool for anime arts creation, perfect for beginners to easily create stunning anime art without any prior experience."
+  github_url: "https://github.com/enterwiz/ai-anime-art-generator](https://github.com/enterwiz/ai-anime-art-generator"
+  
+# Add your configuration here

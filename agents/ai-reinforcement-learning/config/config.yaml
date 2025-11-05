@@ -1,0 +1,7 @@
+# Configuration for Ai-Reinforcement-Learning
+agent:
+  name: "Ai-Reinforcement-Learning"
+  description: "This project will implement value iteration and Q-learning. It will first test agents on Gridworld (from class), then apply them to a sim…"
+  github_url: "https://github.com/abhinavcreed13/ai-reinforcement-learning](https://github.com/abhinavcreed13/ai-reinforcement-learning"
+  
+# Add your configuration here

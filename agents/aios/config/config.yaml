@@ -1,0 +1,7 @@
+# Configuration for AIOS
+agent:
+  name: "AIOS"
+  description: "AIOS by AGI Research is an LLM Agent Operating System which enables an operating system 'with soul' -- an important step towards AGI"
+  github_url: "https://github.com/agiresearch/AIOS](https://github.com/agiresearch/AIOS"
+  
+# Add your configuration here

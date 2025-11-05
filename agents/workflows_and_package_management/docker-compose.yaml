@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  workflows_and_package_management:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: workflows_and_package_management
+    environment:
+      - AGENT_NAME=Workflows_And_Package_Management
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

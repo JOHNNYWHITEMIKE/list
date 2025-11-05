@@ -1,0 +1,7 @@
+# Configuration for Code-Interpreter
+agent:
+  name: "Code-Interpreter"
+  description: "An innovative open-source Code Interpreter with (GPT,Gemini,Claude,LLaMa) models."
+  github_url: "https://github.com/haseeb-heaven/code-interpreter](https://github.com/haseeb-heaven/code-interpreter"
+  
+# Add your configuration here

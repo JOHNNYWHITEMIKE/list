@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  the-ethics-of-ai-navigating-complex-challenges-and-opportunities:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: the-ethics-of-ai-navigating-complex-challenges-and-opportunities
+    environment:
+      - AGENT_NAME=The-Ethics-Of-Ai-Navigating-Complex-Challenges-And-Opportunities
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Alfred-Workflows-Scientific
+agent:
+  name: "Alfred-Workflows-Scientific"
+  description: "A collection of Alfred workflows targeting scientific applications"
+  github_url: "https://github.com/andrewning/alfred-workflows-scientific](https://github.com/andrewning/alfred-workflows-scientific"
+  
+# Add your configuration here

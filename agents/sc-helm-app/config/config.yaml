@@ -1,0 +1,7 @@
+# Configuration for Sc-Helm-App
+agent:
+  name: "Sc-Helm-App"
+  description: "This repository contains a simple Helm chart for deploying a "Hello World" Nginx application, along with Open Policy Agent (OPA) rules fo…"
+  github_url: "https://github.com/amsilf/sc-helm-app](https://github.com/amsilf/sc-helm-app"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Crew-News
+agent:
+  name: "Crew-News"
+  description: "CrewNews is an AI news generator that delivers an unbiased version of the news for a given topic, using Streamlit for the GUI, Llama 3.1 …"
+  github_url: "https://github.com/rokbenko/crew-news](https://github.com/rokbenko/crew-news"
+  
+# Add your configuration here

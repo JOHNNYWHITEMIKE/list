@@ -1,0 +1,7 @@
+# Configuration for Mazerunner
+agent:
+  name: "Mazerunner"
+  description: "Framework for testing AI agents"
+  github_url: "https://github.com/CollinsEM/MazeRunner](https://github.com/CollinsEM/MazeRunner"
+  
+# Add your configuration here

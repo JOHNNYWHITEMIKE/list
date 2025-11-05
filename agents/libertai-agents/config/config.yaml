@@ -1,0 +1,7 @@
+# Configuration for Libertai-Agents
+agent:
+  name: "Libertai-Agents"
+  description: "Framework to create and deploy confidential & decentralized AI Agents."
+  github_url: "https://github.com/Libertai/libertai-agents](https://github.com/Libertai/libertai-agents"
+  
+# Add your configuration here

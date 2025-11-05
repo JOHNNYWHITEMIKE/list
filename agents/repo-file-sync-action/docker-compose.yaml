@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  repo-file-sync-action:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: repo-file-sync-action
+    environment:
+      - AGENT_NAME=Repo-File-Sync-Action
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

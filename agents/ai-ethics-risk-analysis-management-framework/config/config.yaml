@@ -1,0 +1,7 @@
+# Configuration for Ai-Ethics-Risk-Analysis-Management-Framework
+agent:
+  name: "Ai-Ethics-Risk-Analysis-Management-Framework"
+  description: "This is my code for my dissertation, in which I was tasked with building a framework that small companies could use to analyse their AI. …"
+  github_url: "https://github.com/LCromack/AI-Ethics-Risk-Analysis-Management-Framework](https://github.com/LCromack/AI-Ethics-Risk-Analysis-Management-Framework"
+  
+# Add your configuration here

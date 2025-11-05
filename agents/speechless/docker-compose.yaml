@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  speechless:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: speechless
+    environment:
+      - AGENT_NAME=Speechless
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

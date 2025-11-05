@@ -1,0 +1,7 @@
+# Configuration for Harbor
+agent:
+  name: "Harbor"
+  description: "Effortlessly run LLM backends, APIs, frontends, and services with one command."
+  github_url: "https://github.com/av/harbor](https://github.com/av/harbor"
+  
+# Add your configuration here

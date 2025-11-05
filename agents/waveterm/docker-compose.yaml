@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  waveterm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: waveterm
+    environment:
+      - AGENT_NAME=Waveterm
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  graphql-cli:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: graphql-cli
+    environment:
+      - AGENT_NAME=Graphql-Cli
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

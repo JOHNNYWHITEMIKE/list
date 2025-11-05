@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  kapa:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kapa
+    environment:
+      - AGENT_NAME=Kapa
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

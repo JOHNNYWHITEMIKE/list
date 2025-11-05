@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  credit-risk_ethics_and_ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: credit-risk_ethics_and_ai
+    environment:
+      - AGENT_NAME=Credit-Risk_Ethics_And_Ai
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

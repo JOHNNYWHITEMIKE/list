@@ -1,0 +1,7 @@
+# Configuration for Modelscope-Agent
+agent:
+  name: "Modelscope-Agent"
+  description: "ModelScope-Agent - An agent framework connecting models in ModelScope with the world"
+  github_url: "https://github.com/modelscope/modelscope-agent](https://github.com/modelscope/modelscope-agent"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Chatbot
+agent:
+  name: "Chatbot"
+  description: "基于LLM的聊天机器人，AI Agent的自主智能体，利用Function、Tools、Agent来实现LLM自主工作"
+  github_url: "https://github.com/YidaHu/chatbot](https://github.com/YidaHu/chatbot"
+  
+# Add your configuration here

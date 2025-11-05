@@ -1,0 +1,7 @@
+# Configuration for Aivideochat
+agent:
+  name: "Aivideochat"
+  description: "This is an AI video chat tool with anybody (your girlfriend, your idol etc) you want using LLM"
+  github_url: "https://github.com/messingliu/AIVideoChat](https://github.com/messingliu/AIVideoChat"
+  
+# Add your configuration here

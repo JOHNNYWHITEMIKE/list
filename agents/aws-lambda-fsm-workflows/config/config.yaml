@@ -1,0 +1,7 @@
+# Configuration for Aws-Lambda-Fsm-Workflows
+agent:
+  name: "Aws-Lambda-Fsm-Workflows"
+  description: "A Python framework for developing finite state machine-based workflows on AWS Lambda."
+  github_url: "https://github.com/Workiva/aws-lambda-fsm-workflows](https://github.com/Workiva/aws-lambda-fsm-workflows"
+  
+# Add your configuration here

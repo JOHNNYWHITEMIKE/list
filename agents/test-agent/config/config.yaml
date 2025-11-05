@@ -1,0 +1,7 @@
+# Configuration for Test-Agent
+agent:
+  name: "Test-Agent"
+  description: "Developing AI tools for testing"
+  github_url: "https://github.com/GDT502/Test-Agent](https://github.com/GDT502/Test-Agent"
+  
+# Add your configuration here

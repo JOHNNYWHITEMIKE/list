@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  impact-academy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: impact-academy
+    environment:
+      - AGENT_NAME=Impact-Academy
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

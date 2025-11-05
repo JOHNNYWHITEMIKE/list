@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  open-interpreter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: open-interpreter
+    environment:
+      - AGENT_NAME=Open Interpreter
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Slickflow
+agent:
+  name: "Slickflow"
+  description: ".NET Open Source Workflow Engine, .NET 开源工作流"
+  github_url: "https://github.com/besley/Slickflow](https://github.com/besley/Slickflow"
+  
+# Add your configuration here

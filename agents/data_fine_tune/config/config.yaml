@@ -1,0 +1,7 @@
+# Configuration for Data_Fine_Tune
+agent:
+  name: "Data_Fine_Tune"
+  description: "Python files to prepare datasets for finetuning LLMs"
+  github_url: "https://github.com/bhc91/data_fine_tune](https://github.com/bhc91/data_fine_tune"
+  
+# Add your configuration here

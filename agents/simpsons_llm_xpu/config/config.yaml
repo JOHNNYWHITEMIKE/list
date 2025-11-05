@@ -1,0 +1,7 @@
+# Configuration for Simpsons_Llm_Xpu
+agent:
+  name: "Simpsons_Llm_Xpu"
+  description: "Finetune an LLM on intel discrete GPUs to generate dialogues based on the simpsons dataset"
+  github_url: "https://github.com/rahulunair/simpsons_llm_xpu](https://github.com/rahulunair/simpsons_llm_xpu"
+  
+# Add your configuration here

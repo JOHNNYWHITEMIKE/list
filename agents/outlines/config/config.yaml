@@ -1,0 +1,7 @@
+# Configuration for Outlines
+agent:
+  name: "Outlines"
+  description: "Outlines is a robust text generation library designed for agentic AI developers, featuring support for multiple model integrations, advanced prompting with Jinja, efficient structured generation through regex, JSON schema, context-free grammars, and more, enabling the creation of predictable and structured AI agent outputs"
+  github_url: "https://github.com/outlines-dev/outlines](https://github.com/outlines-dev/outlines"
+  
+# Add your configuration here

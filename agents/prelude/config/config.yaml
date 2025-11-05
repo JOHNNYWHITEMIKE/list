@@ -1,0 +1,7 @@
+# Configuration for Prelude
+agent:
+  name: "Prelude"
+  description: "A very simple tool to build LLM prompts from your code repositories."
+  github_url: "https://github.com/aerugo/prelude](https://github.com/aerugo/prelude"
+  
+# Add your configuration here

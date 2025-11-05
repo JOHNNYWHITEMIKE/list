@@ -1,0 +1,7 @@
+# Configuration for Langchain-Projects-Llm
+agent:
+  name: "Langchain-Projects-Llm"
+  description: "Various projects using Large Language Model (GPT & LLAMA) other open source model from HuggingFace and OpenAI. OpenAI API required for ru…"
+  github_url: "https://github.com/ananthanarayanan431/Langchain-Projects-LLM](https://github.com/ananthanarayanan431/Langchain-Projects-LLM"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Bloop
+agent:
+  name: "Bloop"
+  description: "Bloop is a GPT-4-based coding assistant that boosts engineer productivity by allowing natural language interactions with codebases for explanations, feature writing, error troubleshooting, and more, featuring a code-centric AI playground, fast regex search, and comprehensive code navigation tools"
+  github_url: "https://github.com/BloopAI/bloop](https://github.com/BloopAI/bloop"
+  
+# Add your configuration here

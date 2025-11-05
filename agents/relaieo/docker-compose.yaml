@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  relaieo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: relaieo
+    environment:
+      - AGENT_NAME=Relaieo
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

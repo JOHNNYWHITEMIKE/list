@@ -1,0 +1,7 @@
+# Configuration for K8S-Agent
+agent:
+  name: "K8S-Agent"
+  description: "Kubernetes agent for deploying ranching.farm directly into your cluster. Connect your K8s deployment to our AI-powered management platfor…"
+  github_url: "https://github.com/ranching-farm/k8s-agent](https://github.com/ranching-farm/k8s-agent"
+  
+# Add your configuration here

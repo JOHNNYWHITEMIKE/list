@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  produvia:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: produvia
+    environment:
+      - AGENT_NAME=Produvia
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

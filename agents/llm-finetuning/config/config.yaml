@@ -1,0 +1,7 @@
+# Configuration for Llm-Finetuning
+agent:
+  name: "Llm-Finetuning"
+  description: "Finetuning the LLM model for NLP tasks and cybersec based instruction datasets"
+  github_url: "https://github.com/tejaswargudla/LLM-finetuning](https://github.com/tejaswargudla/LLM-finetuning"
+  
+# Add your configuration here

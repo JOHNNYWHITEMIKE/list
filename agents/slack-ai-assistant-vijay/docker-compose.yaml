@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  slack-ai-assistant-vijay:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: slack-ai-assistant-vijay
+    environment:
+      - AGENT_NAME=Slack-Ai-Assistant-Vijay
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

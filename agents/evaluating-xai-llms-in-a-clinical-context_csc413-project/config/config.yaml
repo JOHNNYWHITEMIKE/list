@@ -1,0 +1,7 @@
+# Configuration for Evaluating-Xai-Llms-In-A-Clinical-Context_Csc413-Project
+agent:
+  name: "Evaluating-Xai-Llms-In-A-Clinical-Context_Csc413-Project"
+  description: "A UofT CSC413 Final Project - Evaluating interpretable large language models in a clinical context using the MIMIC-IV dataset."
+  github_url: "https://github.com/hk21702/Evaluating-XAI-LLMs-in-a-Clinical-Context_CSC413-Project](https://github.com/hk21702/Evaluating-XAI-LLMs-in-a-Clinical-Context_CSC413-Project"
+  
+# Add your configuration here

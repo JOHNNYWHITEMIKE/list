@@ -1,0 +1,7 @@
+# Configuration for Tideflow
+agent:
+  name: "Tideflow"
+  description: "Building extensible automation. Tideflow is a Realtime, open source workflows execution and monitorization web application."
+  github_url: "https://github.com/tideflow-io/tideflow](https://github.com/tideflow-io/tideflow"
+  
+# Add your configuration here

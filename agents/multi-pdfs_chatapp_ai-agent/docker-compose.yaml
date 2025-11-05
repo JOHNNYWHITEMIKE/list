@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  multi-pdfs_chatapp_ai-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: multi-pdfs_chatapp_ai-agent
+    environment:
+      - AGENT_NAME=Multi-Pdfs_Chatapp_Ai-Agent
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

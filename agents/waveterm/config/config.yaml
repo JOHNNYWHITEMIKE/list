@@ -1,0 +1,7 @@
+# Configuration for Waveterm
+agent:
+  name: "Waveterm"
+  description: "An open-source, cross-platform terminal for seamless workflows"
+  github_url: "https://github.com/wavetermdev/waveterm](https://github.com/wavetermdev/waveterm"
+  
+# Add your configuration here

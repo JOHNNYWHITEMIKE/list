@@ -1,0 +1,7 @@
+# Configuration for Face-Recognition
+agent:
+  name: "Face-Recognition"
+  description: "When I did this project (over 3 years ago), my intentions were to use it to nab criminals. With awareness of ethics in AI with the underl…"
+  github_url: "https://github.com/AishPadmanabha/face-recognition](https://github.com/AishPadmanabha/face-recognition"
+  
+# Add your configuration here

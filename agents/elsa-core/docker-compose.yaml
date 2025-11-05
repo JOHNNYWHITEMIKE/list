@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  elsa-core:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: elsa-core
+    environment:
+      - AGENT_NAME=Elsa-Core
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

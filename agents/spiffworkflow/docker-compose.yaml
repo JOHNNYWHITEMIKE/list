@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  spiffworkflow:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: spiffworkflow
+    environment:
+      - AGENT_NAME=Spiffworkflow
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

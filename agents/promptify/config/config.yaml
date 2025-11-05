@@ -1,0 +1,7 @@
+# Configuration for Promptify
+agent:
+  name: "Promptify"
+  description: "Prompt Engineering | Prompt Versioning | Use GPT or other prompt based models to get structured output. Join our discord for Prompt-Engin…"
+  github_url: "https://github.com/promptslab/Promptify](https://github.com/promptslab/Promptify"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ais-ethics-standards:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ais-ethics-standards
+    environment:
+      - AGENT_NAME=Ais-Ethics-Standards
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Tldraw-Llm-Starter
+agent:
+  name: "Tldraw-Llm-Starter"
+  description: "A starter for working with tldraw and large language models."
+  github_url: "https://github.com/tldraw/tldraw-llm-starter](https://github.com/tldraw/tldraw-llm-starter"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Othello-Fx
+agent:
+  name: "Othello-Fx"
+  description: "Othello game framework made with JavaFX which can be use for testing Othello AI Agents."
+  github_url: "https://github.com/EudyContreras/Othello-FX](https://github.com/EudyContreras/Othello-FX"
+  
+# Add your configuration here

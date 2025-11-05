@@ -1,0 +1,7 @@
+# Configuration for Smartcall-Ai
+agent:
+  name: "Smartcall-Ai"
+  description: "Deploy AI voice agents for calls."
+  github_url: "https://github.com/shwetd19/SmartCall-Ai](https://github.com/shwetd19/SmartCall-Ai"
+  
+# Add your configuration here

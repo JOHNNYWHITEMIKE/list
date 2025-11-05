@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llm4vv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm4vv
+    environment:
+      - AGENT_NAME=Llm4Vv
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Bisheng
+agent:
+  name: "Bisheng"
+  description: "BISHENG is an open LLM devops platform for next generation Enterprise AI applications. Powerful and comprehensive features include - GenAI…"
+  github_url: "https://github.com/dataelement/bisheng](https://github.com/dataelement/bisheng"
+  
+# Add your configuration here

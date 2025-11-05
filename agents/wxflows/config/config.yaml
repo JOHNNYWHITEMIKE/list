@@ -1,0 +1,7 @@
+# Configuration for Wxflows
+agent:
+  name: "Wxflows"
+  description: "Examples and tutorials for building AI applications with watsonx.ai Flows Engine"
+  github_url: "https://github.com/IBM/wxflows](https://github.com/IBM/wxflows"
+  
+# Add your configuration here

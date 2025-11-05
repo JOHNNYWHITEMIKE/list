@@ -1,0 +1,7 @@
+# Configuration for Smoothlingua
+agent:
+  name: "Smoothlingua"
+  description: "SmoothLingua is an open-source conversational AI platform that empowers you to create and deploy intelligent conversational agents. It of…"
+  github_url: "https://github.com/Dev-Art-Solutions/SmoothLingua](https://github.com/Dev-Art-Solutions/SmoothLingua"
+  
+# Add your configuration here

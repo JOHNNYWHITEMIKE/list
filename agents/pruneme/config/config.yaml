@@ -1,0 +1,7 @@
+# Configuration for Pruneme
+agent:
+  name: "Pruneme"
+  description: "Automated Identification of Redundant Layer Blocks for Pruning in Large Language Models"
+  github_url: "https://github.com/arcee-ai/PruneMe](https://github.com/arcee-ai/PruneMe"
+  
+# Add your configuration here

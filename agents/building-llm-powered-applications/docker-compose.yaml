@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  building-llm-powered-applications:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: building-llm-powered-applications
+    environment:
+      - AGENT_NAME=Building-Llm-Powered-Applications
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

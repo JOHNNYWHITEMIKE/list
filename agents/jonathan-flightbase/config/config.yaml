@@ -1,0 +1,7 @@
+# Configuration for Jonathan-Flightbase
+agent:
+  name: "Jonathan-Flightbase"
+  description: "Jonathan Flightbase is an MLOps/LLMOps platform designed for efficient AI development and operations. It streamlines resource management,…"
+  github_url: "https://github.com/AcrylAI/Jonathan-Flightbase](https://github.com/AcrylAI/Jonathan-Flightbase"
+  
+# Add your configuration here

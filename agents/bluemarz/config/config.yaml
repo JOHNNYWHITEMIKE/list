@@ -1,0 +1,7 @@
+# Configuration for Bluemarz
+agent:
+  name: "Bluemarz"
+  description: "Bluemarz is an open-source management layer for AI agents, offering a flexible, scalable, and stateless architecture for deploying and or…"
+  github_url: "https://github.com/StartADAM/bluemarz](https://github.com/StartADAM/bluemarz"
+  
+# Add your configuration here

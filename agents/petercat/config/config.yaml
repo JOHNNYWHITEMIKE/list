@@ -1,0 +1,7 @@
+# Configuration for Petercat
+agent:
+  name: "Petercat"
+  description: "A conversational Q&A agent configuration system, self-hosted deployment solutions, and a convenient all-in-one application SDK, allowing …"
+  github_url: "https://github.com/petercat-ai/petercat](https://github.com/petercat-ai/petercat"
+  
+# Add your configuration here

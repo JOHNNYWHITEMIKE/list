@@ -1,0 +1,7 @@
+# Configuration for Hacksynth
+agent:
+  name: "Hacksynth"
+  description: "LLM Agent and Evaluation Framework for Autonomous Penetration Testing"
+  github_url: "https://github.com/aielte-research/HackSynth](https://github.com/aielte-research/HackSynth"
+  
+# Add your configuration here

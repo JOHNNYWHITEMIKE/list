@@ -1,0 +1,7 @@
+# Configuration for Ai-Toolbox
+agent:
+  name: "Ai-Toolbox"
+  description: "A set of AI-driven tools designed to assist in creating, training, and deploying AI agents across different workflows."
+  github_url: "https://github.com/eranco74/AI-Toolbox](https://github.com/eranco74/AI-Toolbox"
+  
+# Add your configuration here

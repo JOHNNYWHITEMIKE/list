@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  yzv103e-intrtoai-dataeng-ethics:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: yzv103e-intrtoai-dataeng-ethics
+    environment:
+      - AGENT_NAME=Yzv103E-Intr.Toai-Dataeng-Ethics
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

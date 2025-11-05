@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  pytexas-ethics-in-ai-shap:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pytexas-ethics-in-ai-shap
+    environment:
+      - AGENT_NAME=Pytexas-Ethics-In-Ai---Shap
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

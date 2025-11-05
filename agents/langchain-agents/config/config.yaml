@@ -1,0 +1,7 @@
+# Configuration for LangChain Agents
+agent:
+  name: "LangChain Agents"
+  description: "Build context-aware reasoning applications."
+  github_url: "https://github.com/langchain-ai/langchain](https://github.com/langchain-ai/langchain"
+  
+# Add your configuration here

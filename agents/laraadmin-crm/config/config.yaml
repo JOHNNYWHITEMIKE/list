@@ -1,0 +1,7 @@
+# Configuration for Laraadmin-Crm
+agent:
+  name: "Laraadmin-Crm"
+  description: "LaraAdmin is a Open source CRM for quick-start Admin based applications with features like Advanced CRUD Generation, Schema Manager and W…"
+  github_url: "https://github.com/dwijitsolutions/laraadmin-crm](https://github.com/dwijitsolutions/laraadmin-crm"
+  
+# Add your configuration here

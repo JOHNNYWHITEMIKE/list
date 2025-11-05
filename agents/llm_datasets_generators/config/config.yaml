@@ -1,0 +1,7 @@
+# Configuration for Llm_Datasets_Generators
+agent:
+  name: "Llm_Datasets_Generators"
+  description: "Simple util for automatically generating synthetic datasets for training or finetuning LLMs"
+  github_url: "https://github.com/mpasko/llm_datasets_generators](https://github.com/mpasko/llm_datasets_generators"
+  
+# Add your configuration here

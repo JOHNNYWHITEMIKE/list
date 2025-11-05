@@ -1,0 +1,7 @@
+# Configuration for Floki
+agent:
+  name: "Floki"
+  description: "Agentic Workflows Made Simple"
+  github_url: "https://github.com/Cyb3rWard0g/floki](https://github.com/Cyb3rWard0g/floki"
+  
+# Add your configuration here

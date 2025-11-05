@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ricai_unittestgen_tool:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ricai_unittestgen_tool
+    environment:
+      - AGENT_NAME=Ricai_Unittestgen_Tool
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

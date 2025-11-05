@@ -1,0 +1,7 @@
+# Configuration for Comfyui_Examples
+agent:
+  name: "Comfyui_Examples"
+  description: "Examples of ComfyUI workflows"
+  github_url: "https://github.com/comfyanonymous/ComfyUI_examples](https://github.com/comfyanonymous/ComfyUI_examples"
+  
+# Add your configuration here

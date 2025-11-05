@@ -1,0 +1,7 @@
+# Configuration for Ftdatagen
+agent:
+  name: "Ftdatagen"
+  description: "Generate LLM finetune dataset"
+  github_url: "https://github.com/SpingenceAI/FTDataGen](https://github.com/SpingenceAI/FTDataGen"
+  
+# Add your configuration here

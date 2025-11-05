@@ -1,0 +1,7 @@
+# Configuration for tortoise-tts
+agent:
+  name: "tortoise-tts"
+  description: "A multi-voice TTS system trained with an emphasis on quality"
+  github_url: "https://github.com/neonbjb/tortoise-tts](https://github.com/neonbjb/tortoise-tts"
+  
+# Add your configuration here

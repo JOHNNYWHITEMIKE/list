@@ -1,0 +1,7 @@
+# Configuration for Humor-Offensiveness-Detection
+agent:
+  name: "Humor-Offensiveness-Detection"
+  description: "This is a shared project as part of the AI ethics course at Asigmo, where an algorithm that detects humor and offensiveness is created wi…"
+  github_url: "https://github.com/Mahnazshamissa/Humor-Offensiveness-detection](https://github.com/Mahnazshamissa/Humor-Offensiveness-detection"
+  
+# Add your configuration here

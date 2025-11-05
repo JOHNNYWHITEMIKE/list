@@ -1,0 +1,7 @@
+# Configuration for MetaGPT
+agent:
+  name: "MetaGPT"
+  description: "MetaGPT is a multi-agent framework enabling GPT to collaborate within a software company, facilitating complex tasks by assigning different roles to GPTs"
+  github_url: "https://github.com/geekan/MetaGPT](https://github.com/geekan/MetaGPT"
+  
+# Add your configuration here

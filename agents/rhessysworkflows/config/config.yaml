@@ -1,0 +1,7 @@
+# Configuration for Rhessysworkflows
+agent:
+  name: "Rhessysworkflows"
+  description: "RHESSysWorkflows provides Python scripts for building RHESSys models"
+  github_url: "https://github.com/selimnairb/RHESSysWorkflows](https://github.com/selimnairb/RHESSysWorkflows"
+  
+# Add your configuration here

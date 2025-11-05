@@ -1,0 +1,7 @@
+# Configuration for Diffsensei
+agent:
+  name: "Diffsensei"
+  description: "Implementation of "DiffSensei - Bridging Multi-Modal LLMs and Diffusion Models for Customized Manga Generation""
+  github_url: "https://github.com/jianzongwu/DiffSensei](https://github.com/jianzongwu/DiffSensei"
+  
+# Add your configuration here

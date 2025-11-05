@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  are-copilots-local-yet:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: are-copilots-local-yet
+    environment:
+      - AGENT_NAME=Are-Copilots-Local-Yet
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

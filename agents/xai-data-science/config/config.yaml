@@ -1,0 +1,7 @@
+# Configuration for Xai-Data-Science
+agent:
+  name: "Xai-Data-Science"
+  description: "XAI-Data-Science - Explore the world of Explainable AI (XAI) through techniques, tools, and applications. Foster transparency, ethics, and…"
+  github_url: "https://github.com/2002jai/XAI-Data-Science](https://github.com/2002jai/XAI-Data-Science"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  csi5195-ethicsinai-finalreport:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: csi5195-ethicsinai-finalreport
+    environment:
+      - AGENT_NAME=Csi5195-Ethicsinai-Finalreport
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

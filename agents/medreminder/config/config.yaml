@@ -1,0 +1,7 @@
+# Configuration for Medreminder
+agent:
+  name: "Medreminder"
+  description: "An AI agent web-based MedReminder app using HTML, CSS, and Vanilla JavaScript with local storage and Flask for deployment"
+  github_url: "https://github.com/abisong/MedReminder](https://github.com/abisong/MedReminder"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Ai-Pacman-Classification
+agent:
+  name: "Ai-Pacman-Classification"
+  description: "In this project, you will design three classifiers: a perceptron classifier, a large-margin (MIRA) classifier, and a slightly modified pe…"
+  github_url: "https://github.com/AmzAust/AI-Pacman-Classification](https://github.com/AmzAust/AI-Pacman-Classification"
+  
+# Add your configuration here

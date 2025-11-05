@@ -1,0 +1,7 @@
+# Configuration for Secad
+agent:
+  name: "Secad"
+  description: "SECAD is an agentic, AI-powered security workflow augmentation application."
+  github_url: "https://github.com/gideonaina/secad](https://github.com/gideonaina/secad"
+  
+# Add your configuration here

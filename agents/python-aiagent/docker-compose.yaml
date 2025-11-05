@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  python-aiagent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: python-aiagent
+    environment:
+      - AGENT_NAME=Python-Aiagent
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  imbue:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: imbue
+    environment:
+      - AGENT_NAME=Imbue
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

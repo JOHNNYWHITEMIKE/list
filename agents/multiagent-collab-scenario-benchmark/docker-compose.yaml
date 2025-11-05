@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  multiagent-collab-scenario-benchmark:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: multiagent-collab-scenario-benchmark
+    environment:
+      - AGENT_NAME=Multiagent-Collab-Scenario-Benchmark
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

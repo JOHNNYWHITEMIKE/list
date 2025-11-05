@@ -1,0 +1,7 @@
+# Configuration for Brahmasumm-Community-Edition
+agent:
+  name: "Brahmasumm-Community-Edition"
+  description: "BrahmaSumm is an advanced document summarization and visualization tool designed to streamline document management, knowledge base creati…"
+  github_url: "https://github.com/balajivis/BrahmaSumm-Community-Edition](https://github.com/balajivis/BrahmaSumm-Community-Edition"
+  
+# Add your configuration here

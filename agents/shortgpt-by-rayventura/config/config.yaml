@@ -1,0 +1,7 @@
+# Configuration for ShortGPT by RayVentura
+agent:
+  name: "ShortGPT by RayVentura"
+  description: "ShortGPT is an AI-powered framework for automating content creation, including video editing, voiceover synthesis, caption generation, and asset sourcing, with support for multiple languages and seamless integration with Google Colab and Docker for easy deployment"
+  github_url: "https://github.com/RayVentura/ShortGPT](https://github.com/RayVentura/ShortGPT"
+  
+# Add your configuration here

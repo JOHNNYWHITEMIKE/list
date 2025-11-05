@@ -1,0 +1,7 @@
+# Configuration for Llm-Imdb
+agent:
+  name: "Llm-Imdb"
+  description: "Proof of concept app using LangChain and LLMs to retrieve information from graphs, built with the IMDB dataset"
+  github_url: "https://github.com/ibiscp/LLM-IMDB](https://github.com/ibiscp/LLM-IMDB"
+  
+# Add your configuration here

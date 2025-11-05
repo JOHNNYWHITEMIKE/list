@@ -1,0 +1,7 @@
+# Configuration for Openai-Tools
+agent:
+  name: "Openai-Tools"
+  description: "Toolkit to get the most out of your OpenAI Account"
+  github_url: "https://github.com/tipani86/OpenAI-Tools](https://github.com/tipani86/OpenAI-Tools"
+  
+# Add your configuration here

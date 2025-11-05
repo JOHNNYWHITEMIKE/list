@@ -1,0 +1,7 @@
+# Configuration for Ai-Game-Devtools
+agent:
+  name: "Ai-Game-Devtools"
+  description: "Here we will keep track of the latest AI Game Development Tools, including LLM, Agent, Code, Writer, Image, Texture, Shader, 3D Model, An…"
+  github_url: "https://github.com/Yuan-ManX/ai-game-devtools](https://github.com/Yuan-ManX/ai-game-devtools"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Global-Workflow
+agent:
+  name: "Global-Workflow"
+  description: "Global Superstructure/Workflow supporting the Global Forecast System (GFS)"
+  github_url: "https://github.com/NOAA-EMC/global-workflow](https://github.com/NOAA-EMC/global-workflow"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Simplerllm
+agent:
+  name: "Simplerllm"
+  description: "Simplify interactions with Large Language Models"
+  github_url: "https://github.com/hassancs91/SimplerLLM](https://github.com/hassancs91/SimplerLLM"
+  
+# Add your configuration here

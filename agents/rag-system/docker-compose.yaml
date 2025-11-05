@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  rag-system:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rag-system
+    environment:
+      - AGENT_NAME=Rag-System
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Promptpet
+agent:
+  name: "Promptpet"
+  description: "PromptPET - A comprehensive toolkit for Prompt Engineering, offering advanced tools for crafting, refining, and optimizing prompts and flow …"
+  github_url: "https://github.com/hamutama/PromptPET](https://github.com/hamutama/PromptPET"
+  
+# Add your configuration here

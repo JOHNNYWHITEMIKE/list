@@ -1,0 +1,7 @@
+# Configuration for Datadog
+agent:
+  name: "Datadog"
+  description: "Send Datadog metrics and events from GitHub workflows"
+  github_url: "https://github.com/masci/datadog](https://github.com/masci/datadog"
+  
+# Add your configuration here

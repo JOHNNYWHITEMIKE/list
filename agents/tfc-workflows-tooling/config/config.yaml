@@ -1,0 +1,7 @@
+# Configuration for Tfc-Workflows-Tooling
+agent:
+  name: "Tfc-Workflows-Tooling"
+  description: "Tooling to automate HCP Terraform API Runs"
+  github_url: "https://github.com/hashicorp/tfc-workflows-tooling](https://github.com/hashicorp/tfc-workflows-tooling"
+  
+# Add your configuration here

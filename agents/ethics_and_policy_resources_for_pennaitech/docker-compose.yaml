@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ethics_and_policy_resources_for_pennaitech:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ethics_and_policy_resources_for_pennaitech
+    environment:
+      - AGENT_NAME=Ethics_And_Policy_Resources_For_Pennaitech
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

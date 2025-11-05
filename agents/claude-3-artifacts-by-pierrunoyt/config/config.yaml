@@ -1,0 +1,7 @@
+# Configuration for Claude 3 Artifacts by PierrunoYT
+agent:
+  name: "Claude 3 Artifacts by PierrunoYT"
+  description: "An open-source Flask-React chat application that interacts with Claude AI, featuring file uploads, Markdown rendering, and code highlighting, seeking contributors to expand its capabilities, inspired by Claude Artifacts"
+  github_url: "https://github.com/PierrunoYT/claude-3-artifacts](https://github.com/PierrunoYT/claude-3-artifacts"
+  
+# Add your configuration here

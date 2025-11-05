@@ -1,0 +1,7 @@
+# Configuration for Corexai
+agent:
+  name: "Corexai"
+  description: "CorexAI is a cutting-edge, decentralized platform that enables seamless renting of GPUs and AI agents. By leveraging distributed GPU reso…"
+  github_url: "https://github.com/CorexAI/CorexAI](https://github.com/CorexAI/CorexAI"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  dolly-instruction-tuning:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dolly-instruction-tuning
+    environment:
+      - AGENT_NAME=Dolly-Instruction-Tuning
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

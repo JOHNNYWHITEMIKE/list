@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  trustworthyai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: trustworthyai
+    environment:
+      - AGENT_NAME=Trustworthyai
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

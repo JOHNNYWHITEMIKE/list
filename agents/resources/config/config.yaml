@@ -1,0 +1,7 @@
+# Configuration for Resources
+agent:
+  name: "Resources"
+  description: "A collection of open educational resources exploring the intersection of Artificial Intelligence and Neuroscience. This project provides …"
+  github_url: "https://github.com/NeurotechEducationProject/resources](https://github.com/NeurotechEducationProject/resources"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  tago:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tago
+    environment:
+      - AGENT_NAME=Tago
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Ghat
+agent:
+  name: "Ghat"
+  description: "🛕 Reuse GitHub Actions workflows across repositories"
+  github_url: "https://github.com/fregante/ghat](https://github.com/fregante/ghat"
+  
+# Add your configuration here

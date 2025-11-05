@@ -1,0 +1,7 @@
+# Configuration for Erag
+agent:
+  name: "Erag"
+  description: "an AI interaction tool with RAG hybrid search, conversation context, web content processing and structured data analysis with LLM / GPT"
+  github_url: "https://github.com/EdwardDali/erag](https://github.com/EdwardDali/erag"
+  
+# Add your configuration here

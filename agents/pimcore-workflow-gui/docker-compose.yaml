@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  pimcore-workflow-gui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pimcore-workflow-gui
+    environment:
+      - AGENT_NAME=Pimcore-Workflow-Gui
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

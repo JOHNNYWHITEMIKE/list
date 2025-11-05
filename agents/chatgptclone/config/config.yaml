@@ -1,0 +1,7 @@
+# Configuration for Chatgpt.Clone
+agent:
+  name: "Chatgpt.Clone"
+  description: "AI-powered conversational agent based on GPT-3.5. Trained on diverse text data, it generates human-like responses. Use it to build chatb…"
+  github_url: "https://github.com/vivekkkkkkk/chatgpt.clone](https://github.com/vivekkkkkkk/chatgpt.clone"
+  
+# Add your configuration here

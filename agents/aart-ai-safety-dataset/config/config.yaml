@@ -1,0 +1,7 @@
+# Configuration for Aart-Ai-Safety-Dataset
+agent:
+  name: "Aart-Ai-Safety-Dataset"
+  description: "AART - AI-Assisted Red-Teaming with Diverse Data Generation for New LLM-powered Applications"
+  github_url: "https://github.com/xxxx-dddd/aart-ai-safety-dataset](https://github.com/xxxx-dddd/aart-ai-safety-dataset"
+  
+# Add your configuration here

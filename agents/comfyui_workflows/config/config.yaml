@@ -1,0 +1,7 @@
+# Configuration for Comfyui_Workflows
+agent:
+  name: "Comfyui_Workflows"
+  description: "A repository of well documented easy to follow workflows for ComfyUI"
+  github_url: "https://github.com/cubiq/ComfyUI_Workflows](https://github.com/cubiq/ComfyUI_Workflows"
+  
+# Add your configuration here

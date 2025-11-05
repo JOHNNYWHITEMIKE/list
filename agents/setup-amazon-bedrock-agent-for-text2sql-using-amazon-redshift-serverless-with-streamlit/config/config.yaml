@@ -1,0 +1,7 @@
+# Configuration for Setup-Amazon-Bedrock-Agent-For-Text2Sql-Using-Amazon-Redshift-Serverless-With-Streamlit
+agent:
+  name: "Setup-Amazon-Bedrock-Agent-For-Text2Sql-Using-Amazon-Redshift-Serverless-With-Streamlit"
+  description: "This project integrates AWS services to create a natural language interface for querying Amazon Redshift Serverless databases. It utilize…"
+  github_url: "https://github.com/aws-samples/Setup-Amazon-Bedrock-Agent-for-Text2SQL-Using-Amazon-Redshift-Serverless-with-Streamlit](https://github.com/aws-samples/Setup-Amazon-Bedrock-Agent-for-Text2SQL-Using-Amazon-Redshift-Serverless-with-Streamlit"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llm-fine-tuning-azure:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm-fine-tuning-azure
+    environment:
+      - AGENT_NAME=Llm-Fine-Tuning-Azure
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

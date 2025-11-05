@@ -1,0 +1,7 @@
+# Configuration for Icodes
+agent:
+  name: "Icodes"
+  description: "LLM-powered Git archeology tool (a.k.a. Intelligent Commit Ontology Distiller and Enhanced Search)"
+  github_url: "https://github.com/a115/iCODES](https://github.com/a115/iCODES"
+  
+# Add your configuration here
