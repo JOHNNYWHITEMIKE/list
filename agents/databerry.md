@@ -17,7 +17,7 @@ If this is a GitHub repository, you can typically clone and install it:
 
 ```bash
 git clone https://github.com/gmpetrov/databerry/
-cd 
+cd databerry
 # Follow the repository's README for specific installation instructions
 ```
 
