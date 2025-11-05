@@ -1,0 +1,31 @@
+---
+name: Llm-Bedrock
+description: Run prompts against models hosted on AWS Bedrock
+---
+
+# Llm-Bedrock
+
+Run prompts against models hosted on AWS Bedrock
+
+## How to Use
+
+Visit the official resource: [https://github.com/simonw/llm-bedrock](https://github.com/simonw/llm-bedrock)
+
+### Installation
+
+If this is a GitHub repository, you can typically clone and install it:
+
+```bash
+git clone https://github.com/simonw/llm-bedrock
+cd llm-bedrock
+# Follow the repository's README for specific installation instructions
+```
+
+### Getting Started
+
+Please refer to the official documentation and repository for detailed setup and usage instructions.
+
+
+## Resources
+
+- Official Link: [https://github.com/simonw/llm-bedrock](https://github.com/simonw/llm-bedrock)

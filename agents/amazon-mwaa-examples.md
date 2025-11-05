@@ -1,0 +1,31 @@
+---
+name: Amazon-Mwaa-Examples
+description: Amazon Managed Workflows for Apache Airflow (MWAA) Examples repository contains example DAGs, requirements.txt, plugins, and CloudFormati…
+---
+
+# Amazon-Mwaa-Examples
+
+Amazon Managed Workflows for Apache Airflow (MWAA) Examples repository contains example DAGs, requirements.txt, plugins, and CloudFormati…
+
+## How to Use
+
+Visit the official resource: [https://github.com/aws-samples/amazon-mwaa-examples](https://github.com/aws-samples/amazon-mwaa-examples)
+
+### Installation
+
+If this is a GitHub repository, you can typically clone and install it:
+
+```bash
+git clone https://github.com/aws-samples/amazon-mwaa-examples
+cd amazon-mwaa-examples
+# Follow the repository's README for specific installation instructions
+```
+
+### Getting Started
+
+Please refer to the official documentation and repository for detailed setup and usage instructions.
+
+
+## Resources
+
+- Official Link: [https://github.com/aws-samples/amazon-mwaa-examples](https://github.com/aws-samples/amazon-mwaa-examples)
