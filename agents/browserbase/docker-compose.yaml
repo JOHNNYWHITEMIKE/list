@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  browserbase:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: browserbase
+    environment:
+      - AGENT_NAME=Browserbase
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

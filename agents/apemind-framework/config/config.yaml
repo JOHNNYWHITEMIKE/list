@@ -1,0 +1,7 @@
+# Configuration for Apemind-Framework
+agent:
+  name: "Apemind-Framework"
+  description: "Next-generation infrastructure for deploying AI agents on Solana"
+  github_url: "https://github.com/apeoutmeme/ApeMind-Framework](https://github.com/apeoutmeme/ApeMind-Framework"
+  
+# Add your configuration here

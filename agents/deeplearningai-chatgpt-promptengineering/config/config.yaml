@@ -1,0 +1,7 @@
+# Configuration for Deeplearningai-Chatgpt-Promptengineering
+agent:
+  name: "Deeplearningai-Chatgpt-Promptengineering"
+  description: "Practical Jupyter notebooks from Andrew Ng and Isa Fulford's "ChatGPT Prompt Engineering for Developers" course on DeepLearning.AI."
+  github_url: "https://github.com/LazaUK/DeepLearningAI-ChatGPT-PromptEngineering](https://github.com/LazaUK/DeepLearningAI-ChatGPT-PromptEngineering"
+  
+# Add your configuration here

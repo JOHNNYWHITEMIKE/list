@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  idseq-workflows:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: idseq-workflows
+    environment:
+      - AGENT_NAME=Idseq-Workflows
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

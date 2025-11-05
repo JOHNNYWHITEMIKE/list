@@ -1,0 +1,7 @@
+# Configuration for Ghost-Agent
+agent:
+  name: "Ghost-Agent"
+  description: "The objective of this project is to develop an AI ghost deployed on the web, powered by LangChain technology. The AI ghost will continuou…"
+  github_url: "https://github.com/qianyouliang/Ghost-Agent](https://github.com/qianyouliang/Ghost-Agent"
+  
+# Add your configuration here

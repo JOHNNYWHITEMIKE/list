@@ -1,0 +1,7 @@
+# Configuration for Elodie
+agent:
+  name: "Elodie"
+  description: "An EXIF-based photo assistant, organizer and workflow automation tool."
+  github_url: "https://github.com/jmathai/elodie](https://github.com/jmathai/elodie"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Advanced-Prompt-Generator
+agent:
+  name: "Advanced-Prompt-Generator"
+  description: "Automating prompt engineering using AI Agents."
+  github_url: "https://github.com/Thunderhead-exe/Advanced-Prompt-Generator](https://github.com/Thunderhead-exe/Advanced-Prompt-Generator"
+  
+# Add your configuration here

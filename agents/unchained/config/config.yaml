@@ -1,0 +1,7 @@
+# Configuration for Unchained
+agent:
+  name: "Unchained"
+  description: "A Django-based tool for prompt engineering and LLM system evaluation."
+  github_url: "https://github.com/aaronamelgar/unchained](https://github.com/aaronamelgar/unchained"
+  
+# Add your configuration here

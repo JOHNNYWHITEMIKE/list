@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  multiagents-infinite-backroom:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: multiagents-infinite-backroom
+    environment:
+      - AGENT_NAME=Multiagents-Infinite-Backroom
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

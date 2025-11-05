@@ -1,0 +1,7 @@
+# Configuration for Graph-Instruction-Tuning
+agent:
+  name: "Graph-Instruction-Tuning"
+  description: "Instruction tuning LLM with molecular graph instruction dataset."
+  github_url: "https://github.com/dgjun32/Graph-Instruction-Tuning](https://github.com/dgjun32/Graph-Instruction-Tuning"
+  
+# Add your configuration here

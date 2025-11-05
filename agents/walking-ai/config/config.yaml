@@ -1,0 +1,7 @@
+# Configuration for Walking-Ai
+agent:
+  name: "Walking-Ai"
+  description: "Test to make an AI walk using Unity ML-Agents plugin."
+  github_url: "https://github.com/AleCamara/walking-ai](https://github.com/AleCamara/walking-ai"
+  
+# Add your configuration here

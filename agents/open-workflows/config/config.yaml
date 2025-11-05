@@ -1,0 +1,7 @@
+# Configuration for Open-Workflows
+agent:
+  name: "Open-Workflows"
+  description: "List of open workflows and resources for A/V archiving"
+  github_url: "https://github.com/amiaopensource/open-workflows](https://github.com/amiaopensource/open-workflows"
+  
+# Add your configuration here

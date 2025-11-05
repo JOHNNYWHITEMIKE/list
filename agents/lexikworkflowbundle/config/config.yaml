@@ -1,0 +1,7 @@
+# Configuration for Lexikworkflowbundle
+agent:
+  name: "Lexikworkflowbundle"
+  description: "Simple workflow bundle for Symfony2"
+  github_url: "https://github.com/lexik/LexikWorkflowBundle](https://github.com/lexik/LexikWorkflowBundle"
+  
+# Add your configuration here

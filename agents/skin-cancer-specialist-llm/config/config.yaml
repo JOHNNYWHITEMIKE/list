@@ -1,0 +1,7 @@
+# Configuration for Skin-Cancer-Specialist-Llm
+agent:
+  name: "Skin-Cancer-Specialist-Llm"
+  description: "Fine tuning an LLM by the given dataset. The dataset represents the domain knowledge that the LLM should be an expert for."
+  github_url: "https://github.com/sobhonium/Skin-Cancer-Specialist-LLM](https://github.com/sobhonium/Skin-Cancer-Specialist-LLM"
+  
+# Add your configuration here

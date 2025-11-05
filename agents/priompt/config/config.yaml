@@ -1,0 +1,7 @@
+# Configuration for Priompt
+agent:
+  name: "Priompt"
+  description: "Priompt is a JSX-based library for designing prompts with priorities, aiming to optimize inclusion of content within token limits, inspired by React and detailed with installation instructions, examples, principles, and future considerations"
+  github_url: "https://github.com/anysphere/priompt](https://github.com/anysphere/priompt"
+  
+# Add your configuration here

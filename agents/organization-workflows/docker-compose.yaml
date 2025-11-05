@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  organization-workflows:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: organization-workflows
+    environment:
+      - AGENT_NAME=Organization-Workflows
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

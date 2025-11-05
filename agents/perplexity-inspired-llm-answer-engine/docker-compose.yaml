@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  perplexity-inspired-llm-answer-engine:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: perplexity-inspired-llm-answer-engine
+    environment:
+      - AGENT_NAME=Perplexity-Inspired LLM Answer Engine
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

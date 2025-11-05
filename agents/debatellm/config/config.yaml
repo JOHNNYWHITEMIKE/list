@@ -1,0 +1,7 @@
+# Configuration for Debatellm
+agent:
+  name: "Debatellm"
+  description: "Benchmarking Multi-Agent Debate between Language Models for Truthfulness in Q&A."
+  github_url: "https://github.com/instadeepai/DebateLLM](https://github.com/instadeepai/DebateLLM"
+  
+# Add your configuration here

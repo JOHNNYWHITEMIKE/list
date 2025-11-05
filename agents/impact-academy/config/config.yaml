@@ -1,0 +1,7 @@
+# Configuration for Impact-Academy
+agent:
+  name: "Impact-Academy"
+  description: "Auto-Enhance meta-benchmark, to measure the ability of LLM agents to improve other LLM agents"
+  github_url: "https://github.com/samizdis/impact-academy](https://github.com/samizdis/impact-academy"
+  
+# Add your configuration here

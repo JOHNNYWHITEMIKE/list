@@ -1,0 +1,7 @@
+# Configuration for NavAIGuide
+agent:
+  name: "NavAIGuide"
+  description: "NavAIGuide is an extensible, mobile-friendly, multi-modal agentic framework designed to integrate with mobile and desktop apps, featuring visual task detection, advanced code selectors, action-oriented execution, and resilient error handling"
+  github_url: "https://github.com/francedot/NavAIGuide-TS](https://github.com/francedot/NavAIGuide-TS"
+  
+# Add your configuration here

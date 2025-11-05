@@ -1,0 +1,7 @@
+# Configuration for Nanorwkv
+agent:
+  name: "Nanorwkv"
+  description: "The nanoGPT-style implementation of RWKV Language Model - an RNN with GPT-level LLM performance."
+  github_url: "https://github.com/Hannibal046/nanoRWKV](https://github.com/Hannibal046/nanoRWKV"
+  
+# Add your configuration here

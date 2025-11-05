@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  shadcn-next-workflows:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: shadcn-next-workflows
+    environment:
+      - AGENT_NAME=Shadcn-Next-Workflows
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

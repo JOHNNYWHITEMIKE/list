@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  overcooked_ai_llm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: overcooked_ai_llm
+    environment:
+      - AGENT_NAME=Overcooked_Ai_Llm
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

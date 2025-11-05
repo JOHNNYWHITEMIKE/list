@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  cuda-quantum:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cuda-quantum
+    environment:
+      - AGENT_NAME=Cuda-Quantum
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for LM Studio
+agent:
+  name: "LM Studio"
+  description: "LM Studio offers a platform for running various local LLMs like LLaMa, Falcon, MPT, and others offline, featuring a Chat UI, OpenAI-compatible server, and model downloads from Hugging Face, with support for Mac, Windows, and Linux, emphasizing privacy and no data collection, free for personal use"
+  github_url: ""
+  
+# Add your configuration here

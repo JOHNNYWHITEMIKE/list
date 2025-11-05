@@ -1,0 +1,7 @@
+# Configuration for Formfill
+agent:
+  name: "Formfill"
+  description: "FormFill is a CLI tool that uses LLMs to automatically fill out PDF forms."
+  github_url: "https://github.com/wdhorton/formfill](https://github.com/wdhorton/formfill"
+  
+# Add your configuration here

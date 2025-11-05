@@ -1,0 +1,7 @@
+# Configuration for Prompt-Engineering-Tutior
+agent:
+  name: "Prompt-Engineering-Tutior"
+  description: "🎡 Pompt 提示词工程师入门指南 ~视频字幕+代码资料"
+  github_url: "https://github.com/ConnectAI-E/Prompt-Engineering-Tutior](https://github.com/ConnectAI-E/Prompt-Engineering-Tutior"
+  
+# Add your configuration here

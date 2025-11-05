@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  awesome-prompting-on-vision-language-model:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: awesome-prompting-on-vision-language-model
+    environment:
+      - AGENT_NAME=Awesome-Prompting-On-Vision-Language-Model
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Ethics-Tree
+agent:
+  name: "Ethics-Tree"
+  description: "Mapping the Ethics of Generative AI"
+  github_url: "https://github.com/Thilo-Hagendorff/ethics-tree](https://github.com/Thilo-Hagendorff/ethics-tree"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  argo-workflows-demo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: argo-workflows-demo
+    environment:
+      - AGENT_NAME=Argo-Workflows-Demo
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Hugging Face Datasets
+agent:
+  name: "Hugging Face Datasets"
+  description: "Thousands of datasets for machine learning tasks."
+  github_url: ""
+  
+# Add your configuration here

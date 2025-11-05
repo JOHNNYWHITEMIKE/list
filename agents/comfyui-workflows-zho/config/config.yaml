@@ -1,0 +1,7 @@
+# Configuration for Comfyui-Workflows-Zho
+agent:
+  name: "Comfyui-Workflows-Zho"
+  description: "我的 ComfyUI 工作流合集 | My ComfyUI workflows collection"
+  github_url: "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO](https://github.com/ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO"
+  
+# Add your configuration here

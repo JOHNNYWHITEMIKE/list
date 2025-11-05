@@ -1,0 +1,7 @@
+# Configuration for AI Agent Crew
+agent:
+  name: "AI Agent Crew"
+  description: "Langchain and CrewAI have launched AI agents equipped with Bitcoin wallets, facilitating automated operations within a blockchain environment"
+  github_url: "https://github.com/aibtcdev/ai-agent-crew](https://github.com/aibtcdev/ai-agent-crew"
+  
+# Add your configuration here

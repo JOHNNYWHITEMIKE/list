@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  exaone-30:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: exaone-30
+    environment:
+      - AGENT_NAME=Exaone-3.0
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

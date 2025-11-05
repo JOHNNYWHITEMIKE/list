@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  tarsier-by-reworkd:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tarsier-by-reworkd
+    environment:
+      - AGENT_NAME=Tarsier by Reworkd
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

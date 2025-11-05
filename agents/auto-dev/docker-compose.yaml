@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  auto-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: auto-dev
+    environment:
+      - AGENT_NAME=Auto-Dev
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

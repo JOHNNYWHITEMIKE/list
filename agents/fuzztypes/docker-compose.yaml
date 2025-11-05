@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  fuzztypes:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fuzztypes
+    environment:
+      - AGENT_NAME=FuzzTypes
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

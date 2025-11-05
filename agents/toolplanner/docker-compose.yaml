@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  toolplanner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: toolplanner
+    environment:
+      - AGENT_NAME=Toolplanner
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

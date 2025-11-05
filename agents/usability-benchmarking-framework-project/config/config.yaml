@@ -1,0 +1,7 @@
+# Configuration for Usability-Benchmarking-Framework-Project
+agent:
+  name: "Usability-Benchmarking-Framework-Project"
+  description: "Evaluation of Software Manuals Using LLM-Powered GUI Agents - A Usability Benchmarking Framework"
+  github_url: "https://github.com/staro190/Usability-Benchmarking-Framework-Project](https://github.com/staro190/Usability-Benchmarking-Framework-Project"
+  
+# Add your configuration here

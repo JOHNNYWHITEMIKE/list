@@ -1,0 +1,7 @@
+# Configuration for Instantrun
+agent:
+  name: "Instantrun"
+  description: "AI agent that can deploy any github repo autonomously"
+  github_url: "https://github.com/Talha-Ali-5365/InstantRun](https://github.com/Talha-Ali-5365/InstantRun"
+  
+# Add your configuration here

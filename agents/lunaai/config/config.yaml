@@ -1,0 +1,7 @@
+# Configuration for Lunaai
+agent:
+  name: "Lunaai"
+  description: "Luna is a powerful multi-agent simulation framework designed to create, deploy, and manage autonomous AI agents. Built with TypeScript, i…"
+  github_url: "https://github.com/Eugeene1337/LunaAI](https://github.com/Eugeene1337/LunaAI"
+  
+# Add your configuration here

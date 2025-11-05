@@ -1,0 +1,7 @@
+# Configuration for BDR Agent by Relevance
+agent:
+  name: "BDR Agent by Relevance"
+  description: "Relevance AI's flagship BDR Agent is designed to assist sales teams by researching and qualifying leads, engaging in personalized prospecting according to your playbook 24x7, and booking meetings to grow your business without increasing headcount"
+  github_url: ""
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  azure-speech-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: azure-speech-service
+    environment:
+      - AGENT_NAME=Azure Speech Service
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

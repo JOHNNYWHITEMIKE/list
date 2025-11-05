@@ -1,0 +1,7 @@
+# Configuration for Metamind
+agent:
+  name: "Metamind"
+  description: "Empowering Your Applications with AI - MetaMind delivers a comprehensive framework for deploying intelligent agents, managing advanced wor…"
+  github_url: "https://github.com/MetaMindFramework/MetaMind](https://github.com/MetaMindFramework/MetaMind"
+  
+# Add your configuration here

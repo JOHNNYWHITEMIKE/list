@@ -1,0 +1,7 @@
+# Configuration for Langkit
+agent:
+  name: "Langkit"
+  description: "🔍 LangKit - An open-source toolkit for monitoring Large Language Models (LLMs). 📚 Extracts signals from prompts & responses, ensuring safe…"
+  github_url: "https://github.com/whylabs/langkit](https://github.com/whylabs/langkit"
+  
+# Add your configuration here

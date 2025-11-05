@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  prompt-engineering-by-openai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: prompt-engineering-by-openai
+    environment:
+      - AGENT_NAME=Prompt-Engineering-By-Openai
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

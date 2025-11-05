@@ -1,0 +1,7 @@
+# Configuration for Ai-Risk-Prettified
+agent:
+  name: "Ai-Risk-Prettified"
+  description: "A prettified page for MIT's AI Risk Database"
+  github_url: "https://github.com/Privacy-Engineering-CMU/ai-risk-prettified](https://github.com/Privacy-Engineering-CMU/ai-risk-prettified"
+  
+# Add your configuration here

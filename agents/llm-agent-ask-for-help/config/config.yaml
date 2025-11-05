@@ -1,0 +1,7 @@
+# Configuration for Llm-Agent-Ask-For-Help
+agent:
+  name: "Llm-Agent-Ask-For-Help"
+  description: "Benchmark LLM Agents' abilities to quit sequential tasks as early as possible."
+  github_url: "https://github.com/dillonmsandhu/llm-agent-ask-for-help](https://github.com/dillonmsandhu/llm-agent-ask-for-help"
+  
+# Add your configuration here

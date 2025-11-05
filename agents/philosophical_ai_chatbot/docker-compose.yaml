@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  philosophical_ai_chatbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: philosophical_ai_chatbot
+    environment:
+      - AGENT_NAME=Philosophical_Ai_Chatbot
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

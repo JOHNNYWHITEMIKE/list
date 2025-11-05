@@ -1,0 +1,7 @@
+# Configuration for Agenticai
+agent:
+  name: "Agenticai"
+  description: "AgenticAI - A framework for building autonomous decision-making agents. It integrates reinforcement learning, NLP, and multi-agent systems…"
+  github_url: "https://github.com/YasinOnline/AgenticAI](https://github.com/YasinOnline/AgenticAI"
+  
+# Add your configuration here

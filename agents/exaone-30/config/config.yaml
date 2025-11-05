@@ -1,0 +1,7 @@
+# Configuration for Exaone-3.0
+agent:
+  name: "Exaone-3.0"
+  description: "Official repository for EXAONE built by LG AI Research"
+  github_url: "https://github.com/LG-AI-EXAONE/EXAONE-3.0](https://github.com/LG-AI-EXAONE/EXAONE-3.0"
+  
+# Add your configuration here

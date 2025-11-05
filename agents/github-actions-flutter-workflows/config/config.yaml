@@ -1,0 +1,7 @@
+# Configuration for Github-Actions-Flutter-Workflows
+agent:
+  name: "Github-Actions-Flutter-Workflows"
+  description: "Opinionated GitHub Action workflows for Flutter projects"
+  github_url: "https://github.com/zgosalvez/github-actions-flutter-workflows](https://github.com/zgosalvez/github-actions-flutter-workflows"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Ai-Unexpected-Behaviors
+agent:
+  name: "Ai-Unexpected-Behaviors"
+  description: "catalog of unexpected behaviors of ai which can turn out to be failures that compromise the initial objectives, raising questions about u…"
+  github_url: "https://github.com/saraorsi/ai-unexpected-behaviors](https://github.com/saraorsi/ai-unexpected-behaviors"
+  
+# Add your configuration here

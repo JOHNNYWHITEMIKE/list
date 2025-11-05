@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  prompt-engineering-for-everyone-with-chatgpt-and-gpt4:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: prompt-engineering-for-everyone-with-chatgpt-and-gpt4
+    environment:
+      - AGENT_NAME=Prompt-Engineering-For-Everyone-With-Chatgpt-And-Gpt4
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Amazon-Bedrock-Agent-Test-Ui
+agent:
+  name: "Amazon-Bedrock-Agent-Test-Ui"
+  description: "A generic Streamlit UI for testing generative AI agents built using Agents for Amazon Bedrock"
+  github_url: "https://github.com/acwwat/amazon-bedrock-agent-test-ui](https://github.com/acwwat/amazon-bedrock-agent-test-ui"
+  
+# Add your configuration here

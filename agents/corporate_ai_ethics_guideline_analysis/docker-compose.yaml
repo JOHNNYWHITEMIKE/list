@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  corporate_ai_ethics_guideline_analysis:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: corporate_ai_ethics_guideline_analysis
+    environment:
+      - AGENT_NAME=Corporate_Ai_Ethics_Guideline_Analysis
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

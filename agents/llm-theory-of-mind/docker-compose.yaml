@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llm-theory-of-mind:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm-theory-of-mind
+    environment:
+      - AGENT_NAME=Llm-Theory-Of-Mind
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

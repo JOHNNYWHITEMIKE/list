@@ -1,0 +1,7 @@
+# Configuration for Autonomousai
+agent:
+  name: "Autonomousai"
+  description: "About Multi Agent System Installation Build Deployment - for autonomous testing"
+  github_url: "https://github.com/RithikaGupta/autonomousAI](https://github.com/RithikaGupta/autonomousAI"
+  
+# Add your configuration here

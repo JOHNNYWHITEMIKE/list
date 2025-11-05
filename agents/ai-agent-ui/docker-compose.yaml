@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ai-agent-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai-agent-ui
+    environment:
+      - AGENT_NAME=Ai-Agent-Ui
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

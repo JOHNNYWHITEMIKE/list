@@ -1,0 +1,7 @@
+# Configuration for TaskingAI
+agent:
+  name: "TaskingAI"
+  description: "TaskingAI is a platform enhancing AI-native app development with Firebase-like simplicity, offering an all-in-one LLM platform with intuitive project management, BaaS-inspired workflow, and customizable integration for developing GPTs-like multi-tenant applications"
+  github_url: "https://github.com/TaskingAI/TaskingAI](https://github.com/TaskingAI/TaskingAI"
+  
+# Add your configuration here

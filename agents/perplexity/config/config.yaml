@@ -1,0 +1,7 @@
+# Configuration for Perplexity
+agent:
+  name: "Perplexity"
+  description: "Perplexity AI is an AI-powered search engine that offers summarized answers with cited sources, content generation, accurate information retrieval, user-friendly interface, and versatility, making it a valuable tool for various users"
+  github_url: ""
+  
+# Add your configuration here

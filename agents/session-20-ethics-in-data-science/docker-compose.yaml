@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  session-20-ethics-in-data-science:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: session-20-ethics-in-data-science
+    environment:
+      - AGENT_NAME=Session-20-Ethics-In-Data-Science
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

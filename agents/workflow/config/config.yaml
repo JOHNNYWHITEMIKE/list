@@ -1,0 +1,7 @@
+# Configuration for Workflow
+agent:
+  name: "Workflow"
+  description: "Simple Pythonic Workflows"
+  github_url: "https://github.com/inveniosoftware-contrib/workflow](https://github.com/inveniosoftware-contrib/workflow"
+  
+# Add your configuration here

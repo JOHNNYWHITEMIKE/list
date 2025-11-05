@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  dolphinscheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dolphinscheduler
+    environment:
+      - AGENT_NAME=Dolphinscheduler
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

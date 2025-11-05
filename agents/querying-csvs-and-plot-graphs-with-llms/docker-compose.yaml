@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  querying-csvs-and-plot-graphs-with-llms:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: querying-csvs-and-plot-graphs-with-llms
+    environment:
+      - AGENT_NAME=Querying-Csvs-And-Plot-Graphs-With-Llms
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

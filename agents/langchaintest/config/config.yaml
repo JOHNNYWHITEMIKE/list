@@ -1,0 +1,7 @@
+# Configuration for Langchaintest
+agent:
+  name: "Langchaintest"
+  description: "AI Agents in LangGraph Course"
+  github_url: "https://github.com/JohnBreth/LangChainTest](https://github.com/JohnBreth/LangChainTest"
+  
+# Add your configuration here

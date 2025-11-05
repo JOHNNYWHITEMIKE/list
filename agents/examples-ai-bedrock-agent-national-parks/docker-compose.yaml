@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  examples-ai-bedrock-agent-national-parks:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: examples-ai-bedrock-agent-national-parks
+    environment:
+      - AGENT_NAME=Examples-Ai-Bedrock-Agent-National-Parks
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

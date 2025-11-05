@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  lawful-good:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lawful-good
+    environment:
+      - AGENT_NAME=Lawful-Good
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

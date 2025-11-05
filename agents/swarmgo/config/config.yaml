@@ -1,0 +1,7 @@
+# Configuration for Swarmgo
+agent:
+  name: "Swarmgo"
+  description: "SwarmGo is a Go package that allows you to create AI agents capable of interacting, coordinating, and executing tasks. Inspired by OpenAI…"
+  github_url: "https://github.com/prathyushnallamothu/swarmgo](https://github.com/prathyushnallamothu/swarmgo"
+  
+# Add your configuration here

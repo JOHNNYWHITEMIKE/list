@@ -1,0 +1,7 @@
+# Configuration for Agentserve
+agent:
+  name: "Agentserve"
+  description: "A framework for hosting and scaling AI agents."
+  github_url: "https://github.com/PropsAI/agentserve](https://github.com/PropsAI/agentserve"
+  
+# Add your configuration here

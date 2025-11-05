@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  useful-generativeai-tools-repo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: useful-generativeai-tools-repo
+    environment:
+      - AGENT_NAME=Useful-Generativeai-Tools-Repo
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

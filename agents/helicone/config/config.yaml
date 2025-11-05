@@ -1,0 +1,7 @@
+# Configuration for Helicone
+agent:
+  name: "Helicone"
+  description: "Helicone is an open-source observability platform for Language Learning Models (LLMs), providing features like request logging, caching, rate limiting, cost and latency tracking, UI-based prompt iteration, and collaboration tools"
+  github_url: ""
+  
+# Add your configuration here

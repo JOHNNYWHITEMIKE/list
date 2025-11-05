@@ -1,0 +1,7 @@
+# Configuration for OpenAI TTS
+agent:
+  name: "OpenAI TTS"
+  description: "The OpenAI Text-to-Speech (TTS) API allows users to convert text into high-quality, natural-sounding spoken audio in multiple languages, with various voice options and customization capabilities"
+  github_url: ""
+  
+# Add your configuration here

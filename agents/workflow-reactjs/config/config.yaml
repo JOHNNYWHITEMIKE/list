@@ -1,0 +1,7 @@
+# Configuration for Workflow-Reactjs
+agent:
+  name: "Workflow-Reactjs"
+  description: "My workflow with ReactJS + Webpack 3+"
+  github_url: "https://github.com/fdaciuk/workflow-reactjs](https://github.com/fdaciuk/workflow-reactjs"
+  
+# Add your configuration here

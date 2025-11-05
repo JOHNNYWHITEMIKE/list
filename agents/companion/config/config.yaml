@@ -1,0 +1,7 @@
+# Configuration for Companion
+agent:
+  name: "Companion"
+  description: "An AI-powered Discord bot blending playful conversation with smart moderation tools, adding charm and order to your server."
+  github_url: "https://github.com/rapmd73/Companion](https://github.com/rapmd73/Companion"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  lm-expansions:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lm-expansions
+    environment:
+      - AGENT_NAME=Lm-Expansions
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

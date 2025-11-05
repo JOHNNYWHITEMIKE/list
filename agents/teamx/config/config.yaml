@@ -1,0 +1,7 @@
+# Configuration for TeamX
+agent:
+  name: "TeamX"
+  description: "TeamX is an Agents-as-a-Service (AaaS) by Produvia which scales businesses with AI agent teams, offering custom solutions focused on automation, efficiency, and scalability"
+  github_url: ""
+  
+# Add your configuration here

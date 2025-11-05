@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  fate-in-ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fate-in-ai
+    environment:
+      - AGENT_NAME=Fate-In-Ai
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

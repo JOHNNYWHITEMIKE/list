@@ -1,0 +1,7 @@
+# Configuration for DeepInfra
+agent:
+  name: "DeepInfra"
+  description: "DeepInfra is a comprehensive platform that simplifies the deployment and management of machine learning models, offering a range of open-source models for tasks like text generation and embeddings, with easy integration through REST API calls"
+  github_url: ""
+  
+# Add your configuration here

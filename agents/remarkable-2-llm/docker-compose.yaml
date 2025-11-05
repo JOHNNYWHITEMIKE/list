@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  remarkable-2-llm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: remarkable-2-llm
+    environment:
+      - AGENT_NAME=Remarkable-2-Llm
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

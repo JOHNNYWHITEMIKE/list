@@ -1,0 +1,7 @@
+# Configuration for Pdf_To_Llm_Dataset.Py
+agent:
+  name: "Pdf_To_Llm_Dataset.Py"
+  description: "This project provides a Python script that converts a PDF book into a training dataset suitable for large language models (LLMs)."
+  github_url: "https://github.com/kkkarmo/pdf_to_llm_dataset.py](https://github.com/kkkarmo/pdf_to_llm_dataset.py"
+  
+# Add your configuration here

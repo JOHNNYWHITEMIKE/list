@@ -1,0 +1,7 @@
+# Configuration for Waii
+agent:
+  name: "Waii"
+  description: "A swift and straightforward AI agent for converting natural language to SQL queries, seamlessly integrable with your application"
+  github_url: ""
+  
+# Add your configuration here

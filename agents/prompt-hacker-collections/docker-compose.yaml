@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  prompt-hacker-collections:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: prompt-hacker-collections
+    environment:
+      - AGENT_NAME=Prompt-Hacker-Collections
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

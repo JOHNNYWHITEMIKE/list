@@ -1,0 +1,7 @@
+# Configuration for Remarkable-2-Llm
+agent:
+  name: "Remarkable-2-Llm"
+  description: "Integrating LLMs into reMarkable could unlock transformative features like auto-completion, grammar/style corrections, contextual suggest…"
+  github_url: "https://github.com/99x-incubator/remarkable-2-llm](https://github.com/99x-incubator/remarkable-2-llm"
+  
+# Add your configuration here

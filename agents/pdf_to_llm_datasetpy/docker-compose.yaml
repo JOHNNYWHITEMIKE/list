@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  pdf_to_llm_datasetpy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pdf_to_llm_datasetpy
+    environment:
+      - AGENT_NAME=Pdf_To_Llm_Dataset.Py
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

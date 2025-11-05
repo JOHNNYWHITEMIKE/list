@@ -1,0 +1,7 @@
+# Configuration for 42Dot_Llm
+agent:
+  name: "42Dot_Llm"
+  description: "42dot LLM consists of a pre-trained language model, 42dot LLM-PLM, and a fine-tuned model, 42dot LLM-SFT, which is trained to respond to …"
+  github_url: "https://github.com/42dot/42dot_LLM](https://github.com/42dot/42dot_LLM"
+  
+# Add your configuration here

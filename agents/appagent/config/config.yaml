@@ -1,0 +1,7 @@
+# Configuration for AppAgent
+agent:
+  name: "AppAgent"
+  description: "AppAgent is a mobile-friendly LLM-based multimodal agent framework developed to operate smartphone apps, enabling human-like interactions for a wide range of applications without system back-end access"
+  github_url: "https://github.com/mnotgod96/AppAgent](https://github.com/mnotgod96/AppAgent"
+  
+# Add your configuration here

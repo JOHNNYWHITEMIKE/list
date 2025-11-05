@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  redmine_workflow_enhancements:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: redmine_workflow_enhancements
+    environment:
+      - AGENT_NAME=Redmine_Workflow_Enhancements
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

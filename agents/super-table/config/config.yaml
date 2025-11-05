@@ -1,0 +1,7 @@
+# Configuration for Super-Table
+agent:
+  name: "Super-Table"
+  description: "Super-charge your Craft workflow using Super Table."
+  github_url: "https://github.com/verbb/super-table](https://github.com/verbb/super-table"
+  
+# Add your configuration here

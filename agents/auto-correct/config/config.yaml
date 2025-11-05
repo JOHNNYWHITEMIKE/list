@@ -1,0 +1,7 @@
+# Configuration for Auto-Correct
+agent:
+  name: "Auto-Correct"
+  description: "A brief background to my research about ML, AI and ethics"
+  github_url: "https://github.com/mayameme/auto-correct](https://github.com/mayameme/auto-correct"
+  
+# Add your configuration here

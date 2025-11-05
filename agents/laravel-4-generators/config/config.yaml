@@ -1,0 +1,7 @@
+# Configuration for Laravel-4-Generators
+agent:
+  name: "Laravel-4-Generators"
+  description: "Rapidly speed up your Laravel 4 workflow with generators"
+  github_url: "https://github.com/dahabit/Laravel-4-Generators](https://github.com/dahabit/Laravel-4-Generators"
+  
+# Add your configuration here

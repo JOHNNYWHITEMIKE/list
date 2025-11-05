@@ -1,0 +1,7 @@
+# Configuration for Worldai
+agent:
+  name: "Worldai"
+  description: "World AI is a simulator designed for research purposes. It can be used to simulate worlds, logical and ethical problems for AI agents"
+  github_url: "https://github.com/nschaetti/WorldAI](https://github.com/nschaetti/WorldAI"
+  
+# Add your configuration here

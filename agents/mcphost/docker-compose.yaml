@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  mcphost:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mcphost
+    environment:
+      - AGENT_NAME=Mcphost
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

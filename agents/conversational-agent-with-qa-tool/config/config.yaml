@@ -1,0 +1,7 @@
+# Configuration for Conversational-Agent-With-Qa-Tool
+agent:
+  name: "Conversational-Agent-With-Qa-Tool"
+  description: "A custom chat agent implemented using Langchain, gpt-3.5 and Pinecone. Implements memory management for context, a custom prompt template…"
+  github_url: "https://github.com/CharlesSQ/conversational-agent-with-QA-tool](https://github.com/CharlesSQ/conversational-agent-with-QA-tool"
+  
+# Add your configuration here

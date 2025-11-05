@@ -1,0 +1,7 @@
+# Configuration for Smartplay
+agent:
+  name: "Smartplay"
+  description: "SmartPlay is a benchmark for Large Language Models (LLMs). Uses a variety of games to test various important LLM capabilities as agents. …"
+  github_url: "https://github.com/microsoft/SmartPlay](https://github.com/microsoft/SmartPlay"
+  
+# Add your configuration here

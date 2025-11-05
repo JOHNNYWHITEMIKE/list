@@ -1,0 +1,7 @@
+# Configuration for Ai-Llm-Comparison
+agent:
+  name: "Ai-Llm-Comparison"
+  description: "A website where you can compare every AI Model ✨"
+  github_url: "https://github.com/Ahmet-Dedeler/ai-llm-comparison](https://github.com/Ahmet-Dedeler/ai-llm-comparison"
+  
+# Add your configuration here

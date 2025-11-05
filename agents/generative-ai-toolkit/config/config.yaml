@@ -1,0 +1,7 @@
+# Configuration for Generative-Ai-Toolkit
+agent:
+  name: "Generative-Ai-Toolkit"
+  description: "The Generative AI Toolkit is a lightweight library that covers the life cycle of LLM-based applications, including agents. Its purpose is…"
+  github_url: "https://github.com/awslabs/generative-ai-toolkit](https://github.com/awslabs/generative-ai-toolkit"
+  
+# Add your configuration here

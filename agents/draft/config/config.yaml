@@ -1,0 +1,7 @@
+# Configuration for Draft
+agent:
+  name: "Draft"
+  description: "The implementation for the paper - From Exploration to Mastery - Enabling LLMs to Master Tools via Self-Driven Interactions."
+  github_url: "https://github.com/quchangle1/DRAFT](https://github.com/quchangle1/DRAFT"
+  
+# Add your configuration here

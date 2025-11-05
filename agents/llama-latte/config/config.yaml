@@ -1,0 +1,7 @@
+# Configuration for Llama-Latte
+agent:
+  name: "Llama-Latte"
+  description: "AI-powered coffee shop app built with React Native, featuring Llama 3 model integration, Retrieval-Augmented Generation (RAG) for persona…"
+  github_url: "https://github.com/im-anhat/llama-latte](https://github.com/im-anhat/llama-latte"
+  
+# Add your configuration here

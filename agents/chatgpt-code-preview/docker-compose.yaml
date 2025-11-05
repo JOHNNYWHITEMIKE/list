@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  chatgpt-code-preview:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: chatgpt-code-preview
+    environment:
+      - AGENT_NAME=ChatGPT-code-preview
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

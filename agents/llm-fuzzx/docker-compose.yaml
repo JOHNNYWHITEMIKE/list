@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llm-fuzzx:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm-fuzzx
+    environment:
+      - AGENT_NAME=Llm-Fuzzx
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

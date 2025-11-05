@@ -1,0 +1,7 @@
+# Configuration for Aidialer
+agent:
+  name: "Aidialer"
+  description: "A full stack app for interruptible, low-latency and near-human quality AI phone calls built from stitching LLMs, speech understanding tools…"
+  github_url: "https://github.com/akiani/aidialer](https://github.com/akiani/aidialer"
+  
+# Add your configuration here

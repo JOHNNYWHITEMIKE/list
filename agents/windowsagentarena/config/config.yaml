@@ -1,0 +1,7 @@
+# Configuration for Windowsagentarena
+agent:
+  name: "Windowsagentarena"
+  description: "Windows Agent Arena (WAA) 🪟 is a scalable OS platform for testing and benchmarking of multi-modal AI agents."
+  github_url: "https://github.com/microsoft/WindowsAgentArena](https://github.com/microsoft/WindowsAgentArena"
+  
+# Add your configuration here

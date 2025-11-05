@@ -1,0 +1,7 @@
+# Configuration for LangServe
+agent:
+  name: "LangServe"
+  description: "LangServe facilitates the deployment of LangChain runnables and chains as a REST API, providing features like automatic schema inference, efficient endpoints, and a playground page, with plans for a hosted version for one-click deployments"
+  github_url: "https://github.com/langchain-ai/langserve](https://github.com/langchain-ai/langserve"
+  
+# Add your configuration here

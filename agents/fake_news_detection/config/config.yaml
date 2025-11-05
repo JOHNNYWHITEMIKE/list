@@ -1,0 +1,7 @@
+# Configuration for Fake_News_Detection
+agent:
+  name: "Fake_News_Detection"
+  description: "Code for Fake News Detection using NLP and Neural Networks for the scientific article AI Ethics - An Evaluation of Modern World Technologi…"
+  github_url: "https://github.com/divss98/Fake_News_Detection](https://github.com/divss98/Fake_News_Detection"
+  
+# Add your configuration here

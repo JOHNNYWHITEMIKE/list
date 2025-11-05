@@ -1,0 +1,7 @@
+# Configuration for Repo-To-Text
+agent:
+  name: "Repo-To-Text"
+  description: "Convert a repository structure and its contents into a single text file, including the tree output and file contents in markdown code blo…"
+  github_url: "https://github.com/kirill-markin/repo-to-text](https://github.com/kirill-markin/repo-to-text"
+  
+# Add your configuration here

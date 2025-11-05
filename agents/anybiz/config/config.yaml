@@ -1,0 +1,7 @@
+# Configuration for AnyBiz
+agent:
+  name: "AnyBiz"
+  description: "AnyBiz offers AI-driven sales agents that enhance sales strategies through intelligent automation, continuous learning, and hyper-personalization, operating 24/7 without breaks"
+  github_url: ""
+  
+# Add your configuration here

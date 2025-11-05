@@ -1,0 +1,7 @@
+# Configuration for Agentic.Md
+agent:
+  name: "Agentic.Md"
+  description: "Build, Test, Deploy, & Iterate on AI Agents using Markdown & MDX"
+  github_url: "https://github.com/ai-primitives/agentic.md](https://github.com/ai-primitives/agentic.md"
+  
+# Add your configuration here

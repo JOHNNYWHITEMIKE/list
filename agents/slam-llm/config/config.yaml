@@ -1,0 +1,7 @@
+# Configuration for Slam-Llm
+agent:
+  name: "Slam-Llm"
+  description: "Speech, Language, Audio, Music Processing with Large Language Model"
+  github_url: "https://github.com/X-LANCE/SLAM-LLM](https://github.com/X-LANCE/SLAM-LLM"
+  
+# Add your configuration here

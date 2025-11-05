@@ -1,0 +1,7 @@
+# Configuration for Redmine_Workflow_Enhancements
+agent:
+  name: "Redmine_Workflow_Enhancements"
+  description: "Redmine workflow enhancements. UNMAINTAINED"
+  github_url: "https://github.com/dr-itz/redmine_workflow_enhancements](https://github.com/dr-itz/redmine_workflow_enhancements"
+  
+# Add your configuration here

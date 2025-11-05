@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  prompt-engineering-notebook:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: prompt-engineering-notebook
+    environment:
+      - AGENT_NAME=Prompt-Engineering-Notebook
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

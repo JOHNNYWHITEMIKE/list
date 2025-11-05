@@ -1,0 +1,7 @@
+# Configuration for Continue
+agent:
+  name: "Continue"
+  description: "Continue is an open-source autopilot plugin for VS Code and JetBrains, enhancing coding with LLMs through features like task and tab autocomplete, natural language edits, file generation, and customization options, available under the Apache 2.0 license"
+  github_url: "https://github.com/continuedev/continue](https://github.com/continuedev/continue"
+  
+# Add your configuration here

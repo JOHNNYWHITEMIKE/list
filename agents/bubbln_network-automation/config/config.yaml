@@ -1,0 +1,7 @@
+# Configuration for Bubbln_Network-Automation
+agent:
+  name: "Bubbln_Network-Automation"
+  description: "An AI-driven network automation tool"
+  github_url: "https://github.com/olasupo/bubbln_network-automation](https://github.com/olasupo/bubbln_network-automation"
+  
+# Add your configuration here

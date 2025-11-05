@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ai-assistant-by-deco:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai-assistant-by-deco
+    environment:
+      - AGENT_NAME=AI Assistant by Deco
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

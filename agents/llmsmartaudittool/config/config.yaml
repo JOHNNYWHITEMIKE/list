@@ -1,0 +1,7 @@
+# Configuration for Llmsmartaudittool
+agent:
+  name: "Llmsmartaudittool"
+  description: "LLM-SmartAudit is a cutting-edge tool designed to revolutionize smart contract auditing using advanced language models."
+  github_url: "https://github.com/LLMAudit/LLMSmartAuditTool](https://github.com/LLMAudit/LLMSmartAuditTool"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  agent-by-stately-ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agent-by-stately-ai
+    environment:
+      - AGENT_NAME=Agent by Stately AI
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

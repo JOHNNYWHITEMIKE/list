@@ -1,0 +1,7 @@
+# Configuration for Llm_Bxn_Dataset
+agent:
+  name: "Llm_Bxn_Dataset"
+  description: "A simple dataset"
+  github_url: "https://github.com/Davickyz/llm_bxn_dataset](https://github.com/Davickyz/llm_bxn_dataset"
+  
+# Add your configuration here

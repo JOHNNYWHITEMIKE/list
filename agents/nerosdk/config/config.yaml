@@ -1,0 +1,7 @@
+# Configuration for Nerosdk
+agent:
+  name: "Nerosdk"
+  description: "sdk to build and deploy your own ai agent"
+  github_url: "https://github.com/nerobossai/nerosdk](https://github.com/nerobossai/nerosdk"
+  
+# Add your configuration here

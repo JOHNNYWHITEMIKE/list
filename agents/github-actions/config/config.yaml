@@ -1,0 +1,7 @@
+# Configuration for Github-Actions
+agent:
+  name: "Github-Actions"
+  description: "Reusable Actions workflows"
+  github_url: "https://github.com/FuelLabs/github-actions](https://github.com/FuelLabs/github-actions"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  promptengineering4devs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: promptengineering4devs
+    environment:
+      - AGENT_NAME=Promptengineering4Devs
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

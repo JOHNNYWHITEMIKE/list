@@ -1,0 +1,7 @@
+# Configuration for Argo-Python-Dsl
+agent:
+  name: "Argo-Python-Dsl"
+  description: "Python DSL for Argo Workflows"
+  github_url: "https://github.com/argoproj-labs/argo-python-dsl](https://github.com/argoproj-labs/argo-python-dsl"
+  
+# Add your configuration here

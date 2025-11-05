@@ -1,0 +1,7 @@
+# Configuration for Tora
+agent:
+  name: "Tora"
+  description: "ToRA is a series of Tool-integrated Reasoning LLM Agents designed to solve challenging mathematical reasoning problems by interacting with …"
+  github_url: "https://github.com/microsoft/ToRA](https://github.com/microsoft/ToRA"
+  
+# Add your configuration here

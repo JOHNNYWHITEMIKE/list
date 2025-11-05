@@ -1,0 +1,7 @@
+# Configuration for Cody
+agent:
+  name: "Cody"
+  description: "Cody, an AI coding assistant, now offers an enterprise version with enhanced security, scalability, and control for organizations, supporting various IDEs and providing AI-powered autocomplete, chat assistance, and custom command capabilities"
+  github_url: ""
+  
+# Add your configuration here

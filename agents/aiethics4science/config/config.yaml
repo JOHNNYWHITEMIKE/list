@@ -1,0 +1,7 @@
+# Configuration for Aiethics4Science
+agent:
+  name: "Aiethics4Science"
+  description: "AI Ethics education material designed for scientists"
+  github_url: "https://github.com/savvy379/aiethics4science](https://github.com/savvy379/aiethics4science"
+  
+# Add your configuration here

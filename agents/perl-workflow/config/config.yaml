@@ -1,0 +1,7 @@
+# Configuration for Perl-Workflow
+agent:
+  name: "Perl-Workflow"
+  description: "Workflow - simple, flexible system to implement workflows/state machines"
+  github_url: "https://github.com/perl-workflow/perl-workflow](https://github.com/perl-workflow/perl-workflow"
+  
+# Add your configuration here

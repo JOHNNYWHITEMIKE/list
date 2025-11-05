@@ -1,0 +1,7 @@
+# Configuration for Diplomacy-Llm
+agent:
+  name: "Diplomacy-Llm"
+  description: "Public LLM benchmark using the results of Diplomacy games played by multiple LLM agents."
+  github_url: "https://github.com/lukepoo101/diplomacy-llm](https://github.com/lukepoo101/diplomacy-llm"
+  
+# Add your configuration here

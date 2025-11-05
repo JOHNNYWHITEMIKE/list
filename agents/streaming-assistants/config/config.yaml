@@ -1,0 +1,7 @@
+# Configuration for Streaming Assistants
+agent:
+  name: "Streaming Assistants"
+  description: "The `streaming-assistants` library on GitHub enables streaming for OpenAI Assistants API using Astra Assistants, providing a workaround for the lack of streaming support in the official OpenAI Assistants API"
+  github_url: "https://github.com/phact/streaming-assistants](https://github.com/phact/streaming-assistants"
+  
+# Add your configuration here

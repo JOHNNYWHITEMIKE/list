@@ -1,0 +1,7 @@
+# Configuration for Seargesdxl
+agent:
+  name: "Seargesdxl"
+  description: "Custom nodes and workflows for SDXL in ComfyUI"
+  github_url: "https://github.com/SeargeDP/SeargeSDXL](https://github.com/SeargeDP/SeargeSDXL"
+  
+# Add your configuration here

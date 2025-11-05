@@ -1,0 +1,7 @@
+# Configuration for AutoDev
+agent:
+  name: "AutoDev"
+  description: "AutoDev is an AI-powered coding assistant offering multilingual support, automatic code generation, and debugging assistance, featuring customizable prompts and specialized tools for development, testing, documentation, and the integration of custom AI agents, with a focus on experimenting and building AI agents using its UI framework"
+  github_url: "https://github.com/unit-mesh/auto-dev](https://github.com/unit-mesh/auto-dev"
+  
+# Add your configuration here

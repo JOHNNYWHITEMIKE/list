@@ -1,0 +1,7 @@
+# Configuration for Function-Python-Ai-Langchain
+agent:
+  name: "Function-Python-Ai-Langchain"
+  description: "Simple starting point function to host LangChains with LLMs and other tools in an Azure Function."
+  github_url: "https://github.com/Azure-Samples/function-python-ai-langchain](https://github.com/Azure-Samples/function-python-ai-langchain"
+  
+# Add your configuration here

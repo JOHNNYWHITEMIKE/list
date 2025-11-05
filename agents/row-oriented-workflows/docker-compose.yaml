@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  row-oriented-workflows:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: row-oriented-workflows
+    environment:
+      - AGENT_NAME=Row-Oriented-Workflows
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

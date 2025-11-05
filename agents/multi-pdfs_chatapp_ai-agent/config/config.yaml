@@ -1,0 +1,7 @@
+# Configuration for Multi-Pdfs_Chatapp_Ai-Agent
+agent:
+  name: "Multi-Pdfs_Chatapp_Ai-Agent"
+  description: "Meet MultiPDF 📚 Chat AI App! 🚀 Chat seamlessly with Multiple PDFs using Langchain, Google Gemini Pro & FAISS Vector DB with Seamless Stre…"
+  github_url: "https://github.com/GURPREETKAURJETHRA/Multi-PDFs_ChatApp_AI-Agent](https://github.com/GURPREETKAURJETHRA/Multi-PDFs_ChatApp_AI-Agent"
+  
+# Add your configuration here

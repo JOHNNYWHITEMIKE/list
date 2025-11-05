@@ -1,0 +1,7 @@
+# Configuration for Hackopenaisystemprompts
+agent:
+  name: "Hackopenaisystemprompts"
+  description: "Hack OpenAI LLMs' System Prompts By Reverse Prompt Engineering"
+  github_url: "https://github.com/circlestarzero/HackOpenAISystemPrompts](https://github.com/circlestarzero/HackOpenAISystemPrompts"
+  
+# Add your configuration here

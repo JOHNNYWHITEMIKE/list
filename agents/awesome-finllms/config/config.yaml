@@ -1,0 +1,7 @@
+# Configuration for Awesome-Finllms
+agent:
+  name: "Awesome-Finllms"
+  description: "🥇 A curated list of awesome large language models in finance(FinLLMs), including papers,models,datasets and codebases. 金融大模型列表，特别是中英双语大模型。"
+  github_url: "https://github.com/IDEA-FinAI/Awesome-FinLLMs](https://github.com/IDEA-FinAI/Awesome-FinLLMs"
+  
+# Add your configuration here

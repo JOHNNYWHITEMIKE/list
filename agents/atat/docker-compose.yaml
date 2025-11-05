@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  atat:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: atat
+    environment:
+      - AGENT_NAME=Atat
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

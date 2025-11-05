@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  awesome-langchain:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: awesome-langchain
+    environment:
+      - AGENT_NAME=Awesome-Langchain
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

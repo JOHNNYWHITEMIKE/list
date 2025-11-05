@@ -1,0 +1,7 @@
+# Configuration for Streamflow
+agent:
+  name: "Streamflow"
+  description: "StreamFlow™ is a stream processing tool designed to help build and monitor processing workflows."
+  github_url: "https://github.com/lmco/streamflow](https://github.com/lmco/streamflow"
+  
+# Add your configuration here

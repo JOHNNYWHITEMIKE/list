@@ -1,0 +1,7 @@
+# Configuration for Syncode
+agent:
+  name: "Syncode"
+  description: "Efficient and general syntactical decoding for Large Language Models"
+  github_url: "https://github.com/uiuc-focal-lab/syncode](https://github.com/uiuc-focal-lab/syncode"
+  
+# Add your configuration here

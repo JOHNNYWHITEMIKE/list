@@ -1,0 +1,7 @@
+# Configuration for Appworld-Leaderboard
+agent:
+  name: "Appworld-Leaderboard"
+  description: "🌍 Leaderboard Repository for "AppWorld - A Controllable World of Apps and People for Benchmarking Interactive Coding Agent", ACL2024"
+  github_url: "https://github.com/StonyBrookNLP/appworld-leaderboard](https://github.com/StonyBrookNLP/appworld-leaderboard"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Networkattacksimulator
+agent:
+  name: "Networkattacksimulator"
+  description: "An environment for testing AI pentesting agents against a simulated network."
+  github_url: "https://github.com/Jjschwartz/NetworkAttackSimulator](https://github.com/Jjschwartz/NetworkAttackSimulator"
+  
+# Add your configuration here

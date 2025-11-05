@@ -1,0 +1,7 @@
+# Configuration for Autogpt-Handbook
+agent:
+  name: "Autogpt-Handbook"
+  description: "A guide to using AutoGPT for code generation and prompt engineering."
+  github_url: "https://github.com/RimaBuilds/AutoGPT-handbook](https://github.com/RimaBuilds/AutoGPT-handbook"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Fl_Llm_Benchmark_Dataset
+agent:
+  name: "Fl_Llm_Benchmark_Dataset"
+  description: "This code collects congressional/parliamentary dataset across US, UK and Canada"
+  github_url: "https://github.com/hazylavender/fl_llm_benchmark_dataset](https://github.com/hazylavender/fl_llm_benchmark_dataset"
+  
+# Add your configuration here

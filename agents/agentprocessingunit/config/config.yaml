@@ -1,0 +1,7 @@
+# Configuration for Agentprocessingunit
+agent:
+  name: "Agentprocessingunit"
+  description: "The Agent Processing Unit (APU) is an open source hardware project to build a high-performance chip architecture optimized for AI agent w…"
+  github_url: "https://github.com/faddy19/AgentProcessingUnit](https://github.com/faddy19/AgentProcessingUnit"
+  
+# Add your configuration here

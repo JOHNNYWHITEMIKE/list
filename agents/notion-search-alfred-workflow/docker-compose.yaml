@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  notion-search-alfred-workflow:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: notion-search-alfred-workflow
+    environment:
+      - AGENT_NAME=Notion-Search-Alfred-Workflow
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

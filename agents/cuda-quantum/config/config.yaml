@@ -1,0 +1,7 @@
+# Configuration for Cuda-Quantum
+agent:
+  name: "Cuda-Quantum"
+  description: "C++ and Python support for the CUDA Quantum programming model for heterogeneous quantum-classical workflows"
+  github_url: "https://github.com/NVIDIA/cuda-quantum](https://github.com/NVIDIA/cuda-quantum"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  awesome-recommend-system-pretraining-papers:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: awesome-recommend-system-pretraining-papers
+    environment:
+      - AGENT_NAME=Awesome-Recommend-System-Pretraining-Papers
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

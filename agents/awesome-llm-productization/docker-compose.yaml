@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  awesome-llm-productization:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: awesome-llm-productization
+    environment:
+      - AGENT_NAME=Awesome-Llm-Productization
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

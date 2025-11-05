@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  vscode-tips-tricks:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vscode-tips-tricks
+    environment:
+      - AGENT_NAME=Vscode-Tips-Tricks
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

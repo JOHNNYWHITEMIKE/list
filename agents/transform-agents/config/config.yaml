@@ -1,0 +1,7 @@
+# Configuration for Transform-Agents
+agent:
+  name: "Transform-Agents"
+  description: "Transform-Agents  - A UI for an AI systems - Build, simulate, run, and deploy your agentic AI system at scale."
+  github_url: "https://github.com/transformsen/transform-agents](https://github.com/transformsen/transform-agents"
+  
+# Add your configuration here

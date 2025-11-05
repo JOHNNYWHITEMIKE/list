@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  awesome-llm-json:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: awesome-llm-json
+    environment:
+      - AGENT_NAME=Awesome-Llm-Json
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

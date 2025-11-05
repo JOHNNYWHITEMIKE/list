@@ -1,0 +1,7 @@
+# Configuration for LMNT
+agent:
+  name: "LMNT"
+  description: "LMNT is an AI-powered text-to-speech platform that offers ultrafast, lifelike, and reliable voice cloning and generation services for conversational apps, agents, and content creation at scale"
+  github_url: ""
+  
+# Add your configuration here

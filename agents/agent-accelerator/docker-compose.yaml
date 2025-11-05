@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  agent-accelerator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agent-accelerator
+    environment:
+      - AGENT_NAME=Agent-Accelerator
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

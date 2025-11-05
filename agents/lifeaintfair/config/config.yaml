@@ -1,0 +1,7 @@
+# Configuration for Lifeaintfair
+agent:
+  name: "Lifeaintfair"
+  description: "A digital board game and text-base adventure exploring the consequences and ethics of AI implementation in all stages of our lives."
+  github_url: "https://github.com/elizabethayalamojica/lifeaintfair](https://github.com/elizabethayalamojica/lifeaintfair"
+  
+# Add your configuration here

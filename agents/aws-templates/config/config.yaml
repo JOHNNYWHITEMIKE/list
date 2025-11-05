@@ -1,0 +1,7 @@
+# Configuration for Aws-Templates
+agent:
+  name: "Aws-Templates"
+  description: "A collection of AWS templates for deploying AI Agents"
+  github_url: "https://github.com/phidatahq/aws-templates](https://github.com/phidatahq/aws-templates"
+  
+# Add your configuration here

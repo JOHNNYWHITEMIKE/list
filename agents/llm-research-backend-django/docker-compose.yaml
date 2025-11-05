@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llm-research-backend-django:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm-research-backend-django
+    environment:
+      - AGENT_NAME=Llm-Research-Backend-Django
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

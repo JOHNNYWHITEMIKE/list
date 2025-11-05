@@ -1,0 +1,7 @@
+# Configuration for chatgpt-artifacts
+agent:
+  name: "chatgpt-artifacts"
+  description: "Bring Claude's Artifacts feature to ChatGPT which allows you to execute Node.js commands on your ChatGPT Artifacts projects, inspired by Claude's Artifacts"
+  github_url: "https://github.com/ozgrozer/chatgpt-artifacts](https://github.com/ozgrozer/chatgpt-artifacts"
+  
+# Add your configuration here

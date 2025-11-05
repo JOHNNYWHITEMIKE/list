@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  e2b:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: e2b
+    environment:
+      - AGENT_NAME=E2B
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

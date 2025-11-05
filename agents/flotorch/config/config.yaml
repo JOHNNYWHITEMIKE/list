@@ -1,0 +1,7 @@
+# Configuration for Flotorch
+agent:
+  name: "Flotorch"
+  description: "FloTorch is an open-source tool for optimizing Generative AI workloads on AWS. It automates RAG proof-of-concept development with feature…"
+  github_url: "https://github.com/FissionAI/FloTorch](https://github.com/FissionAI/FloTorch"
+  
+# Add your configuration here

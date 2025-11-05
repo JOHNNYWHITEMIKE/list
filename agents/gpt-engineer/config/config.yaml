@@ -1,0 +1,7 @@
+# Configuration for GPT Engineer
+agent:
+  name: "GPT Engineer"
+  description: "GPT-Engineer is an AI-powered tool allowing users to specify software in natural language, automatically generating and executing code, with options for improvement suggestions, and fostering collaboration within the open-source community"
+  github_url: "https://github.com/gpt-engineer-org/gpt-engineer](https://github.com/gpt-engineer-org/gpt-engineer"
+  
+# Add your configuration here

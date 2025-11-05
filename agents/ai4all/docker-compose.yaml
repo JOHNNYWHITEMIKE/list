@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ai4all:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai4all
+    environment:
+      - AGENT_NAME=Ai4All-
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

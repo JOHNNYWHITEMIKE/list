@@ -1,0 +1,7 @@
+# Configuration for Ai-Api-Testing
+agent:
+  name: "Ai-Api-Testing"
+  description: "🐦AI test generator for APIs and agentic workflows"
+  github_url: "https://github.com/CarlosVecina/ai-api-testing](https://github.com/CarlosVecina/ai-api-testing"
+  
+# Add your configuration here

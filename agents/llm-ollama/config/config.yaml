@@ -1,0 +1,7 @@
+# Configuration for Llm-Ollama
+agent:
+  name: "Llm-Ollama"
+  description: "LLM plugin providing access to models running on an Ollama server"
+  github_url: "https://github.com/taketwo/llm-ollama](https://github.com/taketwo/llm-ollama"
+  
+# Add your configuration here

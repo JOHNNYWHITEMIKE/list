@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  prompt-engineering-guide:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: prompt-engineering-guide
+    environment:
+      - AGENT_NAME=Prompt-Engineering-Guide
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

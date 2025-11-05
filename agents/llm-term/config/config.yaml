@@ -1,0 +1,7 @@
+# Configuration for Llm-Term
+agent:
+  name: "Llm-Term"
+  description: "A Rust-based CLI tool that generates and executes terminal commands using OpenAI's language models."
+  github_url: "https://github.com/dh1011/llm-term](https://github.com/dh1011/llm-term"
+  
+# Add your configuration here

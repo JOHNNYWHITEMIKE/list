@@ -1,0 +1,7 @@
+# Configuration for Aws-Ddk
+agent:
+  name: "Aws-Ddk"
+  description: "An open source development framework to help you build data workflows and modern data architecture on AWS."
+  github_url: "https://github.com/awslabs/aws-ddk](https://github.com/awslabs/aws-ddk"
+  
+# Add your configuration here

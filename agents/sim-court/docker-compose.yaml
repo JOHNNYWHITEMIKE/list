@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  sim-court:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sim-court
+    environment:
+      - AGENT_NAME=Sim-Court
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

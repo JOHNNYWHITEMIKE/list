@@ -1,0 +1,7 @@
+# Configuration for Web-Llm-Chat
+agent:
+  name: "Web-Llm-Chat"
+  description: "Chat with AI large language models running natively in your browser. Enjoy private, server-free, seamless AI conversations."
+  github_url: "https://github.com/mlc-ai/web-llm-chat](https://github.com/mlc-ai/web-llm-chat"
+  
+# Add your configuration here

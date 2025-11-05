@@ -1,0 +1,7 @@
+# Configuration for Textbook_Quality
+agent:
+  name: "Textbook_Quality"
+  description: "Generate textbook-quality synthetic LLM pretraining data"
+  github_url: "https://github.com/VikParuchuri/textbook_quality](https://github.com/VikParuchuri/textbook_quality"
+  
+# Add your configuration here

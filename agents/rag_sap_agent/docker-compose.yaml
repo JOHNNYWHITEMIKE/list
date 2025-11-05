@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  rag_sap_agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rag_sap_agent
+    environment:
+      - AGENT_NAME=Rag_Sap_Agent
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

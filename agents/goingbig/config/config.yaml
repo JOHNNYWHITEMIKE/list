@@ -1,0 +1,7 @@
+# Configuration for Goingbig
+agent:
+  name: "Goingbig"
+  description: "Test AI Agent"
+  github_url: "https://github.com/tshurden16/goingbig](https://github.com/tshurden16/goingbig"
+  
+# Add your configuration here

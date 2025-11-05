@@ -1,0 +1,7 @@
+# Configuration for Ai-Ethics-Project
+agent:
+  name: "Ai-Ethics-Project"
+  description: "Research Project on "Data privacy of vulnerablepopulations like teenagers and elderly in Canada""
+  github_url: "https://github.com/maharsh3133/ai-ethics-project](https://github.com/maharsh3133/ai-ethics-project"
+  
+# Add your configuration here

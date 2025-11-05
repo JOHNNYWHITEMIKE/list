@@ -1,0 +1,7 @@
+# Configuration for Toolqa
+agent:
+  name: "Toolqa"
+  description: "ToolQA, a new dataset to evaluate the capabilities of LLMs in answering challenging questions with external tools. It offers two levels …"
+  github_url: "https://github.com/night-chen/ToolQA](https://github.com/night-chen/ToolQA"
+  
+# Add your configuration here

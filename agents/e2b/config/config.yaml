@@ -1,0 +1,7 @@
+# Configuration for E2B
+agent:
+  name: "E2B"
+  description: "E2B Sandbox offers secure cloud environments tailored for AI agents and apps, facilitating long-running sessions with various tools and can be integrated with any large language model"
+  github_url: "https://github.com/e2b-dev/E2B](https://github.com/e2b-dev/E2B"
+  
+# Add your configuration here

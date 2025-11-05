@@ -1,0 +1,7 @@
+# Configuration for Auto-Dev
+agent:
+  name: "Auto-Dev"
+  description: "🧙‍AutoDev: The AI-powered coding wizard（AI 驱动编程助手）with multilingual support 🌐, auto code generation 🏗️, and a helpful bug-slaying assista…"
+  github_url: "https://github.com/unit-mesh/auto-dev](https://github.com/unit-mesh/auto-dev"
+  
+# Add your configuration here

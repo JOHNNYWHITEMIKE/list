@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  advanced-prompt-engineering-techniques-3817061:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: advanced-prompt-engineering-techniques-3817061
+    environment:
+      - AGENT_NAME=Advanced-Prompt-Engineering-Techniques-3817061
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Mobilebench
+agent:
+  name: "Mobilebench"
+  description: "Mobile-Bench - An Evaluation Benchmark for LLM-based Mobile Agents"
+  github_url: "https://github.com/XiaoMi/MobileBench](https://github.com/XiaoMi/MobileBench"
+  
+# Add your configuration here

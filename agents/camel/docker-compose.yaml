@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  camel:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: camel
+    environment:
+      - AGENT_NAME=CAMEL
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

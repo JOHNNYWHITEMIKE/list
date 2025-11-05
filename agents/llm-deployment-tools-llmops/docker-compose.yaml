@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llm-deployment-tools-llmops:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm-deployment-tools-llmops
+    environment:
+      - AGENT_NAME=Llm-Deployment-Tools-Llmops
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

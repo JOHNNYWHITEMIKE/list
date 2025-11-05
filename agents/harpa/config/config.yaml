@@ -1,0 +1,7 @@
+# Configuration for Harpa
+agent:
+  name: "Harpa"
+  description: "Harpa is a versatile Chrome extension that integrates AI capabilities, such as summarizing content, automating workflows, and enhancing productivity, supported by GPT-4 and Claude 2, trusted by 300,000+ professionals"
+  github_url: ""
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Datasette-Enrichments-Llm
+agent:
+  name: "Datasette-Enrichments-Llm"
+  description: "Enrich data by prompting LLMs"
+  github_url: "https://github.com/datasette/datasette-enrichments-llm](https://github.com/datasette/datasette-enrichments-llm"
+  
+# Add your configuration here

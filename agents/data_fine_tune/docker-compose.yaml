@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  data_fine_tune:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: data_fine_tune
+    environment:
+      - AGENT_NAME=Data_Fine_Tune
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

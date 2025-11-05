@@ -1,0 +1,7 @@
+# Configuration for Flowise
+agent:
+  name: "Flowise"
+  description: "Flowise simplifies the creation of applications leveraging large language models (LLMs) by providing a drag-and-drop interface for customizing AI workflows, offering easy installation, Docker support, development tools, and documentation for integrating various functionalities such as authentication, streaming, and custom tools to enhance AI agents' capabilities"
+  github_url: "https://github.com/FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Comfyui-Yolain-Workflows
+agent:
+  name: "Comfyui-Yolain-Workflows"
+  description: "Some awesome comfyui workflows in here, and they are built using the comfyui-easy-use node package."
+  github_url: "https://github.com/yolain/ComfyUI-Yolain-Workflows](https://github.com/yolain/ComfyUI-Yolain-Workflows"
+  
+# Add your configuration here

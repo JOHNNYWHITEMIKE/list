@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  opengpts:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: opengpts
+    environment:
+      - AGENT_NAME=OpenGPTs
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

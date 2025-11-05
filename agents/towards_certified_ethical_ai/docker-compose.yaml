@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  towards_certified_ethical_ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: towards_certified_ethical_ai
+    environment:
+      - AGENT_NAME=Towards_Certified_Ethical_Ai
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

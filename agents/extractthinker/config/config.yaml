@@ -1,0 +1,7 @@
+# Configuration for Extractthinker
+agent:
+  name: "Extractthinker"
+  description: "ExtractThinker is a Document Intelligence library for LLMs, offering ORM-style interaction for flexible and powerful document workflows."
+  github_url: "https://github.com/enoch3712/ExtractThinker](https://github.com/enoch3712/ExtractThinker"
+  
+# Add your configuration here

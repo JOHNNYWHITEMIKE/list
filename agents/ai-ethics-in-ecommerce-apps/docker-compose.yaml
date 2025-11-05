@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ai-ethics-in-ecommerce-apps:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai-ethics-in-ecommerce-apps
+    environment:
+      - AGENT_NAME=Ai-Ethics-In-Ecommerce-Apps
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

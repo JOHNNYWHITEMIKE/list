@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ai_brainstorming_team_agents:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai_brainstorming_team_agents
+    environment:
+      - AGENT_NAME=Ai_Brainstorming_Team_Agents
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

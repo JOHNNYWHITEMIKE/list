@@ -1,0 +1,7 @@
+# Configuration for Pinokio
+agent:
+  name: "Pinokio"
+  description: "Pinokio is a browser that enables the installation, running, and programmable control of any application with one click, supporting any open-source repo locally, including LLM or AI agent-based projects"
+  github_url: ""
+  
+# Add your configuration here

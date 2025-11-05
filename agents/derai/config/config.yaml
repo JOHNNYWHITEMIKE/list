@@ -1,0 +1,7 @@
+# Configuration for Derai
+agent:
+  name: "Derai"
+  description: "Our Digital Ethics and Responsible AI code reorganizes information in predictions and user behavior to prioritize explainability. Our mul…"
+  github_url: "https://github.com/Prat-ikea/DERAI](https://github.com/Prat-ikea/DERAI"
+  
+# Add your configuration here

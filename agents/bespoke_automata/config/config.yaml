@@ -1,0 +1,7 @@
+# Configuration for Bespoke_Automata
+agent:
+  name: "Bespoke_Automata"
+  description: "Bespoke Automata is a GUI and deployment pipline for making complex AI agents locally and offline"
+  github_url: "https://github.com/C0deMunk33/bespoke_automata](https://github.com/C0deMunk33/bespoke_automata"
+  
+# Add your configuration here

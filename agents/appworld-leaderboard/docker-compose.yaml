@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  appworld-leaderboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: appworld-leaderboard
+    environment:
+      - AGENT_NAME=Appworld-Leaderboard
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

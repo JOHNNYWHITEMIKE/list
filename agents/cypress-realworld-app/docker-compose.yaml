@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  cypress-realworld-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cypress-realworld-app
+    environment:
+      - AGENT_NAME=Cypress-Realworld-App
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

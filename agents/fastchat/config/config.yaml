@@ -1,0 +1,7 @@
+# Configuration for FastChat
+agent:
+  name: "FastChat"
+  description: "FastChat is a platform for training, serving, and evaluating large language model chatbots, featuring an open-source distributed multi-model system, API compatibility, and a dataset for LLM conversations"
+  github_url: "https://github.com/lm-sys/FastChat](https://github.com/lm-sys/FastChat"
+  
+# Add your configuration here

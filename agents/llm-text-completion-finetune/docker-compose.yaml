@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llm-text-completion-finetune:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm-text-completion-finetune
+    environment:
+      - AGENT_NAME=Llm-Text-Completion-Finetune
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

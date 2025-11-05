@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  testzeus-hercules:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: testzeus-hercules
+    environment:
+      - AGENT_NAME=Testzeus-Hercules
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

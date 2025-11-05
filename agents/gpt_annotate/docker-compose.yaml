@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  gpt_annotate:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gpt_annotate
+    environment:
+      - AGENT_NAME=Gpt_Annotate
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

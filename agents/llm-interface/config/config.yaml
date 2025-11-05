@@ -1,0 +1,7 @@
+# Configuration for Llm-Interface
+agent:
+  name: "Llm-Interface"
+  description: "A simple NPM interface for seamlessly interacting with 36 Large Language Model (LLM) providers, including OpenAI, Anthropic, Google Gemin…"
+  github_url: "https://github.com/samestrin/llm-interface](https://github.com/samestrin/llm-interface"
+  
+# Add your configuration here

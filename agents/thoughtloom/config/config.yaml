@@ -1,0 +1,7 @@
+# Configuration for Thoughtloom
+agent:
+  name: "Thoughtloom"
+  description: "ThoughtLoom is a powerful tool designed to foster creativity and enhance productivity through the use of LLMs directly from the command l…"
+  github_url: "https://github.com/tbiehn/thoughtloom](https://github.com/tbiehn/thoughtloom"
+  
+# Add your configuration here

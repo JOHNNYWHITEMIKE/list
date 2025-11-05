@@ -1,0 +1,7 @@
+# Configuration for Ai-Exchange
+agent:
+  name: "Ai-Exchange"
+  description: "AI Exchange is a web application designed to help users discuss AI Ethics and Governance in a forum based format."
+  github_url: "https://github.com/W4LD3V/AI-Exchange](https://github.com/W4LD3V/AI-Exchange"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Create-Actionsprs
+agent:
+  name: "Create-Actionsprs"
+  description: "This repository creates pull requests to push a GitHub Actions workflow to a collection of workflows."
+  github_url: "https://github.com/jhutchings1/Create-ActionsPRs](https://github.com/jhutchings1/Create-ActionsPRs"
+  
+# Add your configuration here

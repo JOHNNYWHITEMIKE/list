@@ -1,0 +1,7 @@
+# Configuration for LangGraph
+agent:
+  name: "LangGraph"
+  description: "LangGraph is a Python library facilitating the construction of stateful, multi-actor applications with LLMs, enabling cyclic coordination across multiple computation steps, particularly suited for agent-like behaviors, while also providing streaming support, and various guides and examples for implementation and usage"
+  github_url: "https://github.com/langchain-ai/langgraph](https://github.com/langchain-ai/langgraph"
+  
+# Add your configuration here

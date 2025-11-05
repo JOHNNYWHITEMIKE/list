@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  streaming-assistants:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: streaming-assistants
+    environment:
+      - AGENT_NAME=Streaming Assistants
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

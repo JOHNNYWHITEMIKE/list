@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  n8ntest:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: n8ntest
+    environment:
+      - AGENT_NAME=N8Ntest
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

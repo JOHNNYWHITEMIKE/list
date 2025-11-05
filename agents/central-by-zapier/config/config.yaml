@@ -1,0 +1,7 @@
+# Configuration for Central by Zapier
+agent:
+  name: "Central by Zapier"
+  description: "Zapier Central is an AI workspace designed to automate tasks across 6,000+ apps with AI bots, offering capabilities like live data connection, AI automation, and interaction with data sources for businesses and individual productivity enhancements"
+  github_url: ""
+  
+# Add your configuration here

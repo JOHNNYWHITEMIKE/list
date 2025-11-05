@@ -1,0 +1,7 @@
+# Configuration for Gpt_Llm
+agent:
+  name: "Gpt_Llm"
+  description: "Multi-GPU setup for inference with GPT NeoX 20B and OPT-30B models in huggingface"
+  github_url: "https://github.com/ianmkim/gpt_llm](https://github.com/ianmkim/gpt_llm"
+  
+# Add your configuration here

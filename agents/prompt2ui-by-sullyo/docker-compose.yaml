@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  prompt2ui-by-sullyo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: prompt2ui-by-sullyo
+    environment:
+      - AGENT_NAME=Prompt2UI by sullyo
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

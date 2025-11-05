@@ -1,0 +1,7 @@
+# Configuration for Ai-Project-Vacuumenvironment
+agent:
+  name: "Ai-Project-Vacuumenvironment"
+  description: "An environment to test a vacuum agent, created for a college course."
+  github_url: "https://github.com/MircoT/AI-Project-VacuumEnvironment](https://github.com/MircoT/AI-Project-VacuumEnvironment"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  vacaigent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vacaigent
+    environment:
+      - AGENT_NAME=VacAIgent
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

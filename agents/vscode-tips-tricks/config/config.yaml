@@ -1,0 +1,7 @@
+# Configuration for Vscode-Tips-Tricks
+agent:
+  name: "Vscode-Tips-Tricks"
+  description: "VSCode-Tips-Tricks Examples and Workflows to help you become a Visual Studio Code Power User →"
+  github_url: "https://github.com/ahmadawais/VSCode-Tips-Tricks](https://github.com/ahmadawais/VSCode-Tips-Tricks"
+  
+# Add your configuration here

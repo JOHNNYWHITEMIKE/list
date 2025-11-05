@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  kg-llm-prompting:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kg-llm-prompting
+    environment:
+      - AGENT_NAME=Kg-Llm-Prompting
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

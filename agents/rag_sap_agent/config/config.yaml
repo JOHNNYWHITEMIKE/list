@@ -1,0 +1,7 @@
+# Configuration for Rag_Sap_Agent
+agent:
+  name: "Rag_Sap_Agent"
+  description: "SAP Table Structure Analyzer - AI-powered tool using Google's Gemini 1.5 Pro to extract and analyze SAP HANA S/4 table structures. Feature…"
+  github_url: "https://github.com/agbackhoff/RAG_SAP_AGENT](https://github.com/agbackhoff/RAG_SAP_AGENT"
+  
+# Add your configuration here

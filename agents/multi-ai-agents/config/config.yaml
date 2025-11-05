@@ -1,0 +1,7 @@
+# Configuration for Multi-Ai-Agents
+agent:
+  name: "Multi-Ai-Agents"
+  description: "The Multi-AI Agent is a groundbreaking integration of artificial intelligence and blockchain technology, designed to provide unparalleled…"
+  github_url: "https://github.com/erndck/Multi-AI-Agents](https://github.com/erndck/Multi-AI-Agents"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Osworld
+agent:
+  name: "Osworld"
+  description: ""
+  github_url: "https://github.com/xlang-ai/OSWorld](https://github.com/xlang-ai/OSWorld"
+  
+# Add your configuration here

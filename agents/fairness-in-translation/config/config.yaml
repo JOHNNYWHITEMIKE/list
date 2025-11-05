@@ -1,0 +1,7 @@
+# Configuration for Fairness-In-Translation
+agent:
+  name: "Fairness-In-Translation"
+  description: "Team project investigating fairness problem on machine translation (AI Ethics Lecture in KAIST)"
+  github_url: "https://github.com/greenmonn/fairness-in-translation](https://github.com/greenmonn/fairness-in-translation"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Dataset-Generator-For-Llm-Finetuning
+agent:
+  name: "Dataset-Generator-For-Llm-Finetuning"
+  description: "A web application that generates high-quality question-answer pairs from text documents for LLM finetuning"
+  github_url: "https://github.com/AsadNizami/Dataset-generator-for-LLM-finetuning](https://github.com/AsadNizami/Dataset-generator-for-LLM-finetuning"
+  
+# Add your configuration here

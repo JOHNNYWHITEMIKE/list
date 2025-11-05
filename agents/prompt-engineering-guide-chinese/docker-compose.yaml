@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  prompt-engineering-guide-chinese:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: prompt-engineering-guide-chinese
+    environment:
+      - AGENT_NAME=Prompt-Engineering-Guide-Chinese
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

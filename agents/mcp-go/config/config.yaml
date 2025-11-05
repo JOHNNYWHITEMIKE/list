@@ -1,0 +1,7 @@
+# Configuration for Mcp-Go
+agent:
+  name: "Mcp-Go"
+  description: "A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources…"
+  github_url: "https://github.com/mark3labs/mcp-go](https://github.com/mark3labs/mcp-go"
+  
+# Add your configuration here

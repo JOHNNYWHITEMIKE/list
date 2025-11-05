@@ -1,0 +1,7 @@
+# Configuration for Llm_Cybersecurity_Datasets_Uss_2025
+agent:
+  name: "Llm_Cybersecurity_Datasets_Uss_2025"
+  description: "SoK - Systematic Analysis of Cybersecurity Datasets using Large Language Models"
+  github_url: "https://github.com/Roohanak/LLM_Cybersecurity_datasets_USS_2025](https://github.com/Roohanak/LLM_Cybersecurity_datasets_USS_2025"
+  
+# Add your configuration here

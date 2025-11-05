@@ -1,0 +1,7 @@
+# Configuration for Seqtoseq-Dataset-Creator
+agent:
+  name: "Seqtoseq-Dataset-Creator"
+  description: "React app to create datasets for seq to seq LLM training"
+  github_url: "https://github.com/michaelcalvinwood/seqtoseq-dataset-creator](https://github.com/michaelcalvinwood/seqtoseq-dataset-creator"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Ai-Agent
+agent:
+  name: "Ai-Agent"
+  description: "Performs various AI enabled actions and specialized in security management."
+  github_url: "https://github.com/ZielBox/ai-agent](https://github.com/ZielBox/ai-agent"
+  
+# Add your configuration here

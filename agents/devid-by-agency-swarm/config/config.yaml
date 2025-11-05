@@ -1,0 +1,7 @@
+# Configuration for Devid by Agency Swarm
+agent:
+  name: "Devid by Agency Swarm"
+  description: "Devid Agent, a new AI software development tool, has been integrated into the Agency Swarm framework to enhance automated AI agency operations, alternative to Cognition AI's Devin"
+  github_url: "https://github.com/VRSEN/agency-swarm/tree/main/agency_swarm/agents/Devid](https://github.com/VRSEN/agency-swarm/tree/main/agency_swarm/agents/Devid"
+  
+# Add your configuration here

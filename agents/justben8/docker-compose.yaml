@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  justben8:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: justben8
+    environment:
+      - AGENT_NAME=Justben8
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

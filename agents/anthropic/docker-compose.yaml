@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  anthropic:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: anthropic
+    environment:
+      - AGENT_NAME=Anthropic
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

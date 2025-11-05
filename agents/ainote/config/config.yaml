@@ -1,0 +1,7 @@
+# Configuration for Ainote
+agent:
+  name: "Ainote"
+  description: "I recently attended the Geekbang "Large Language Models Application Development Practice Camp", where I learned about the application dev…"
+  github_url: "https://github.com/ShengqinYang/AINote](https://github.com/ShengqinYang/AINote"
+  
+# Add your configuration here

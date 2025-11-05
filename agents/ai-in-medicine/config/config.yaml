@@ -1,0 +1,7 @@
+# Configuration for Ai-In-Medicine
+agent:
+  name: "Ai-In-Medicine"
+  description: "survey paper about the ethics of AI in medicine"
+  github_url: "https://github.com/kimotarek/AI-in-medicine](https://github.com/kimotarek/AI-in-medicine"
+  
+# Add your configuration here

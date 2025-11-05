@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ai_for_efficient_programming:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai_for_efficient_programming
+    environment:
+      - AGENT_NAME=Ai_For_Efficient_Programming
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Llm4Mol
+agent:
+  name: "Llm4Mol"
+  description: "A comprehensive repository dedicated to the collection and exploration of studies utilizing Large Language Models for molecular design, p…"
+  github_url: "https://github.com/HHW-zhou/LLM4Mol](https://github.com/HHW-zhou/LLM4Mol"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Tago
+agent:
+  name: "Tago"
+  description: "Langchain agent test platform / AI Assistant Tago"
+  github_url: "https://github.com/TwilledWave/Tago](https://github.com/TwilledWave/Tago"
+  
+# Add your configuration here

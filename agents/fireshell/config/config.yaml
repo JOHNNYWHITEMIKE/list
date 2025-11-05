@@ -1,0 +1,7 @@
+# Configuration for Fireshell
+agent:
+  name: "Fireshell"
+  description: "Fiercely quick front-end boilerplate and workflows, HTML5, Grunt, Sass."
+  github_url: "https://github.com/toddmotto/fireshell](https://github.com/toddmotto/fireshell"
+  
+# Add your configuration here

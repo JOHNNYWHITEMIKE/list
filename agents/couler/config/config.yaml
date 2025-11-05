@@ -1,0 +1,7 @@
+# Configuration for Couler
+agent:
+  name: "Couler"
+  description: "Unified Interface for Constructing and Managing Workflows on different workflow engines, such as Argo Workflows, Tekton Pipelines, and Ap…"
+  github_url: "https://github.com/couler-proj/couler](https://github.com/couler-proj/couler"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Prompt-Engineering-For-Instruction-Tuned-Llm
+agent:
+  name: "Prompt-Engineering-For-Instruction-Tuned-Llm"
+  description: "Various blog posts and youtube posts on prompt engineering"
+  github_url: "https://github.com/youssefHosni/Prompt-Engineering-for-Instruction-Tuned-LLM](https://github.com/youssefHosni/Prompt-Engineering-for-Instruction-Tuned-LLM"
+  
+# Add your configuration here

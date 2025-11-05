@@ -1,0 +1,7 @@
+# Configuration for Luigi
+agent:
+  name: "Luigi"
+  description: "Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, vis…"
+  github_url: "https://github.com/spotify/luigi](https://github.com/spotify/luigi"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Relaieo
+agent:
+  name: "Relaieo"
+  description: "Relational AI Ethics Ontology"
+  github_url: "https://github.com/Audit4SG/RelAIEO](https://github.com/Audit4SG/RelAIEO"
+  
+# Add your configuration here

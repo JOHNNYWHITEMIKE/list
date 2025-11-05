@@ -1,0 +1,7 @@
+# Configuration for Ais-Ethics-Standards
+agent:
+  name: "Ais-Ethics-Standards"
+  description: ""
+  github_url: "https://github.com/EticaAI/ais-ethics-standards](https://github.com/EticaAI/ais-ethics-standards"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Llms-Txt
+agent:
+  name: "Llms-Txt"
+  description: "The /llms.txt file, helping language models use your website"
+  github_url: "https://github.com/AnswerDotAI/llms-txt](https://github.com/AnswerDotAI/llms-txt"
+  
+# Add your configuration here

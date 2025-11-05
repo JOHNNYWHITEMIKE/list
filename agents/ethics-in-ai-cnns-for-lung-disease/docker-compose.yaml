@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ethics-in-ai-cnns-for-lung-disease:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ethics-in-ai-cnns-for-lung-disease
+    environment:
+      - AGENT_NAME=Ethics-In-Ai-Cnns-For-Lung-Disease
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

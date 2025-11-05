@@ -1,0 +1,7 @@
+# Configuration for Alfred-Workflows
+agent:
+  name: "Alfred-Workflows"
+  description: "Alfred Workflows for Developers"
+  github_url: "https://github.com/willfarrell/alfred-workflows](https://github.com/willfarrell/alfred-workflows"
+  
+# Add your configuration here

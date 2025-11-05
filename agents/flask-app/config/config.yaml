@@ -1,0 +1,7 @@
+# Configuration for Flask-App
+agent:
+  name: "Flask-App"
+  description: "Example app for demonstrating CI/CD workflows."
+  github_url: "https://github.com/brennv/flask-app](https://github.com/brennv/flask-app"
+  
+# Add your configuration here

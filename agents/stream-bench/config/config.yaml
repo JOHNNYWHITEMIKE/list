@@ -1,0 +1,7 @@
+# Configuration for Stream-Bench
+agent:
+  name: "Stream-Bench"
+  description: "We propose a pioneering benchmark to evaluate LLM agents' ability to improve over time in streaming scenarios"
+  github_url: "https://github.com/stream-bench/stream-bench](https://github.com/stream-bench/stream-bench"
+  
+# Add your configuration here

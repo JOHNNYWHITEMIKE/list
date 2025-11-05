@@ -1,0 +1,7 @@
+# Configuration for LangChainBitcoin
+agent:
+  name: "LangChainBitcoin"
+  description: "LangChainBitcoin is a toolset for enabling LangChain agents to interact with Bitcoin, the Lightning Network, and APIs requiring L402-based authentication, including features for Bitcoin transactions and API traversal with automated Lightning payments"
+  github_url: ""
+  
+# Add your configuration here

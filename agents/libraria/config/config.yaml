@@ -1,0 +1,7 @@
+# Configuration for Libraria
+agent:
+  name: "Libraria"
+  description: "Libraria AI offers a platform to create, manage, and embed custom AI chatbots with natural language processing and features like call-to-actions, link carousels, and analytics for enhanced customer interactions and satisfaction, alongside free and paid plans tailored for different business needs"
+  github_url: ""
+  
+# Add your configuration here

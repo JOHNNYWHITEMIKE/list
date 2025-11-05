@@ -1,0 +1,7 @@
+# Configuration for Conversation-Data
+agent:
+  name: "Conversation-Data"
+  description: "Dataset for training LLM."
+  github_url: "https://github.com/stellar-sam/conversation-data](https://github.com/stellar-sam/conversation-data"
+  
+# Add your configuration here

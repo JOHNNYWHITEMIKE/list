@@ -1,0 +1,7 @@
+# Configuration for GitWit
+agent:
+  name: "GitWit"
+  description: "GitWit is an online tool that accelerates web app development with AI, supporting React, Tailwind, and NodeJS, boasting a 3X speed increase and over 1000 projects generated"
+  github_url: ""
+  
+# Add your configuration here

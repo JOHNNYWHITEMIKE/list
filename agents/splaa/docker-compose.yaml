@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  splaa:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: splaa
+    environment:
+      - AGENT_NAME=Splaa
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

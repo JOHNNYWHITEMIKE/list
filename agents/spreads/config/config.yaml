@@ -1,0 +1,7 @@
+# Configuration for Spreads
+agent:
+  name: "Spreads"
+  description: "Modular workflow assistant for book digitization"
+  github_url: "https://github.com/DIYBookScanner/spreads](https://github.com/DIYBookScanner/spreads"
+  
+# Add your configuration here

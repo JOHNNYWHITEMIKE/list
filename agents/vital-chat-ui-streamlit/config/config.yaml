@@ -1,0 +1,7 @@
+# Configuration for Vital-Chat-Ui-Streamlit
+agent:
+  name: "Vital-Chat-Ui-Streamlit"
+  description: "Part of the Vital Agent Ecosystem, Simple UI for Testing Agents"
+  github_url: "https://github.com/vital-ai/vital-chat-ui-streamlit](https://github.com/vital-ai/vital-chat-ui-streamlit"
+  
+# Add your configuration here

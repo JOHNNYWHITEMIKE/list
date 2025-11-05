@@ -1,0 +1,7 @@
+# Configuration for Instantneo
+agent:
+  name: "Instantneo"
+  description: "InstantNeo is a concise interface for developing AI agents with customized roles and skills using OpenAI's models. It streamlines the dep…"
+  github_url: "https://github.com/dponcedeleonf/instantneo](https://github.com/dponcedeleonf/instantneo"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Basilisktoken
+agent:
+  name: "Basilisktoken"
+  description: "BASI is the first-ever smart contract created by autonomous AI agents. The token was deployed to ETH mainnet on 6/6/23."
+  github_url: "https://github.com/elder-plinius/BasiliskToken](https://github.com/elder-plinius/BasiliskToken"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Agentcloud
+agent:
+  name: "Agentcloud"
+  description: "Agent Cloud is like having your own GPT builder with a bunch extra goodies. The GUI features 1) RAG pipeline which can natively embed 260…"
+  github_url: "https://github.com/rnadigital/agentcloud](https://github.com/rnadigital/agentcloud"
+  
+# Add your configuration here

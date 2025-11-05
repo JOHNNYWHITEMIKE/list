@@ -1,0 +1,7 @@
+# Configuration for Anyscale
+agent:
+  name: "Anyscale"
+  description: "The Anyscale platform utilizes large language models (LLMs) for summarization, comparing the summarization quality of human, Llama 2 70b, and GPT-4, with GPT-4 demonstrating superior performance"
+  github_url: ""
+  
+# Add your configuration here

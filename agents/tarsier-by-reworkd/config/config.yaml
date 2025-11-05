@@ -1,0 +1,7 @@
+# Configuration for Tarsier by Reworkd
+agent:
+  name: "Tarsier by Reworkd"
+  description: "Tarsier is an open-source utility library by Reworkd, aimed at enhancing web interaction for AI agents by visually tagging interactable elements, facilitating actions based on text or screenshots for GPT-4(V) and providing OCR utilities"
+  github_url: "https://github.com/reworkd/tarsier](https://github.com/reworkd/tarsier"
+  
+# Add your configuration here

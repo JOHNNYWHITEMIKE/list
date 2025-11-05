@@ -1,0 +1,7 @@
+# Configuration for Heb-Gen-Ai
+agent:
+  name: "Heb-Gen-Ai"
+  description: "Tools, examples, and resources to assist in the development of Gen-AI (Generative Artificial Intelligence) applications in Hebrew, with a…"
+  github_url: "https://github.com/TovTechOrg/Heb-Gen-AI](https://github.com/TovTechOrg/Heb-Gen-AI"
+  
+# Add your configuration here

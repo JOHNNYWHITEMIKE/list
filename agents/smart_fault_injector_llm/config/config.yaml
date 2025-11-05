@@ -1,0 +1,7 @@
+# Configuration for Smart_Fault_Injector_Llm
+agent:
+  name: "Smart_Fault_Injector_Llm"
+  description: "Intelligent kernel error injection/testing tool based on large model and eBPF.(基于大模型和eBPF的智能化kernel错误注入、测试工具)"
+  github_url: "https://github.com/JiaHuann/Smart_Fault_Injector_LLM](https://github.com/JiaHuann/Smart_Fault_Injector_LLM"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Llmask
+agent:
+  name: "Llmask"
+  description: "A command-line tool for masking authorship of text, by changing the writing style with a Large Language Model."
+  github_url: "https://github.com/top-on/llmask](https://github.com/top-on/llmask"
+  
+# Add your configuration here

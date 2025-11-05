@@ -1,0 +1,7 @@
+# Configuration for Instructor Cloud
+agent:
+  name: "Instructor Cloud"
+  description: "Instructor Cloud offers a platform for extracting models from text rapidly, with real-time streaming and the potential to utilize GPT-4*, encouraging engagement through contributions and adaptation of its FastAPI-based service"
+  github_url: "https://github.com/instructor-ai/cloud](https://github.com/instructor-ai/cloud"
+  
+# Add your configuration here

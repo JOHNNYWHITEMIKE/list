@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llmask:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llmask
+    environment:
+      - AGENT_NAME=Llmask
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

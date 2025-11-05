@@ -1,0 +1,7 @@
+# Configuration for Simple_Ai_Agent
+agent:
+  name: "Simple_Ai_Agent"
+  description: "This AI agent represents a significant advancement in automated web content analysis, offering organizations the ability to efficiently p…"
+  github_url: "https://github.com/jeya2050/simple_AI_agent](https://github.com/jeya2050/simple_AI_agent"
+  
+# Add your configuration here

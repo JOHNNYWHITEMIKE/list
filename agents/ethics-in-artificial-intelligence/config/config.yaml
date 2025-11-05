@@ -1,0 +1,7 @@
+# Configuration for Ethics-In-Artificial-Intelligence
+agent:
+  name: "Ethics-In-Artificial-Intelligence"
+  description: "A collection of resources for the Ethics in Artificial Intelligence (91257) course of the Master in Artificial Intelligence"
+  github_url: "https://github.com/cartabinaria/ethics-in-artificial-intelligence](https://github.com/cartabinaria/ethics-in-artificial-intelligence"
+  
+# Add your configuration here

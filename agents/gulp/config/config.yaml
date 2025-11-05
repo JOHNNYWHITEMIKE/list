@@ -1,0 +1,7 @@
+# Configuration for Gulp
+agent:
+  name: "Gulp"
+  description: "A toolkit to automate & enhance your workflow"
+  github_url: "https://github.com/gulpjs/gulp](https://github.com/gulpjs/gulp"
+  
+# Add your configuration here

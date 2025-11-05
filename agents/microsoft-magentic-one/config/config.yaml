@@ -1,0 +1,7 @@
+# Configuration for Microsoft Magentic-One
+agent:
+  name: "Microsoft Magentic-One"
+  description: "A Generalist Multi-Agent System for Solving Complex Tasks."
+  github_url: ""
+  
+# Add your configuration here

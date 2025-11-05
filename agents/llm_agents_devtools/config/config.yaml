@@ -1,0 +1,7 @@
+# Configuration for Llm_Agents_Devtools
+agent:
+  name: "Llm_Agents_Devtools"
+  description: "A curated list of autonomous agents and developer tools powered by LLM."
+  github_url: "https://github.com/M1n9X/llm_agents_devtools](https://github.com/M1n9X/llm_agents_devtools"
+  
+# Add your configuration here

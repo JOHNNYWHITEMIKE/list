@@ -1,0 +1,7 @@
+# Configuration for Fireai
+agent:
+  name: "Fireai"
+  description: "Deployment Stack of Azure, AWS and Google Cloud with this template creates a vm with a CloudLens agent that listens on a virtual interfac…"
+  github_url: "https://github.com/anurag115/FireAI](https://github.com/anurag115/FireAI"
+  
+# Add your configuration here

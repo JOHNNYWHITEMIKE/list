@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ethicai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ethicai
+    environment:
+      - AGENT_NAME=Ethicai
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

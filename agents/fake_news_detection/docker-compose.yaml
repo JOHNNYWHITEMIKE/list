@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  fake_news_detection:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fake_news_detection
+    environment:
+      - AGENT_NAME=Fake_News_Detection
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

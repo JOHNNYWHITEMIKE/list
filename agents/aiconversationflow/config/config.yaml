@@ -1,0 +1,7 @@
+# Configuration for Aiconversationflow
+agent:
+  name: "Aiconversationflow"
+  description: "AI Conversation Flow provides a framework to create anti-agents to build complex non-linear LLM conversation flows, that are composable, …"
+  github_url: "https://github.com/TonySimonovsky/AIConversationFlow](https://github.com/TonySimonovsky/AIConversationFlow"
+  
+# Add your configuration here

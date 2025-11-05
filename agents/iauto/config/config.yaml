@@ -1,0 +1,7 @@
+# Configuration for Iauto
+agent:
+  name: "Iauto"
+  description: "iauto is a low-code engine for building and deploying AI agents"
+  github_url: "https://github.com/shellc/iauto](https://github.com/shellc/iauto"
+  
+# Add your configuration here

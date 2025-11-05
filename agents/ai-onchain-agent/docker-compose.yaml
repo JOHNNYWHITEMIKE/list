@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ai-onchain-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai-onchain-agent
+    environment:
+      - AGENT_NAME=Ai-Onchain-Agent
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

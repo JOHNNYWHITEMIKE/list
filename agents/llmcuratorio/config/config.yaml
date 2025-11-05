@@ -1,0 +1,7 @@
+# Configuration for Llmcurator.Io
+agent:
+  name: "Llmcurator.Io"
+  description: "LLM frontend and data curation tool."
+  github_url: "https://github.com/pushpankar/LLMCurator.io](https://github.com/pushpankar/LLMCurator.io"
+  
+# Add your configuration here

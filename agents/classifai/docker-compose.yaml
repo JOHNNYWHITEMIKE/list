@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  classifai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: classifai
+    environment:
+      - AGENT_NAME=Classifai
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  evaluating-xai-llms-in-a-clinical-context_csc413-project:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: evaluating-xai-llms-in-a-clinical-context_csc413-project
+    environment:
+      - AGENT_NAME=Evaluating-Xai-Llms-In-A-Clinical-Context_Csc413-Project
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

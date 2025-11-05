@@ -1,0 +1,7 @@
+# Configuration for Llms-World-Models-For-Planning
+agent:
+  name: "Llms-World-Models-For-Planning"
+  description: "The source code of the paper "Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Pla…"
+  github_url: "https://github.com/GuanSuns/LLMs-World-Models-for-Planning](https://github.com/GuanSuns/LLMs-World-Models-for-Planning"
+  
+# Add your configuration here

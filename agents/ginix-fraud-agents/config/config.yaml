@@ -1,0 +1,7 @@
+# Configuration for Ginix-Fraud-Agents
+agent:
+  name: "Ginix-Fraud-Agents"
+  description: "Welcome to the giniX FraudAI-Agents community! This is a collaborative space where Fraud Analysts and developers work together to create,…"
+  github_url: "https://github.com/ginix-co/ginix-fraud-agents](https://github.com/ginix-co/ginix-fraud-agents"
+  
+# Add your configuration here

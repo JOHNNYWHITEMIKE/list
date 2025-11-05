@@ -1,0 +1,7 @@
+# Configuration for Graphql-Cli
+agent:
+  name: "Graphql-Cli"
+  description: "📟 Command line tool for common GraphQL development workflows"
+  github_url: "https://github.com/Urigo/graphql-cli](https://github.com/Urigo/graphql-cli"
+  
+# Add your configuration here

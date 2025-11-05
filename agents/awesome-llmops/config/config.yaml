@@ -1,0 +1,7 @@
+# Configuration for Awesome-Llmops
+agent:
+  name: "Awesome-Llmops"
+  description: "🎉 An awesome & curated list of best LLMOps tools."
+  github_url: "https://github.com/InftyAI/Awesome-LLMOps](https://github.com/InftyAI/Awesome-LLMOps"
+  
+# Add your configuration here

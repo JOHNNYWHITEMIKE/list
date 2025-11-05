@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llm-agent-ask-for-help:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm-agent-ask-for-help
+    environment:
+      - AGENT_NAME=Llm-Agent-Ask-For-Help
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

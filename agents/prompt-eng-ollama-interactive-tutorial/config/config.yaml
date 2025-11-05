@@ -1,0 +1,7 @@
+# Configuration for Prompt-Eng-Ollama-Interactive-Tutorial
+agent:
+  name: "Prompt-Eng-Ollama-Interactive-Tutorial"
+  description: "Ollama's Interactive Prompt Engineering Tutorial"
+  github_url: "https://github.com/ivanfioravanti/prompt-eng-ollama-interactive-tutorial](https://github.com/ivanfioravanti/prompt-eng-ollama-interactive-tutorial"
+  
+# Add your configuration here

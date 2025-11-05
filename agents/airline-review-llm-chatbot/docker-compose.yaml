@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  airline-review-llm-chatbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: airline-review-llm-chatbot
+    environment:
+      - AGENT_NAME=Airline-Review-Llm-Chatbot
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

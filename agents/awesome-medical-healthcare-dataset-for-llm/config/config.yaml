@@ -1,0 +1,7 @@
+# Configuration for Awesome-Medical-Healthcare-Dataset-For-Llm
+agent:
+  name: "Awesome-Medical-Healthcare-Dataset-For-Llm"
+  description: "A curated list of popular Datasets, Models and Papers for LLMs in Medical/Healthcare"
+  github_url: "https://github.com/onejune2018/Awesome-Medical-Healthcare-Dataset-For-LLM](https://github.com/onejune2018/Awesome-Medical-Healthcare-Dataset-For-LLM"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  agentsy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agentsy
+    environment:
+      - AGENT_NAME=Agentsy
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Comfyui-Workspace-Manager
+agent:
+  name: "Comfyui-Workspace-Manager"
+  description: "A ComfyUI workflows and models management extension to organize and manage all your workflows, models in one place. Seamlessly switch bet…"
+  github_url: "https://github.com/11cafe/comfyui-workspace-manager](https://github.com/11cafe/comfyui-workspace-manager"
+  
+# Add your configuration here

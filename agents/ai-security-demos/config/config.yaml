@@ -1,0 +1,7 @@
+# Configuration for Ai-Security-Demos
+agent:
+  name: "Ai-Security-Demos"
+  description: "🤯 AI Security EXPOSED! Live Demos Showing Hidden Risks of 🤖 Agentic AI Flows: 💉Prompt Injection, ☣️ Data Poisoning. Watch the recorded se…"
+  github_url: "https://github.com/shaialon/ai-security-demos](https://github.com/shaialon/ai-security-demos"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  shortcutsbench:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: shortcutsbench
+    environment:
+      - AGENT_NAME=Shortcutsbench
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

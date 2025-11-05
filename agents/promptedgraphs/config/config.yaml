@@ -1,0 +1,7 @@
+# Configuration for Promptedgraphs
+agent:
+  name: "Promptedgraphs"
+  description: "From Dataset Labeling, Entity Extraction to production Knowledge Graph Deployment - The Power of NLP and LLMs Combined."
+  github_url: "https://github.com/closedloop-technologies/PromptedGraphs](https://github.com/closedloop-technologies/PromptedGraphs"
+  
+# Add your configuration here

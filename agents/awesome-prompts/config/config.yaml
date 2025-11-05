@@ -1,0 +1,7 @@
+# Configuration for Awesome-Prompts
+agent:
+  name: "Awesome-Prompts"
+  description: "Curated list of chatgpt prompts from the top-rated GPTs in the GPTs Store. Prompt Engineering, prompt attack & prompt protect. Advanced P…"
+  github_url: "https://github.com/ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts"
+  
+# Add your configuration here

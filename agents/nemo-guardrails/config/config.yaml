@@ -1,0 +1,7 @@
+# Configuration for NeMo Guardrails
+agent:
+  name: "NeMo Guardrails"
+  description: "NeMo Guardrails is an open-source toolkit facilitating the integration of programmable guardrails, essential for steering and safeguarding AI agents' conversational outputs, into large language model-based applications"
+  github_url: "https://github.com/NVIDIA/NeMo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails"
+  
+# Add your configuration here

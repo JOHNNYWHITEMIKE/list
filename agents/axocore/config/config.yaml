@@ -1,0 +1,7 @@
+# Configuration for Axocore
+agent:
+  name: "Axocore"
+  description: "Axocore is an open-source AI agent infrastructure designed to make building intelligent systems effortless. With a modular plugin system,…"
+  github_url: "https://github.com/Axolotl-Labs/Axocore](https://github.com/Axolotl-Labs/Axocore"
+  
+# Add your configuration here

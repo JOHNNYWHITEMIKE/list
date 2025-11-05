@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  tanukipy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tanukipy
+    environment:
+      - AGENT_NAME=Tanuki.Py
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

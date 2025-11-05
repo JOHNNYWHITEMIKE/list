@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  reaflow:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: reaflow
+    environment:
+      - AGENT_NAME=Reaflow
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

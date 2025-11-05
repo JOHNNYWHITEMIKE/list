@@ -1,0 +1,7 @@
+# Configuration for Fairgo
+agent:
+  name: "Fairgo"
+  description: "Fairgo.ai is a platform built by Julian to streamline and scale hiring processes using real-time AI video interviews, tackling unconscious biases and ensuring all candidates are interviewed without human input"
+  github_url: ""
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Connect4_Ai
+agent:
+  name: "Connect4_Ai"
+  description: "Testing various agents against each other"
+  github_url: "https://github.com/cumason123/connect4_ai](https://github.com/cumason123/connect4_ai"
+  
+# Add your configuration here

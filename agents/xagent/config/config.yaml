@@ -1,0 +1,7 @@
+# Configuration for XAgent
+agent:
+  name: "XAgent"
+  description: "XAgent is an open-source, experimental Large Language Model-driven autonomous agent designed to autonomously solve a wide range of tasks with features like autonomy, safety, extensibility, a GUI for easy interaction, and the ability to cooperate with humans"
+  github_url: "https://github.com/OpenBMB/XAgent](https://github.com/OpenBMB/XAgent"
+  
+# Add your configuration here

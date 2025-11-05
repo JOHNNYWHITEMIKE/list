@@ -1,0 +1,7 @@
+# Configuration for Web_Scrape_Agent_Ai
+agent:
+  name: "Web_Scrape_Agent_Ai"
+  description: "Enterprise-Quality Autonomous Agent complete with relevant tools, master prompt, additional optional AI services, API compatible, basic s…"
+  github_url: "https://github.com/rxslice/Web_Scrape_Agent_AI](https://github.com/rxslice/Web_Scrape_Agent_AI"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Nlp-With-Llms
+agent:
+  name: "Nlp-With-Llms"
+  description: "Natural Language Processing with Large Language Models"
+  github_url: "https://github.com/jonkrohn/NLP-with-LLMs](https://github.com/jonkrohn/NLP-with-LLMs"
+  
+# Add your configuration here

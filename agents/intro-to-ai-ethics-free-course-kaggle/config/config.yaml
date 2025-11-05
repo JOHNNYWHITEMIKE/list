@@ -1,0 +1,7 @@
+# Configuration for Intro-To-Ai-Ethics-Free-Course-Kaggle
+agent:
+  name: "Intro-To-Ai-Ethics-Free-Course-Kaggle"
+  description: "Explore practical tools to guide the moral design of AI systems."
+  github_url: "https://github.com/afondiel/Intro-to-AI-Ethics-Free-Course-Kaggle](https://github.com/afondiel/Intro-to-AI-Ethics-Free-Course-Kaggle"
+  
+# Add your configuration here

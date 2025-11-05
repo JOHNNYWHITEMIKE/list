@@ -1,0 +1,7 @@
+# Configuration for Nsfw-Finetuned-On-Llm
+agent:
+  name: "Nsfw-Finetuned-On-Llm"
+  description: "Here we have taken falcon 7B as the LLM and finetuned NSFW dataset with it"
+  github_url: "https://github.com/sebinsaji007/NSFW-finetuned-on-llm](https://github.com/sebinsaji007/NSFW-finetuned-on-llm"
+  
+# Add your configuration here

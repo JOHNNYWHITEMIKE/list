@@ -1,0 +1,7 @@
+# Configuration for Chat_Agent
+agent:
+  name: "Chat_Agent"
+  description: "... knowledge and intelligence of a human. Now this should pass the turning test of AI i.e. we all know an AI is the best if it can pass …"
+  github_url: "https://github.com/YangShyrMing/Chat_Agent](https://github.com/YangShyrMing/Chat_Agent"
+  
+# Add your configuration here

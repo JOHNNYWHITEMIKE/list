@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  diplomacy-llm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: diplomacy-llm
+    environment:
+      - AGENT_NAME=Diplomacy-Llm
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

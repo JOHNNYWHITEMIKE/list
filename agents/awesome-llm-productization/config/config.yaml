@@ -1,0 +1,7 @@
+# Configuration for Awesome-Llm-Productization
+agent:
+  name: "Awesome-Llm-Productization"
+  description: "Awesome-LLM-Productization - a curated list of tools/tricks/news/regulations about AI and Large Language Model (LLM) productization"
+  github_url: "https://github.com/oscinis-com/Awesome-LLM-Productization](https://github.com/oscinis-com/Awesome-LLM-Productization"
+  
+# Add your configuration here

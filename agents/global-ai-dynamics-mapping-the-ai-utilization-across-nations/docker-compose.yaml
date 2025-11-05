@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  global-ai-dynamics-mapping-the-ai-utilization-across-nations:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: global-ai-dynamics-mapping-the-ai-utilization-across-nations
+    environment:
+      - AGENT_NAME=Global-Ai-Dynamics-Mapping-The-Ai-Utilization-Across-Nations-
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

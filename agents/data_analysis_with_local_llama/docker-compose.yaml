@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  data_analysis_with_local_llama:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: data_analysis_with_local_llama
+    environment:
+      - AGENT_NAME=Data_Analysis_With_Local_Llama
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

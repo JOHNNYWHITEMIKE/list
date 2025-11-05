@@ -1,0 +1,7 @@
+# Configuration for Marmot
+agent:
+  name: "Marmot"
+  description: "Marmot workflow execution engine"
+  github_url: "https://github.com/google/marmot](https://github.com/google/marmot"
+  
+# Add your configuration here

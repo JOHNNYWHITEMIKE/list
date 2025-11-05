@@ -1,0 +1,7 @@
+# Configuration for Verve
+agent:
+  name: "Verve"
+  description: "Verve is an AI data copilot that aims to streamline analytics and significantly reduce manual work for growing organizations"
+  github_url: ""
+  
+# Add your configuration here

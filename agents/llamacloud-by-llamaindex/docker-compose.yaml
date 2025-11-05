@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llamacloud-by-llamaindex:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llamacloud-by-llamaindex
+    environment:
+      - AGENT_NAME=LlamaCloud by LlamaIndex
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Awesome-Instruction-Selector
+agent:
+  name: "Awesome-Instruction-Selector"
+  description: "Paper list and datasets for the paper - A Survey on Data Selection for LLM Instruction Tuning"
+  github_url: "https://github.com/Bolin97/awesome-instruction-selector](https://github.com/Bolin97/awesome-instruction-selector"
+  
+# Add your configuration here

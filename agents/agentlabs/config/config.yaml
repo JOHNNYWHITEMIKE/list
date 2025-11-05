@@ -1,0 +1,7 @@
+# Configuration for AgentLabs
+agent:
+  name: "AgentLabs"
+  description: "AgentLabs is an open-source, universal frontend solution for AI agents, offering an authentication portal, chat interface, analytics, and payment features to streamline the deployment of AI agents to public users"
+  github_url: "https://github.com/agentlabs-inc/agentlabs](https://github.com/agentlabs-inc/agentlabs"
+  
+# Add your configuration here

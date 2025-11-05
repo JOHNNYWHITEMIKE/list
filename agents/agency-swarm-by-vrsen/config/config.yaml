@@ -1,0 +1,7 @@
+# Configuration for Agency Swarm by VRSEN
+agent:
+  name: "Agency Swarm by VRSEN"
+  description: "Agency Swarm is a framework designed to automate AI agencies by creating a swarm of collaborative agents with customizable roles and functionalities, aiming to simplify the agent creation process and make automation more intuitive"
+  github_url: "https://github.com/VRSEN/agency-swarm](https://github.com/VRSEN/agency-swarm"
+  
+# Add your configuration here

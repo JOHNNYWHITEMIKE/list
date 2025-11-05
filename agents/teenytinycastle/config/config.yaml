@@ -1,0 +1,7 @@
+# Configuration for Teenytinycastle
+agent:
+  name: "Teenytinycastle"
+  description: "Educational tools for AI Ethics and Safety research 🛠️🔬"
+  github_url: "https://github.com/Nkluge-correa/TeenyTinyCastle](https://github.com/Nkluge-correa/TeenyTinyCastle"
+  
+# Add your configuration here

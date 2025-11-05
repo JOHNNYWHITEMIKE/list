@@ -1,0 +1,7 @@
+# Configuration for Bazed
+agent:
+  name: "Bazed"
+  description: "Bazed Agent Framework, aimed at empowering developers to build autonomous agent swarms without requiring deep Python ML knowledge, is facilitating the creation of sophisticated systems through TypeScript for enhanced autonomy and reliability"
+  github_url: "https://github.com/bazed-ai/bazed-af](https://github.com/bazed-ai/bazed-af"
+  
+# Add your configuration here

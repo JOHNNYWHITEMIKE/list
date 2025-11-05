@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  embodied-agent-interfacegithubio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: embodied-agent-interfacegithubio
+    environment:
+      - AGENT_NAME=Embodied-Agent-Interface.Github.Io
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ethics-in-artificial-intelligence:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ethics-in-artificial-intelligence
+    environment:
+      - AGENT_NAME=Ethics-In-Artificial-Intelligence
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  agent-ai-test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agent-ai-test
+    environment:
+      - AGENT_NAME=Agent-Ai-Test
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

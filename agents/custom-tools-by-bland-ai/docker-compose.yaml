@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  custom-tools-by-bland-ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: custom-tools-by-bland-ai
+    environment:
+      - AGENT_NAME=Custom Tools by Bland AI
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

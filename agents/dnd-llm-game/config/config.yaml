@@ -1,0 +1,7 @@
+# Configuration for Dnd-Llm-Game
+agent:
+  name: "Dnd-Llm-Game"
+  description: "MVP of an idea using multiple local LLM models to simulate and play D&D"
+  github_url: "https://github.com/tegridydev/dnd-llm-game](https://github.com/tegridydev/dnd-llm-game"
+  
+# Add your configuration here

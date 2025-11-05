@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  weavesphere-2022-ai-ethics:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: weavesphere-2022-ai-ethics
+    environment:
+      - AGENT_NAME=Weavesphere-2022-Ai-Ethics
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

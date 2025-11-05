@@ -1,0 +1,7 @@
+# Configuration for Llm_Video_Editor
+agent:
+  name: "Llm_Video_Editor"
+  description: "This application utilizes Large Language Models (LLM) and FFmpeg to automate video editing tasks based on user instructions. Built with a…"
+  github_url: "https://github.com/sanskar9999/llm_video_editor](https://github.com/sanskar9999/llm_video_editor"
+  
+# Add your configuration here

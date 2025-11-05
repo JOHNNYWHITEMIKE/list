@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  advanced-prompt-generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: advanced-prompt-generator
+    environment:
+      - AGENT_NAME=Advanced-Prompt-Generator
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

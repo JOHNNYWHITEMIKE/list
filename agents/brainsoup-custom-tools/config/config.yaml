@@ -1,0 +1,7 @@
+# Configuration for BrainSoup Custom Tools
+agent:
+  name: "BrainSoup Custom Tools"
+  description: "BrainSoup is a multi-agent and multi-LLM native client where users can easily create custom tools for their agents, in any programming language, enabling them to interact with the user's system or any other external service"
+  github_url: ""
+  
+# Add your configuration here

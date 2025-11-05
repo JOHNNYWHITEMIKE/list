@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  lang-tools-llm-powered:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lang-tools-llm-powered
+    environment:
+      - AGENT_NAME=Lang-Tools-Llm-Powered
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

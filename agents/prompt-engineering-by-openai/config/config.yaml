@@ -1,0 +1,7 @@
+# Configuration for Prompt-Engineering-By-Openai
+agent:
+  name: "Prompt-Engineering-By-Openai"
+  description: "In ChatGPT Prompt Engineering for Developers, you will learn how to use a large language model (LLM) to quickly build new and powerful ap…"
+  github_url: "https://github.com/ArslanKAS/Prompt-Engineering-by-OpenAI](https://github.com/ArslanKAS/Prompt-Engineering-by-OpenAI"
+  
+# Add your configuration here

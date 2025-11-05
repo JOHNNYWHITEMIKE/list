@@ -1,0 +1,7 @@
+# Configuration for Llm-Chain
+agent:
+  name: "Llm-Chain"
+  description: "`llm-chain` is a powerful rust crate for building chains in large language models allowing you to summarise text and complete complex tasks"
+  github_url: "https://github.com/sobelio/llm-chain](https://github.com/sobelio/llm-chain"
+  
+# Add your configuration here

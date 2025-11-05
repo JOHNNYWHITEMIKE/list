@@ -1,0 +1,7 @@
+# Configuration for Llm_Scavengerhunt
+agent:
+  name: "Llm_Scavengerhunt"
+  description: "A New Benchmark made for tasks for Large Language Model Agents - UC Berkeley Scavenger Hunt"
+  github_url: "https://github.com/Kyunnilee/llm_scavengerhunt](https://github.com/Kyunnilee/llm_scavengerhunt"
+  
+# Add your configuration here

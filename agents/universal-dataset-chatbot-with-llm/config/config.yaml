@@ -1,0 +1,7 @@
+# Configuration for Universal-Dataset-Chatbot-With-Llm
+agent:
+  name: "Universal-Dataset-Chatbot-With-Llm"
+  description: "Universal Dataset Chatbot with LLM"
+  github_url: "https://github.com/AdritPal08/Universal-Dataset-Chatbot-with-LLM](https://github.com/AdritPal08/Universal-Dataset-Chatbot-with-LLM"
+  
+# Add your configuration here

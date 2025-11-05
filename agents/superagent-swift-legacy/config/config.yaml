@@ -1,0 +1,7 @@
+# Configuration for Superagent-Swift-Legacy
+agent:
+  name: "Superagent-Swift-Legacy"
+  description: "Build, deploy, and manage LLM-powered agents on  platforms."
+  github_url: "https://github.com/simonweniger/superagent-swift-legacy](https://github.com/simonweniger/superagent-swift-legacy"
+  
+# Add your configuration here

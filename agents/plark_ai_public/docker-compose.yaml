@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  plark_ai_public:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: plark_ai_public
+    environment:
+      - AGENT_NAME=Plark_Ai_Public
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

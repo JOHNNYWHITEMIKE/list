@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  fullstack-nextjs-app-generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fullstack-nextjs-app-generator
+    environment:
+      - AGENT_NAME=Fullstack-Nextjs-App-Generator
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

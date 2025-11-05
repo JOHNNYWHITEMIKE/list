@@ -1,0 +1,7 @@
+# Configuration for LlamaGym
+agent:
+  name: "LlamaGym"
+  description: "LlamaGym simplifies the fine-tuning of LLM agents with online reinforcement learning, providing a framework to iterate and experiment across Gym environments for efficient agent prompting and hyperparameter tuning"
+  github_url: "https://github.com/KhoomeiK/LlamaGym](https://github.com/KhoomeiK/LlamaGym"
+  
+# Add your configuration here

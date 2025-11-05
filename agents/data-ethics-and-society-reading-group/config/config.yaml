@@ -1,0 +1,7 @@
+# Configuration for Data-Ethics-And-Society-Reading-Group
+agent:
+  name: "Data-Ethics-And-Society-Reading-Group"
+  description: "Data ethics and society reading group for cross government. We run sessions on books and articles relating to ethics in data science and AI…"
+  github_url: "https://github.com/data-ethics-and-society/data-ethics-and-society-reading-group](https://github.com/data-ethics-and-society/data-ethics-and-society-reading-group"
+  
+# Add your configuration here

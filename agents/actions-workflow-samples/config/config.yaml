@@ -1,0 +1,7 @@
+# Configuration for Actions-Workflow-Samples
+agent:
+  name: "Actions-Workflow-Samples"
+  description: "Help developers to easily get started with GitHub Action workflows to deploy to Azure"
+  github_url: "https://github.com/Azure/actions-workflow-samples](https://github.com/Azure/actions-workflow-samples"
+  
+# Add your configuration here

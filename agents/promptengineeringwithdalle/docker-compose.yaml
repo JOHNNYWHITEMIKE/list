@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  promptengineeringwithdalle:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: promptengineeringwithdalle
+    environment:
+      - AGENT_NAME=Promptengineeringwithdalle
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

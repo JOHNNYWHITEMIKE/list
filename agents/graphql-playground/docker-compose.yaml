@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  graphql-playground:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: graphql-playground
+    environment:
+      - AGENT_NAME=Graphql-Playground
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

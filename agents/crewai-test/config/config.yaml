@@ -1,0 +1,7 @@
+# Configuration for Crewai-Test
+agent:
+  name: "Crewai-Test"
+  description: "Multi Agent AI Test"
+  github_url: "https://github.com/Buddog/CrewAI-Test](https://github.com/Buddog/CrewAI-Test"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Demogpt
+agent:
+  name: "Demogpt"
+  description: "🤖 Everything you need to create an LLM Agent—tools, prompts, frameworks, and models—all in one place."
+  github_url: "https://github.com/melih-unsal/DemoGPT](https://github.com/melih-unsal/DemoGPT"
+  
+# Add your configuration here

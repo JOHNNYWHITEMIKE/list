@@ -1,0 +1,7 @@
+# Configuration for ElevenLabs
+agent:
+  name: "ElevenLabs"
+  description: "ElevenLabs is a software company that develops AI-powered, natural-sounding speech synthesis and text-to-speech software, with the mission of making content universally accessible in any language and voice"
+  github_url: ""
+  
+# Add your configuration here

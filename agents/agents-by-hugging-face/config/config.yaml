@@ -1,0 +1,7 @@
+# Configuration for Agents by Hugging Face
+agent:
+  name: "Agents by Hugging Face"
+  description: "Hugging Face's Transformers Agents provide three main types: HfAgent for inference with open-source models, LocalAgent for using local models and tokenizers, and OpenAiAgent for access to OpenAI's closed models, enabling code generation and other AI tasks with varying levels of customization and local or remote execution"
+  github_url: ""
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Relevance
+agent:
+  name: "Relevance"
+  description: "Relevance AI offers a platform for building and deploying AI workers to automate tasks, integrate with tech stacks, and manage security, aiming to enhance business efficiency without increasing headcount"
+  github_url: ""
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  deepgram:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: deepgram
+    environment:
+      - AGENT_NAME=Deepgram
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

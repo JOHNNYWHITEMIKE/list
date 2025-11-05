@@ -1,0 +1,7 @@
+# Configuration for Nano-Bots-Api
+agent:
+  name: "Nano-Bots-Api"
+  description: "HTTP API for Nano Bots - small, AI-powered bots that can be easily shared as a single file, designed to support multiple providers such as…"
+  github_url: "https://github.com/icebaker/nano-bots-api](https://github.com/icebaker/nano-bots-api"
+  
+# Add your configuration here

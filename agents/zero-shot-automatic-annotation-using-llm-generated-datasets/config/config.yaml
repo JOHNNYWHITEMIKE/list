@@ -1,0 +1,7 @@
+# Configuration for Zero-Shot-Automatic-Annotation-Using-Llm-Generated-Datasets
+agent:
+  name: "Zero-Shot-Automatic-Annotation-Using-Llm-Generated-Datasets"
+  description: "Best.pt is the YOLO11n-seg model trained on LLM generated Images where we automatically labelled the apple masks using YOLO11-SAMv2 fusion approach on zero shot."
+  github_url: "https://github.com/ranzosap/Zero-Shot-Automatic-Annotation-using-LLM-Generated-Datasets](https://github.com/ranzosap/Zero-Shot-Automatic-Annotation-using-LLM-Generated-Datasets"
+  
+# Add your configuration here

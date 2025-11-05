@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  obsidian-flashcards-llm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: obsidian-flashcards-llm
+    environment:
+      - AGENT_NAME=Obsidian-Flashcards-Llm
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

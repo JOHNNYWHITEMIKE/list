@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  instructions-tuning-across-various-llms-with-alpaca-dataset:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: instructions-tuning-across-various-llms-with-alpaca-dataset
+    environment:
+      - AGENT_NAME=Instructions-Tuning-Across-Various-Llms-With-Alpaca-Dataset
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

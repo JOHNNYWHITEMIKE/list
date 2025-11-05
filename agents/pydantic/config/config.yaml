@@ -1,0 +1,7 @@
+# Configuration for Pydantic
+agent:
+  name: "Pydantic"
+  description: "Pydantic is a Python library facilitating data validation through type hints, particularly useful for AI agents, offering fast validation capabilities and compatibility with various development tools"
+  github_url: "https://github.com/pydantic/pydantic](https://github.com/pydantic/pydantic"
+  
+# Add your configuration here

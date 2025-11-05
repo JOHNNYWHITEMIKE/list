@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  bdr-agent-by-relevance:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bdr-agent-by-relevance
+    environment:
+      - AGENT_NAME=BDR Agent by Relevance
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

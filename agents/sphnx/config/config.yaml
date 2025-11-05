@@ -1,0 +1,7 @@
+# Configuration for Sphnx
+agent:
+  name: "Sphnx"
+  description: "SPHNX is a modular benchmark suite designed to evaluate and enhance the privacy management capabilities of Large Language Models (LLM)-ba…"
+  github_url: "https://github.com/haailabs/SPHNX](https://github.com/haailabs/SPHNX"
+  
+# Add your configuration here

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  awesome-prompt-engineering:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: awesome-prompt-engineering
+    environment:
+      - AGENT_NAME=Awesome-Prompt-Engineering
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

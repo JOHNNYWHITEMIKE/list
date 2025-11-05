@@ -1,0 +1,7 @@
+# Configuration for Baba-Bot
+agent:
+  name: "Baba-Bot"
+  description: "Baba bot is an AI agent created using Mistral V2, and Mistral's agent creating user interface, deployed on a Gradio website."
+  github_url: "https://github.com/Abdulrahmanrihan/Baba-bot](https://github.com/Abdulrahmanrihan/Baba-bot"
+  
+# Add your configuration here

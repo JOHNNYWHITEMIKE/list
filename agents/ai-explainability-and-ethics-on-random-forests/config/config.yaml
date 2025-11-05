@@ -1,0 +1,7 @@
+# Configuration for Ai-Explainability-And-Ethics-On-Random-Forests
+agent:
+  name: "Ai-Explainability-And-Ethics-On-Random-Forests"
+  description: "AI Explainability and Ethics -- Reports on explainability of Random Forests"
+  github_url: "https://github.com/Guillermo-villar/AI-Explainability-and-Ethics-on-Random-Forests](https://github.com/Guillermo-villar/AI-Explainability-and-Ethics-on-Random-Forests"
+  
+# Add your configuration here

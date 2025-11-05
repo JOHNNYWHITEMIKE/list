@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  cuesubplot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cuesubplot
+    environment:
+      - AGENT_NAME=Cuesubplot
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for AutoAct
+agent:
+  name: "AutoAct"
+  description: "AutoAct is an automatic agent learning framework that synthesizes planning trajectories without large-scale data or closed-source models, using a division-of-labor strategy for task completion, demonstrating superior or comparable performance in experiments"
+  github_url: "https://github.com/zjunlp/AutoAct](https://github.com/zjunlp/AutoAct"
+  
+# Add your configuration here

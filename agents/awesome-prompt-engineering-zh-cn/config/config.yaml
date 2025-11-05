@@ -1,0 +1,7 @@
+# Configuration for Awesome-Prompt-Engineering-Zh-Cn
+agent:
+  name: "Awesome-Prompt-Engineering-Zh-Cn"
+  description: "这个资源库包含了为 Prompt 工程手工整理的资源中文清单，重点是GPT、ChatGPT、PaLM 等（自动持续更新）"
+  github_url: "https://github.com/yunwei37/Awesome-Prompt-Engineering-ZH-CN](https://github.com/yunwei37/Awesome-Prompt-Engineering-ZH-CN"
+  
+# Add your configuration here

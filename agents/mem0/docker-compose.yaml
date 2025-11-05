@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  mem0:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mem0
+    environment:
+      - AGENT_NAME=mem0
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

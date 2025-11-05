@@ -1,0 +1,7 @@
+# Configuration for Trafilatura
+agent:
+  name: "Trafilatura"
+  description: "Python & Command-line tool to gather text and metadata on the Web - Crawling, scraping, extraction, output as CSV, JSON, HTML, MD, TXT, XML"
+  github_url: "https://github.com/adbar/trafilatura](https://github.com/adbar/trafilatura"
+  
+# Add your configuration here

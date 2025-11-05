@@ -1,0 +1,7 @@
+# Configuration for Session-20-Ethics-In-Data-Science
+agent:
+  name: "Session-20-Ethics-In-Data-Science"
+  description: "Steph Locke's talk on Ethics in Data Science and AI"
+  github_url: "https://github.com/AI-Wales/Session-20-Ethics-In-Data-Science](https://github.com/AI-Wales/Session-20-Ethics-In-Data-Science"
+  
+# Add your configuration here

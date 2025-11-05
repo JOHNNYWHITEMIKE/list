@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  security-ai-agent-brama:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: security-ai-agent-brama
+    environment:
+      - AGENT_NAME=Security-Ai-Agent-Brama
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

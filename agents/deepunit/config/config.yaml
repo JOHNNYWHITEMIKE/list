@@ -1,0 +1,7 @@
+# Configuration for Deepunit
+agent:
+  name: "Deepunit"
+  description: "An AI agent designed to generate unit tests for complete code coverage across your project, requiring only your repository as input"
+  github_url: ""
+  
+# Add your configuration here

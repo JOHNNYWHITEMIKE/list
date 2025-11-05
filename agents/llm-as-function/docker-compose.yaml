@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llm-as-function:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm-as-function
+    environment:
+      - AGENT_NAME=Llm-As-Function
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

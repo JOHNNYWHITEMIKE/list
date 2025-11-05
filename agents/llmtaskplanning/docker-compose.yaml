@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  llmtaskplanning:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llmtaskplanning
+    environment:
+      - AGENT_NAME=Llmtaskplanning
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,7 @@
+# Configuration for Agentx
+agent:
+  name: "Agentx"
+  description: "AgentX is a powerful AI-driven framework for building smart, context-aware assistants and automating workflows. With modular design, seam…"
+  github_url: "https://github.com/sattyamjjain/AgentX](https://github.com/sattyamjjain/AgentX"
+  
+# Add your configuration here

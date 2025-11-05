@@ -1,0 +1,7 @@
+# Configuration for Awesome-Mlsecops
+agent:
+  name: "Awesome-Mlsecops"
+  description: "A curated list of MLSecOps tools, articles and other resources on security applied to Machine Learning and MLOps systems."
+  github_url: "https://github.com/RiccardoBiosas/awesome-MLSecOps](https://github.com/RiccardoBiosas/awesome-MLSecOps"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Tiny-Llm-Benchmark
+agent:
+  name: "Tiny-Llm-Benchmark"
+  description: "A cost-effective LLM prompt benchmarking tool that helps AI agent builders choose the best model for optimal cost, performance and accuracy."
+  github_url: "https://github.com/Zahidul-Islam/tiny-llm-benchmark](https://github.com/Zahidul-Islam/tiny-llm-benchmark"
+  
+# Add your configuration here

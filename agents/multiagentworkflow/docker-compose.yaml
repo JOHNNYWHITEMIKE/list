@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  multiagentworkflow:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: multiagentworkflow
+    environment:
+      - AGENT_NAME=Multiagentworkflow
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

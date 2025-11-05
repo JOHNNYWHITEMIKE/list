@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  david:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: david
+    environment:
+      - AGENT_NAME=David
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ai-project-plannerenvironment:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai-project-plannerenvironment
+    environment:
+      - AGENT_NAME=Ai-Project-Plannerenvironment
+    volumes:
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge

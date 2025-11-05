@@ -1,0 +1,7 @@
+# Configuration for OpenRecall
+agent:
+  name: "OpenRecall"
+  description: "OpenRecall is an open-source, privacy-focused digital memory tool capturing and indexing screenshots to enhance productivity without compromising privacy, usable across Windows, macOS, and Linux, and compatible with AI agents for personal assistance"
+  github_url: "https://github.com/openrecall/openrecall](https://github.com/openrecall/openrecall"
+  
+# Add your configuration here

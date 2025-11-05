@@ -1,0 +1,7 @@
+# Configuration for Gorilla
+agent:
+  name: "Gorilla"
+  description: "Gorilla - Training and Evaluating LLMs for Function Calls (Tool Calls)"
+  github_url: "https://github.com/ShishirPatil/gorilla](https://github.com/ShishirPatil/gorilla"
+  
+# Add your configuration here

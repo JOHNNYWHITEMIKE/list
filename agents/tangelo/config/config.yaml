@@ -1,0 +1,7 @@
+# Configuration for Tangelo
+agent:
+  name: "Tangelo"
+  description: "A python package for exploring end-to-end chemistry workflows on quantum computers and simulators."
+  github_url: "https://github.com/sandbox-quantum/Tangelo](https://github.com/sandbox-quantum/Tangelo"
+  
+# Add your configuration here

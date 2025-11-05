@@ -1,0 +1,7 @@
+# Configuration for Prompt-Engineering-Guide-Cn
+agent:
+  name: "Prompt-Engineering-Guide-Cn"
+  description: "关于提示工程的技术文章汇总和翻译"
+  github_url: "https://github.com/prompting-work/Prompt-Engineering-Guide-Cn](https://github.com/prompting-work/Prompt-Engineering-Guide-Cn"
+  
+# Add your configuration here

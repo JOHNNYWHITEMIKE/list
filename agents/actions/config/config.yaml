@@ -1,0 +1,7 @@
+# Configuration for Actions
+agent:
+  name: "Actions"
+  description: "Custom actions for automating Backstage workflows"
+  github_url: "https://github.com/backstage/actions](https://github.com/backstage/actions"
+  
+# Add your configuration here

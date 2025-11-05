@@ -1,0 +1,7 @@
+# Configuration for Dataset-Translator
+agent:
+  name: "Dataset-Translator"
+  description: "translate huggingface dataset with translate api or llm"
+  github_url: "https://github.com/eususu/dataset-translator](https://github.com/eususu/dataset-translator"
+  
+# Add your configuration here

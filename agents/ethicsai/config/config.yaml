@@ -1,0 +1,7 @@
+# Configuration for Ethicsai
+agent:
+  name: "Ethicsai"
+  description: "Ethics in the Age of AI"
+  github_url: "https://github.com/dennislamcv1/EthicsAI](https://github.com/dennislamcv1/EthicsAI"
+  
+# Add your configuration here

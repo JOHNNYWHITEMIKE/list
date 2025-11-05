@@ -1,0 +1,7 @@
+# Configuration for Llm_Counts
+agent:
+  name: "Llm_Counts"
+  description: "llm theoretical performance analysis tools and support params, flops, memory and latency analysis."
+  github_url: "https://github.com/harleyszhang/llm_counts](https://github.com/harleyszhang/llm_counts"
+  
+# Add your configuration here

@@ -1,0 +1,7 @@
+# Configuration for Collective
+agent:
+  name: "Collective"
+  description: "An experimental AI project that harnesses specialized agents for end-to-end software development. Each role-based AI collaborator orchest…"
+  github_url: "https://github.com/zoharbabin/collective](https://github.com/zoharbabin/collective"
+  
+# Add your configuration here

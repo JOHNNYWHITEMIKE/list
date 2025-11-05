@@ -1,0 +1,7 @@
+# Configuration for Hawk-Projects
+agent:
+  name: "Hawk-Projects"
+  description: "Project configurations of Hawk and etlpy. xml-format workflow define"
+  github_url: "https://github.com/ferventdesert/Hawk-Projects](https://github.com/ferventdesert/Hawk-Projects"
+  
+# Add your configuration here

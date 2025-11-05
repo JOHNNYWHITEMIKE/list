@@ -1,0 +1,7 @@
+# Configuration for Isaac_Perceptor
+agent:
+  name: "Isaac_Perceptor"
+  description: "Perception workflows"
+  github_url: "https://github.com/NVIDIA-ISAAC-ROS/isaac_perceptor](https://github.com/NVIDIA-ISAAC-ROS/isaac_perceptor"
+  
+# Add your configuration here

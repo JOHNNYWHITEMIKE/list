@@ -1,0 +1,7 @@
+# Configuration for Prompt2UI by sullyo
+agent:
+  name: "Prompt2UI by sullyo"
+  description: "An open-source project that converts prompts to user interfaces, demonstrated by creating a basic Google Calendar clone using Claude in about 2 hours, inspired by Claude Artifacts"
+  github_url: "https://github.com/sullyo/prompt2ui](https://github.com/sullyo/prompt2ui"
+  
+# Add your configuration here

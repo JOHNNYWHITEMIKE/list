@@ -1,0 +1,7 @@
+# Configuration for Swarmnode-Node
+agent:
+  name: "Swarmnode-Node"
+  description: "Deploy and orchestrate serverless AI agents in the cloud."
+  github_url: "https://github.com/swarmnode-ai/swarmnode-node](https://github.com/swarmnode-ai/swarmnode-node"
+  
+# Add your configuration here
