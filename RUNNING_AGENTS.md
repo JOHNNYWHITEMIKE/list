@@ -75,6 +75,11 @@ The main automation script that:
 **Issue:** Out of disk space
 - **Solution:** Clean up Docker: `docker system prune -a --volumes`
 
+**Issue:** `non-string key in services` error for some agents
+- **Cause:** Some agents (like "01") use numeric service names in their docker-compose.yml which are interpreted as numbers by YAML parsers
+- **Impact:** These agents will fail to start but the script will continue with remaining agents
+- **Solution:** Edit the affected agent's docker-compose.yml to quote the service name (e.g., `"01":` instead of `01:`)
+
 ## Advanced Usage
 
 ### Run Agents in Parallel (Advanced)

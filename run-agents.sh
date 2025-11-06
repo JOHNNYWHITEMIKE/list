@@ -3,11 +3,15 @@
 # Script to run docker compose up, wait, then down for all agent folders
 # Usage: ./run-agents.sh
 
-set -e
+# Don't exit on error - we want to continue processing even if one agent fails
+set +e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SLEEP_AFTER_UP=100
 SLEEP_AFTER_DOWN=10
+FAILED_AGENTS=()
+SUCCESS_COUNT=0
+FAIL_COUNT=0
 
 echo "Starting docker compose cycle for all agent folders..."
 echo "Sleep after up: ${SLEEP_AFTER_UP}s, Sleep after down: ${SLEEP_AFTER_DOWN}s"
@@ -38,21 +42,26 @@ process_agents() {
             
             # Run docker compose up
             echo "  -> Running docker compose up..."
-            docker compose up -d
-            
-            # Sleep for specified duration
-            echo "  -> Waiting ${SLEEP_AFTER_UP} seconds..."
-            sleep ${SLEEP_AFTER_UP}
-            
-            # Run docker compose down
-            echo "  -> Running docker compose down..."
-            docker compose down
-            
-            # Sleep for specified duration
-            echo "  -> Waiting ${SLEEP_AFTER_DOWN} seconds..."
-            sleep ${SLEEP_AFTER_DOWN}
-            
-            echo "  -> Completed: $agent_name"
+            if docker compose up -d 2>&1; then
+                # Sleep for specified duration
+                echo "  -> Waiting ${SLEEP_AFTER_UP} seconds..."
+                sleep ${SLEEP_AFTER_UP}
+                
+                # Run docker compose down
+                echo "  -> Running docker compose down..."
+                docker compose down 2>&1
+                
+                # Sleep for specified duration
+                echo "  -> Waiting ${SLEEP_AFTER_DOWN} seconds..."
+                sleep ${SLEEP_AFTER_DOWN}
+                
+                echo "  -> Completed: $agent_name"
+                SUCCESS_COUNT=$((SUCCESS_COUNT + 1))
+            else
+                echo "  -> Failed: $agent_name (docker compose up failed)"
+                FAILED_AGENTS+=("$agent_name")
+                FAIL_COUNT=$((FAIL_COUNT + 1))
+            fi
             echo ""
         fi
     done
@@ -67,4 +76,16 @@ process_agents "$SCRIPT_DIR/list1/agents"
 # Process list2 agents
 process_agents "$SCRIPT_DIR/list2/agents"
 
-echo "All agents processed successfully!"
+echo "========================================="
+echo "Processing complete!"
+echo "Success: $SUCCESS_COUNT agents"
+echo "Failed: $FAIL_COUNT agents"
+
+if [ ${#FAILED_AGENTS[@]} -gt 0 ]; then
+    echo ""
+    echo "Failed agents:"
+    for agent in "${FAILED_AGENTS[@]}"; do
+        echo "  - $agent"
+    done
+fi
+echo "========================================="
