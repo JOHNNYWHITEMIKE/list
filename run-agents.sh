@@ -37,8 +37,13 @@ process_agents() {
             
             echo "[$agent_count] Processing agent: $agent_name"
             
-            # Navigate to agent directory
-            cd "$agent_dir"
+            # Navigate to agent directory using pushd for safety
+            pushd "$agent_dir" > /dev/null || {
+                echo "  -> Failed: $agent_name (unable to access directory)"
+                FAILED_AGENTS+=("$agent_name")
+                FAIL_COUNT=$((FAIL_COUNT + 1))
+                continue
+            }
             
             # Run docker compose up
             echo "  -> Running docker compose up..."
@@ -49,19 +54,26 @@ process_agents() {
                 
                 # Run docker compose down
                 echo "  -> Running docker compose down..."
-                docker compose down 2>&1
+                if docker compose down 2>&1; then
+                    echo "  -> Completed: $agent_name"
+                    SUCCESS_COUNT=$((SUCCESS_COUNT + 1))
+                else
+                    echo "  -> Failed: $agent_name (docker compose down failed)"
+                    FAILED_AGENTS+=("$agent_name")
+                    FAIL_COUNT=$((FAIL_COUNT + 1))
+                fi
                 
                 # Sleep for specified duration
                 echo "  -> Waiting ${SLEEP_AFTER_DOWN} seconds..."
                 sleep ${SLEEP_AFTER_DOWN}
-                
-                echo "  -> Completed: $agent_name"
-                SUCCESS_COUNT=$((SUCCESS_COUNT + 1))
             else
                 echo "  -> Failed: $agent_name (docker compose up failed)"
                 FAILED_AGENTS+=("$agent_name")
                 FAIL_COUNT=$((FAIL_COUNT + 1))
             fi
+            
+            # Return to previous directory
+            popd > /dev/null
             echo ""
         fi
     done

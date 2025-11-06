@@ -27,15 +27,15 @@ You can modify the script to run specific agents or lists:
 
 ```bash
 # Run only list1 agents
-cd list1/agents
+cd list1/agents || exit 1
 for dir in */; do
   if [ -f "$dir/docker-compose.yml" ]; then
-    cd "$dir"
+    pushd "$dir" > /dev/null || continue
     docker compose up -d
     sleep 100
     docker compose down
     sleep 10
-    cd ..
+    popd > /dev/null
   fi
 done
 ```
