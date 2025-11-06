@@ -73,12 +73,14 @@ To run all agents with automated start, wait, and stop cycle:
 
 This script will:
 1. Navigate to each agent directory
-2. Run `docker-compose up -d` to start the agent
+2. Run `docker compose up -d` to start the agent
 3. Wait 100 seconds
-4. Run `docker-compose down` to stop the agent
+4. Run `docker compose down` to stop the agent
 5. Wait 10 seconds before moving to the next agent
 
 **Note:** This process will take considerable time (~2 hours) as it processes all 1423 agents sequentially.
+
+📖 **For detailed documentation on running agents, see [RUNNING_AGENTS.md](RUNNING_AGENTS.md)**
 
 ## 📚 Original Documentation
 
