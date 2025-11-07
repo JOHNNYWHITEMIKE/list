@@ -1,0 +1,29 @@
+version: '3.8'
+
+# This override file forces all agent API calls through the API gateway
+# which routes traffic to Copilot and Ollama cloud models only
+
+services:
+  # Generic agent service configuration
+  # This should be included in each agent's docker-compose.yml
+  agent:
+    environment:
+      # Override API endpoints to use gateway
+      - OPENAI_API_BASE=http://api-gateway:80
+      - OLLAMA_API_BASE=http://api-gateway:80/api
+      - API_GATEWAY_HOST=api-gateway
+      - API_GATEWAY_PORT=80
+      # Disable direct internet API access
+      - NO_PROXY=localhost,127.0.0.1,api-gateway
+    networks:
+      - agent-network
+    depends_on:
+      - api-gateway
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+
+networks:
+  agent-network:
+    external: true
+    name: agent-network

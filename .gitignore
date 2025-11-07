@@ -48,3 +48,13 @@ logs/
 # Environment variables
 .env
 .env.local
+.env.gateway
+.env.production
+
+# API Gateway - exclude sensitive configs
+api-gateway/.env*
+
+# Backup files
+*.backup
+*.bak
+*.tmp

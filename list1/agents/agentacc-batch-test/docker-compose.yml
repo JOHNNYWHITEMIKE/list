@@ -6,7 +6,40 @@ services:
     container_name: agentacc-batch-test
     environment:
       - AGENT_NAME=agentacc-batch-test
+      # API Gateway configuration - routes all API calls to Copilot and Ollama
+      - OPENAI_API_BASE=http://api-gateway:80
+      - OLLAMA_API_BASE=http://api-gateway:80/api
+      - API_GATEWAY_HOST=api-gateway
+      - API_GATEWAY_PORT=80
     volumes:
       - ./config:/app/config
       - ./data:/app/data
+    networks:
+      - agent-network
+    depends_on:
+      - api-gateway
     restart: unless-stopped
+
+  # API Gateway service - included for standalone agent operation
+  api-gateway:
+    image: nginx:alpine
+    container_name: api-gateway
+    volumes:
+      - ../../../api-gateway/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ../../../api-gateway/api-routes.conf:/etc/nginx/conf.d/default.conf:ro
+    environment:
+      - OLLAMA_API_HOST=${OLLAMA_API_HOST:-ollama.ai}
+      - OLLAMA_API_PORT=${OLLAMA_API_PORT:-443}
+    networks:
+      - agent-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost/health"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+
+networks:
+  agent-network:
+    name: agent-network
+    driver: bridge

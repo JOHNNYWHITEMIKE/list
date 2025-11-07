@@ -32,23 +32,49 @@ agents/
     └── README.md          # Agent documentation
 ```
 
+## 🔒 API Gateway - Force All API Calls to Copilot and Ollama
+
+**All agents are configured to route API calls exclusively through the API gateway to GitHub Copilot and Ollama cloud models.**
+
+### Setup API Gateway
+
+```bash
+# Start the API gateway (required for all agents)
+docker-compose -f docker-compose.gateway.yml up -d
+
+# Verify gateway is running
+curl http://localhost:8080/health
+```
+
+The API gateway ensures:
+- All OpenAI-compatible API calls → GitHub Copilot
+- All Ollama API calls → Ollama Cloud
+- No direct external API access from agents
+
+For detailed configuration, see [API Gateway README](api-gateway/README.md)
+
 ## 🐳 Quick Start
 
 ### Running an Agent
 
 ```bash
-# Navigate to any agent directory
+# 1. First, start the API gateway (if not already running)
+docker-compose -f docker-compose.gateway.yml up -d
+
+# 2. Navigate to any agent directory
 cd list1/agents/aider
 
-# Build and start the agent
+# 3. Build and start the agent
 docker-compose up -d
 
-# View logs
+# 4. View logs
 docker-compose logs -f
 
-# Stop the agent
+# 5. Stop the agent
 docker-compose down
 ```
+
+**Note**: All agents automatically route their API calls through the gateway to Copilot and Ollama.
 
 ### Building All Agents
 
