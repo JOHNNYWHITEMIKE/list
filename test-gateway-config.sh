@@ -52,11 +52,9 @@ fi
 echo ""
 echo "Test 4: Validating nginx configuration syntax"
 # Create a temporary container to test nginx config
-docker run --rm -v "$(pwd)/api-gateway/nginx.conf:/etc/nginx/nginx.conf:ro" \
+if docker run --rm -v "$(pwd)/api-gateway/nginx.conf:/etc/nginx/nginx.conf:ro" \
     -v "$(pwd)/api-gateway/api-routes.conf:/etc/nginx/conf.d/default.conf:ro" \
-    nginx:alpine nginx -t > /dev/null 2>&1
-
-if [ $? -eq 0 ]; then
+    nginx:alpine nginx -t > /dev/null 2>&1; then
     print_result 0 "Nginx configuration syntax is valid"
 else
     print_result 1 "Nginx configuration syntax has errors"

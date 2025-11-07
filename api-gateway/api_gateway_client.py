@@ -111,8 +111,17 @@ def get_openai_client():
     try:
         import openai
         config = APIGatewayConfig()
+        
+        # Get API key from environment, raise error if missing
+        api_key = os.getenv('OPENAI_API_KEY') or os.getenv('GITHUB_TOKEN')
+        if not api_key:
+            raise ValueError(
+                "No API key found. Set OPENAI_API_KEY or GITHUB_TOKEN environment variable. "
+                "For GitHub Copilot, obtain a token from https://github.com/settings/tokens"
+            )
+        
         client = openai.OpenAI(
-            api_key=os.getenv('OPENAI_API_KEY', 'dummy-key'),
+            api_key=api_key,
             base_url=config.openai_base_url
         )
         print(f"✓ OpenAI client created (routes to Copilot via gateway)")
