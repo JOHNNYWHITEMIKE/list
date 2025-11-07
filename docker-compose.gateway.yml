@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  api-gateway:
+    build: ./api-gateway
+    container_name: api-gateway
+    ports:
+      - "8080:80"
+    environment:
+      - OLLAMA_API_HOST=${OLLAMA_API_HOST:-ollama.ai}
+      - OLLAMA_API_PORT=${OLLAMA_API_PORT:-443}
+    networks:
+      - agent-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost/health"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+
+networks:
+  agent-network:
+    name: agent-network
+    driver: bridge

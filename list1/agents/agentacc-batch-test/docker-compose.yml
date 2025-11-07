@@ -6,7 +6,19 @@ services:
     container_name: agentacc-batch-test
     environment:
       - AGENT_NAME=agentacc-batch-test
+      # API Gateway configuration - routes all API calls to Copilot and Ollama
+      - OPENAI_API_BASE=http://api-gateway:80
+      - OLLAMA_API_BASE=http://api-gateway:80/api
+      - API_GATEWAY_HOST=api-gateway
+      - API_GATEWAY_PORT=80
     volumes:
       - ./config:/app/config
       - ./data:/app/data
+    networks:
+      - agent-network
     restart: unless-stopped
+
+networks:
+  agent-network:
+    external: true
+    name: agent-network
