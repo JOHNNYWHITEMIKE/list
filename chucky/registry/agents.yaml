@@ -1,0 +1,45 @@
+agents:
+  - id: summarizer-agent
+    image: chucky/summarizer:latest
+    capabilities:
+      - text.summarize
+    resources:
+      cpu: "0.25"
+      memory: "512Mi"
+    status: active
+
+  - id: classifier-agent
+    image: chucky/classifier:latest
+    capabilities:
+      - text.classify
+    resources:
+      cpu: "0.25"
+      memory: "512Mi"
+    status: active
+
+  - id: extractor-agent
+    image: chucky/extractor:latest
+    capabilities:
+      - data.extract
+    resources:
+      cpu: "0.5"
+      memory: "1Gi"
+    status: active
+
+  - id: translator-agent
+    image: chucky/translator:latest
+    capabilities:
+      - text.translate
+    resources:
+      cpu: "0.5"
+      memory: "1Gi"
+    status: active
+
+  - id: analyzer-agent
+    image: chucky/analyzer:latest
+    capabilities:
+      - data.analyze
+    resources:
+      cpu: "1.0"
+      memory: "2Gi"
+    status: active
