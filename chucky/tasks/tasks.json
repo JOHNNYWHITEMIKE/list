@@ -1,0 +1,23 @@
+[
+  {
+    "task_id": "task-1",
+    "capability": "text.summarize",
+    "payload": {
+      "text": "CHUCKY is a distributed agent system that routes tasks to capable agents via a central queue."
+    }
+  },
+  {
+    "task_id": "task-2",
+    "capability": "text.classify",
+    "payload": {
+      "text": "This document describes the deployment architecture for the agent workforce."
+    }
+  },
+  {
+    "task_id": "task-3",
+    "capability": "data.extract",
+    "payload": {
+      "text": "Extract key entities from: John Smith visited New York on January 1st, 2024."
+    }
+  }
+]
